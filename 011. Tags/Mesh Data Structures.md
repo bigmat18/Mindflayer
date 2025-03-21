@@ -1,0 +1,5 @@
+- [[Introduction mesh data structures]]
+- [[Face-based data structures]]
+- [[Edge-based data structures]] 
+- [[Halfedge-based data structures]]
+- [[Direct-Edge bata structures]]

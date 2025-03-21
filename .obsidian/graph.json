@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"010. MOCs\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:\"011. Tags\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:\"000. Areas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7363798
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.19944828053073,
+  "lineSizeMultiplier": 1.20425805578121,
+  "collapse-forces": true,
+  "centerStrength": 0.221537836740219,
+  "repelStrength": 7.12061730066333,
+  "linkStrength": 0.91038310545553,
+  "linkDistance": 262,
+  "scale": 0.24537507724433938,
+  "close": true
+}

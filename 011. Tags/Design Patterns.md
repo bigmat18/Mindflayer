@@ -1,0 +1,8 @@
+- [[Introduzione Design Patterns]]
+- [[Factory]]
+- [[Singleton]]
+- [[Decorator]]
+- [[Adapter]]
+- [[Proxy]]
+- [[Strategy]]
+- [[State]]

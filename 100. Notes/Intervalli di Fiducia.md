@@ -1,0 +1,5 @@
+- [[Definizione Intervalli di Fiducia]]
+- [[Intervalli di fiducia media campione Gaussinano]]
+- [[Intervalli di fiducia media campione Bernoulli]]
+- [[Intervalli di fiducia media campione di taglia grande]]
+- [[Intervalli di fiducia varianza campione Gaussiano]]

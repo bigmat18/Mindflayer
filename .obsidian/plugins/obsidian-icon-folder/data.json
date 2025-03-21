@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 15,
+    "emojiStyle": "twemoji",
+    "iconColor": "#c80000",
+    "recentlyUsedIcons": [
+      "BoBxsPackage",
+      "IbArchive",
+      "LiArchive",
+      "IbDocumentText",
+      "SiExcalidraw"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "000. Areas": "BoBxsPackage",
+  "001. Projects": "BoBxsPen",
+  "011. Tags": "LiTags",
+  "100. Notes": "LiPencil",
+  "101. Utils": "IbArchive",
+  "101. Utils/Documents": "IbDocumentText",
+  "101. Utils/Images": "FarImages",
+  "101. Utils/Excalidraw": "SiExcalidraw",
+  "101. Utils/Templates": "LiBookTemplate",
+  "010. MOCs": "LiSearch"
+}

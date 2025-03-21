@@ -1,0 +1,4 @@
+- [[La legge di una Variabile Aleatoria (PMF-PDF)]]
+- [[Funzione di Ripartizione (CDF) e Quantili (PPF)]]
+- [[Variabili Aleatorie Notevoli]]
+- [[Valore Atteso Varianza e Momenti]]

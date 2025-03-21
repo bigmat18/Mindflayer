@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/SPM. Performance Engineering of System Software.md",
+                "file": "100. Notes/Memory Organization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,27 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SPM. Performance Engineering of System Software"
+              "title": "Memory Organization"
+            }
+          },
+          {
+            "id": "b0555c7edbd779fd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f2ea1845b8d6c227",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -177,42 +197,43 @@
   },
   "active": "7e2a1915776aa772",
   "lastOpenFiles": [
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "010. MOCs/High performance computing.md",
-    "100. Notes/SPM. Performance Engineering of System Software.md",
-    "100. Notes/Flynn's Taxonomy.md",
-    "100. Notes/SSID (Single Instruction, Single Data).md",
-    "100. Notes/SPM. Performance Engineering of System Software 5.md",
-    "100. Notes/SPM. Performance Engineering of System Software 6.md",
-    "100. Notes/SPM. Performance Engineering of System Software 4.md",
-    "100. Notes/SPM. Performance Engineering of System Software 2.md",
-    "100. Notes/SPM. Performance Engineering of System Software 3.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models 2.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models 3.md",
-    "100. Notes/Introduction Classification of Parallel Architectures.md",
+    "100. Notes/Distributed Memory Architectures.md",
+    "100. Notes/Memory Organization.md",
+    "100. Notes/Shared Memory Architectures.md",
+    "101. Utils/Images/Pasted image 20250321170910.png",
+    "010. MOCs/Software Engineering.md",
+    "101. Utils/Documents/test.md",
     "011. Tags/Classifying Parallel Architectures.md",
+    "100. Notes/Core count & Processing model.md",
+    "100. Notes/Representing real-world surfaces.md",
+    "100. Notes/Remeshing.md",
+    "101. Utils/Images/Pasted image 20250321162308.png",
+    "100. Notes/NUMA - Non Uniform Memory Access.md",
+    "101. Utils/Images/Pasted image 20250321161632.png",
+    "101. Utils/Images/Pasted image 20250321160538.png",
+    "101. Utils/Images/Pasted image 20250321155712.png",
+    "100. Notes/Shared Memory Systems.md",
+    "100. Notes/Introduction Classification of Parallel Architectures.md",
+    "100. Notes/Flynn's Taxonomy.md",
+    "100. Notes/MIMD (Multiple Instruction, Multiple Data).md",
+    "101. Utils/Images/Pasted image 20250321155233.png",
+    "100. Notes/MISD (Multiple Instruction, Single Data).md",
+    "101. Utils/Images/Pasted image 20250321154901.png",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
+    "101. Utils/Images/Pasted image 20250321144651.png",
+    "100. Notes/SISD (Single Instruction, Single Data).md",
+    "101. Utils/Images/Pasted image 20250321143950.png",
+    "101. Utils/Images/Pasted image 20250321142632.png",
+    "101. Utils/Documents/4-Classification.pdf",
+    "100. Notes/Performance Engineering of System Software.md",
+    "100. Notes/VLAN.md",
+    "100. Notes/Proxy.md",
+    "100. Notes/SMTP.md",
+    "100. Notes/Routing.md",
+    "100. Notes/SIMD.md",
+    "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
     "000. Areas/Master's degree.md",
-    "011. Tags/Mesh Data Structures.md",
-    "011. Tags/Probabilità e (In)dipendenza.md",
-    "011. Tags/Rendering Lines.md",
-    "011. Tags/Statistice riassuntive e grafici.md",
-    "011. Tags/Surface Representations.md",
-    "011. Tags/Design Patterns.md",
-    "011. Tags/Dati Multivarianti.md",
-    "011. Tags/Campioni di Variabili Aleatorie.md",
-    "011. Tags/Architettura del software.md",
-    "100. Notes/Interconnection devices.md",
-    "100. Notes/Dispense.md",
-    "101. Utils/Images/Pasted image 20250312161532.png",
-    "101. Utils/Images/Pasted image 20250312145342.png",
-    "101. Utils/Images/Pasted image 20250312145153.png",
-    "101. Utils/Images/Pasted image 20250312144943.png",
-    "101. Utils/Images/Pasted image 20250312144918.png",
-    "101. Utils/Images/Pasted image 20250312144817.png",
-    "101. Utils/Images/Pasted image 20250312144444.png",
-    "101. Utils/Images/Pasted image 20250312144218.png",
-    "101. Utils/Images/Pasted image 20250312141400.png",
-    "101. Utils/Images/Pasted image 20250312142138.png",
     "3. Resources",
     "000. Areas",
     "1. Materials/Excalidraw",
@@ -221,8 +242,6 @@
     "Untitled.canvas",
     "4. Templates/vault/6. Sources/Images",
     "4. Templates/vault/6. Sources",
-    "4. Templates/vault",
-    "4. Templates/6. Sources/Images",
-    "4. Templates/6. Sources"
+    "4. Templates/vault"
   ]
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Memory Organization.md",
+                "file": "100. Notes/Radial and Maps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Memory Organization"
+              "title": "Radial and Maps"
+            }
+          },
+          {
+            "id": "4fc254e85f4a5708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Visualizing Spatial & Geometric data.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Visualizing Spatial & Geometric data"
             }
           },
           {
@@ -51,7 +75,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5026054382324
+    "width": 266.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "158fb4416fe379ff",
@@ -195,10 +221,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e2a1915776aa772",
+  "active": "4fc254e85f4a5708",
   "lastOpenFiles": [
-    "100. Notes/Distributed Memory Architectures.md",
+    "100. Notes/Visualizing Spatial & Geometric data.md",
+    "100. Notes/Radial and Maps.md",
+    "010. MOCs/Scientific and large Data Visualization.md",
+    "000. Areas/Master's degree.md",
     "100. Notes/Memory Organization.md",
+    "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Shared Memory Architectures.md",
     "101. Utils/Images/Pasted image 20250321170910.png",
     "010. MOCs/Software Engineering.md",
@@ -230,10 +260,7 @@
     "100. Notes/VLAN.md",
     "100. Notes/Proxy.md",
     "100. Notes/SMTP.md",
-    "100. Notes/Routing.md",
-    "100. Notes/SIMD.md",
     "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
-    "000. Areas/Master's degree.md",
     "3. Resources",
     "000. Areas",
     "1. Materials/Excalidraw",

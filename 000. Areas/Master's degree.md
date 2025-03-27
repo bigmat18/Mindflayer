@@ -34,4 +34,4 @@ tags:
 - (MC) Intelligent Systems for pattern recognition (9 cfu)
 
 - (EC) [[Parallel and distributed systems. Paradigms and models]] (9 cfu)
-- (EC) (NoC) Scientific and large data visualisation (6 cfu)
+- (EC) (NoC) [[Scientific and large Data Visualization]] (6 cfu)

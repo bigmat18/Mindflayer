@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
+                "file": "100. Notes/Radial and Maps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3D Geometry Modelling & Processing"
+              "title": "Radial and Maps"
+            }
+          },
+          {
+            "id": "4fc254e85f4a5708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Visualizing Spatial & Geometric data.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Visualizing Spatial & Geometric data"
             }
           },
           {
@@ -197,6 +221,9 @@
   },
   "active": "7e2a1915776aa772",
   "lastOpenFiles": [
+    "100. Notes/Visualizing Spatial & Geometric data.md",
+    "100. Notes/Radial and Maps.md",
+    "010. MOCs/Scientific and large Data Visualization.md",
     "100. Notes/Memory Organization.md",
     "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Shared Memory Architectures.md",
@@ -231,9 +258,7 @@
     "100. Notes/Proxy.md",
     "100. Notes/SMTP.md",
     "100. Notes/Routing.md",
-    "100. Notes/SIMD.md",
     "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
-    "000. Areas/Master's degree.md",
     "3. Resources",
     "000. Areas",
     "1. Materials/Excalidraw",

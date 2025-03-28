@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Memory Organization.md",
+                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Memory Organization"
+              "title": "3D Geometry Modelling & Processing"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "7e2a1915776aa772",
   "lastOpenFiles": [
-    "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Memory Organization.md",
+    "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Shared Memory Architectures.md",
     "101. Utils/Images/Pasted image 20250321170910.png",
     "010. MOCs/Software Engineering.md",

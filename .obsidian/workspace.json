@@ -8,71 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e2a1915776aa772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100. Notes/Radial and Maps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Radial and Maps"
-            }
-          },
-          {
-            "id": "4fc254e85f4a5708",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100. Notes/Visualizing Spatial & Geometric data.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Visualizing Spatial & Geometric data"
-            }
-          },
-          {
-            "id": "b0555c7edbd779fd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "f2ea1845b8d6c227",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Doo-Sabin Algorithms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Doo-Sabin Algorithms"
+            }
+          },
+          {
+            "id": "85dddb57d70eb7f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Refinement & Subdivision. Remeshing Algorithms"
             }
           }
         ]
@@ -219,11 +199,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e2a1915776aa772",
+  "active": "f2ea1845b8d6c227",
   "lastOpenFiles": [
-    "100. Notes/Visualizing Spatial & Geometric data.md",
+    "101. Utils/Images/Pasted image 20250328145608.png",
+    "100. Notes/Remeshing.md",
+    "100. Notes/Doo-Sabin Algorithms.md",
+    "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "000. Areas/Master's degree.md",
+    "101. Utils/Images/Pasted image 20250328144709.png",
+    "101. Utils/Images/Pasted image 20250328143926.png",
+    "101. Utils/Images/Pasted image 20250328143340.png",
+    "100. Notes/Untitled.md",
+    "101. Utils/Images/Pasted image 20250328141946.png",
+    "100. Notes/Direct-Edge bata structures.md",
+    "100. Notes/Halfedge-based data structures.md",
+    "100. Notes/Edge-based data structures.md",
+    "100. Notes/Face-based data structures.md",
+    "100. Notes/Introduction mesh data structures.md",
+    "010. MOCs/Scientific and Large Data Visualisation.md",
     "100. Notes/Radial and Maps.md",
-    "010. MOCs/Scientific and large Data Visualization.md",
+    "100. Notes/Visualizing Spatial & Geometric data.md",
+    "100. Notes/Mark and Channels.md",
     "100. Notes/Memory Organization.md",
     "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Shared Memory Architectures.md",
@@ -233,31 +230,14 @@
     "011. Tags/Classifying Parallel Architectures.md",
     "100. Notes/Core count & Processing model.md",
     "100. Notes/Representing real-world surfaces.md",
-    "100. Notes/Remeshing.md",
     "101. Utils/Images/Pasted image 20250321162308.png",
     "100. Notes/NUMA - Non Uniform Memory Access.md",
     "101. Utils/Images/Pasted image 20250321161632.png",
     "101. Utils/Images/Pasted image 20250321160538.png",
     "101. Utils/Images/Pasted image 20250321155712.png",
     "100. Notes/Shared Memory Systems.md",
-    "100. Notes/Introduction Classification of Parallel Architectures.md",
-    "100. Notes/Flynn's Taxonomy.md",
-    "100. Notes/MIMD (Multiple Instruction, Multiple Data).md",
     "101. Utils/Images/Pasted image 20250321155233.png",
-    "100. Notes/MISD (Multiple Instruction, Single Data).md",
-    "101. Utils/Images/Pasted image 20250321154901.png",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
-    "101. Utils/Images/Pasted image 20250321144651.png",
-    "100. Notes/SISD (Single Instruction, Single Data).md",
-    "101. Utils/Images/Pasted image 20250321143950.png",
-    "101. Utils/Images/Pasted image 20250321142632.png",
     "101. Utils/Documents/4-Classification.pdf",
-    "100. Notes/Performance Engineering of System Software.md",
-    "100. Notes/VLAN.md",
-    "100. Notes/Proxy.md",
-    "100. Notes/SMTP.md",
-    "100. Notes/Routing.md",
     "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
     "3. Resources",
     "000. Areas",

@@ -44,6 +44,9 @@ We have also triangles and rectangles classification only for primal type.
 
 ### [[Catmull-Clark Algorithms]]
 
+### [[Loop Schema]]
+
+### [[Butterfly]]
 ### Coarsening / Simplification
 You starting discretization is too dense, drop less useful information.
 # References

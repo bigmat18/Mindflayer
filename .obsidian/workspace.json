@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Doo-Sabin Algorithms.md",
+                "file": "100. Notes/Butterfly.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Doo-Sabin Algorithms"
+              "title": "Butterfly"
             }
           },
           {
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5026054382324
+    "width": 266.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "158fb4416fe379ff",
@@ -201,16 +202,25 @@
   },
   "active": "f2ea1845b8d6c227",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250328145608.png",
+    "101. Utils/Images/Pasted image 20250403122006.png",
+    "100. Notes/Untitled.md",
+    "100. Notes/Butterfly.md",
     "100. Notes/Remeshing.md",
+    "100. Notes/Loop Schema.md",
+    "101. Utils/Images/Pasted image 20250403120511.png",
+    "101. Utils/Images/Pasted image 20250403120421.png",
+    "100. Notes/Catmull-Clark Algorithms.md",
     "100. Notes/Doo-Sabin Algorithms.md",
-    "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
+    "101. Utils/Images/Pasted image 20250403115851.png",
+    "101. Utils/Images/Pasted image 20250403115627.png",
+    "101. Utils/Images/Pasted image 20250402180811.png",
     "010. MOCs/3D Geometry Modelling & Processing.md",
+    "101. Utils/Images/Pasted image 20250328145608.png",
+    "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
     "000. Areas/Master's degree.md",
     "101. Utils/Images/Pasted image 20250328144709.png",
     "101. Utils/Images/Pasted image 20250328143926.png",
     "101. Utils/Images/Pasted image 20250328143340.png",
-    "100. Notes/Untitled.md",
     "101. Utils/Images/Pasted image 20250328141946.png",
     "100. Notes/Direct-Edge bata structures.md",
     "100. Notes/Halfedge-based data structures.md",
@@ -224,19 +234,10 @@
     "100. Notes/Memory Organization.md",
     "100. Notes/Distributed Memory Architectures.md",
     "100. Notes/Shared Memory Architectures.md",
-    "101. Utils/Images/Pasted image 20250321170910.png",
     "010. MOCs/Software Engineering.md",
     "101. Utils/Documents/test.md",
     "011. Tags/Classifying Parallel Architectures.md",
     "100. Notes/Core count & Processing model.md",
-    "100. Notes/Representing real-world surfaces.md",
-    "101. Utils/Images/Pasted image 20250321162308.png",
-    "100. Notes/NUMA - Non Uniform Memory Access.md",
-    "101. Utils/Images/Pasted image 20250321161632.png",
-    "101. Utils/Images/Pasted image 20250321160538.png",
-    "101. Utils/Images/Pasted image 20250321155712.png",
-    "100. Notes/Shared Memory Systems.md",
-    "101. Utils/Images/Pasted image 20250321155233.png",
     "101. Utils/Documents/4-Classification.pdf",
     "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
     "3. Resources",

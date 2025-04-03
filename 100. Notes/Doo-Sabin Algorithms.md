@@ -10,6 +10,10 @@
 This is an algorithms **Dual** and **Approximating**. For each vertex add a face and also for each edge, and it maintain a face for each existing face.
 
 ![[Pasted image 20250328145608.png]]
+An interesting things is that a face generate by vertex is not a quadrilateral but is a figure with edge equals to number of edges that strike. 
 
+![[Pasted image 20250402180811.png | 300]]
 
+The vertices of new faces come from a weighted sum of previous vertices.
+$$V_2 = \frac{1}{n}\cdot \sum{d_j} \:\:\:\:\:\: E_j = \frac{1}{2}(d_1 + d_2) \:\:\: d'_{1, j} = \frac{1}{4}(d_1 + E_j + E_{j-1} + V_j)$$
 # References

@@ -3,6 +3,7 @@ Year: 2024/2025
 Period: 1° semester
 Exam done: 
 Area: "[[Master's degree]]"
+tags:
 ---
 # Table of Contents
 
@@ -10,7 +11,7 @@ Area: "[[Master's degree]]"
 
 ![[Mesh Data Structures]]
 
-[[Remeshing]]
+![[Refinement & Subdivision. Remeshing Algorithms]]
 
 [[Spatial indexing]]
 

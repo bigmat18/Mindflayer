@@ -1,4 +1,5 @@
-```dataview
-LIST 
-FROM [[{{Title}}]]
-```
+- [[Remeshing Introduction]]
+- [[Doo-Sabin Algorithms]]
+- [[Catmull-Clark Algorithms]]
+- [[Loop Schema Algorithms]]
+- [[Butterfly Algorithm]]

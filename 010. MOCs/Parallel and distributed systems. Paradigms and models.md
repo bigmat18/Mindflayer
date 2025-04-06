@@ -14,6 +14,8 @@ Area: "[[Master's degree]]"
 
 [[Resource Management -  SLURM]]
 
+![[SLURM Polices Algorithms]]
+
 [[Memory Hierarchy]]
 
 [[Shared Memory Systems]]

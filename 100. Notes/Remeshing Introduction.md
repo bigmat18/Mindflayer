@@ -103,33 +103,7 @@ With this version leads to a different results. This means that the two distance
 This problem is **NP-hard**. It is NP-hard to decide if a given surface of n vertexes can be $\epsilon$-approximated with a surface composed by k vertices.
 
 But even the 2D version of the problem is NP-Hard: Simplifying a polyline to k vertexes so that it $\epsilon$-approximate a optimal simplification using the undirected Hausdorff distance is NP-hard. The same holds when using the directed Hausdorff distance from the input to the output polyline, whereas the reverse can be computed in polynomial time.
+### [[Heuristics. Incremental methods]]
 
-##### Heuristics: Incremental methods
-Fortunately the Heuristics works very well. It are based on **Local Updates Operations**. All of the  methods such that:
-1. Simplification proceeds as a sequence of small changes of the mesh (in a greedy way)
-2. Each update reduces mesh size and decreases the approximation precision.
-
-###### Vertex removal
-![[Pasted image 20250403183650.png]]
-In this approach the combinatorial part is more difficult, while the geometric part is very simple.
-###### Edge collapse
-![[Pasted image 20250403183708.png]]
-- Preserve location (one among the 2 vertex)
-- New location
-
-Instead in this version the combinatorial part is very simple, while the geometric is more difficult. This is more used i general.
-###### Triangle collapse
-![[Pasted image 20250403183724.png]]
-- Preserve location (one among the 3 vertex)
-- New location
-
-The common framework is the following:
-
-![[Pasted image 20250403184947.png | 400]]
-
-We can also do a sets of **mesh optimizations**. Simplification based on the iterative execution of: edge collapsing, edge split and edge swap.
-
-![[Pasted image 20250403185145.png | 350]]
-
-
+### [[Greedy Approach (Boundary Error)]]
 # References

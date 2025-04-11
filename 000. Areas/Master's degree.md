@@ -26,8 +26,8 @@ tags:
 
 - (EC) Machine learning (9 cfu)
 - (EC) Algorithm engineering (9 cfu)
-- (FC) (NoC) [[High performance computing|High performance computing]] (9 cfu)
-- (EC) (NoC) [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
+- (FC) [[High performance computing|High performance computing]] (9 cfu)
+- (EC) [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
 #### Semester 2
 
 - (MC) ... (6 cfu)
@@ -35,4 +35,4 @@ tags:
 - (MC) Intelligent Systems for pattern recognition (9 cfu)
 
 - (EC) [[Parallel and distributed systems. Paradigms and models]] (9 cfu)
-- (EC) (NoC) [[Scientific and Large Data Visualisation]] (6 cfu)
+- (EC) [[Scientific and Large Data Visualisation]] (6 cfu)

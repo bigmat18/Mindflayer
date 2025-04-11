@@ -1,1 +1,5 @@
 - [[Introduction to Parametrization]]
+- [[Parametrization Distortion ]]
+- [[Bijectivity in Parametrization]]
+- [[Cuts technique in Parametrization]]
+- [[Globally Smoothness]]

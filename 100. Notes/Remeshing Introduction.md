@@ -96,7 +96,7 @@ $$D_H(S_1, S_2) = \max_{x \in S_1}(\max_{x \in S_2} D(x,y))$$
 ![[Pasted image 20250403180856.png | 500]]
 We take each points in $S_1$ and for each points we search the closest point in $S_2$. The **Symmetric version** is the following:
 $$D(S_1, S_2) =\max\{D_H(S_1,S_2),D_H(S_2,S_1)\}$$
-With this version leads to a different results. This means that the two distance are not symmetric. Approximate as:
+With this version leads to a different results. This means that the two distance **are not symmetric**. Approximate as:
 1. Sample one surface (uniformly distributed)
 2. For each point compute $\max_{y\in S_2}D(x,y)$
 

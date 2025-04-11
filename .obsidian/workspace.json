@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67c0ed6b847e5574",
+        "id": "615b7164ca322b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "f07023de07fb611c",
+            "id": "c81364cb3700cfb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Greedy Approach (Boundary Error).md",
+                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Greedy Approach (Boundary Error)"
+              "title": "3D Geometry Modelling & Processing"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5026054382324,
-    "collapsed": true
+    "width": 266.5026054382324
   },
   "right": {
     "id": "158fb4416fe379ff",
@@ -176,44 +175,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f07023de07fb611c",
+  "active": "c81364cb3700cfb8",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250407154904.png",
-    "101. Utils/Images/Pasted image 20250407154527.png",
-    "101. Utils/Images/Pasted image 20250407153451.png",
-    "101. Utils/Images/Pasted image 20250407153203.png",
-    "101. Utils/Images/Pasted image 20250407153157.png",
-    "101. Utils/Images/Pasted image 20250407153131.png",
-    "101. Utils/Images/Pasted image 20250407153056.png",
-    "101. Utils/Images/Pasted image 20250407152822.png",
-    "101. Utils/Images/Pasted image 20250407152500.png",
-    "101. Utils/Images/Pasted image 20250407152131.png",
-    "101. Utils/Images/Pasted image 20250407152031.png",
     "100. Notes/Remeshing Introduction.md",
-    "100. Notes/Greedy Approach (Boundary Error).md",
-    "100. Notes/Heuristics. Incremental methods.md",
     "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
+    "100. Notes/Greedy Approach (Boundary Error).md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
+    "100. Notes/Heuristics. Incremental methods.md",
+    "100. Notes/Introduzione Basi di Dati.md",
+    "010. MOCs/Basi di Dati.md",
+    "100. Notes/Criteri White-Box.md",
+    "100. Notes/Analisi dei requisiti.md",
+    "101. Utils/Images/Screenshot 2023-12-10 at 20.07.08.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 20.05.01.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 15.22.17.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 15.04.56.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 15.04.27.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 15.03.31.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 15.02.58.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 14.55.45.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 14.54.50.png",
+    "101. Utils/Images/Screenshot 2023-12-10 at 14.54.21.png",
+    "100. Notes/Progettazione Basi di Dati.md",
+    "100. Notes/Aspetto logico.md",
+    "010. MOCs/Software Engineering.md",
     "000. Areas/Master's degree.md",
-    "100. Notes/Priority queue algorithm.md",
-    "011. Tags/SLURM Polices Algorithms.md",
-    "100. Notes/Backfill algorithm.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "100. Notes/Resource Management -  SLURM.md",
-    "100. Notes/SISD (Single Instruction, Single Data).md",
-    "100. Notes/Core count & Processing model.md",
-    "011. Tags/Classifying Parallel Architectures.md",
-    "100. Notes/Memory Organization.md",
-    "100. Notes/Butterfly Algorithm.md",
-    "100. Notes/Loop Schema Algorithms.md",
-    "100. Notes/Catmull-Clark Algorithms.md",
-    "100. Notes/Doo-Sabin Algorithms.md",
-    "100. Notes/Untitled.md",
-    "100. Notes/Direct-Edge bata structures.md",
-    "100. Notes/Halfedge-based data structures.md",
-    "100. Notes/Edge-based data structures.md",
-    "100. Notes/Face-based data structures.md",
-    "100. Notes/Introduction mesh data structures.md",
+    "100. Notes/Oracolo e Individuazione Output Attesi.md",
+    "100. Notes/Progettazione dei Test.md",
+    "100. Notes/Metodi Black-Box.md",
+    "100. Notes/Test Combinatorio con Pairwise Testing.md",
+    "100. Notes/Test Combinatorio con Vincoli.md",
+    "100. Notes/Test basato su catalogo.md",
+    "100. Notes/Metodo random.md",
+    "100. Notes/Partizione dei dati in ingresso in classi di equivalenza.md",
+    "100. Notes/Metodo statistico.md",
+    "011. Tags/Verifica e Validazione Software.md",
+    "100. Notes/Limitazioni Testing.md",
+    "100. Notes/Fault based testing.md",
+    "100. Notes/Criterio con Copertura dei Cammini.md",
     "101. Utils/Documents/4-Classification.pdf",
     "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
     "3. Resources",

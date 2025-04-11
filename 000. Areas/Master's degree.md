@@ -18,6 +18,7 @@ tags:
 - (BC) [[Networks and Laboratory III|Networks and Laboratory III]]
 - (BC) [[Statistics]]
 - (BC) [[Software Engineering]]
+- (BC) [[Basi di Dati]]
 #### Semester 1
 - (MC) Languages, compilers and interpreters (9 cfu)
 - (MC) Competitive programming and contests (6 cfu)

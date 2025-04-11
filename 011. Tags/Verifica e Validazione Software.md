@@ -1,4 +1,8 @@
-```dataview
-LIST 
-FROM [[{{Title}}]]
-```
+- [[Introduzione Verifica Validazione]]
+- [[Progettazione Fase di Verifica]]
+- [[Limitazioni Testing]]
+- [[Introduzione Tecniche di Verifica]]
+- [[Progettazione dei Test]]
+- [[Metodi Black-Box]]
+- [[Criteri White-Box]]
+- [[Oracolo e Individuazione Output Attesi]]

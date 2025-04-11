@@ -8,7 +8,7 @@
 # Greedy Approach (Boundary Error)
 
 ```
-for each region>
+for each region:
 	1. evaluate quality after simulated operation
 	2. put the operation in the heap (quality, reagion)
 ```
@@ -20,7 +20,7 @@ Reapet the following operations until no further reduction possibile:
 	- **Update heap**
 
 #### Simplification: Topology Preservation
-Edfe collapse operation may create non manifoldness
+Edge collapse operation may create non manifoldness
 
 ![[Pasted image 20250407151525.png | 400]]
 
@@ -57,7 +57,7 @@ Evaluating the error introduced by a collapse efficiently is not trivial. Ideall
 - Place the position of the new vertex where it minimize the squared distance to the planes.
 - Involves solving a simple linear system.
 
-![[Pasted image 20250407153451.png | 550]]
+![[Pasted image 20250407153451.png | 600]]
 
 ###### Quadratic Error
 Let $n^Tv + d = 0$ be the equation representing a plane. The squared distance of a point $x$ from the plane is
@@ -76,4 +76,6 @@ Possibly adding an energy term that penalize bad shaped triangles.
 Possibly adding an energy term that tend to balance valence.
 
  ![[Pasted image 20250407154904.png | 250]]
+
+
 # References

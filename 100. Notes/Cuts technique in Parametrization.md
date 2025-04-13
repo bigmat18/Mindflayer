@@ -41,4 +41,8 @@ There are approaches that do an implicit cuts, we build a parametrization instea
 We decompose own surface into a sets of triangles and than map them.
 
 ![[Pasted image 20250411183153.png | 350]]
+
+### [[Orthoprojection Cuts]]
+
+### [[Growing Cuts]]
 # References

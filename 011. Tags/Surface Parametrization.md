@@ -3,3 +3,4 @@
 - [[Bijectivity in Parametrization]]
 - [[Cuts technique in Parametrization]]
 - [[Globally Smoothness]]
+- [[How do Parametrization]]

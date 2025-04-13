@@ -1,0 +1,4 @@
+- [[Mass-Spring Parametrization]]
+- [[Harmonic Parametrization]]
+- [[Least Squares Conformal maps]]
+- [[As-rigid-as-possible Parametrization]]

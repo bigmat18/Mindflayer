@@ -49,7 +49,7 @@ For this reasons there are different approach to found weights to express a vert
 3. Reproduces S
 
 ###### Watchpress coordinates
-$$w_{ij} = \frac{\cot \alpha_{ji} + \cot{\beta_{ij}}}{r_{ij}²}$$###### [[Harmonic Parametrization|Discrete harmonic coordinates]]
+$$w_{ij} = \frac{\cot \alpha_{ji} + \cot{\beta_{ij}}}{r_{ij}²}$$**[[Harmonic Parametrization|Discrete harmonic coordinates]]**
 $$w_{ij} = \cot{\gamma_{ij}} + \cot{\gamma_{ji}}$$
 This maintain the proportions during parametrizations
 ###### Mean value coordinates

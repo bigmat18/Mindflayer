@@ -16,9 +16,7 @@ Area: "[[Master's degree]]"
 
 ![[SLURM Polices Algorithms]]
 
-[[Memory Hierarchy]]
-
-[[Shared Memory Systems]]
+![[Shared Memory Systems]]
 
 [[SIMD on CPU]]
 

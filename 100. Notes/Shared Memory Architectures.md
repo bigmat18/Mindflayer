@@ -2,9 +2,9 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
+**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[Shared Memory Systems]]
 
-**Area**: 
+**Area**: [[Master's degree]]
 # Shared Memory Architectures
 
 The **Shared-Memory (SHM)** systems can be classified as:

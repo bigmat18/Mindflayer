@@ -1,0 +1,4 @@
+- [[Normals on 3D Models]]
+- [[Curvature in 3D models]]
+- [[Gaussian Curvature]]
+- [[Divergence]]

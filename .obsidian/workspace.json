@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba5f86c4eaef192e",
+        "id": "eee18a0b03a819f2",
         "type": "tabs",
         "children": [
           {
-            "id": "b3c58edfd387f6f4",
+            "id": "69ad1841eefd4baa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Von Neumann Bottleneck.md",
+                "file": "100. Notes/Gaussian Curvature.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Von Neumann Bottleneck"
+              "title": "Gaussian Curvature"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "iso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,43 +180,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3c58edfd387f6f4",
+  "active": "69ad1841eefd4baa",
   "lastOpenFiles": [
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "000. Areas/Master's degree.md",
+    "101. Utils/Images/Pasted image 20250429021703.png",
+    "101. Utils/Images/Pasted image 20250429021414.png",
+    "101. Utils/Images/Pasted image 20250429021340.png",
+    "101. Utils/Images/Pasted image 20250429021321.png",
+    "101. Utils/Images/Pasted image 20250429021302.png",
+    "101. Utils/Images/Pasted image 20250429021233.png",
+    "011. Tags/Differential Geometry.md",
+    "100. Notes/Curvature in 3D models.md",
+    "100. Notes/Gaussian Curvature.md",
+    "101. Utils/Images/Pasted image 20250429015710.png",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/Parametrization Distortion.md",
-    "100. Notes/How do Parametrization.md",
-    "100. Notes/Harmonic Parametrization.md",
-    "100. Notes/Mass-Spring Parametrization.md",
-    "100. Notes/Von Neumann Bottleneck.md",
-    "101. Utils/Images/Pasted image 20250416122606.png",
-    "101. Utils/Images/Pasted image 20250416122249.png",
-    "011. Tags/Shared Memory Systems.md",
-    "100. Notes/Shared Memory Architectures.md",
-    "100. Notes/NUMA - Non Uniform Memory Access.md",
-    "100. Notes/Priority queue algorithm.md",
+    "101. Utils/Images/Pasted image 20250429014638.png",
+    "101. Utils/Images/Pasted image 20250429012827.png",
+    "101. Utils/Images/Pasted image 20250429012037.png",
+    "101. Utils/Images/Pasted image 20250429011835.png",
+    "100. Notes/Quad-Tree.md",
+    "100. Notes/Binary Space Partition-Tree (BSP).md",
+    "100. Notes/Hierarchical Indexing Structures.md",
+    "100. Notes/Edge-based data structures.md",
+    "100. Notes/Butterfly Algorithm.md",
     "100. Notes/Resource Management -  SLURM.md",
-    "100. Notes/Backfill algorithm.md",
-    "100. Notes/Surface conversions.md",
-    "100. Notes/Representing real-world surfaces.md",
-    "100. Notes/Implicit representations.md",
-    "100. Notes/Least Squares Conformal maps.md",
-    "100. Notes/As-rigid-as-possible Parametrization.md",
-    "011. Tags/Surface Parametrization.md",
-    "100. Notes/Cuts technique in Parametrization.md",
-    "100. Notes/Growing Cuts.md",
-    "101. Utils/Images/Pasted image 20250413182500.png",
-    "100. Notes/Orthoprojection Cuts.md",
-    "101. Utils/Images/Pasted image 20250413181750.png",
-    "101. Utils/Images/Pasted image 20250413180734.png",
-    "011. Tags/Parametrization Techniques.md",
-    "101. Utils/Images/Pasted image 20250413180218.png",
-    "101. Utils/Images/Pasted image 20250413180050.png",
-    "101. Utils/Images/Pasted image 20250413175941.png",
-    "101. Utils/Images/Pasted image 20250413174454.png",
-    "101. Utils/Images/Pasted image 20250413174354.png",
-    "010. MOCs/Basi di Dati.md",
+    "100. Notes/Normals on 3D Models.md",
+    "100. Notes/DNS.md",
+    "100. Notes/Decorator.md",
+    "100. Notes/2024-10-23 - 3D GMP.md",
+    "100. Notes/Voronoi Decoposition.md",
+    "011. Tags/Sampling.md",
+    "100. Notes/PDS on Surface.md",
+    "100. Notes/Poisson Disk Sampling (PDS).md",
+    "100. Notes/Samples generation.md",
+    "100. Notes/Funzione di Ripartizione (CDF) e Quantili (PPF).md",
+    "010. MOCs/Statistics.md",
+    "100. Notes/Probabilità sulla retta reale.md",
+    "100. Notes/Covarianza e correlazione campionaria.md",
+    "100. Notes/Remeshing Introduction.md",
+    "100. Notes/Introduction to Sampling.md",
     "Untitled.canvas"
   ]
 }

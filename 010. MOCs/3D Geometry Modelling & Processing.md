@@ -13,11 +13,11 @@ tags:
 
 ![[Refinement & Subdivision. Remeshing Algorithms]]
 
-[[Spatial indexing]]
+![[Spatial indexing]]
 
-[[Sampling]]
+![[Sampling]]
 
-[[Differential Geometry]]
+![[Differential Geometry]]
 
 [[Surface Recostruction]]
 

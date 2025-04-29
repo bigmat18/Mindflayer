@@ -2,7 +2,7 @@
 
 **Status**: #note #master 
 
-**Tags:** [[Design Patterns]][[Software Engineering]]
+**Tags:** [[Design Patterns]] [[Software Engineering]]
 
 **Area**: 
 # Decorator

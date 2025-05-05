@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Criterio con Copertura dei Cammini
 
 Richiede di percorrere tutti i cammini. Cresce in modo esponenziale con il numero di decisioni ed in presenza di cicli il numero di cammini è potenzialmente infinito. 

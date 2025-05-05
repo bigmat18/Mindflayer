@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Application layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Telnet
 
 Protocollo di terminale remote in cui scopo è quello di permettere l'uso iterativo di macchine remote inviando comandi dopo un login

@@ -4,7 +4,7 @@
 
 **Tags:** [[Intervalli di Fiducia]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Intervalli di fiducia media campione Bernoulli
 
 Consideriamo un campione $X_1, \dots, X_n$ di [[Variabili Aleatorie Notevoli|variabili di Bernoulli]] e cerchiamo un intervallo di fiducia per il parametro p nella forma $[\bar{X}_n \pm d]$ essendo $\bar{X}_n$ uno stimatore per p. 

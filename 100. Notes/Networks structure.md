@@ -4,6 +4,7 @@
 
 **Tags:** [[Networks and Laboratory III]]
 
+**Area**: [[Bachelor's Degree]]
 # Networks structure
 #### Componenti
 - **Dispositivi connessi**  (servers spesso a data centers, pc, smartphone ecc.)

@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Progettazione dei Test
 
 Si compone in più fasi:

@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Multiple access protocols
 
  Algoritmo distribuito che determina come i nodi condividono il canale e determina quando il nodo può trasmettere. La comunicazione per la condivisione del canale deve usare il canale stesso

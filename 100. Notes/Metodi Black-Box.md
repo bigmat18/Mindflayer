@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Metodi Black-Box
 
 Sono criteri per l'individuazione dei casi di input che si basano sulle specifiche. La strategia è al seguente:

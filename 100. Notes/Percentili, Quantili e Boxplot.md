@@ -4,7 +4,7 @@
 
 **Tags:** [[Statistice riassuntive e grafici]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Percentili, Quantili e Boxplot
 
 Consideriamo di avere un vettori di quantità numeriche $(x_1, ..., x_n) \in \mathbb{R}^n$ dato un numero $0 < k < 100$ chiediamoci come trovare un valore soglia che divida in due parti i dati in modo che una parte contenga i dati più piccoli di tutti i valori della soglia e che contenga esattamente k% dei dati.

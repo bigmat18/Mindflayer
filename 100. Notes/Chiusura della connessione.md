@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Transport layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Chiusura della connessione
 
 - Il client ed il server inviano un segmento di TCP con bit FIN=1 per chiudere ciascuno il loro lato della connessione. 

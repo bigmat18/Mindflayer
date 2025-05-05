@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]][[Software Engineering]]
 
-**Area**:
+**Area**: [[Bachelor's Degree]]
 # Diagrammi Casi d'Uso
 
 Descrive i requisiti funzionali del sistema. Cattura le funzionalità che un sistema deve offrire, visto dall’esterno: i compiti che un utente può realizzare con l’aiuto del sistema. 

@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Singleton
 
 **Esempio**
@@ -74,7 +74,7 @@ public class ChocolateBoiler {
 
 o nel nostro esempio il diagramma sarebbe:
 ![[Screenshot 2023-11-27 at 12.30.54.png]]
-### Multi-threading
+### [[Java threads|Multi-threading]]
 C'è però in questo caso un problema con i threads.
 
 **Esempio**. Se il programma viene eseguito in un ambiente multi-thread è possibile che due thread inizializzino due singleton a più o meno nello stesso periodo.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Statistice riassuntive e grafici]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Funzione di ripartizione empirica
 
 La funzione di ripartizione empirica (o **ECDF**) di definisce come $F: \mathbb{R} \to \mathbb{R}$ definita come:

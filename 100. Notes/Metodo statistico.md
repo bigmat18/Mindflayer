@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Metodo statistico
 
 I casi di test sono selezionati in base alla distribuzione di probabilità dei dati di ingresso del programma. Il test è quindi progettato per esercitare il programma sui valori di ingresso più probabili per il suo utilizzo a regime. Il vantaggio è che, nota la distribuzione di probabilità, la generazione dei dati di test è facilmente automatizzabile. Non sempre corrisponde alle effettive condizioni d’utilizzo del software, è oneroso calcolare il risultato atteso (problema dell’oracolo).

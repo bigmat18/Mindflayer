@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Application layer]]
 
+**Area**: [[Bachelor's Degree]]
 # SMTP
 
 ###### User agent

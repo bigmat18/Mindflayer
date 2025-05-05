@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Variabili Aleatorie Notevoli
 
 ### Variabili Binomiali o Bernoulli (con n=1)

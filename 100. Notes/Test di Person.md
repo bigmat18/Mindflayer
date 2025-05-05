@@ -4,7 +4,7 @@
 
 **Tags:** [[Test statistici]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Test di Person
 
 

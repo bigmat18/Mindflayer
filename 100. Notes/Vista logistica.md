@@ -4,7 +4,7 @@
 
 **Tags:** [[Architettura del software]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Vista logistica
 
 - **Elementi**:
@@ -33,7 +33,7 @@ Un componente (che esiste a rum-time) è un’instanza creata a partire da un ar
 
 Esempio: **Architettura a livello**
 ![[Screenshot 2023-11-15 at 00.11.42.png]]
-In realtà questo è un concetto ambiguo. A livello di vista C&C può essere una catena di client-server, a livello di vista strutturale invece possono essere vari layers.
+In realtà questo è un concetto ambiguo. A livello di vista C&C può essere una catena di [[Introduction to application layer|client-server]], a livello di vista strutturale invece possono essere vari layers.
 
 Esempio: **Architettura multilivello** 
 ![[Screenshot 2023-11-15 at 00.13.01.png]]

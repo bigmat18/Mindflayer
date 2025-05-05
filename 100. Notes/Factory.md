@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Factory
 
 La classe Factor è una il cui unico compito è creare e restituire facilmente istanze di altre classi. I modelli creazionali astraggono il processo di istanziazione dell'oggetto.

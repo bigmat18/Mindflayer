@@ -4,7 +4,7 @@
 
 **Tags:** [[Rendering Lines]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Bachelor's Degree]]
 # Xiaolin Wu's line algorithm
 
 

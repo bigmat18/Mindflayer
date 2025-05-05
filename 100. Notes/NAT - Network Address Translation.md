@@ -4,6 +4,7 @@
 
 **Tags:** [[Introduction to network layer]] [[Networks and Laboratory III]]
 
+**Area**: [[Bachelor's Degree]]
 # NAT - Network Address Translation
 
 - Permette di trasmettere su internet il traffico proveniente da sottoreti private, in cui sono assegnati indirizzi privati. 

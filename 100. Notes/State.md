@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # State
 
 Consideriamo una classe con due metori, push() e pull() il comportamento cambia a seconda dello stato dell'oggetto. Per inviare la richiesta push e pull all'oggeto, utilizzeremo la seguente GUI con i pulsanti "Push" e "Pull".

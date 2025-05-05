@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Progettazione Fase di Verifica
 
 I progettisti della fase di verifica devono:

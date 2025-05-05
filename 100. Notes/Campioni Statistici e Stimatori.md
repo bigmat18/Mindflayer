@@ -4,7 +4,7 @@
 
 **Tags:** [[Campioni di Variabili Aleatorie]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Campioni Statistici e Stimatori
 
 Partiamo assumendo di avere uno spazio di probabilità ed una variabile aleatoria X la cui distribuzione $\mathbb{P}_X$ è secondo i casi parzialmente o del tutto sconosciuta. Per determinarla abbiamo bisogno di $X_1, \dots, X_n$ variabili aleatorie indipendenti e aventi la stessa legge di $X$ 

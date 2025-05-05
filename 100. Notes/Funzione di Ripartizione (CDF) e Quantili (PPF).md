@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Funzione di Ripartizione (CDF) e Quantili (PPF)
 
 La funzione di ripartizione o (c.d.g) di una V.A. X è la funzione:

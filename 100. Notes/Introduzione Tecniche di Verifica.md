@@ -2,9 +2,9 @@
 
 **Status**: #note #youngling 
 
-**Tags:** 
+**Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Introduzione Tecniche di Verifica
 
 Verifica che non prevede l'esecuzione del programma.

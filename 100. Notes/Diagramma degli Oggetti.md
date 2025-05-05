@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]][[Software Engineering]]
 
-**Area**: 
+**Area**:[[Bachelor's Degree]]
 # Diagramma degli Oggetti
 
 Chiamato anche diagramma delle istanze, può essere utile quando le connessioni tra gli oggetti sono complicate.

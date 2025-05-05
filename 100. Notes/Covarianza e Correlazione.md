@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatorie Multivalore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Covarianza e Correlazione
 
 Supponiamo di avare X e Y V.A. con valore atteso, allora anche X + Y ha valore atteso e valgono le seguenti proprietà:

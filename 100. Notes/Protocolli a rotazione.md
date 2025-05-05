@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Protocolli a rotazione
 
 #### Polling

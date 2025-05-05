@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
+**Area**: [[Bachelor's Degree]]
 # ICMP - Internet Control Message Protocol
 
 È un protocollo che è usato da host e router per **scambiarsi messaggi di errore** ed è stato creato per **porre rimedio alle situazione in cuoi si verifica un errore**, visto che il protocollo IP non ha meccanismi integrati per renderlo noto all'host mittente. 

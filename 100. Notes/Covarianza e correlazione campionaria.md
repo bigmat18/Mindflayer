@@ -4,7 +4,7 @@
 
 **Tags:** [[Dati Multivarianti]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Covarianza e correlazione campionaria
 
 Consideriamo un insieme di n coppie di dati numerici $(x, y) = (x_1, y_1), ...,, (x_n, y_n) \in \mathbb{R}^{2\times n}$ 

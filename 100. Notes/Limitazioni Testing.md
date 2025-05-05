@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Limitazioni Testing
 
 Il testing è una tecnica di verifica ed è come le altre sottoposta al problema dell'indecibilità.

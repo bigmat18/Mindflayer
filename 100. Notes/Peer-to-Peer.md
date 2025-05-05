@@ -4,6 +4,7 @@
 
 **Tags:** [[Networks and Laboratory III]]
 
+**Area**: [[Bachelor's Degree]]
 # Peer-to-Peer
 Paradigma in cui tutti gli host sono peer e agiscono sia da client che da server
 - Tutti i nodi hanno la stessa importanza

@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Routing
 
 Il routing è il processo decisionale di scelta del percorso verso una destinazione, e serve a determinare i valori da inserire nella tabella di inoltre **tramite algoritmi di routing** (si occupa dei **control plane** mentre il forwarding dei **data plane**). Si differenzia dal [[Forwarding]] perché quest'ultimo ha lo scopo di traferire i pacchetti sull'appropriato collegamento in uscita, non si stabilire il percorso.

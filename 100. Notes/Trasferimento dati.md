@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Transport layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Trasferimento dati
 
 ## Trasferimento dati affidabile

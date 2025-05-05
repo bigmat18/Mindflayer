@@ -10,15 +10,8 @@ tags:
 **(EC)**: It's a elective course choose
 **(MC)**: It's a major course choose
 **(NoC)**: It's a course not in basic curriculum
-**(BC)**: It's a course of bachelor degree
 
 ## Study plans
-
-#### Bachelor courses
-- (BC) [[Networks and Laboratory III|Networks and Laboratory III]]
-- (BC) [[Statistics]]
-- (BC) [[Software Engineering]]
-- (BC) [[Basi di Dati]]
 #### Semester 1
 - (MC) Languages, compilers and interpreters (9 cfu)
 - (MC) Competitive programming and contests (6 cfu)

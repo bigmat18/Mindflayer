@@ -4,12 +4,12 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Abstract factory
 
 Lo scopo è quello di fornire un'interfaccia per la creazione di famiglie di prodotti correlati o oggetti dipendenti senza specificarne la concreta classe.
 
-Il modello Abstract Factory rispetto al modello Factory Method ha che una classe delega la responsabilità dell'istanziazione dell'oggetto a un altro oggetto tramite composizione, mentre il pattern Factory Method utilizza l'ereditarietà e si basa su una sottoclasse per gestire l'istanziazione dell'oggetto desiderato. 
+Il modello Abstract Factory rispetto al modello [[Factory method]] ha che una classe delega la responsabilità dell'istanziazione dell'oggetto a un altro oggetto tramite composizione, mentre il pattern Factory Method utilizza l'ereditarietà e si basa su una sottoclasse per gestire l'istanziazione dell'oggetto desiderato. 
 
 In realtà, l'oggetto delegato utilizza spesso factory method per eseguire l'istanziazione, applicando così entrambi i modelli.
 

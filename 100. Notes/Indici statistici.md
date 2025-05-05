@@ -4,7 +4,7 @@
 
 **Tags:** [[Statistice riassuntive e grafici]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Indici statistici
 
 Dato un vettore di quantità numeriche $x = (x_1, ..., n_n) \in \mathbb{R}^n$ di dati gli indici riassumono proprietà significative dei dati.

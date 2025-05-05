@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Factory method
 
 *Definizione*: Il **factory method** lascia le sotto-classi decidere quale classe istaziare, non perché le classi stesse decidono in runtime ma perché il creatore scrive senza la conoscenza dei prodotti reali che verranno creati, che viene decisa dalla scelta della sottoclasse utilizzata. 

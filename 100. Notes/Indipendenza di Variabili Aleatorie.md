@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatorie Multivalore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Indipendenza di Variabili Aleatorie
 Andiamo a codificare come ogni informazioni contenuta in una V.A. X sia indipende da quelle contenute in una V.A. Y. Dati X, Y sono **indipendenti** se presi comunque A,B sottoinsiemi di $\mathbb{R}$ gli eventi $X^{-1}(A), Y^{-1}(B)$ sono indipendenti, cioè vale
 $$\mathbb{P}\{X \in A, Y \in B\} = \mathbb{P}\{X \in A\} \cdot \mathbb{P}\{Y \in B\}$$

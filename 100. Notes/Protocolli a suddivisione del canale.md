@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]]
 
+**Area**: [[Bachelor's Degree]]
 # Protocolli a suddivisione del canale
 
 ###### TDMA - Time Division Multiple Access

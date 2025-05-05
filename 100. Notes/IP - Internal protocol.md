@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
+**Area**: [[Bachelor's Degree]]
 # IP - Internal protocol
 
 ## Caratteristiche 

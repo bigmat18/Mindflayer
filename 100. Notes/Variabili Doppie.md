@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatorie Multivalore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Variabili Doppie
 Consideriamo due variabili aleatorie $X, Y: \Omega \to \mathbb{R}$ il valore $(X, Y)$ può essere visto come una funzione 
 $$(X, Y): \Omega \to \mathbb{R}^2$$

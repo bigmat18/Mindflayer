@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Diagramma delle Classi
 
 Descrive il tipo degli oggetti che fanno parte di un sistema software o del suo dominio. La relazione statiche tra essi: **gli elementi e le relazioni tra essi non cambiano nel tempo.**

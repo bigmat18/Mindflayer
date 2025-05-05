@@ -2,7 +2,7 @@
 Year: 2023/2024
 Period: 1° semester
 Exam done: true
-Area: "[[Master's degree]]"
+Area: "[[Bachelor's Degree]]"
 ---
 # Table of Contents
 

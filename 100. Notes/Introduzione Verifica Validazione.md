@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Introduzione Verifica Validazione
 
 Nel 1937 Alan turing ha dimostrato che alcuni problemi non possono essere risolti da un algoritmo (programma). Tali problemi sono quelli che coinvolgono il problema della terminazione.

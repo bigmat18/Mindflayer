@@ -4,6 +4,7 @@
 
 **Tags:** [[Networks and Laboratory III]]
 
+**Area**: [[Bachelor's Degree]]
 # Stratified models
 
 ##### Protocollo

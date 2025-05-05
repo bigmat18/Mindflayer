@@ -1,4 +1,6 @@
 - [[Normals on 3D Models]]
 - [[Curvature in 3D models]]
 - [[Gaussian Curvature]]
-- [[Divergence]]
+- [[Mean Curvature]]
+- [[Gradiant, Divergence and Laplacian]]
+- [[Curvature via Surface Fitting]]

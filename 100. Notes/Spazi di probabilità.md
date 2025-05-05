@@ -4,7 +4,7 @@
 
 **Tags:** [[Probabilità e (In)dipendenza]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Spazi di probabilità
 
 Un insieme di tutti i dati possibili possono essere rappresentati all'interno di uno insieme astratto $\Omega$ detto **spazio campionario**. Un sottoinsieme di $\Omega$ è un **evento**. Consideriamo $\mathcal{P}(\Omega)$ con l'insieme di tutti i possibili sottoinsiemi di $\Omega$.

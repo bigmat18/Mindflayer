@@ -4,7 +4,7 @@
 
 **Tags:** [[Intervalli di Fiducia]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Definizione Intervalli di Fiducia
 
 Consideriamo un campione statistico $X_1, \dots, X_n$ la cui legge dipende da un parametro $\theta \in Theta \subseteq \mathbb{R}$ 

@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]] - [[Graph Algorithms]]
 
+**Area**: [[Bachelor's Degree]]
 # Distance vector algorithm
 
 - **Distribuito**: ogni nodo aggiorna i suoi vicini solo quando il proprio DV cambia, i vicini avvisano i rispettivi vicini dei cambiamenti

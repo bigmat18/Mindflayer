@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Diagramma delle Attività
 
 Modellano il flusso di lavoro (workflow, business model) di un algoritmo o di un processo. Un'attività descrive come coordinare un insieme di azioni:

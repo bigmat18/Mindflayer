@@ -4,7 +4,7 @@
 
 **Tags:** [[Test statistici]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Z-Test
 
 Si chiama z-test il **test sulla media [[Variabili Aleatorie Notevoli|gaussiana]] con varianza nota**. Consideriamo come partenza che l'ipotesi nulla sia data da un singolo valore per la media. Dobbiamo testare che la media $m$ coincida con un certo valore $m = m_0$. In altre parole abbiamo che:

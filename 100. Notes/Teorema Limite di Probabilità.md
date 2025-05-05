@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatorie Multivalore]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Teorema Limite di Probabilità
 
 Questo teorema si occupa di verificare il fenomeno per cui, dato una prova ripetuta con n alto, essa convergerà ad un risultato. Mentre il teorema centrale del limite indica quando può oscillare il numero di valori.

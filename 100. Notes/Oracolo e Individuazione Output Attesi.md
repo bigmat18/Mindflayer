@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Oracolo e Individuazione Output Attesi
 
 Un "oracolo" è uno strumento o una metodologia utilizzati per generare i risultati attesi di un test case. L'importanza dell'oracolo risiede nel fatto che fornisce un punto di riferimento per valutare la correttezza del sistema durante il processo di testing. Un buon oracolo è cruciale per garantire la qualità del software e la corretta individuazione di eventuali difetti.

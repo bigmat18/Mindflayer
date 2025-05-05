@@ -4,7 +4,7 @@
 
 **Tags:** [[Architettura del software]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Viste strutturale
 
 Formate da elementi (nodi del diagramma) sono chiamati moduli: sono le unità di software che realizzano un insieme coerente di responabilità. Per esempio: classi, collezioni di classi, package. 

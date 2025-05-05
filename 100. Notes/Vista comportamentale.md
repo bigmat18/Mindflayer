@@ -4,7 +4,7 @@
 
 **Tags:** [[Architettura del software]][[Software Engineering]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Vista comportamentale
 
 ### Componenti software

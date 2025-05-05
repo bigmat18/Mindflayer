@@ -4,7 +4,7 @@
 
 **Tags:** [[Dati Multivarianti]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # La retta di regressione
 
 Come detto il [[Covarianza e correlazione campionaria|coefficente di correlazione]] misura il legame di natura lineare tra i dati x, y. Questo legame può essere rappresentato graficamente tramite una **retta di regressione**, per descriverla bisogna rappresentarla come $y = a +bx$ quindi bisogna trovare a e b calcolando:

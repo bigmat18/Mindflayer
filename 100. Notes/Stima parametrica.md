@@ -4,7 +4,7 @@
 
 **Tags:** [[Campioni Statistici e Stimatori]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Stima parametrica
 
 Ora ci occupiamo di come trovare un corretto stimatore, esistono due metodi, **massima verosimiglianza** e **metodo dei momenti**. Supponiamo di avere un campione statistico che dipende da un parametro $\theta$ nel quale le V.A. possono essere sia discrete che con densità.

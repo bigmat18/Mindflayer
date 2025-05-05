@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Fault based testing
 
 Ipotizza dei difetti potenziali del codice sotto test. Crea e valuta una test suite sulla base della sua capacità di rilevare i difetti ipotizzati.

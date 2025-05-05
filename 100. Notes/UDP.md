@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Transport layer]]
 
+**Area**: [[Bachelor's Degree]]
 # UDP
 
 - Servizio di consegna dove i datagrammi possono essere perduti o consegnati fuori sequenza, quindi **trasferimento non affidabile** (checksum facoltativo)

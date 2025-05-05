@@ -4,6 +4,7 @@
 
 **Tags:** [[ISO-OSI Application layer]]
 
+**Area**: [[Bachelor's Degree]]
 # FTP
 
 Utilizza il modello client/sever per trasferire file a/da un host remoto

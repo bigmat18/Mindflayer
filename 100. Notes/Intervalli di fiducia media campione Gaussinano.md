@@ -4,7 +4,7 @@
 
 **Tags:** [[Intervalli di Fiducia]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Intervalli di fiducia media campione Gaussinano
 
 Sia $X_1, \dots, X_n$ un campione statistico con legge [[Variabili Aleatorie Notevoli|Gaussiana]] $N(m, \sigma^2)$. Tale legge ha in effetti due parametri, corrispondenti a media e varianza. In questo caso poniamo $\theta = m$ cioè alla media.

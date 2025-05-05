@@ -4,7 +4,7 @@
 
 **Tags:** [[Probabilità e (In)dipendenza]] [[Statistics]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Calcolo combinatorio
 
 ##### Probabilità uniforme

@@ -12,5 +12,6 @@ Area: "[[Master's degree]]"
 - [[Ranking and Charts]]
 - [[Charts Multiple Attributes]]
 - [[Radial and Maps]]
+- [[Graph Drawing]]
 
 # Resources

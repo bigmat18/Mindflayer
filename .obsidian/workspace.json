@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Alpha Shapes.md",
+                "file": "100. Notes/Mesh Zippering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alpha Shapes"
+              "title": "Mesh Zippering"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Delaunay",
+                "query": "homeomorphic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,26 +183,32 @@
   },
   "active": "055913458a4a2335",
   "lastOpenFiles": [
-    "100. Notes/Surface conversions.md",
+    "101. Utils/Images/Pasted image 20250507155750.png",
+    "101. Utils/Images/Pasted image 20250507155424.png",
+    "101. Utils/Images/Pasted image 20250507155338.png",
+    "101. Utils/Images/Pasted image 20250507155241.png",
+    "101. Utils/Images/Pasted image 20250507154505.png",
+    "011. Tags/Surface Recostruction.md",
+    "100. Notes/Mesh Zippering.md",
+    "100. Notes/Ball Pivoting.md",
+    "101. Utils/Images/Pasted image 20250507154016.png",
+    "101. Utils/Images/Pasted image 20250507154000.png",
+    "101. Utils/Images/Pasted image 20250507153941.png",
+    "101. Utils/Images/Pasted image 20250507153908.png",
+    "101. Utils/Images/Pasted image 20250507153837.png",
+    "101. Utils/Images/Pasted image 20250507153737.png",
+    "100. Notes/Introduction to Surface Reconstruction.md",
     "100. Notes/Alpha Shapes.md",
+    "100. Notes/Representing real-world surfaces.md",
+    "100. Notes/2024-11-08 - 3D GMP.md",
+    "100. Notes/Gradiant, Divergence and Laplacian.md",
+    "100. Notes/Surface conversions.md",
+    "100. Notes/Voronoi Decoposition.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
     "100. Notes/Bresenham's line algorithm.md",
-    "100. Notes/Voronoi Decoposition.md",
-    "101. Utils/Images/Pasted image 20250507015807.png",
-    "101. Utils/Images/Pasted image 20250507015408.png",
-    "100. Notes/Representing real-world surfaces.md",
-    "101. Utils/Images/Pasted image 20250507014746.png",
-    "100. Notes/Introduction to Surface Reconstruction.md",
-    "011. Tags/Surface Recostruction.md",
     "100. Notes/Marching cubes.md",
-    "101. Utils/Images/Pasted image 20250506183129.png",
-    "101. Utils/Images/Pasted image 20250506182436.png",
     "100. Notes/Implicit representations.md",
     "100. Notes/Parametric representations.md",
-    "101. Utils/Images/Pasted image 20250506174730.png",
-    "101. Utils/Images/Pasted image 20250506174716.png",
-    "101. Utils/Images/Pasted image 20250506173803.png",
-    "101. Utils/Images/Pasted image 20250506173022.png",
     "100. Notes/Level-based view for parallel computing.md",
     "010. MOCs/High performance computing.md",
     "011. Tags/Linear Algebra.md",
@@ -212,10 +218,6 @@
     "100. Notes/Remeshing Introduction.md",
     "100. Notes/Catmull-Clark Algorithms.md",
     "100. Notes/Doo-Sabin Algorithms.md",
-    "000. Areas/Bachelor's Degree.md",
-    "000. Areas/Master's degree.md",
-    "100. Notes/Graph Drawing.md",
-    "010. MOCs/Scientific and Large Data Visualisation.md",
-    "100. Notes/Mark and Channels.md"
+    "000. Areas/Bachelor's Degree.md"
   ]
 }

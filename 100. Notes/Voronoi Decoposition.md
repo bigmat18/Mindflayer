@@ -17,7 +17,7 @@ In the classic definition there are bounded and unbounded. Regions are convex po
 
 ![[Pasted image 20250428164607.png | 200]]
 
-The [[Remeshing Introduction|dual]] of the Voronoi Diagram is a **nice** triangulation (called Deloni triangulation) of the point set. We connect each points adding an edge. Each triangle has the **empty-circle** property, if we do a circle that crosses the three points it not contains any other point, this means the triangulation is well done.
+The [[Remeshing Introduction|dual]] of the Voronoi Diagram is a **nice** triangulation (called **Delaunay triangulation**) of the point set. We connect each points adding an edge. Each triangle has the **empty-circle** property, if we do a circle that crosses the three points it not contains any other point, this means the triangulation is well done.
 
 ![[Pasted image 20250428165146.png | 300]]
 

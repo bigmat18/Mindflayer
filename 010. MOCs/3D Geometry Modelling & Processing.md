@@ -19,7 +19,7 @@ tags:
 
 ![[Differential Geometry]]
 
-[[Surface Recostruction]]
+![[Surface Recostruction]]
 
 ![[Surface Parametrization]]
 

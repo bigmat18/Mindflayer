@@ -1,4 +1,4 @@
 - [[Introduction to Surface Reconstruction]]
-- [[Computing Alpha Shapes]]
+- [[Alpha Shapes]]
 - [[Ball Pivoting]]
 - [[Mesh Zippering]]

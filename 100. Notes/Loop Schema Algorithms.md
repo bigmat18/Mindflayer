@@ -9,12 +9,18 @@
 
 This algorithms is based on **triangular meshes**, and it is **primal** and **approximating**. Edges are spitted and new vertices are reconnected to create new triangles.
 
+From a combinatorial (topological) point of view, for each element in the mesh, the algorithm proceeds as follows:
+1. Do nothing for each face.
+2. For each edge, generate a new vertex at the center of the edge.
+3. Do nothing for each vertex.
+4. Connect the new vertices to each other.
+
 ![[Pasted image 20250403120421.png | 350]]
 ### Subdivision
 
 ![[Pasted image 20250403120511.png | 550]]
 
-We have two cases to applay weighted sum. 
+We have two cases to apply weighted sum. 
 - For the vertex add on edge (Left figure)
 - For the vertex that already exists, in this case it is move (Right figure).
 

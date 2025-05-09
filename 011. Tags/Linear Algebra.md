@@ -1,4 +1,3 @@
-```dataview
-LIST 
-FROM [[Linear Algebra]]
-```
+- [[Signed distances field]]
+- [[Normals on 3D Models]]
+- [[Curvature in 3D models]]

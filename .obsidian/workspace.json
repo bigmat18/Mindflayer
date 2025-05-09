@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f5776d488d391f95",
+        "id": "3a73439d1cce8cca",
         "type": "tabs",
         "children": [
           {
-            "id": "055913458a4a2335",
+            "id": "c4373d31712e14b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Mesh Zippering.md",
+                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mesh Zippering"
+              "title": "3D Geometry Modelling & Processing"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "homeomorphic",
+                "query": "geodesi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,43 +180,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "055913458a4a2335",
+  "active": "c4373d31712e14b6",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250507155750.png",
-    "101. Utils/Images/Pasted image 20250507155424.png",
-    "101. Utils/Images/Pasted image 20250507155338.png",
-    "101. Utils/Images/Pasted image 20250507155241.png",
-    "101. Utils/Images/Pasted image 20250507154505.png",
-    "011. Tags/Surface Recostruction.md",
-    "100. Notes/Mesh Zippering.md",
-    "100. Notes/Ball Pivoting.md",
-    "101. Utils/Images/Pasted image 20250507154016.png",
-    "101. Utils/Images/Pasted image 20250507154000.png",
-    "101. Utils/Images/Pasted image 20250507153941.png",
-    "101. Utils/Images/Pasted image 20250507153908.png",
-    "101. Utils/Images/Pasted image 20250507153837.png",
-    "101. Utils/Images/Pasted image 20250507153737.png",
-    "100. Notes/Introduction to Surface Reconstruction.md",
-    "100. Notes/Alpha Shapes.md",
-    "100. Notes/Representing real-world surfaces.md",
-    "100. Notes/2024-11-08 - 3D GMP.md",
-    "100. Notes/Gradiant, Divergence and Laplacian.md",
-    "100. Notes/Surface conversions.md",
-    "100. Notes/Voronoi Decoposition.md",
-    "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/Bresenham's line algorithm.md",
-    "100. Notes/Marching cubes.md",
-    "100. Notes/Implicit representations.md",
-    "100. Notes/Parametric representations.md",
-    "100. Notes/Level-based view for parallel computing.md",
-    "010. MOCs/High performance computing.md",
+    "010. MOCs/Networks and Laboratory III.md",
+    "010. MOCs/Basi di Dati.md",
+    "011. Tags/Architettura del software.md",
+    "011. Tags/Campioni di Variabili Aleatorie.md",
+    "011. Tags/Classifying Parallel Architectures.md",
+    "011. Tags/Dati Multivarianti.md",
+    "011. Tags/Design Patterns.md",
+    "011. Tags/Diagrammi UML.md",
+    "011. Tags/Differential Geometry.md",
+    "011. Tags/Graph Algorithms.md",
+    "011. Tags/ISO-OSI Application layer.md",
+    "011. Tags/ISO-OSI Link layer.md",
+    "011. Tags/ISO-OSI Network layer.md",
+    "011. Tags/ISO-OSI Transport layer.md",
     "011. Tags/Linear Algebra.md",
-    "100. Notes/Hierarchical Dart Throwing (HDT).md",
-    "100. Notes/Heuristics. Incremental methods.md",
-    "100. Notes/Loop Schema Algorithms.md",
-    "100. Notes/Remeshing Introduction.md",
-    "100. Notes/Catmull-Clark Algorithms.md",
-    "100. Notes/Doo-Sabin Algorithms.md",
-    "000. Areas/Bachelor's Degree.md"
+    "011. Tags/Ransac and ICP.md",
+    "011. Tags/Refinement & Subdivision. Remeshing Algorithms.md",
+    "011. Tags/Spatial indexing.md",
+    "011. Tags/Smoothing.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "011. Tags/Surface Recostruction.md",
+    "100. Notes/Radial Basis Functions (RBF).md",
+    "100. Notes/Bounded RBD.md",
+    "101. Utils/Images/Pasted image 20250509032605.png",
+    "101. Utils/Images/Pasted image 20250509031447.png",
+    "101. Utils/Images/Pasted image 20250509031400.png",
+    "101. Utils/Images/Pasted image 20250509031121.png",
+    "100. Notes/Metaballs.md",
+    "101. Utils/Images/Pasted image 20250509030312.png",
+    "100. Notes/VCG Recostruction.md",
+    "101. Utils/Images/Pasted image 20250509025330.png",
+    "100. Notes/PDS on Surface.md",
+    "101. Utils/Images/Pasted image 20250509025113.png",
+    "101. Utils/Images/Pasted image 20250509024944.png",
+    "101. Utils/Images/Pasted image 20250509024759.png",
+    "101. Utils/Images/Pasted image 20250509024657.png",
+    "Untitled.canvas"
   ]
 }

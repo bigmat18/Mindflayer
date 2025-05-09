@@ -7,14 +7,7 @@
 **Area**: [[Master's degree]]
 # Mesh Zippering
 
-Not only point cloud: the **Range Maps** or structured point cloud. 3D scanners produce a number of dense structured height fields, that is, a regular $(X,Y)$ grid of points with a distance Z value. There are called **range maps**. They are trivial to triangulate use the regularity of sampling.
-
-![[Pasted image 20250507154505.png | 500]]
-
-One of the main question is how to merge different range maps? It's very difficult for the different noise and local deformations of surface.
-
-### Mesh Zippering Algorithm
-The **input** is a triangulated ranges maps (not just point clouds). Work is pairs:
+The **input** is a triangulated [[Range Maps |ranges maps]] (not just point clouds). Work is pairs:
 
 1. Remove overlapping portions. Maintain the minimal overlapping
 ![[Pasted image 20250507155241.png | 500]]

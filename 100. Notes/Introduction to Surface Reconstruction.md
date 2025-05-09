@@ -64,7 +64,27 @@ Instead of explicit methods, the implicit methods are:
 - More resilient and uneven sampling. This means that we have a point used to sample a edge of surface, probably it will be ignored.
 
 ### Volumetric methods
-Tessellate means that the result of this things are a **[[Signed distances field|distance field]]**, i.e. a representations where I have inside a volume a scalar and each of this scalar represents the distance to surface. The sets of points where the distance is 0  represents the surface. 
+These are a derivative methods from implicit method where tessellate means that the result of this things are a **[[Signed distances field|distance field]]**, i.e. a representations where I have inside a volume a scalar and each of this scalar represents the distance to surface. The sets of points where the distance is 0  represents the surface. 
 
+![[Pasted image 20250508132756.png | 350]]
 The standard method to build from a volumetric representations to distance field is the [[Marching cubes]]
+
+### From point cloud to a scalar field
+The problem statement is: given a set of points $\{x_0, \dots, x_n\}$ define
+$$f(x) = \varphi(\{x_0, \dots, x_n\}) \:\:\:\:\: S= \{s|f(x)= \alpha\}$$
+so that S interpolates/approximates the point cloud. [[Normals on 3D Models|Normals]] are often either assumed or computed from the point cloud. The normals are importat to define a surface and the most of acquisition method compute the normal on the points.
+
+![[Pasted image 20250508180656.png | 350]]
+But some times the point cloud lose the normals. To rebuild the normal we can use the **Principal Component Analysis (PCA)**
+$$q_i = p_i - c \:\:\:\: c_{ov} = \sum_i q_i q_i^T \:\:\:\:\:\: c_{ov} = \begin{bmatrix}\sum_i q_{i²_x} & \sum_i q_{i_x}q_{i_x y} & \sum_i q_{i_x}q_{i_z}\\ \sum_i q_{i_y}q_{i_x} & \sum_i q_{i²_y} & \sum_i q_{i_y}q_{i_z}\\\sum_i q_{i_z}q_{i_x} & \sum_i q_{i_z}q_{i_y}&\sum_i q_{i²_z}\end{bmatrix}$$
+$C_{ov}$ (that is the covariance matrix) is symmetric this means real eigenvalues and orthogonal eigenvector. Take the eigenvector corresponding to the smallest eigenvalue as normal direction:
+- Check that the smallest eigenvalue is unique
+- Check that the other two are similar.
+
+![[Pasted image 20250508182509.png | 150]]
+
+PCA is good for finding for each points a direction eg a line. You have to choose a consistent alignment (a sign: positive or negative) for groups of points. Usually, heuristics based on sign propagation, many different cases can arise for unconnected sets.
+
+![[Pasted image 20250508182708.png | 350]]
+This is a little bit difficult, usually we start on a zone with a small eigenvalue and we may be sure that is right, after we choose a random direction ad propagate the direction on nearest points.
 # References

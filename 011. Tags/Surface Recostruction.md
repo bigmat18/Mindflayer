@@ -6,5 +6,5 @@
 - [[VCG Recostruction]]
 - [[Metaballs]]
 - [[Radial Basis Functions (RBF)]]
-- [[Moving Least Square Recostruction]]
-- [[Poisson Surface Recostruction]]
+- [[Moving Least Square Reconstruction]]
+- [[Poisson Surface Reconstruction]]

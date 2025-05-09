@@ -36,7 +36,7 @@ All configurations are $2⁸ = 256$ but only 14 considering rotations, mirroring
 
 Marching cubes computes intersection points on the edge of a regular grid only, which causes **sharp edges** or **corners**. 
 ###### Pros
-- Quite easy to implement
+- Quite easy to implement and easy to [[Introduction to parallel and distributed systems|parallelize]]
 - Fast and not memory consuming
 - Very robust
 ###### Cons

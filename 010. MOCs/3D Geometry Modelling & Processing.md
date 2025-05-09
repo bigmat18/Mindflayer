@@ -23,7 +23,8 @@ tags:
 
 ![[Surface Parametrization]]
 
-[[Ransac and ICP]]
+- [[RANSAC Random Sample Consensus]]
+- [[ICP Iterative Closest Point]]
 
 [[Smoothing]]
 # Resources

@@ -1,0 +1,7 @@
+- [[Concept Learning]]
+- [[Modelli Lineari]]
+- [[Alberi Decisionali]]
+- [[Validation]]
+- [[SVM]]
+- [[K-nn]]
+- [[K-means]]

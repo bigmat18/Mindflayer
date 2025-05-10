@@ -1,4 +1,6 @@
-```dataview
-LIST 
-FROM [[Graph algorithms]]
-```
+- [[Distance vector algorithm]]
+- [[Link-state algorithm (LSP)]]
+- [[Ricerca in ampiezza (BF)]]
+- [[Ricerca in profondità (DF)]]
+- [[Ricerca di costo uniforme (UC)]]
+- [[Ricerca con approfondimento iterativo (ID)]]

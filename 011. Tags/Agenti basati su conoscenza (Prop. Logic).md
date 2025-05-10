@@ -1,0 +1,2 @@
+- [[Calcolo Proposizionale]]
+- [[Logica di Primo Ordine (FOL)]]

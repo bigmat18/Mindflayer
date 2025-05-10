@@ -1,10 +1,10 @@
 **Data time:** 14:53 - 08-04-2025
 
-**Status**: #note #youngling 
+**Status**: #note #master 
 
-**Tags:** [[Basi di Dati]]
+**Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Aspetto logico
 
 *Definizione*: Un **modello dei dati** è un insieme di meccanismi di astrazione per descrivere la struttura delle conoscenza concreta.
@@ -14,7 +14,7 @@
 Useremo come notazione grafica una variante dei cosi detti diagrammi ad oggetti o diagrammi ER (Entità-Relazione)
 
 Nozioni fondamentali:
-- Oggetti, Tipo di oggetto, classe
+- [[Diagramma degli Oggetti|Oggetti]], Tipo di oggetto, [[Diagramma delle Classi|classe]]
 - Ereditarietò, Gerarchia tra tipi, Gerarchia fra classi.
 
 ![[Screenshot 2023-11-21 at 13.01.58.png]]
@@ -40,7 +40,7 @@ Ogni proprietà ha associato un dominio, ovvero l’insieme dei possibili valori
 
 ![[Screenshot 2023-11-21 at 13.11.04.png]]
 
-## Gli oggetti
+## Gli [[Diagramma degli Oggetti|oggetti]]
 Ad ogni entità del dominio corrisponde un oggetto del modello.
 
 *Definizione*: un’entità software con stato, comportamento e identità, che modella un’entità dell’universo:
@@ -49,7 +49,7 @@ Ad ogni entità del dominio corrisponde un oggetto del modello.
 
 Un oggetto può rispondere a dei messaggi, restituendo valori memorizzati nello stato o calcolati con una procedura locale.
 
-*Definizione*: una **classe** è un insieme di oggetti dello stesso tipo, modificabile con operatori per includere o estrarre elementi dall'insieme.
+*Definizione*: una **[[Diagramma delle Classi|classe]]** è un insieme di oggetti dello stesso tipo, modificabile con operatori per includere o estrarre elementi dall'insieme.
 
 ![[Screenshot 2023-11-21 at 13.13.22.png]]
 

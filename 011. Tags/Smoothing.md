@@ -1,0 +1,3 @@
+- [[Introduction to Smoothing]]
+- [[Laplacian Smooth]]
+- [[Toubin Smoothing]]

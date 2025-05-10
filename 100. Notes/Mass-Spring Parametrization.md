@@ -51,7 +51,7 @@ For this reasons there are different approach to found weights to express a vert
 ###### Watchpress coordinates
 $$w_{ij} = \frac{\cot \alpha_{ji} + \cot{\beta_{ij}}}{r_{ij}²}$$**[[Harmonic Parametrization|Discrete harmonic coordinates]]**
 $$w_{ij} = \cot{\gamma_{ij}} + \cot{\gamma_{ji}}$$
-This maintain the proportions during parametrizations
+This maintain the proportions during parametrizzazione
 ###### Mean value coordinates
 $$w_{ij} = \frac{\tan{\frac{\alpha_{ij}}{2}} + \tan{\frac{\beta_{ji}}{2}}}{r_{ij}}$$
 ![[Pasted image 20250413170420.png | 200]]

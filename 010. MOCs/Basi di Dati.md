@@ -8,13 +8,13 @@ Area: "[[Bachelor's Degree]]"
 
 [[Introduzione Basi di Dati]]
 
-[[Progettazione Basi di Dati]]
+![[Progettazione Basi di Dati]]
 
-[[Modello Relazionale]]
+![[Modello Relazionale]]
 
-[[Algebra Relazionale]]
+![[Algebra Relazionale]]
 
-[[Normalizzazione]]
+![[Normalizzazione]]
 
-[[DBMS]]
+![[DBMS]]
 # Resources

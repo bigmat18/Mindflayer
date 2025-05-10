@@ -1,0 +1,7 @@
+- [[Introduzione Normalizzazione]]
+- [[Dipendenze Funzionali]]
+- [[Derivazione]]
+- [[Chiusura di un Insieme F]]
+- [[Copertura Canonica]]
+- [[Decomposizione di schemi]]
+- [[Forme normali]]

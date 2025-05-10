@@ -1,10 +1,10 @@
 **Data time:** 14:54 - 08-04-2025
 
-**Status**: #note #youngling 
+**Status**: #note #master 
 
-**Tags:** 
+**Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: 
+**Area**: [[Bachelor's Degree]]
 # Analisi dei requisiti
 
 ### Documentazione descrittiva

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af8720620bd19436",
+        "id": "351ceb6dccccc0b8",
         "type": "tabs",
         "children": [
           {
-            "id": "02c476fef150c2f8",
+            "id": "c72d9447737f85f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/ICP Iterative Closest Point.md",
+                "file": "010. MOCs/Introduction to Artificial Intelligence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ICP Iterative Closest Point"
+              "title": "Introduction to Artificial Intelligence"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,44 +180,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02c476fef150c2f8",
+  "active": "c72d9447737f85f5",
   "lastOpenFiles": [
-    "100. Notes/Range Maps.md",
-    "100. Notes/ICP Iterative Closest Point.md",
-    "100. Notes/RANSAC Random Sample Consensus.md",
-    "100. Notes/Mesh Zippering.md",
-    "010. MOCs/3D Geometry Modelling & Processing.md",
-    "101. Utils/Images/Pasted image 20250509182913.png",
-    "010. MOCs/Software Engineering.md",
-    "100. Notes/Progettazione dei Test.md",
-    "100. Notes/Criteri White-Box.md",
-    "100. Notes/Criterio con Copertura dei Comandi.md",
-    "100. Notes/Oracolo e Individuazione Output Attesi.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "101. Utils/Images/Pasted image 20250509182219.png",
-    "101. Utils/Images/Pasted image 20250509180854.png",
-    "101. Utils/Images/Pasted image 20250509180702.png",
-    "101. Utils/Images/Pasted image 20250509180516.png",
-    "101. Utils/Images/Pasted image 20250509175946.png",
-    "100. Notes/Variabili Aleatorie Notevoli.md",
-    "101. Utils/Images/Pasted image 20250509174857.png",
-    "101. Utils/Images/Pasted image 20250509174847.png",
-    "101. Utils/Images/Pasted image 20250509172117.png",
-    "101. Utils/Images/Pasted image 20250509170743.png",
-    "100. Notes/Introduction to Surface Reconstruction.md",
-    "100. Notes/Ransac and ICP.md",
-    "011. Tags/Ransac and ICP.md",
-    "100. Notes/Poisson Surface Reconstruction.md",
-    "100. Notes/Marching cubes.md",
-    "100. Notes/Introduction to parallel and distributed systems.md",
-    "100. Notes/Moving Least Square Reconstruction.md",
-    "011. Tags/Surface Recostruction.md",
-    "011. Tags/Variabili Aleatore.md",
-    "010. MOCs/Networks and Laboratory III.md",
+    "100. Notes/Ricerche con euristiche.md",
+    "010. MOCs/Introduction to Artificial Intelligence.md",
+    "100. Notes/Calcolo Proposizionale.md",
+    "100. Notes/Strategie non informative.md",
+    "011. Tags/Graph Algorithms.md",
+    "100. Notes/Ricerca di costo uniforme (UC).md",
+    "100. Notes/Ricerca con approfondimento iterativo (ID).md",
+    "100. Notes/Ricerca in profondità (DF).md",
+    "100. Notes/Ricerca in ampiezza (BF).md",
+    "101. Utils/Documents/IIA-Appunti.pdf",
+    "101. Utils/Documents/Untitled",
+    "011. Tags/Agenti basati su conoscenza (Prop. Logic).md",
+    "101. Utils/Images/2025-03-21_12-58.png",
+    "101. Utils/Images/Screenshot 2024-05-22 at 20.50.41.png",
+    "101. Utils/Images/Screenshot 2024-05-22 at 20.01.31.png",
+    "101. Utils/Images/Screenshot 2024-05-18 at 21.37.17.png",
+    "101. Utils/Images/Screenshot 2024-05-18 at 21.17.20.png",
+    "101. Utils/Images/Screenshot 2024-05-17 at 18.03.57.png",
+    "100. Notes/K-means.md",
+    "100. Notes/K-nn.md",
+    "100. Notes/SVM.md",
+    "100. Notes/Validation.md",
+    "100. Notes/Alberi Decisionali.md",
+    "100. Notes/Modelli Lineari.md",
+    "100. Notes/Concept Learning.md",
+    "100. Notes/Logica di Primo Ordine (FOL).md",
+    "100. Notes/Ricerca locale.md",
+    "000. Areas/Bachelor's Degree.md",
+    "000. Areas/Master's degree.md",
+    "011. Tags/Agenti che apprendono (ML).md",
+    "011. Tags/Agenti Risolutori di problemi (Finging Algorithm).md",
     "010. MOCs/Basi di Dati.md",
-    "011. Tags/Architettura del software.md",
-    "011. Tags/Campioni di Variabili Aleatorie.md",
-    "011. Tags/Classifying Parallel Architectures.md",
+    "100. Notes/Transazioni.md",
+    "101. Utils/Images/Pasted image 20250510154900.png",
+    "101. Utils/Images/Pasted image 20250510154152.png",
+    "101. Utils/Images/Pasted image 20250510154057.png",
+    "101. Utils/Images/Pasted image 20250510151559.png",
     "Untitled.canvas"
   ]
 }

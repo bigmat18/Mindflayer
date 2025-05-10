@@ -33,6 +33,6 @@ tags:
 - [[Networks and Laboratory III]] (9 cfu)
 - (FC) Cryptography (6 cfu)
 ### Second Semester
-- Introduction to IA (6 cfu)
-- (FC) Cloud Computing (6 cfu)
+- [[Introduction to Artificial Intelligence]] (6 cfu)
+- (FC) [[Cloud Computing]] (6 cfu)
 - (FC) Physics (6 cfu)

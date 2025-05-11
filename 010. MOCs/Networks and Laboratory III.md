@@ -9,7 +9,7 @@ Area: "[[Bachelor's Degree]]"
 ## Network
 
 - [[Commutation]]
-- [[Metrics]]
+- [[Networks Metrics]]
 - [[Networks structure]]
 - [[Peer-to-Peer]]
 - [[Stratified models]]

@@ -12,7 +12,7 @@ La memoria di un sistema di calcolo è organizzata in una gerarchia. Al livello 
 
 ![[Screenshot 2023-12-08 at 15.40.11.png | 400]]
 **Prestazioni di una memoria**: dato un indirizzo di memoria, le prestazioni si misurano in termini di tempo di accesso, determinato dalla somma della:
-- latenza (tempo necessario per accedere al primo byte)
+- [[Parallelization methodology and metrics|latenza]] (tempo necessario per accedere al primo byte)
 - e del tempo di trasferimento (tempo necessario per muovere i dati)
 $$Tempo \:\: di \:\: accesso = latenza + \large\frac{dimensioni \:\: dati \: da \:\: trasferire}{velocità \:\: di \:\: trasferimento}$$
 Un DB, a causa della sua dimensione, risiede normalmente su dischi (ed eventualmente anche su altri tipi di dispositivi). I dati devono essere trasferiti in memoria centrale per essere elaborati dal DBMS.

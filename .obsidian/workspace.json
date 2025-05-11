@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "351ceb6dccccc0b8",
+        "id": "a640eaa48c02b4a8",
         "type": "tabs",
         "children": [
           {
-            "id": "c72d9447737f85f5",
+            "id": "dbd62ad5bd0f80b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010. MOCs/Introduction to Artificial Intelligence.md",
+                "file": "100. Notes/Zero-Copy Implementation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction to Artificial Intelligence"
+              "title": "Zero-Copy Implementation"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "geodesi",
+                "query": "Von Neumann",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,45 +180,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c72d9447737f85f5",
+  "active": "dbd62ad5bd0f80b2",
   "lastOpenFiles": [
-    "100. Notes/Ricerche con euristiche.md",
-    "010. MOCs/Introduction to Artificial Intelligence.md",
-    "100. Notes/Calcolo Proposizionale.md",
-    "100. Notes/Strategie non informative.md",
-    "011. Tags/Graph Algorithms.md",
-    "100. Notes/Ricerca di costo uniforme (UC).md",
-    "100. Notes/Ricerca con approfondimento iterativo (ID).md",
-    "100. Notes/Ricerca in profondità (DF).md",
-    "100. Notes/Ricerca in ampiezza (BF).md",
+    "100. Notes/Basics of Message Passing.md",
+    "100. Notes/Channels in Message Passing.md",
+    "100. Notes/Zero-Copy Implementation.md",
+    "101. Utils/Images/Pasted image 20250511233443.png",
+    "101. Utils/Images/Pasted image 20250511232932.png",
+    "101. Utils/Images/Pasted image 20250511232141.png",
+    "101. Utils/Images/Pasted image 20250511231014.png",
+    "101. Utils/Images/Pasted image 20250511230849.png",
+    "MP I/MP IO Non-Deterministic.md",
+    "101. Utils/Images/Pasted image 20250511225858.png",
+    "101. Utils/Images/Pasted image 20250511225449.png",
+    "101. Utils/Images/Pasted image 20250511225146.png",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/Metodo statistico.md",
+    "100. Notes/Theta-join e equi-join.md",
+    "100. Notes/ICMP - Internet Control Message Protocol.md",
+    "100. Notes/Stima parametrica.md",
+    "100. Notes/Z-Test.md",
+    "100. Notes/Verifica con Ispection.md",
+    "100. Notes/Intervalli di fiducia media campione Gaussinano.md",
+    "100. Notes/Implicit representations.md",
+    "100. Notes/Singleton.md",
+    "101. Utils/Images/Pasted image 20250511224350.png",
+    "101. Utils/Images/Pasted image 20250511223910.png",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "MP I",
+    "100. Notes/Distributed Memory Architectures.md",
+    "100. Notes/Shared Memory Architectures.md",
+    "100. Notes/NUMA - Non Uniform Memory Access.md",
+    "011. Tags/Stream Parallelism.md",
+    "100. Notes/Parallelization methodology and metrics.md",
+    "100. Notes/Roofline model.md",
+    "100. Notes/Viste strutturale.md",
+    "100. Notes/Z-Test unilaterale.md",
+    "100. Notes/Xiaolin Wu's line algorithm.md",
+    "100. Notes/Von Neumann Bottleneck.md",
     "101. Utils/Documents/IIA-Appunti.pdf",
     "101. Utils/Documents/Untitled",
-    "011. Tags/Agenti basati su conoscenza (Prop. Logic).md",
-    "101. Utils/Images/2025-03-21_12-58.png",
-    "101. Utils/Images/Screenshot 2024-05-22 at 20.50.41.png",
-    "101. Utils/Images/Screenshot 2024-05-22 at 20.01.31.png",
-    "101. Utils/Images/Screenshot 2024-05-18 at 21.37.17.png",
-    "101. Utils/Images/Screenshot 2024-05-18 at 21.17.20.png",
-    "101. Utils/Images/Screenshot 2024-05-17 at 18.03.57.png",
-    "100. Notes/K-means.md",
-    "100. Notes/K-nn.md",
-    "100. Notes/SVM.md",
-    "100. Notes/Validation.md",
-    "100. Notes/Alberi Decisionali.md",
-    "100. Notes/Modelli Lineari.md",
-    "100. Notes/Concept Learning.md",
-    "100. Notes/Logica di Primo Ordine (FOL).md",
-    "100. Notes/Ricerca locale.md",
-    "000. Areas/Bachelor's Degree.md",
-    "000. Areas/Master's degree.md",
-    "011. Tags/Agenti che apprendono (ML).md",
-    "011. Tags/Agenti Risolutori di problemi (Finging Algorithm).md",
-    "010. MOCs/Basi di Dati.md",
-    "100. Notes/Transazioni.md",
-    "101. Utils/Images/Pasted image 20250510154900.png",
-    "101. Utils/Images/Pasted image 20250510154152.png",
-    "101. Utils/Images/Pasted image 20250510154057.png",
-    "101. Utils/Images/Pasted image 20250510151559.png",
     "Untitled.canvas"
   ]
 }

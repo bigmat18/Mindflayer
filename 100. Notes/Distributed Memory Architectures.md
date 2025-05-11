@@ -7,7 +7,7 @@
 **Area**: [[Master's degree]]
 # Distributed Memory Architectures
 
-**Distributed Memory (DM)** systems are inherently NUMA:
+**Distributed Memory (DM)** systems are inherently [[NUMA - Non Uniform Memory Access|NUMA]]:
 - each processor has its private memory (local memory), it can be an SPM or a NUMA multiprocessor.
 - The address space of distinct nodes is disjoint. However, ccNUMA and COME-like multicomputers were also built in the past as both commercial products and research prototypes (example is SGI Origin 2000 series and MIT Alewife).
 - Processors communicate via explicit messages through the network. We are nterested in sytems with **high-performance network topologies** and **homogeneous nodes**. Some examples are Mesh, Fat Tree, Dragonfly.

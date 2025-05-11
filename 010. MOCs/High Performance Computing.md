@@ -6,6 +6,14 @@ Area: "[[Master's degree]]"
 ---
 # Table of contents
 
+![[Introduction to HPC]]
+
+![[Stream Parallelism]]
+
+[[Data Parallelism]]
+
+[[Shared Memory Systems]]
+
 # Resources
 
 - [High performance computing book](https://www.amazon.it/performance-computing-Parallel-processing-architectures/dp/8867413724/ref=sr_1_1?crid=11Y163TD2AUXJ&dib=eyJ2IjoiMSJ9.10kfLn3TKy1UtU5pAFniQjvUeVffW16gso0W9gT3xewuhVHPgVT1I9TpffAXWJu97d4jKsP_uoRDHMWIcHxnOws2poOgjnd5isJFpvkvRueZ7oBqBVUEQ75dBIiZC80_pAYw_jpk_27VteP1jq4uQWY-7_OKocfW_J__a31HEbf_huAurGuKMjBkLwSF3HEhcktA28yk5ZapPGbNL6091Jo4tkf-p7hkZUy8W-pC2ZnPcurXzVoUyFxMmv6rBzzl38E4EfMFJptMm7pU6U5qNFZV-Ahwq4v3cY2FyYZP-DE.CfMOYPt5qBwGvKCqWrDtTZWivfK2RZVedwDaTbCVYv4&dib_tag=se&keywords=high+performance+computing&qid=1727000539&sprefix=high+per%2Caps%2C135&sr=8-1)

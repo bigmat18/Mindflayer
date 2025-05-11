@@ -19,7 +19,7 @@ tags:
 
 - (EC) Machine learning (9 cfu)
 - (EC) Algorithm engineering (9 cfu)
-- (FC) [[High performance computing|High performance computing]] (9 cfu)
+- (FC) [[High Performance Computing|High Performance Computing]] (9 cfu)
 - (EC) [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
 #### Semester 2
 

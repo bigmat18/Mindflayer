@@ -163,7 +163,7 @@ Meccanismo di controllo congestione network-assisted
 3. Destinazione importa bit ECE per notificare la congestione al mittente
 4. Mittente setta bit CWR per indicare che ha ricevuto la notifica di congestione
 
-### [[Metrics|Troughput]]
+### [[Networks Metrics|Troughput]]
 $$Throughput = \frac{0.75 \cdot W}{RTT}$$
 - W valore massimo in byte della finestra
 - Quando la è finestra è W il throuhput è W/RTT

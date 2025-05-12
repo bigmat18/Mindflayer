@@ -3,7 +3,7 @@
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
 **Area**: [[Master's degree]]
-# Inter Time
+# Inter Calculation Time
 
 #### Inter-Arrival Time (Definition)
 the **inter-arrival time** $T_{A-Q}$ to process Q is the average time interval between the arrival of two consecutive stream items from P

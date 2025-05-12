@@ -1,6 +1,6 @@
 - [[Networks Metrics]]
 - [[Ideal Service Time]]
-- [[Inter Time]]
+- [[Inter Calculation Time]]
 - [[Utilization Factor]]
 - [[Optimal Parallelism Degree]]
 - [[Processing Bandwidth]]

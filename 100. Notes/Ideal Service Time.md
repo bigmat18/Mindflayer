@@ -9,7 +9,7 @@
 
 We define the **ideal service time** of process Q, denoted by $T_{id-Q}$, as the average time interval between the beginning of the processing of two consecutive stream items. It is composed of two components:
 - **Average Calculation Time** to process a generic input $T_{calc-Q}$
-- **[[Inter Time|Inter-Process]] Communication** $L_{com}$ to send the result onto the output stream
+- **[[Inter Calculation Time|Inter-Process]] Communication** $L_{com}$ to send the result onto the output stream
 
 The complete formula is:
 $$T_{id-Q} = T_{calc-Q} + L_{com}\:\:\:\:\:T_{calc-Q}= T_{calc-0} + T_{miss}$$

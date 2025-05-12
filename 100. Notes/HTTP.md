@@ -38,7 +38,7 @@ Viene stabilita una connessione TCP separata per recuperare ciascun URL
 Se non diversamente indicato il client può assumere che il server manterrà una connessione persistente
 - Stessa connessione utilizzata per una serie di richieste/risposte
 - Il server chiude al connessione quando viene specificato nell'header del messaggio, o quando non riceve richieste per un certo tempo.
-###### Pipelining
+###### [[Pipeline|Pipelining]]
 - Il client invia molteplici richieste senza aspettare risposte (metodi HTTP indipendenti)
 - Il server invia risposte nello stesso ordine in cui riceve richieste
 - Migliora prestazioni

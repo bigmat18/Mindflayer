@@ -5,8 +5,9 @@
 **Area**: [[Master's degree]]
 # Utilization Factor
 
-The utilization factor of a process Q is defined as $\rho_{Q} = T_{id-Q}/T_{A-Q}$ Two cases
+The utilization factor of a process Q is defined as $\rho_{Q} = T_{id-Q}/T_{A-Q}$. That is the [[Ideal Service Time]] and the [[Inter Calculation Time|inter arrival time]]. Two cases:
 - **Bottleneck**: $\rho > 1$
 - **Non-bottleneck**: $\rho \leq 1$
+
 If Utilization Factor is too less of 1 is bad because there is a wasted resourced.
 # References

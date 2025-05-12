@@ -9,7 +9,7 @@
 ### Strong Scalability
 Scalability can also call **strong scalability**. It is a metric representing how much the parallel version is faster than sequential one. It is computed is the following way:
 $$S(n) = T_{C-\Sigma}(1)/T_{C-\Sigma}(n)$$
-It can also computed using the [[Inter Time|inter-departure time]] or [[Processing Bandwidth|bandwidth]]. We compute the execution time with parallelism 1 against the execution time with parallelism n by keeping the problem size fixed.
+It can also computed using the [[Inter Calculation Time|inter-departure time]] or [[Processing Bandwidth|bandwidth]]. We compute the execution time with parallelism 1 against the execution time with parallelism n by keeping the problem size fixed.
 ##### Amdahl's Law
 The Amdahl's law is one of the reason why scalability might not be ideal. T is the execution time, 1-P is the serial fraction.
 

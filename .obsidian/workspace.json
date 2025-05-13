@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a640eaa48c02b4a8",
+        "id": "87d5188b0305b0b2",
         "type": "tabs",
         "children": [
           {
-            "id": "dbd62ad5bd0f80b2",
+            "id": "cba09f4373365da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Farm.md",
+                "file": "100. Notes/Dataflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Farm"
+              "title": "Dataflow"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stateless",
+                "query": "master-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,44 +180,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dbd62ad5bd0f80b2",
+  "active": "cba09f4373365da2",
   "lastOpenFiles": [
-    "010. MOCs/High Performance Computing.md",
+    "101. Utils/Images/Pasted image 20250513020456.png",
+    "101. Utils/Images/Pasted image 20250513015936.png",
+    "101. Utils/Images/Pasted image 20250513015733.png",
+    "101. Utils/Images/Pasted image 20250513014532.png",
+    "100. Notes/Dataflow.md",
+    "100. Notes/Bernstein Conditions.md",
+    "101. Utils/Images/Pasted image 20250513014057.png",
+    "101. Utils/Images/Pasted image 20250513013525.png",
+    "101. Utils/Images/Pasted image 20250513013359.png",
+    "101. Utils/Images/Pasted image 20250513012813.png",
+    "101. Utils/Images/Pasted image 20250513012447.png",
+    "101. Utils/Images/Pasted image 20250513011606.png",
+    "101. Utils/Images/Pasted image 20250513010246.png",
+    "011. Tags/Stream Parallelism.md",
+    "100. Notes/Unpack-Compute-Pack Pattern.md",
     "100. Notes/Farm.md",
+    "100. Notes/Relative Efficiency.md",
+    "100. Notes/Pure fabrication.md",
+    "100. Notes/Progettazione logica.md",
+    "100. Notes/Radial Basis Functions (RBF).md",
+    "100. Notes/Ricerca in ampiezza (BF).md",
+    "100. Notes/SMTP.md",
+    "100. Notes/Parallelization methodology and metrics.md",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/Vista comportamentale.md",
     "100. Notes/Pipeline.md",
-    "101. Utils/Images/Pasted image 20250512134342.png",
-    "101. Utils/Images/Pasted image 20250512133312.png",
     "100. Notes/HTTP.md",
     "011. Tags/ISO-OSI Application layer.md",
     "100. Notes/Introduction to application layer.md",
-    "101. Utils/Images/Pasted image 20250512132339.png",
     "100. Notes/Criteri White-Box.md",
     "100. Notes/Optimal Parallelism Degree.md",
-    "101. Utils/Images/Pasted image 20250512131842.png",
     "100. Notes/Utilization Factor.md",
     "100. Notes/Introduction to HPC.md",
-    "100. Notes/Parallelization methodology and metrics.md",
     "100. Notes/Inter Calculation Time.md",
-    "101. Utils/Images/Pasted image 20250512131157.png",
     "100. Notes/Bottleneck Parallelization.md",
-    "101. Utils/Images/Pasted image 20250512124635.png",
     "100. Notes/MP IO Non-Deterministic.md",
-    "100. Notes/Basics of Message Passing.md",
-    "101. Utils/Images/Pasted image 20250512124447.png",
-    "101. Utils/Images/Pasted image 20250512124258.png",
-    "101. Utils/Images/Pasted image 20250512123821.png",
-    "100. Notes/Ideal Service Time.md",
-    "100. Notes/Completion Time.md",
-    "100. Notes/Roofline model.md",
-    "100. Notes/Scalability.md",
-    "100. Notes/Relative Efficiency.md",
-    "100. Notes/Communication Latency.md",
-    "101. Utils/Images/Pasted image 20250512121728.png",
-    "100. Notes/Zero-Copy Implementation.md",
-    "100. Notes/Level-based view for parallel computing.md",
-    "100. Notes/Channels in Message Passing.md",
-    "100. Notes/Metodo statistico.md",
-    "100. Notes/Theta-join e equi-join.md",
     "MP I",
     "101. Utils/Documents/IIA-Appunti.pdf",
     "101. Utils/Documents/Untitled",

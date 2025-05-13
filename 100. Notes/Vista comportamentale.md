@@ -42,7 +42,7 @@ Nella vista C&C uno stile architetturale è caratterizzato da:
 - caratteristiche generali delle componenti in gioco.
 - particolari interazioni tra le componenti, e quindi dalle caratteristiche dei porti e dei connettori.
 Vedremo gli stili di uso comune con le loro caratteristiche ed un modo per documentarli.
-### Pipe e filtri
+### [[Pipeline|Pipe]] e filtri
 - COMPONENTI: sono di tipo filtro: trasformano uno o più flussi di dati dai porti d’ingresso in uno o più flussi sui porti d’uscita.
 - CONNETTORI: sono di tipo condotta (pipe): canale di comunicazione unidirezionale bufferizzato che preserva l’ordine dei datI dal ruolo d’ingresso a quello d’uscita.
 - USI: pre-elaborazione in sistemi di elaborazione di segnali ◦ analisi dei flussi dei dati, e.g. dimensioni dei buffer.
@@ -57,7 +57,7 @@ Vedremo gli stili di uso comune con le loro caratteristiche ed un modo per docum
 
 Esempio della composizione Split (push vs pull)
 ![[Screenshot 2023-10-25 at 10.55.47.png]]
-### Stile client-server
+### Stile [[ISO-OSI Application layer|client-server]]
 Il sistema è formato da due componenti: il client ed il server. Spesso, ma non necessariamente, eseguiti su macchine diverse collegate in rete.
 ![[Screenshot 2023-11-05 at 20.29.51.png]]
 
@@ -68,7 +68,7 @@ Per realizzare un architettura client server bisogna lato server: uno (o più) t
 Quando riceve una richiesta, il server la elabora e invia una risposta al client. I server possono essere ulteriormente classificati come statelesi o stateful. 
 I client di un server stateful possono fare richieste composite che consistono in più richieste atomiche. Ciò consente un’interazione più colloquiale o transizione tra client e server. A tal fine, un server stateful conserva un record delle richieste di ciascun client corrente. Questo record è chiamato sessione.
 
-### Stile master-slave
+### Stile [[Farm|master-slave]]
 Un caso particolare del client-server, ma risponde a esigenze diverse.
 
 ![[Screenshot 2023-11-05 at 20.33.18.png]]

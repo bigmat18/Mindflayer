@@ -1,7 +1,7 @@
 - [[Basics of Message Passing]]
 - [[Pipeline]]
 - [[Farm]]
-- [[Stream-Equivalent Computations]]
+- [[Unpack-Compute-Pack Pattern]]
 - [[Dataflow]]
 - [[Acyclic Computation Graphs]]
 - [[Cyclic Computation Graphs]]

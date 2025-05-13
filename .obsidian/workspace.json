@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Dataflow.md",
+                "file": "011. Tags/Stream Parallelism.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dataflow"
+              "title": "Stream Parallelism"
             }
           }
         ]
@@ -182,20 +182,22 @@
   },
   "active": "cba09f4373365da2",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250513020456.png",
-    "101. Utils/Images/Pasted image 20250513015936.png",
-    "101. Utils/Images/Pasted image 20250513015733.png",
-    "101. Utils/Images/Pasted image 20250513014532.png",
     "100. Notes/Dataflow.md",
-    "100. Notes/Bernstein Conditions.md",
-    "101. Utils/Images/Pasted image 20250513014057.png",
-    "101. Utils/Images/Pasted image 20250513013525.png",
-    "101. Utils/Images/Pasted image 20250513013359.png",
-    "101. Utils/Images/Pasted image 20250513012813.png",
-    "101. Utils/Images/Pasted image 20250513012447.png",
-    "101. Utils/Images/Pasted image 20250513011606.png",
-    "101. Utils/Images/Pasted image 20250513010246.png",
     "011. Tags/Stream Parallelism.md",
+    "100. Notes/Acyclic Computation Graphs.md",
+    "101. Utils/Images/Pasted image 20250513151452.png",
+    "101. Utils/Images/Pasted image 20250513151227.png",
+    "101. Utils/Images/Pasted image 20250513151225.png",
+    "101. Utils/Images/Pasted image 20250513151147.png",
+    "101. Utils/Images/Pasted image 20250513151130.png",
+    "101. Utils/Images/Pasted image 20250513151029.png",
+    "101. Utils/Images/Pasted image 20250513150933.png",
+    "101. Utils/Images/Pasted image 20250513150857.png",
+    "101. Utils/Images/Pasted image 20250513150228.png",
+    "101. Utils/Images/Pasted image 20250513145908.png",
+    "100. Notes/Bottleneck Parallelization.md",
+    "100. Notes/Cyclic Computation Graphs.md",
+    "100. Notes/Bernstein Conditions.md",
     "100. Notes/Unpack-Compute-Pack Pattern.md",
     "100. Notes/Farm.md",
     "100. Notes/Relative Efficiency.md",
@@ -215,9 +217,6 @@
     "100. Notes/Optimal Parallelism Degree.md",
     "100. Notes/Utilization Factor.md",
     "100. Notes/Introduction to HPC.md",
-    "100. Notes/Inter Calculation Time.md",
-    "100. Notes/Bottleneck Parallelization.md",
-    "100. Notes/MP IO Non-Deterministic.md",
     "MP I",
     "101. Utils/Documents/IIA-Appunti.pdf",
     "101. Utils/Documents/Untitled",

@@ -114,7 +114,7 @@ Si usa per autenticazione, ricordare scelte precedenti, creare sessioni.
 #### 1. Multiplexing delle richieste su una connessione [[TCP]]
 ###### Frame 
 Unità di comunicazione in HTTP/2, una sequenza di frame costituisce messaggio HTTP
-###### Stream
+###### [[Channels in Message Passing|Stream]]
 Un flusso bidirezionale di frame all'interno di un'unica connessione TCP, rappresenta una comunicazione richiesta-risposta. 
 ###### Multiplexing delle richieste
 Si ottiene mediante l'astrazione degli stream.

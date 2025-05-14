@@ -6,7 +6,7 @@ tags:
 Links: "[[Networks and Laboratory III]]"
 Area:
 ---
-# Java Stream based IO
+# Java [[Channels in Message Passing|Stream based IO]]
 
 ## Caratteristiche generali java stream
 

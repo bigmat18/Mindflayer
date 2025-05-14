@@ -2,10 +2,13 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[Shared Memory Systems]]
+**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[Shared Memory Systems]] [[High Performance Computing]]
 
 **Area**: [[Master's degree]]
 # Shared Memory Architectures
+They are composed of one or more multi-core CPUs each one including one or more Processing Elements (PEs or cores). There is one single physical memory space accessible by all the PEs. It can be equipped with one or more hw accelerators (e.g., GPUs) visible as powerful I/O unit
+
+![[Pasted image 20250514235325.png]]
 
 The **Shared-Memory (SHM)** systems can be classified as:
 ##### Uniform (SMP - Symmetric Multiprocessor)

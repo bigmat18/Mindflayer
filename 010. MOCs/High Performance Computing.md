@@ -12,7 +12,7 @@ Area: "[[Master's degree]]"
 
 ![[Data Parallelism]]
 
-[[Shared Memory Systems]]
+![[Shared Memory Systems]]
 
 # Resources
 

@@ -2,9 +2,9 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
+**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] 
 
-**Area**: 
+**Area**: [[Master's degree]]
 # Memory Organization
 
 This model classify system on the memory system. Here we implicitly refer to [[MIMD (Multiple Instruction, Multiple Data) |MIMD]] parallel architectures. Considering the **memory system**, we have:

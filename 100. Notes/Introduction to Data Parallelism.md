@@ -21,5 +21,5 @@ One of the challenging aspects to apply data parallelism is its inherent **compl
 
 ![[Pasted image 20250514014111.png | 500]]
 
-
+One of the main characteristic of data parallel is **data partitiong** and **function replication**
 # References

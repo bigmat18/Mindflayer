@@ -2,10 +2,13 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
+**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[High Performance Computing]]
 
 **Area**: [[Master's degree]]
 # Distributed Memory Architectures
+**Processing nodes** are **complete computers** (possibly multi-processors based on multi-core CPUs potentially equipped with hardware accelerators). Each node has its own memory space non-accessible by the other nodes. Cooperation between nodes is possible only via I/O.
+
+![[Pasted image 20250514235214.png]]
 
 **Distributed Memory (DM)** systems are inherently [[NUMA - Non Uniform Memory Access|NUMA]]:
 - each processor has its private memory (local memory), it can be an SPM or a NUMA multiprocessor.
@@ -34,4 +37,11 @@ The primary way to exploit parallelism is through press-level parallesim, which 
 ###### Challenges
 - Hide communication overheads
 - Explicit synchronization via messages
+
+### Distributed Nodes 
+Distributed-memory systems have **nodes** each with a **private physical addressing space**, complete I/O sub-system (with hardware accelerators), and a complete memory hierarchy. The communication point between nodes is the **I/O interface**, which is implemented by a **[[Introduction to link layer|Network Interface Card (NIC)]]**
+
+![[Pasted image 20250514235805.png]]
+
+The current trend assigns ever more runtime support tasks (e.g., message copy via **DMA**) to the NIC, which is often a complex **co-processor** (**smartNICs** like in **Infiniband**)
 # References

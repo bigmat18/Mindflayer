@@ -50,7 +50,7 @@ Modalità classica descritta precedentemente, server apre connessione dati TCP c
 Il client chiede al sever di mettersi in ascolto su una porta per una connessione dati, il numero della porta lo ottiene dal sever e lo usa per aprire la connessione al server
 
 ### Modalità di trasmissione
-###### Stream mode
+###### [[Channels in Message Passing|stream]] mode
 FTP invia i dati a TCP con un flusso continuo di bit
 ###### Block mode
 FTP invia i dati a TCP suddivisi in blocchi. Ogni blocco è preceduto da un header

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31ffb28740732581",
+        "id": "1b06cc68e6222a1d",
         "type": "tabs",
         "children": [
           {
-            "id": "836e96efe3679a49",
+            "id": "9258fc1cb9fd294b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Multicast.md",
+                "file": "100. Notes/Von Neumann Bottleneck.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multicast"
+              "title": "Von Neumann Bottleneck"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gather",
+                "query": "read-after-write",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,12 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.50708389282227
+    "width": 372.50104904174805
   },
   "right": {
     "id": "1d0404518313b128",
@@ -181,44 +180,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "836e96efe3679a49",
+  "active": "9258fc1cb9fd294b",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250514022101.png",
-    "101. Utils/Images/Pasted image 20250514021106.png",
-    "101. Utils/Images/Pasted image 20250514020619.png",
-    "100. Notes/Multicast.md",
-    "101. Utils/Images/Pasted image 20250514015555.png",
-    "011. Tags/Data Parallelism.md",
-    "100. Notes/Gather.md",
-    "100. Notes/Cyclic Computation Graphs.md",
-    "100. Notes/ICMP - Internet Control Message Protocol.md",
-    "100. Notes/UDP.md",
-    "100. Notes/Vista comportamentale.md",
-    "011. Tags/Collective communications.md",
+    "011. Tags/Shared Memory Systems.md",
+    "100. Notes/Shared Memory Architectures.md",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "100. Notes/Flynn's Taxonomy.md",
+    "100. Notes/MISD (Multiple Instruction, Single Data).md",
+    "100. Notes/MIMD (Multiple Instruction, Multiple Data).md",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/Scatter.md",
-    "100. Notes/Introduction to Data Parallelism.md",
-    "101. Utils/Images/Pasted image 20250514014111.png",
-    "101. Utils/Images/Pasted image 20250514013916.png",
-    "101. Utils/Images/Pasted image 20250514013057.png",
-    "101. Utils/Images/Pasted image 20250514013025.png",
-    "101. Utils/Images/Pasted image 20250514012934.png",
-    "101. Utils/Images/Pasted image 20250514012708.png",
-    "101. Utils/Images/Pasted image 20250514012555.png",
+    "100. Notes/Von Neumann Bottleneck.md",
+    "100. Notes/Memory Organization.md",
+    "100. Notes/Distributed Memory Architectures.md",
+    "101. Utils/Images/Pasted image 20250514235805.png",
+    "010. MOCs/Networks and Laboratory III.md",
+    "100. Notes/Introduction to link layer.md",
+    "100. Notes/Interconnection devices.md",
+    "101. Utils/Images/Pasted image 20250514235457.png",
+    "101. Utils/Images/Pasted image 20250514235430.png",
+    "101. Utils/Images/Pasted image 20250514235401.png",
+    "101. Utils/Images/Pasted image 20250514235325.png",
+    "101. Utils/Images/Pasted image 20250514235214.png",
+    "100. Notes/Roofline model.md",
+    "100. Notes/Reduce.md",
+    "101. Utils/Images/Pasted image 20250514232440.png",
+    "101. Utils/Images/Pasted image 20250514232245.png",
+    "101. Utils/Images/Pasted image 20250514231804.png",
+    "101. Utils/Images/Pasted image 20250514231351.png",
+    "100. Notes/Virtual processors approach.md",
+    "100. Notes/Map Parallelization.md",
+    "100. Notes/Stencil-Based programs.md",
+    "100. Notes/Optimal parallelism degree with single inputs.md",
+    "100. Notes/Optimal Parallelism Degree.md",
+    "100. Notes/Inter Calculation Time.md",
+    "000. Areas/Master's degree.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/Surface conversions.md",
-    "100. Notes/Signed distances field.md",
-    "100. Notes/Laplacian Smooth.md",
-    "100. Notes/Toubin Smoothing.md",
     "100. Notes/Remeshing Introduction.md",
-    "011. Tags/Stream Parallelism.md",
-    "100. Notes/Dataflow.md",
-    "100. Notes/Acyclic Computation Graphs.md",
-    "100. Notes/Bottleneck Parallelization.md",
-    "100. Notes/Bernstein Conditions.md",
-    "100. Notes/Unpack-Compute-Pack Pattern.md",
-    "100. Notes/Farm.md",
-    "100. Notes/Relative Efficiency.md",
+    "100. Notes/Greedy Approach (Boundary Error).md",
+    "100. Notes/Heuristics. Incremental methods.md",
     "MP I",
     "101. Utils/Documents/IIA-Appunti.pdf",
     "101. Utils/Documents/Untitled",

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Linear Algebra]]
 
-**Area**: 
+**Area**: [[Master's degree]]
 
 # Signed distances field
 

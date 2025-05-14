@@ -12,7 +12,7 @@
 - Router o host devono informare il mittente di errori o di eventi avvenuti nell'inoltro di un pacchetto IP
 - I pacchetti ICMP sono incapsulati all'interno di datagrammi [[IP - Internal protocol|IP]] e vengono instradati dai router prima dei pacchetti IP
 - Messaggi ICMP non sono mai inviati in risposta a pacchetti IP con mittente che non rappresenta un host in modo univoco (0.0.0.0, 127.0.0.1)
-- Messaggi ICMP non sono mai inviati in risposta a pacchetti IP con destinazione brodcast o multicast
+- Messaggi ICMP non sono mai inviati in risposta a pacchetti IP con destinazione brodcast o [[Multicast]]
 - Messaggi ICMP non sono mai inviati in risposta ad altri errori ICMP, ma inviati per ICMP di interrogazione
 
 ##### Tipi messaggio

@@ -111,7 +111,7 @@ La diffusione può avvenire anche in modo pull:
 	- Pro: migliore scalabilità (minore onere per i broker) e flessibilità (consumatori diversi con esigenze e capacità diverse)
 	- Contro: nel caso in cui i broker non disponga di dati, i consumatori potrebbero essere occupati in attesa dell’arrivo dei dati.
 ### PUBLISH-SUBSCRIBE: middleware
-- Per delle **reti** possono essere comunicazioni multicast con algoritmi di flooding
+- Per delle **reti** possono essere comunicazioni [[Multicast]] con algoritmi di flooding
 - **Advanced Message Queuing Protocolli (AMQP)** è un protocollo che realizza sia comunicazioni punto-a-punto che push-and-subscribe. Un esempio è **RabbitMQ** che è un middleware di messaggistica open-source basato su AMQP. Supporta la pubblicazione e la sottoscrizione di messaggi ed è ampiamente utilizzato per l’implementazione di architetture publish-subscribe.
 - **Message Queuing Telemetry Transport (MQTT)**: MQTT è un protocollo ISO standard di messaggistica leggero, posizionato in cima a TCP/IP.
 - **Apache Kafka:** Kafka è una piattaforma open-source di streaming distribuita che offre supporto per l’elaborazione di eventi in tempo reale e la trasmissione di dati tra applicazioni.

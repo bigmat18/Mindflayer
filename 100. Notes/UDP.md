@@ -46,7 +46,7 @@ Offre un servizio di trasporto a stream, quindi può leggere da un input di rete
 Offre un servizio a messaggi, quindi occorre leggere tutto il messaggio in arrivo. È adeguato nei casi:
 - processi con scambio di dati a volume limitato con basso interesse a controllo e errori
 - processi con meccanismi interni di controllo flusso e errori
-- trasmissioni multicast
+- trasmissioni [[Multicast]]
 - applicazioni in tempo reale
 
 ### Attacco UDP flood

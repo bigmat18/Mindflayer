@@ -10,7 +10,7 @@ Area: "[[Master's degree]]"
 
 ![[Stream Parallelism]]
 
-[[Data Parallelism]]
+![[Data Parallelism]]
 
 [[Shared Memory Systems]]
 

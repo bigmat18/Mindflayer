@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] 
+**Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[High Performance Computing]]
 
 **Area**: [[Master's degree]]
 # Memory Organization

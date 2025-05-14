@@ -57,22 +57,24 @@ Alternatively, worker processes in the map can also be involved in the reduce co
 ### Synchronous Reduce
 Map+Reduce combinations can be based on a different pattern called **synchronus reduce**
 
-**Example**:
+**Example**: where s is an internal state 
 ![[Pasted image 20250514231351.png | 450]]
-This computation is **stateless** and cannot be parallelized correctly with a **farm**. To compute the array $B(i)$ based on the input array $A(i)$ (the i-th output/input arrays), we read the value of $s$ representing the reduce computed at the end of the processing of $A(i-1)$
+This computation is **stateless** and cannot be parallelized correctly with a **farm**. To compute the array $B(i)$ based on the input array $A(i)$ (the i-th output/input arrays), we read the value of $s$ representing the reduce computed at the end of the processing of $A(i-1)$. We have write after read
 ##### First Implementation
 ![[Pasted image 20250514231804.png | 550]]
 
-- Each input array A is scattered to the workers
-- Each worker computes its partition of the array B. Before doing this, it waits for the global reduce result of the previous stream element from R
+- Each input array A is scattered to the workers (worker compute map using s, compute the local reduce result)
+- Each worker computes its partition (local partition on s) of the array B. Before doing this, it waits for the global reduce result of the previous stream element from R
 - Each worker sends the **local reduce result** on its partition of B to R
 - R computes the global reduce results from the n local results received.
+- R return the gobal reduce and each work start to compute its partition of A with function F
 
 ##### Second Implementation
-parallel computation of the global reduce result and parallel multicast. The example in the figure is with 8 workers but the cost model can be generalized for any parallelism degree:
+parallel computation of the global reduce result and parallel [[Multicast]]. The example in the figure is with 8 workers but the cost model can be generalized for any parallelism degree:
 
 ![[Pasted image 20250514232245.png | 650]]
 
+In this case we use classic reduce pattern to calculate s and after we propagate s back and in this process we compute F for each partition of A.
 ##### Stencil+Reduce
 The reduce computation is often used also with **stencil-based programs**. For example, the **5-point stencil kernel** can be executed for several iterations that cannot be know beforehand. The iterations stops when a **global condition** over all the elements of the matrix is achieved.
 

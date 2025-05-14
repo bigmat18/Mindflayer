@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Von Neumann Bottleneck.md",
+                "file": "100. Notes/Reduce.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Von Neumann Bottleneck"
+              "title": "Reduce"
             }
           }
         ]
@@ -182,15 +182,16 @@
   },
   "active": "9258fc1cb9fd294b",
   "lastOpenFiles": [
-    "011. Tags/Shared Memory Systems.md",
+    "010. MOCs/High Performance Computing.md",
     "100. Notes/Shared Memory Architectures.md",
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "011. Tags/Shared Memory Systems.md",
+    "100. Notes/Roofline model.md",
     "100. Notes/Flynn's Taxonomy.md",
+    "100. Notes/Memory Organization.md",
+    "100. Notes/Von Neumann Bottleneck.md",
     "100. Notes/MISD (Multiple Instruction, Single Data).md",
     "100. Notes/MIMD (Multiple Instruction, Multiple Data).md",
-    "010. MOCs/High Performance Computing.md",
-    "100. Notes/Von Neumann Bottleneck.md",
-    "100. Notes/Memory Organization.md",
     "100. Notes/Distributed Memory Architectures.md",
     "101. Utils/Images/Pasted image 20250514235805.png",
     "010. MOCs/Networks and Laboratory III.md",
@@ -201,7 +202,6 @@
     "101. Utils/Images/Pasted image 20250514235401.png",
     "101. Utils/Images/Pasted image 20250514235325.png",
     "101. Utils/Images/Pasted image 20250514235214.png",
-    "100. Notes/Roofline model.md",
     "100. Notes/Reduce.md",
     "101. Utils/Images/Pasted image 20250514232440.png",
     "101. Utils/Images/Pasted image 20250514232245.png",

@@ -1,5 +1,5 @@
 - [[Introduzione DBMS]]
-- [[Gestione Memoria]]
+- [[Gestione Memoria DB]]
 - [[Organizzazione Seriale e Sequenziale]]
 - [[Organizzazione per Chiave]]
 - [[Ordinamento di Archivi]]

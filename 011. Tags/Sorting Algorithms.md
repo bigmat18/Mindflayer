@@ -1,0 +1,8 @@
+- [[Divide et Impera idioma]]
+- [[Merge Sort]]
+- [[Insertion Sort]]
+- [[Selection Sort]]
+- [[Bubble Sort]]
+- [[Linear Sort]]
+- [[Radix Sort]]
+- [[Quick Sort]]

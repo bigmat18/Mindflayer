@@ -7,12 +7,13 @@ tags:
 ## Year 1
 
 ### Fist Semester
-- Foundations of Computing (9 cfu)
+- [[Foundations of Computing]] (9 cfu)
+- [[Calculus 1]] (9 cfu)
 ### Second Semester
-- Calculus (12 cfu)
+- [[Calculus 2]] (3 cfu)
 - [[Linear Algebra]] (6 cfu)
 - Laboratory I (12 cfu)
-- Programming & Algorithms (15 cfu)
+- [[Programming & Algorithms]] (15 cfu)
 ## Year 2
 ### Fist Semester
 - Programming Paradigms (9 cfu)
@@ -20,9 +21,9 @@ tags:
 - Computer Architecture (6 cfu)
 ### Second Semester
 - [[Statistics]] (6 cfu)
-- Numerical Calculation (6 cfu)
+- [[Numerical Calculation]](6 cfu)
 - Laboratory II (12 cfu)
-- Operating Systems (9 cfu)
+- [[Operating Systems]] (9 cfu)
 - (FC) Computer Graphics (6 cfu)
 
 ## Year 3
@@ -35,4 +36,4 @@ tags:
 ### Second Semester
 - [[Introduction to Artificial Intelligence]] (6 cfu)
 - (FC) [[Cloud Computing]] (6 cfu)
-- (FC) Physics (6 cfu)
+- (FC) [[Physics]] (6 cfu)

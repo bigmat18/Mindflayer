@@ -1,0 +1,5 @@
+- [[Fattoriale]]
+- [[Sommatorie]]
+- [[Formula di Taylor]]
+- [[Taylor funzioni elementari]]
+- [[Taylor con i limiti]]

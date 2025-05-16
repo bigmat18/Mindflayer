@@ -22,7 +22,6 @@ tags:
 - (FC) [[High Performance Computing|High Performance Computing]] (9 cfu)
 - (EC) [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
 #### Semester 2
-
 - (MC) ... (6 cfu)
 - (MC) Algorithm design (9 cfu)
 - (MC) Intelligent Systems for pattern recognition (9 cfu)

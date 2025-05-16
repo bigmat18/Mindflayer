@@ -1,0 +1,4 @@
+- [[Funzione concava e convessa]]
+- [[Calcolo convessità]]
+- [[Interpretazione geometrica convessità]]
+- [[Flessi]]

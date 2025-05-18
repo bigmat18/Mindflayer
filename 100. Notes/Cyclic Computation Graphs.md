@@ -44,7 +44,7 @@ The system of equation:
 
 **Self-stabilization behavior**: An increase in the inter-arrival time causes the utilization factor decrease, consequently the server response time decrease by lowering the inter-arrival time itself. ie $T_A \uparrow, \rho \downarrow , W_Q \downarrow, R_Q \downarrow, T_{cl} \downarrow, T_A \downarrow$ 
 
-### Server Parallelization
+### Client-Server Parallelization
 We assume the number of messages (requests) in the server's queue is limited by the number of clients. The main performance parameter is the **effective service time of the clients** which depends:
 - on the clients's behavior
 - mainly depends on the response time of the server

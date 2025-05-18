@@ -11,7 +11,7 @@ They are composed of one or more multi-core CPUs each one including one or more 
 ![[Pasted image 20250514235325.png]]
 
 The **Shared-Memory (SHM)** systems can be classified as:
-##### Uniform (SMP - Symmetric Multiprocessor)
+##### Uniform ([[SMP Symmetric Multi-Processor]])
 - All processors/core have equal access time to memory, same distance to shared memory.
 - This organisation is also called **Uniform Memory Access (UMA)**
 - Example: Single socket Intel Xeon-based system, where all cores share one memory controller

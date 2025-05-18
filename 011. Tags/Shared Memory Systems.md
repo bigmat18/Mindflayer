@@ -1,6 +1,6 @@
 - [[Shared Memory Architectures]]
 - [[Flynn's Taxonomy]]
-- [[Memory Organization]]
+- [[Memory Organization  in Multi-Core]]
 - [[Von Neumann Bottleneck]]
 - [[Processor Technologies]]
 - [[Multicore Technologies]]

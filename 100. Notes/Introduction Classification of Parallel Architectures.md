@@ -18,7 +18,7 @@ Parallelism can be apply at all levels of system design. An important aspects th
 
 ### [[Flynn's Taxonomy]]
 Well-recognized and straightforward, but nowadays not so representative yet instructive.
-### [[Memory Organization]]
+### [[Memory Organization  in Multi-Core]]
 Shared-memory, distributed-memory, hybrid systems
 ### [[Core count & Processing model]]
 CMP, multiprocessors, distributed systems, supercomputers.

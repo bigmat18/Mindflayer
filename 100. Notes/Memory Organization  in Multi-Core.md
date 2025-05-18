@@ -5,7 +5,7 @@
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[High Performance Computing]]
 
 **Area**: [[Master's degree]]
-# Memory Organization
+# Memory Organization in Multi-Core
 
 This model classify system on the memory system. Here we implicitly refer to [[MIMD (Multiple Instruction, Multiple Data) |MIMD]] parallel architectures. Considering the **memory system**, we have:
 

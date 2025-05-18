@@ -14,7 +14,12 @@ Multi-socket server architectures and also single-socket (also called **chiplets
 - The OS, tries to allocate memory "close to" where the allocating thread is running to reduce memory access costs.
 - Each socket (or chiplet) has a shared Last Level Cache (LLC) usually L3.
 
-###### NUMA multicore example: spmnuma
+To distinct NUMA with [[SMP Symmetric Multi-Processor]] we can say Single-CMP machine with an on-chip network based on a 2D grid (mesh). The distance between Tiles (i.e., a structure incorporating P, L1, L2, and a Switch) is notconstant. **The machine is topologically a NUMA**. 
+
+![[Pasted image 20250518005211.png]]
+
+However, it can be used as an SMP (the four MINFs accessed by all PEs), or like a NUMA. For example, we can logically partition the grid into four sub-grids: all PEs in the same partition mostly access one MINF, and local data of a program mapped onto a PE (pinned) is likely to be allocated in the ”local” memory of that partition.
+##### NUMA multicore example: spmnuma
 
 ![[Pasted image 20250321161632.png]]
 

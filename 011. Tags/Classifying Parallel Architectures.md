@@ -1,4 +1,4 @@
 - [[Introduction Classification of Parallel Architectures]]
 - [[Flynn's Taxonomy]]
-- [[Memory Organization]]
+- [[Memory Organization  in Multi-Core]]
 - [[Core count & Processing model]]

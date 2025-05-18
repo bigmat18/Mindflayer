@@ -21,7 +21,7 @@ From a topological perspective, interconnection networks can be represented as g
 
 Switches implement firmware **[[Routing]] algorithms** depending on the kind of network. We will assume that the routing delay(i.e., service time and latency) paid by switches is of **one clock cycle** $\tau_{net}$. Each **link** has a fixed width (e.g., 32, 48 bits), it is unidirectional and can be occupied by one message at a time. Below a partial taxonomy of routing strategies:
 
-![[Pasted image 20250518030256.png | 600]]
+![[Pasted image 20250518030256.png | 500]]
 
 **Non-blocking networks:** in the presence of any set of currently established connections between pairs of source/destination peers, it is always possible to establish a new connection between any arbitrary unused pair of source/destination.
 
@@ -68,16 +68,9 @@ We focus on two types of networks
 
 ### Network solutions
 **Buses**, **fully-connected networks**, and **crossbars** represent opposite solutions adopted in computing architectures.
-##### Buses
-![[Pasted image 20250518024855.png]]
-All N units are connected through a shared broadcast medium Lowest link cost (only one link) **Maximum [[Processing Bandwidth|bandwidth]]** O(1), **[[Communication Latency]]** O(N) (due to the arbitration delay), **node degree** 1 It is a blocking network with diameter 1 and bisection width 1.
-##### Fully Connected
-![[Pasted image 20250518025026.png]]
-Directly connects all N units with a single hop. Highest link cost $O(N²)$ and pin count issues **Maximum bandwidth** $O(N)$, **latency** $O(1)$, node degree $N-1$ It is a **non-blocking network** with **diameter** 1 and **bisection** width $N²/4$ (with N even).
-##### Crossbars
-![[Pasted image 20250518025038.png]]
-Directly connects all N units in the blue set with all N units in the red set. Highest link cost $O(N²)$ and pin count issues **Maximum bandwidth** $O(N)$, **latency** O(1), **node degree** N It is a non-blocking network with **diameter** 1 and **bisection width** $N²/2$ (with N even) For moderate values of N, it can be implemented by a single **firmware unit** (switch) with parallelism at the clock cycle level.
-
+##### [[Buses]]
+##### [[Fully Connected]]
+##### [[Crossbars]]
 ##### Evaluation Metrics
 - **Costs of Links**
 	- bus O(1)

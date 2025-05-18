@@ -2,7 +2,7 @@
 
 **Status**: #master
 
-**Tags:** [[ISO-OSI Link layer]]
+**Tags:** [[ISO-OSI Link layer]] [[Networks and Laboratory III]]
 
 **Area**: [[Bachelor's Degree]]
 # Protocolli a suddivisione del canale

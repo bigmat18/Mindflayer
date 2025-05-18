@@ -42,9 +42,11 @@ This is the block diagram of an Intel Mutlicore. We can see also the **terminolo
 Two extreme cases of **on-chip interconnection networks** are below:
 ![[Pasted image 20250517151639.png | 400]]
 
-- **Bus** has one single medium connected to all nodes. Cheap, but no parallelism. So, **minimum bandwidth** and **maximum [[Communication Latency|letency]]**
-- **Crossbar** is a fully interconnected structure with $N²$ dedicated links. So **maximum bandwidth** and **minimum latency**, suitable for limited parallelism only (ess. N=8) because of **link cost** and **pin-count** reasons.
-- **Limited degree networks**. Much lower cost than crossbars but with a smaller number of links at the expense of **latency** (ess. **logarithmic** is some notable cases) but **maximum bandwidth** can be achived.
+- **[[Buses]]** has one single medium connected to all nodes. Cheap, but no parallelism. So, **minimum [[Processing Bandwidth|bandwitdh]]** and **maximum [[Communication Latency|letency]]**
+
+- **[[Crossbars]]** is a fully interconnected structure with $N²$ dedicated links. So **maximum [[Processing Bandwidth|bandwidth]]** and **minimum [[Communication Latency|latency]]**, suitable for limited parallelism only (ess. N=8) because of **link cost** and **pin-count** reasons.
+
+**Limited degree networks**. Much lower cost than crossbars but with a smaller number of links at the expense of **latency** (ess. **logarithmic** is some notable cases) but **maximum bandwidth** can be achived.
 
 The internal network of CMPs is used for connecting:
 - **PEs to MINFs** for example in accesses to the external memory
@@ -53,7 +55,8 @@ The internal network of CMPs is used for connecting:
 - **PEs to EXT-INFs** to communicate the other CMPs
 
 Typical **limited-degree networks** used inside CMPs
-![[Pasted image 20250517153842.png]]
+
+![[Pasted image 20250517153842.png | 400]]
 - **Switch units** doing routing and flow control
 - **Rings** or **Multi-Rings** are used in CMPs with moderate parallelism
 - **Meshes** are usually used for highly parallel CMPs for easier integration reasons (all links have the same length except in **toroidal meshes**)
@@ -66,7 +69,7 @@ An **Arbiter Unit** is in charge of grating access to the bus to a requesting un
 ![[Pasted image 20250517153528.png | 550]]
 
 ### Single-CMP systems
-Complex shared-memory systems can be built around a single multicore CPU (CMP). An **external network** might exists between MINF units and the memory sub-system. In the figure below a simplified rapresentations.
+Complex shared-memory systems can be built around a single multi-core CPU (CMP). An **[[Introduction to Interconnection Networks|external network]]** might exists between MINF units and the memory sub-system. In the figure below a simplified representations.
 
 ![[Pasted image 20250517154444.png | 500]]
 
@@ -76,7 +79,7 @@ A heterogeneous **System-on-Chip** (SoC), comprising a CPU and an integrated GPU
 ![[Pasted image 20250517154722.png | 400]]
 
 ### Multi-CMP Systems
-Large highly parallel shared-memory systems are usually equipped with **several multicore CPUs** (CMPs), each incorporating a **local memory sub-system** accessible through MINFs, and off-chip network connecting CMPs.
+Large highly parallel shared-memory systems are usually equipped with **several multi-core CPUs** (CMPs), each incorporating a **local memory sub-system** accessible through MINFs, and off-chip network connecting CMPs.
 
 ![[Pasted image 20250517154912.png | 550]]
 The figure above does not capture completely the heterogeneity of modern parallel system (no hardware accelerator is depicted in the picture)

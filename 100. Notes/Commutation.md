@@ -13,7 +13,7 @@ Abbiamo un **Problema** quando ci troviamo in una rete. Vogliamo stabilire una c
 
 Ci sono delle **Tecniche di commutazione**, che sono tecniche per determinare il percorso sorgente-destinazione.
 
-### [[Protocolli a suddivisione del canale|Commutazioni del circuito]] (circuit switching)
+### [[Protocolli a suddivisione del canale|Commutazioni del circuito]] ([[Circuit Switching]])
 
 - Istradamento **avviene una volta per tutte prima della comunicazione** 
 - Si usano su percorso risorse alla comunicazione in modo **permanete ed esclusivo**.
@@ -35,13 +35,13 @@ Tempo suddiviso in slot di tempo, ogni comunicazione ha uno o più slot periodic
 - Performance (garantita)
 - Tariffa facile
 
-### [[Protocolli a suddivisione del canale|Commutazione di pacchetti]] (packet switching)
+### [[Protocolli a suddivisione del canale|Commutazione di pacchetti]] ([[Packet Switching]])
 
 ###### 1. Il flusso di dati punto-punto viene suddiviso in pacchetti
 - Condivisione risorse.
 - Pacchetto instradato singolarmente e indipendentemente dagli altri.
 - Risorse usate a seconda delle necessità
-###### 2. Trasmissione store and forward
+###### 2. Trasmissione [[Store-and-Forward Technique|store and forward]]
 - Il router deve ricevere tutto il pacchetto prima di trasmissione (**ritardo di store e forward**)
 - Attesa dei pacchetti in code di output (**ritardo per code**)
 - Dimensione finita buffer (**perdita pacchetti**).

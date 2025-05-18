@@ -2,7 +2,7 @@
 
 **Status**: #master 
 
-**Tags:** [[ISO-OSI Link layer]]
+**Tags:** [[ISO-OSI Link layer]] [[Networks and Laboratory III]]
 
 **Area**: [[Bachelor's Degree]]
 # Interconnection devices
@@ -15,7 +15,7 @@ Repeater multi-porta (nessuna capacità di filtraggio come repeater)
 
 ## Switch
 - Operano sia a livello fisico (rigenerando segnale) che a [[Introduction to link layer|livello di link]] (verificando MAC nei frame). 
-- Sono dispositivi di store e forward e non modificano indirizzi MAC in intestazione. 
+- Sono dispositivi di [[Store-and-Forward Technique|store e forward]] e non modificano indirizzi MAC in intestazione. 
 - Hanno una loro tabella che usano per il filtraggio
 - Forniscono trasmissioni multiple simultanee visto che ogni host ha una connessione dedicata, questo viene fatto andando a bufferizzare i pacchetti ed evitando collisioni 
 

@@ -20,5 +20,23 @@ The latency of the packet transmission can be evaluated as:
 $$(2 \cdot S + d - 3)(\tau_{net} + T_{tr})$$
 Difference with [[Store-and-Forward Technique]] is remarkable. In terms of orders of magnitude, we have $O(d + S)$ instead of $O(d \cdot S)$. What happens if we have 2 phits per flit?
 
+### Virtual Channels
+In wormhole with **virtual channels** (VCs), we associate more input/output registers for each physical link to store one flit each. The **head fit** is responsible for allocating VCs along the route. **Payload flits** shall follow the same **VC path**.
+
+![[Pasted image 20250519123104.png]]
+
+Flow **B** is blocked because the first switch cannot propagate its flits using **OUT2** (busy by **A**). This is true until transmission of **A** is complete, even if that link is idle at a specific time.
+
+![[Pasted image 20250519123202.png]]
+
+Same number of links as before. However, two distinct input/output register per link (**Virtual Channels**). Each link also delivers the identifier of the VC to determine in which output registers the incoming flits should be buffered.
+
+### Wormhole Switch complexity
+A bidirectional switch unit is logically composed by two unidirectional switches. The basic switch has two inputs and two outputs of a given width (ess based on the phit width plus a few control bits).
+
+![[Pasted image 20250519123447.png |600]]
+
+The control part is a **FSM**. It remembers the existing bindings between input and output interfaces and for how many flits. Number of stages grows exponentially with the number of inputs/outputs. Therefor, we need to use limited-degree switches.
+
 
 # References

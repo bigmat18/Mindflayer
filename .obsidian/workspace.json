@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Wormhole Technique.md",
+                "file": "100. Notes/Synchronization Basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Wormhole Technique"
+              "title": "Synchronization Basics"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,17 +182,35 @@
   },
   "active": "262332fe53c16a6a",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250519000530.png",
-    "101. Utils/Images/Pasted image 20250519000217.png",
+    "101. Utils/Images/Pasted image 20250519135424.png",
+    "101. Utils/Images/Pasted image 20250519135203.png",
+    "101. Utils/Images/Pasted image 20250519132955.png",
+    "101. Utils/Images/Pasted image 20250519132639.png",
+    "101. Utils/Images/Pasted image 20250519132255.png",
+    "101. Utils/Images/Pasted image 20250519132014.png",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/Synchronization Basics.md",
+    "100. Notes/Crossbars.md",
     "100. Notes/Pipelined Communications.md",
-    "100. Notes/Store-and-Forward Technique.md",
     "100. Notes/Wormhole Technique.md",
-    "101. Utils/Images/Pasted image 20250518234521.png",
-    "101. Utils/Images/Pasted image 20250518233716.png",
+    "100. Notes/Introduction to Interconnection Networks.md",
+    "100. Notes/Fully Connected.md",
+    "100. Notes/Buses.md",
+    "100. Notes/Direct Networks.md",
+    "100. Notes/K-ary N-tori Networks (Tori).md",
+    "100. Notes/Credit-based Mechanism.md",
+    "101. Utils/Images/Pasted image 20250519125137.png",
+    "100. Notes/Stop-Go Transmission.md",
+    "101. Utils/Images/Pasted image 20250519124604.png",
+    "101. Utils/Images/Pasted image 20250519123447.png",
     "100. Notes/RDY-ACK Transmission.md",
-    "101. Utils/Images/Pasted image 20250518232709.png",
+    "101. Utils/Images/Pasted image 20250519123202.png",
+    "101. Utils/Images/Pasted image 20250519123104.png",
+    "001. Projects/Surface voxelization + CSG con SDF.md",
+    "001. Projects/Overcyde Game Engine.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "100. Notes/Store-and-Forward Technique.md",
     "100. Notes/Packet Switching.md",
-    "101. Utils/Images/Pasted image 20250518232019.png",
     "100. Notes/Commutation.md",
     "100. Notes/Interconnection devices.md",
     "010. MOCs/Networks and Laboratory III.md",
@@ -201,24 +218,6 @@
     "100. Notes/ICMP - Internet Control Message Protocol.md",
     "100. Notes/NAT - Network Address Translation.md",
     "100. Notes/Introduction to network layer.md",
-    "100. Notes/Forwarding.md",
-    "100. Notes/Protocolli a suddivisione del canale.md",
-    "100. Notes/Handshake a tre vie.md",
-    "011. Tags/ISO-OSI Transport layer.md",
-    "100. Notes/TCP.md",
-    "100. Notes/Trasferimento dati.md",
-    "100. Notes/Circuit Switching.md",
-    "101. Utils/Images/Pasted image 20250518231032.png",
-    "101. Utils/Images/Pasted image 20250518230336.png",
-    "101. Utils/Images/Pasted image 20250518230150.png",
-    "010. MOCs/High Performance Computing.md",
-    "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/Direct Networks.md",
-    "100. Notes/K-ary N-tori Networks (Tori).md",
-    "101. Utils/Images/Pasted image 20250518224924.png",
-    "101. Utils/Images/Pasted image 20250518224244.png",
-    "100. Notes/K-ary N-mesh Networks (Meshes).md",
-    "100. Notes/Indirect Networks.md",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",

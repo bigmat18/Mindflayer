@@ -79,7 +79,7 @@ A heterogeneous **System-on-Chip** (SoC), comprising a CPU and an integrated GPU
 ![[Pasted image 20250517154722.png | 400]]
 
 ### Multi-CMP Systems
-Large highly parallel shared-memory systems are usually equipped with **several multi-core CPUs** (CMPs), each incorporating a **local memory sub-system** accessible through MINFs, and off-chip network connecting CMPs.
+Large highly parallel shared-memory systems are usually equipped with **several multi-core CPUs** (CMPs), each incorporating a **local memory sub-system** accessible through MINFs, and [[Interconnecton Networks|off-chip network connecting]] CMPs.
 
 ![[Pasted image 20250517154912.png | 550]]
 The figure above does not capture completely the heterogeneity of modern parallel system (no hardware accelerator is depicted in the picture)

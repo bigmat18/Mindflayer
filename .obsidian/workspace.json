@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Locking.md",
+                "file": "100. Notes/Cache Coherence Problem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Locking"
+              "title": "Cache Coherence Problem"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,7 +182,30 @@
   },
   "active": "262332fe53c16a6a",
   "lastOpenFiles": [
+    "101. Utils/Images/Pasted image 20250520194041.png",
+    "101. Utils/Images/Pasted image 20250520193315.png",
+    "101. Utils/Images/Pasted image 20250520193014.png",
+    "101. Utils/Images/Pasted image 20250520191525.png",
+    "101. Utils/Images/Pasted image 20250520191458.png",
+    "101. Utils/Images/Pasted image 20250520191347.png",
+    "101. Utils/Images/Pasted image 20250520190600.png",
+    "101. Utils/Images/Pasted image 20250520185041.png",
+    "101. Utils/Images/Pasted image 20250520184636.png",
+    "101. Utils/Images/Pasted image 20250520184123.png",
+    "011. Tags/Cache Coherence.md",
+    "100. Notes/Cache Coherence Problem.md",
     "010. MOCs/High Performance Computing.md",
+    "100. Notes/Safety Nets (fences).md",
+    "101. Utils/Images/Pasted image 20250520183528.png",
+    "011. Tags/Memory Consistency.md",
+    "100. Notes/Memory Models & Synchronization.md",
+    "100. Notes/Locking.md",
+    "100. Notes/Relaxed Memory Models.md",
+    "100. Notes/Notification.md",
+    "100. Notes/Direct Networks.md",
+    "100. Notes/Indirect Networks.md",
+    "100. Notes/Sequential Consistency (SC).md",
+    "100. Notes/Memory Consistency Basics.md",
     "100. Notes/Introduction to Interconnection Networks.md",
     "100. Notes/Multicore Technologies.md",
     "100. Notes/Processor Technologies.md",
@@ -191,34 +213,11 @@
     "011. Tags/Synchronization Mechanisms.md",
     "100. Notes/Barriers.md",
     "100. Notes/Combining-Tree Barrier.md",
-    "101. Utils/Images/Pasted image 20250520020839.png",
-    "101. Utils/Images/Pasted image 20250520020332.png",
     "100. Notes/Centralized Barrier.md",
-    "101. Utils/Images/Pasted image 20250520015633.png",
-    "101. Utils/Images/Pasted image 20250520015258.png",
-    "101. Utils/Images/Pasted image 20250520014859.png",
-    "101. Utils/Images/Pasted image 20250520013029.png",
-    "100. Notes/Notification.md",
-    "101. Utils/Images/Pasted image 20250520012650.png",
-    "101. Utils/Images/Pasted image 20250520012601.png",
     "100. Notes/Notification with IPI.md",
-    "101. Utils/Images/Pasted image 20250520012242.png",
-    "101. Utils/Images/Pasted image 20250520011706.png",
     "100. Notes/Notification with Shared Flags.md",
-    "100. Notes/Locking.md",
     "100. Notes/List-based Spin-Lock.md",
     "100. Notes/Array-based Spin-Lock.md",
-    "100. Notes/Ticket-based Spin-Lock.md",
-    "100. Notes/TS-based Spin-Lock.md",
-    "100. Notes/RMW Instructions.md",
-    "100. Notes/Notify-based Spin-Lock.md",
-    "100. Notes/Basic Spin-Lock.md",
-    "100. Notes/Crossbars.md",
-    "100. Notes/Pipelined Communications.md",
-    "100. Notes/Wormhole Technique.md",
-    "100. Notes/Fully Connected.md",
-    "100. Notes/Buses.md",
-    "100. Notes/Direct Networks.md",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",

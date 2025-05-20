@@ -31,4 +31,6 @@ Q:: { d1; lock(L); S = G(S, …); unlock(L); d2; }
 ### [[Array-based Spin-Lock]]
 
 ### [[List-based Spin-Lock]]
+
+
 # References

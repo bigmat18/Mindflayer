@@ -16,7 +16,7 @@ Which safety nets? It depends of the machine's instruction set and the memory mo
 - **Special instructions** (ie, **[[Barriers|memory barriers]]** also called **FENCE** instructions)
 
 ### Safety Nets: Notification
-To implement [[Notification|event notification]] in machines with [[Relaxed Memory Models]], we first have to guarantee STORE atomicity. Second, the LOADs accessing the data by the notified process cannot precede the LOAD for reading the event, and the conditional branch to test it.
+To implement [[Event Notification|event notification]] in machines with [[Relaxed Memory Models]], we first have to guarantee STORE atomicity. Second, the LOADs accessing the data by the notified process cannot precede the LOAD for reading the event, and the conditional branch to test it.
 
 ![[Pasted image 20250520164952.png | 550]]
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "051f2b20bc85a539",
+        "id": "995c4c635ac9921c",
         "type": "tabs",
         "children": [
           {
-            "id": "262332fe53c16a6a",
+            "id": "a6c5648d0397b66d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Cache Coherence Problem.md",
+                "file": "100. Notes/Snoopy-based CC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache Coherence Problem"
+              "title": "Snoopy-based CC"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RMW ",
+                "query": "vecto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,44 +180,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "262332fe53c16a6a",
+  "active": "a6c5648d0397b66d",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250520194041.png",
-    "101. Utils/Images/Pasted image 20250520193315.png",
-    "101. Utils/Images/Pasted image 20250520193014.png",
-    "101. Utils/Images/Pasted image 20250520191525.png",
-    "101. Utils/Images/Pasted image 20250520191458.png",
-    "101. Utils/Images/Pasted image 20250520191347.png",
-    "101. Utils/Images/Pasted image 20250520190600.png",
-    "101. Utils/Images/Pasted image 20250520185041.png",
-    "101. Utils/Images/Pasted image 20250520184636.png",
-    "101. Utils/Images/Pasted image 20250520184123.png",
     "011. Tags/Cache Coherence.md",
+    "100. Notes/Directory-based CC.md",
+    "100. Notes/Cache Coherence Abstract Architecture.md",
+    "100. Notes/Cache Coherence Mechanism.md",
+    "100. Notes/Cache-to-Cache (C2C) Transfers.md",
+    "100. Notes/Snoopy-based CC.md",
     "100. Notes/Cache Coherence Problem.md",
+    "101. Utils/Images/Pasted image 20250522023038.png",
+    "101. Utils/Images/Pasted image 20250522022745.png",
+    "101. Utils/Images/Pasted image 20250522022434.png",
+    "101. Utils/Images/Pasted image 20250522020548.png",
+    "101. Utils/Images/Pasted image 20250522015845.png",
+    "101. Utils/Images/Pasted image 20250522014523.png",
+    "101. Utils/Images/Pasted image 20250522014439.png",
+    "101. Utils/Images/Pasted image 20250522014404.png",
+    "101. Utils/Images/Pasted image 20250522014325.png",
+    "101. Utils/Images/Pasted image 20250522014305.png",
+    "100. Notes/MOESI Snoopy Protocol.md",
+    "100. Notes/MESI Snoopy Protocol.md",
+    "100. Notes/2024-11-04 - HPC.md",
     "010. MOCs/High Performance Computing.md",
+    "100. Notes/Greedy Approach (Boundary Error).md",
+    "100. Notes/MSI Snoopy Protocol.md",
+    "100. Notes/Minimalistic Snoopy Protocol.md",
+    "100. Notes/Invalidation-based Mechanism.md",
+    "100. Notes/Event Notification.md",
+    "100. Notes/Update-based Mechanism.md",
     "100. Notes/Safety Nets (fences).md",
-    "101. Utils/Images/Pasted image 20250520183528.png",
     "011. Tags/Memory Consistency.md",
     "100. Notes/Memory Models & Synchronization.md",
     "100. Notes/Locking.md",
     "100. Notes/Relaxed Memory Models.md",
-    "100. Notes/Notification.md",
     "100. Notes/Direct Networks.md",
     "100. Notes/Indirect Networks.md",
     "100. Notes/Sequential Consistency (SC).md",
-    "100. Notes/Memory Consistency Basics.md",
-    "100. Notes/Introduction to Interconnection Networks.md",
-    "100. Notes/Multicore Technologies.md",
-    "100. Notes/Processor Technologies.md",
-    "100. Notes/Synchronization Basics.md",
-    "011. Tags/Synchronization Mechanisms.md",
-    "100. Notes/Barriers.md",
-    "100. Notes/Combining-Tree Barrier.md",
-    "100. Notes/Centralized Barrier.md",
-    "100. Notes/Notification with IPI.md",
-    "100. Notes/Notification with Shared Flags.md",
-    "100. Notes/List-based Spin-Lock.md",
-    "100. Notes/Array-based Spin-Lock.md",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",

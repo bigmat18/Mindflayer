@@ -1,4 +1,4 @@
 - [[Synchronization Basics]]
 - [[Locking]]
-- [[Notification]]
+- [[Event Notification]]
 - [[Barriers]]

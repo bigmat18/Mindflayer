@@ -34,7 +34,7 @@
 - Atomicity is the responsibility of the [[Level-based view for parallel computing|firmware level]], ie, **indivisibility bit** to make more accesses to the memory atomic
 
 ![[Pasted image 20250519132955.png]]
-#### [[Notification|Notify-based mechanism]]
+#### [[Event Notification|Notify-based mechanism]]
 - Mechanism to deal with **asymmetric synchronization**
 - On shared-memory architectures, its is implemented through **shared variables** (one boolean flag for each distinct event) or **IO inter-processor communications**
 - **No atomicity** issues arises

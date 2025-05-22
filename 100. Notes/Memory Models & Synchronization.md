@@ -7,7 +7,7 @@
 **Area**: [[Master's degree]]
 # Memory Models & Synchronization
 
-### Issues with [[Notification]]
+### Issues with [[Event Notification]]
 Image two processes P and Q executed **wait** and **notify** primitives for an event implemented by a shared Boolean flag **EVENT**. Pseudocode (**data** and **EVENT** are shared)
 ```
 P:: { data=10; notify(EVENT); }

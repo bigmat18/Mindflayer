@@ -14,7 +14,7 @@ Assume that $PE_i$ and $PE_j$ transfer the same cache line S, ie, a **shared lin
 If **S** is **read only**, no coherency problem arises. If $PE_i$ modifies (at least one world of) **S** in $C_i$ then the S copy in $C_j$ becomes not coherent. There are **multiple** (three) **physical copies** of the same memory location (ie, of that cache line)
 
 ###### Example 1
-This is an example of computation with [[Notification|event notification]]. Let S be initialized to 3 in M, and F(V, 3) = 5
+This is an example of computation with [[Event Notification|event notification]]. Let S be initialized to 3 in M, and F(V, 3) = 5
 ```
 P:: { S = F(V, S); notify(ready); }
 Q:: { wait(ready); R = G(S); }

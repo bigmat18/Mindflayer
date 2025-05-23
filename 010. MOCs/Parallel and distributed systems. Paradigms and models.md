@@ -18,9 +18,11 @@ Area: "[[Master's degree]]"
 
 ![[Shared Memory Systems]]
 
+![[Cache Coherence]]
+
 [[SIMD on CPU]]
 
-[[SIMT-on-GPU]]
+[[SIMD and GPU]]
 
 [[Metrics and Laws in SPM]]
 

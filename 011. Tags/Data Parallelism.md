@@ -5,5 +5,5 @@
 - [[All-to-All]]
 - [[Virtual processors approach]]
 - [[Optimal parallelism degree with single inputs]]
-- [[Stencil-Based programs]]
+- [[Stencil]]
 - [[Reduce]]

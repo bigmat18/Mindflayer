@@ -5,7 +5,7 @@
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
 **Area**: [[Master's degree]]
-# Stencil-Based programs
+# Stencil
 
 If we analysis the first step of [[Virtual processors approach]] we can recognize a **stencil-based computation** when exists some VP that need to read data elements owned by other VPs.
 

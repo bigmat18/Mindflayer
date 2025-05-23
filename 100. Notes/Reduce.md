@@ -17,7 +17,7 @@ According to the **[[Bernstein Conditions]]**, we have **read-after-write** data
 We can rewrite the **reduction** in the following way owing to the **associativity** of the binary operator:
 
 ![[Pasted image 20250514224421.png | 500]]
-We identify L Virtual Processors each one encapsulating one element of the array A. Completion time is reduced from O(L) (of the original algorithm in the previous slide) to $O(\log_2 L)$. The overall computation consists of $\log_2 L$ steps. At each step Virtual Processors communicate according to a different [[Stencil-Based programs|stencil pattern]] (stencil is static and variable). Due to if statement in the **for** loop, only a subset of the VPs apply the operator $\oplus$ on two elements.
+We identify L Virtual Processors each one encapsulating one element of the array A. Completion time is reduced from O(L) (of the original algorithm in the previous slide) to $O(\log_2 L)$. The overall computation consists of $\log_2 L$ steps. At each step Virtual Processors communicate according to a different [[Stencil|stencil pattern]] (stencil is static and variable). Due to if statement in the **for** loop, only a subset of the VPs apply the operator $\oplus$ on two elements.
 
 **Example**: Do a focus on the steps in case with L=8
 - **Step h=1** communications between $VP_{i-1} \to VP_i, i = \{1,3,5,7\}$

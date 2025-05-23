@@ -25,19 +25,11 @@
       "key": "-"
     }
   ],
-  "editor:toggle-inline-math": [
+  "editor:insert-codeblock": [
     {
       "modifiers": [
         "Mod",
         "Shift"
-      ],
-      "key": "M"
-    }
-  ],
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "A"
     }
@@ -45,10 +37,26 @@
   "editor:toggle-code": [
     {
       "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "editor:toggle-inline-math": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "A"
+      "key": "M"
     }
   ]
 }

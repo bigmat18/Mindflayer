@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "995c4c635ac9921c",
+        "id": "2600b3c56cc18821",
         "type": "tabs",
         "children": [
           {
-            "id": "a6c5648d0397b66d",
+            "id": "071594e7f1d6d1c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Snoopy-based CC.md",
+                "file": "100. Notes/Cache Memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Snoopy-based CC"
+              "title": "Cache Memory"
+            }
+          },
+          {
+            "id": "463e818b12515d17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Cache Memory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Memory"
+            }
+          }
+        ]
+      },
+      {
+        "id": "17c142467284bf92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81c2e6cb74e289d3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -63,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vecto",
+                "query": "false shar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,11 +124,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372.50104904174805
+    "width": 372.50104904174805,
+    "collapsed": true
   },
   "right": {
     "id": "1d0404518313b128",
@@ -180,43 +222,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a6c5648d0397b66d",
+  "active": "81c2e6cb74e289d3",
   "lastOpenFiles": [
-    "011. Tags/Cache Coherence.md",
-    "100. Notes/Directory-based CC.md",
-    "100. Notes/Cache Coherence Abstract Architecture.md",
-    "100. Notes/Cache Coherence Mechanism.md",
-    "100. Notes/Cache-to-Cache (C2C) Transfers.md",
-    "100. Notes/Snoopy-based CC.md",
-    "100. Notes/Cache Coherence Problem.md",
-    "101. Utils/Images/Pasted image 20250522023038.png",
-    "101. Utils/Images/Pasted image 20250522022745.png",
-    "101. Utils/Images/Pasted image 20250522022434.png",
-    "101. Utils/Images/Pasted image 20250522020548.png",
-    "101. Utils/Images/Pasted image 20250522015845.png",
-    "101. Utils/Images/Pasted image 20250522014523.png",
-    "101. Utils/Images/Pasted image 20250522014439.png",
-    "101. Utils/Images/Pasted image 20250522014404.png",
-    "101. Utils/Images/Pasted image 20250522014325.png",
-    "101. Utils/Images/Pasted image 20250522014305.png",
-    "100. Notes/MOESI Snoopy Protocol.md",
-    "100. Notes/MESI Snoopy Protocol.md",
-    "100. Notes/2024-11-04 - HPC.md",
+    "Untitled.canvas",
+    "100. Notes/Cache Write Policies.md",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/Greedy Approach (Boundary Error).md",
-    "100. Notes/MSI Snoopy Protocol.md",
-    "100. Notes/Minimalistic Snoopy Protocol.md",
-    "100. Notes/Invalidation-based Mechanism.md",
-    "100. Notes/Event Notification.md",
-    "100. Notes/Update-based Mechanism.md",
-    "100. Notes/Safety Nets (fences).md",
-    "011. Tags/Memory Consistency.md",
-    "100. Notes/Memory Models & Synchronization.md",
-    "100. Notes/Locking.md",
-    "100. Notes/Relaxed Memory Models.md",
+    "100. Notes/Cache Memory.md",
+    "011. Tags/Cache Coherence.md",
+    "100. Notes/Cache Algorithms.md",
+    "101. Utils/Images/Pasted image 20250523192147.png",
+    "101. Utils/Images/Pasted image 20250523191712.png",
+    "101. Utils/Images/Pasted image 20250523154211.png",
+    "101. Utils/Images/Pasted image 20250523143922.png",
+    "101. Utils/Images/Pasted image 20250523143321.png",
+    "101. Utils/Images/Pasted image 20250523143201.png",
+    "100. Notes/Von Neumann Bottleneck.md",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "100. Notes/Cache Coherence Abstract Architecture.md",
+    "100. Notes/Cache Coherence Problem.md",
+    "100. Notes/Cache Coherence Mechanism.md",
+    "100. Notes/CUDA Basics.md",
+    "101. Utils/Images/Pasted image 20250523133425.png",
+    "101. Utils/Images/Pasted image 20250523133102.png",
+    "101. Utils/Images/Pasted image 20250523132930.png",
+    "101. Utils/Images/Pasted image 20250523132621.png",
+    "011. Tags/SIMD and GPU.md",
+    "100. Notes/Graphical Processing Units (GPU).md",
+    "100. Notes/Array Processors.md",
     "100. Notes/Direct Networks.md",
     "100. Notes/Indirect Networks.md",
-    "100. Notes/Sequential Consistency (SC).md",
+    "100. Notes/Butterfly (2-fly n-ary) Networks.md",
+    "100. Notes/Omega Networks.md",
+    "100. Notes/CLOS Networks.md",
+    "100. Notes/Fat-Tree Networks.md",
+    "100. Notes/Cyclic Computation Graphs.md",
+    "100. Notes/Acyclic Computation Graphs.md",
+    "100. Notes/Unpack-Compute-Pack Pattern.md",
+    "100. Notes/Dataflow.md",
+    "100. Notes/Stencil.md",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",
@@ -226,7 +269,6 @@
     "101. Utils/Documents/Appunti-Fondamenti-Informatica.pdf",
     "101. Utils/Documents/IIA.pdf",
     "101. Utils/Documents/Calculus.pdf",
-    "101. Utils/Documents/Appunti.pdf",
-    "Untitled.canvas"
+    "101. Utils/Documents/Appunti.pdf"
   ]
 }

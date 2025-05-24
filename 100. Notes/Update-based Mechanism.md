@@ -19,4 +19,5 @@ Q:: { R = G1(W, S); notify(go); wait(ready); R = G2(R, S); }
 
 The copy is caused by the execution of **STORE S by P**. Furthermore, for memory ordering reasons this instruction must be **synchronous** (or we need a **fence** before the notification). Memory ordering gurantees that **STORE S by P -> LOAD S by Q** and cache coherence guarantees that the data eventually is PE_Q's cache is updated.
 
+In summary it propagates updates to alla cache copies when a processor modifies a cached data, it is best for read-intensive workloads and require more bandwidth but may reduce cache-misses
 # References

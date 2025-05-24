@@ -1,2 +1,3 @@
+- [[Resource Management -  SLURM]]
 - [[Backfill algorithm]]
 - [[Priority queue algorithm]]

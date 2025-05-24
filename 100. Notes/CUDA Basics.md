@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[SIMD and GPU]]
+**Tags:** [[High Performance Computing]] 
 
 **Area**: [[Master's degree]]
 # CUDA Basics

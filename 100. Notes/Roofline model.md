@@ -7,7 +7,7 @@
 **Area**: [[Master's degree]]
 # Roofline model
 
-[[Relative Efficiency]] tells us if oyr parallelization scales as expected. But are er good is utilizing the given machine. The **Roofline model** is used to bound:
+[[Relative Efficiency]] tells us if our parallelization scales as expected. But are good is utilizing the given machine. The **Roofline model** is used to bound:
 - **floating-point (FP)** performance
 - the machine **peak** performance
 - **Arithmetic intensity (AI)** of the problem. This means the number of FP operations executed per byte read from memory.
@@ -43,6 +43,19 @@ void gemm(size_t n, const double *A, const double *B, const double *C)
 }
 ```
 Each iterations of the innermost loop executes two FP operations, so we have $2n^3$ FP. We assume the two input matrices are transferred from the memory once, we have $16n²$ bytes. AI is $2n³/16n² = \frac{n}{8}$
+
+###### Example
+Let's suppose that in the considered system we have $R_{peak} = 10GFLOPS, B = 10 GB/s$. Let's consider also this loop:
+```c
+double s= <some-value>;
+for (int i = 0; i < N; i++) {
+	s = s + A[i] * A[i];
+}
+```
+
+We have $I = \frac{2 \cdot N}{8 \cdot N} = \frac{1}{4} = 0.25$ FLOP/byte at the steady-state. $P = \min(10, 0.25 \cdot 10) = 2.5$ GFLOPS, which means bandwidth-bound computation.
+
+![[Pasted image 20250524163918.png | 280]]
 
 ### Utilization 
 The roofline is computed as:

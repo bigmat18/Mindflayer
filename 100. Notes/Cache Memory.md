@@ -116,7 +116,78 @@ The important points:
 - A program’s working set usually changes over time as it accesses different parts of its data
 - The size and composition of the working set depend on the program’s memory access patterns (e.g., sequential vs. random access). 
 
+### Optimizing Cache Accesses: GEMM
 
-### Optimizing Cache  Accesses: GEMM
+```c
+//Matrix Multiplication
+for (int i = 0; i<n; i++)
+	for (int j = 0; j < m; j++) {
+		float accum = 0;
+		for (k = 0; k < l; k++)
+			accum += A[i*l+k]*B[k*n+j];
+		C[i*m+j] = accum;
+}
+```
+
+Matrix multiplication **textbook algorithm (naive)**: $C_{n\times m} = A_{n\times l} \times B_{l\times m}$ stored in linear arrays in **row-major order**. Access pattern:
+- The matrix A is accessed contiguously $(i,k) \rightarrow (i, k+1)$. This i-th row of A is accessed m times.
+- The matrix B is accessed non-contiguously $(i,k) \rightarrow (i+1, k)$. The entire matrix B is accessed n times. Elements of B are "far apart" in main memory ($l \times sizeof(float)$ distant), **thus they are not stored in the same cache line for large l**. Cache lines containing B elements can be evicted from L1/L2-cache before they are reused in subsequent iteration of j for large l.
+
+![[Pasted image 20250524142115.png]]
+
+The Working set of the textbook GEMM algorithm is:
+- One row of A, one column of B and one element of C. This is the minimum working set that minimizes cache misses for a relatively small time interval.
+- However, if we consider a large enough time interval (ie considering the for j loop), the working set is **one row of A, one row of C and the entire matrix B**. For large l and m, B will not fit into LLC, thus what we can do is to improve cache locality by exploiting at least spatial locality for B.
+
+```c
+//Transpose-and-Multiply
+for (int k=0; k<l; k++)
+	for (int j = 0; j<m; j++)
+		Bt[i*l+k] = B[k*n+j];
+for (int i=0 ; i<n; i++)
+	for (int j=0; j<m; j++) {
+		float accum = 0;
+		for (int k=0; k<l; k++)
+			accum += A[i*l+k] * Bt[j*l+k];
+		C[i*m + j] = accum;
+}
+```
+
+**Transpose-and-multiply**: $Bt_{m\times l} = (B_{l\times m})^T$ and $C_{n \times m} = A_{n \times l} \times Bt_{l \times m}$
+- Access pattern of A contiguously: (i, k) -> (i, k+1)
+- Accesses pattern of Bt contiguously: (j, k) -> (j, k+1)
+
+This new algorithm leverages spatial locality for A, and B (i.e., Bt). It introduces an extra overhead for transposing B.
+
+![[Pasted image 20250524143759.png]]
+
+To reduce the working set to fit into the cache we can **change the algorithm** and use a **block-based** (more often called **tile-based**) GEMM:
+- Instead of working on the entire matrix at once, we can split it into smaller sub-matrices (tiles) of TxT
+- The Working set consists of a tile from each (A, B, C). These tiles exhibit spatial and temporal locality
+- If the tree tiles fit into the cache we minimize the cache misses.
+
+T should be chosen such that 3 blocks fit in the lower-level cache. Typical values range from 16 to 128, but you should benchmark and profile your code!
+$$
+T \approx \Bigg\lceil \sqrt{\frac{Cachesize}{3 \times sizoof(data)}} \Bigg\rceil
+$$
+```c
+//Tile-based Matrix Multiplication (MM)
+for (int i = 0; i < m; i += T)
+	for (int j = 0; j < n; j += T)
+		for (int k = 0; k < l; k += T)
+			// Compute MM for the current tile
+			for (int ii = i; ii < std::min(i + T,m); ++ii)
+				for (int jj = j; jj < std::min(j + T,n); ++jj) {
+					float sum = 0.0;
+					for (int kk = k; kk < std::min(k + T,l); ++kk)
+						sum += A[ii * l + kk] * B[kk * n + jj];
+					C[ii * n + jj] += sum;
+}
+```
+
+![[Pasted image 20250524144628.png]]
+
+![[Pasted image 20250524144700.png]]
+
 
 # References

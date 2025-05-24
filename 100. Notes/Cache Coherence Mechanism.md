@@ -60,13 +60,6 @@ So far, we have assumed that the semantics of the INDIV bit is demanded to ehe *
 - **Lock attempt by $PE_j$**: TSL is like a STORE, it invalidates L copy in $C_i$. $C_j$ acquires the **exclusive ownership** of the block L, it does not respond to CC request for L during the execution of the TSL
 - **Unlock by $PE_i$**:  the STORE requires to load the cache line from $PE_j$, which does not answer if it is running the sequence in the TSL. Once the cache line has been transferred to $PE_i$ and invalidated in $PE_j$, $PE_i$ changes the value of the lock to **green**. During the next attempt to acquire the lock by $PE_j$, it will receive the ownership of the line again and it finds it **green** now.
 
-
-### False Sharing
-This problem arises in cases two PEs share a common cache line in their private caches. However, the two PEs modify **different words** of that line only. No sharing exists, however the cache line is the granularity of coherency action by the CC mechanism.
-
-![[Pasted image 20250521173419.png]]
-
-The **Solution** is design the data structures in such a way that different fields used by distinct PEs are in separated cache lines (eg, using **padding bits**)
-
+### [[False Sharing Problem]]
 
 # References

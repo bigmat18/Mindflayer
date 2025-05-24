@@ -8,4 +8,6 @@
 - [[Communication Latency]]
 - [[Relative Efficiency]]
 - [[Scalability]]
+- [[Speedup]]
 - [[Maximum Link Load (MLL)]]
+- [[Response Time]]

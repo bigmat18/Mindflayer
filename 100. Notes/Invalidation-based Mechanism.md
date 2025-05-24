@@ -34,4 +34,6 @@ P:: { lock(L); <CS1>; unlock(L); }
 Q:: { lock(L); <CS2>; unlock(L); }
 ```
 After the acquisition of the lock by P, the cache line of L is no longer needed by the same PE until the unlock.
+
+In summary when a processor modifies a cache line, all other copies in other caches are invalidated instead of being updated. It is best for write-intense workloads and require less bandwidth but exchange more messages
 # References

@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[SIMD and GPU]]
+**Tags:** [[High Performance Computing]] [[SIMD on CPU]]
 
 **Area**: [[Master's degree]]
 # Vectorization Instructions
@@ -51,7 +51,8 @@ In the previous example assume $n = 4$ and $L \mod 4 = 0$ (the whole arrays can 
 The structure is a loop of $L/n$ iterations. Each LOADV loads $n=4$ cosecutive 32-bit words from the memory starting from the logical address obtained as `RG[RA/B-base] + RG[Ri] * 4`
 The vector is stored in a register with width **n** distinct 32 bits words. In this case $n=4$ each vector register is of **128 bits**
 
-Pipelined PE equipped with a more powerful Execution Unit (called **Vectorized Execution Unit**). VEU incorporates a powerful **ALU** to work on wider registers. The decode stage has a **scalar RF** and a **vector RF**
+### Vector Units
+Pipelined PE equipped with a more powerful Execution Unit (called **Vectorized Execution Unit** or simply **Vector Units**). VEU incorporates a powerful **ALU** to work on wider registers. The decode stage has a **scalar RF** and a **vector RF**
 
 ![[Pasted image 20250522141112.png | 600]]
 
@@ -93,5 +94,10 @@ Some examples of vectorized instruction sets:
 - **ARM Neon** is an extension of the **ARMv7** and **ARMv8** RISC instruction sets, which includes vector instructions using vector registers of 64 and 128 bits and more.
 - **PowerPC** architectures provide the Vector Scalar Extension (**VSE**) instruction set to support vector operations efficiently.
 
+### [[Multicore Technologies|Multi-core]] with Vector Units
+Let's suppose 8 8-core processor, each with one vector unit containing 8 lanes. 64 lanes potentially working simultaneously on 8 instructions to compute 64 elements in parallel. Modern high-end processors have 2-4 vector units per core.
 
+If we considering a AVX-512 and float operations (FP32), and a CPU with 64 cores, each with 2 lanes, we can have up to 2048 float values processed in parallel. (Note that this is a theoretical FLOP bandwidth, practical throughput depends on instruction scheduling, data movement, cache/memory  bandwidth, and many other factors)
+
+![[Pasted image 20250524164605.png]]
 # References

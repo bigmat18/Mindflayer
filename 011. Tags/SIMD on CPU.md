@@ -1,5 +1,4 @@
 - [[SIMD (Single Instruction, Multiple Data)]]
 - [[Vectorization Instructions]]
+- [[Programming with AVX2]]
 - [[Array Processors]]
-- [[Graphical Processing Units (GPU)]]
-- [[CUDA Basics]]

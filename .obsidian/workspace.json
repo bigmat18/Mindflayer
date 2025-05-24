@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Cache Memory.md",
+                "file": "100. Notes/Programming with AVX2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cache Memory"
+              "title": "Programming with AVX2"
             }
           },
           {
@@ -53,22 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "Cache Memory"
-            }
-          }
-        ]
-      },
-      {
-        "id": "17c142467284bf92",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "81c2e6cb74e289d3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -103,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "false shar",
+                "query": "SIMD and GPU",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50104904174805,
-    "collapsed": true
+    "width": 372.50104904174805
   },
   "right": {
     "id": "1d0404518313b128",
@@ -222,44 +205,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "81c2e6cb74e289d3",
+  "active": "071594e7f1d6d1c5",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "100. Notes/Cache Write Policies.md",
-    "010. MOCs/High Performance Computing.md",
-    "100. Notes/Cache Memory.md",
-    "011. Tags/Cache Coherence.md",
-    "100. Notes/Cache Algorithms.md",
-    "101. Utils/Images/Pasted image 20250523192147.png",
-    "101. Utils/Images/Pasted image 20250523191712.png",
-    "101. Utils/Images/Pasted image 20250523154211.png",
-    "101. Utils/Images/Pasted image 20250523143922.png",
-    "101. Utils/Images/Pasted image 20250523143321.png",
-    "101. Utils/Images/Pasted image 20250523143201.png",
-    "100. Notes/Von Neumann Bottleneck.md",
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "100. Notes/Cache Coherence Abstract Architecture.md",
-    "100. Notes/Cache Coherence Problem.md",
-    "100. Notes/Cache Coherence Mechanism.md",
-    "100. Notes/CUDA Basics.md",
-    "101. Utils/Images/Pasted image 20250523133425.png",
-    "101. Utils/Images/Pasted image 20250523133102.png",
-    "101. Utils/Images/Pasted image 20250523132930.png",
-    "101. Utils/Images/Pasted image 20250523132621.png",
-    "011. Tags/SIMD and GPU.md",
-    "100. Notes/Graphical Processing Units (GPU).md",
+    "100. Notes/Programming with AVX2.md",
+    "101. Utils/Images/Pasted image 20250524165216.png",
     "100. Notes/Array Processors.md",
-    "100. Notes/Direct Networks.md",
-    "100. Notes/Indirect Networks.md",
-    "100. Notes/Butterfly (2-fly n-ary) Networks.md",
-    "100. Notes/Omega Networks.md",
-    "100. Notes/CLOS Networks.md",
-    "100. Notes/Fat-Tree Networks.md",
+    "100. Notes/Graphical Processing Units (GPU).md",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/CUDA Basics.md",
+    "100. Notes/SIMD and GPU.md",
+    "011. Tags/SIMD on CPU.md",
+    "100. Notes/Vectorization Instructions.md",
+    "101. Utils/Images/Pasted image 20250524164605.png",
+    "100. Notes/Roofline model.md",
+    "101. Utils/Images/Pasted image 20250524163918.png",
+    "100. Notes/Scalability.md",
+    "011. Tags/Computer Science Metrics.md",
+    "100. Notes/Parallelization methodology and metrics.md",
+    "100. Notes/Cache Memory.md",
+    "011. Tags/Models of Computation.md",
+    "011. Tags/Cache Coherence.md",
+    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
+    "011. Tags/SIMD and GPU.md",
+    "100. Notes/Speedup.md",
+    "100. Notes/Networks Metrics.md",
     "100. Notes/Cyclic Computation Graphs.md",
-    "100. Notes/Acyclic Computation Graphs.md",
-    "100. Notes/Unpack-Compute-Pack Pattern.md",
-    "100. Notes/Dataflow.md",
-    "100. Notes/Stencil.md",
+    "100. Notes/Response Time.md",
+    "011. Tags/SLURM Polices Algorithms.md",
+    "100. Notes/Resource Management -  SLURM.md",
+    "100. Notes/Introduction to HPC.md",
+    "101. Utils/Images/Pasted image 20250524160608.png",
+    "101. Utils/Images/Pasted image 20250524160547.png",
+    "101. Utils/Images/Pasted image 20250524155225.png",
+    "101. Utils/Images/Pasted image 20250524153826.png",
+    "101. Utils/Images/Pasted image 20250524145143.png",
+    "101. Utils/Images/Pasted image 20250524144700.png",
+    "101. Utils/Images/Pasted image 20250524144628.png",
+    "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",

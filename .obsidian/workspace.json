@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Programming with AVX2.md",
+                "file": "010. MOCs/Statistics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Programming with AVX2"
+              "title": "Statistics"
             }
           },
           {
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SIMD and GPU",
+                "query": "teorema limite prob",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,12 +207,16 @@
   },
   "active": "071594e7f1d6d1c5",
   "lastOpenFiles": [
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "100. Notes/Teorema Limite di Probabilità.md",
+    "010. MOCs/Statistics.md",
+    "100. Notes/Indirect Networks.md",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
     "100. Notes/Programming with AVX2.md",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
     "101. Utils/Images/Pasted image 20250524165216.png",
     "100. Notes/Array Processors.md",
     "100. Notes/Graphical Processing Units (GPU).md",
-    "010. MOCs/High Performance Computing.md",
     "100. Notes/CUDA Basics.md",
     "100. Notes/SIMD and GPU.md",
     "011. Tags/SIMD on CPU.md",
@@ -226,15 +230,12 @@
     "100. Notes/Cache Memory.md",
     "011. Tags/Models of Computation.md",
     "011. Tags/Cache Coherence.md",
-    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
     "011. Tags/SIMD and GPU.md",
     "100. Notes/Speedup.md",
     "100. Notes/Networks Metrics.md",
     "100. Notes/Cyclic Computation Graphs.md",
     "100. Notes/Response Time.md",
     "011. Tags/SLURM Polices Algorithms.md",
-    "100. Notes/Resource Management -  SLURM.md",
-    "100. Notes/Introduction to HPC.md",
     "101. Utils/Images/Pasted image 20250524160608.png",
     "101. Utils/Images/Pasted image 20250524160547.png",
     "101. Utils/Images/Pasted image 20250524155225.png",

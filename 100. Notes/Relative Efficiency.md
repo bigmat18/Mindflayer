@@ -7,6 +7,12 @@
 **Area**: [[Master's degree]]
 # Relative Efficiency
 
+The **Efficiency** of a parallel program parallelized using p processors $E(p)$ is defined as the ratio between the speedup $S(p)$ and the number of processors used $p$
+$$
+E(p) = \frac{S(p)}{p} = \frac{T_{t-seq}}{T_c(p) \times p}
+$$
+$T_c(p) \times p$ is also called **cost of parallization** (or simply **cost**). If $T_c(p) \times p > T_{c-seq}$ then the parallelization overhead (is, communication, synchronization, idleness) impairs parallel efficiency and performance.
+
 The **relative efficiency** is a relative metric telling us how close/far is the effective performance from the ideal one. In the other words, it gives the general idea of the quality and effectiveness of the parallelization.
 
 ![[Pasted image 20250511183632.png | 550]]

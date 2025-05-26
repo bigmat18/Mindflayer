@@ -4,55 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2600b3c56cc18821",
+        "id": "3fb5bfe7ca2f0c4a",
         "type": "tabs",
         "children": [
           {
-            "id": "071594e7f1d6d1c5",
+            "id": "8796e171aa60b156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010. MOCs/Statistics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Statistics"
-            }
-          },
-          {
-            "id": "463e818b12515d17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100. Notes/Cache Memory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cache Memory"
+              "title": "New tab"
             }
           }
         ]
@@ -87,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "teorema limite prob",
+                "query": "read after write",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,44 +166,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "071594e7f1d6d1c5",
+  "active": "8796e171aa60b156",
   "lastOpenFiles": [
-    "100. Notes/Teorema Limite di Probabilità.md",
-    "010. MOCs/Statistics.md",
-    "100. Notes/Indirect Networks.md",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
-    "100. Notes/Programming with AVX2.md",
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "101. Utils/Images/Pasted image 20250524165216.png",
+    "011. Tags/Models of Computation.md",
+    "100. Notes/Scalability.md",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.23.18.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.21.42.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.19.24.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.17.07.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.13.38.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.01.27.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 22.00.57.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 21.58.24.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 21.56.08.png",
+    "101. Utils/Images/Screenshot 2025-05-25 at 21.48.15.png",
+    "100. Notes/Speedup.md",
+    "100. Notes/Parallelization methodology and metrics.md",
+    "100. Notes/Relative Efficiency.md",
+    "011. Tags/Computer Science Metrics.md",
+    "100. Notes/Programming with AVX2.md",
+    "100. Notes/Bernstein Conditions.md",
+    "010. MOCs/Cloud Computing.md",
+    "100. Notes/Cache Memory.md",
+    "010. MOCs/Statistics.md",
+    "100. Notes/Teorema Limite di Probabilità.md",
+    "100. Notes/Indirect Networks.md",
+    "100. Notes/SIMD (Single Instruction, Multiple Data).md",
     "100. Notes/Array Processors.md",
     "100. Notes/Graphical Processing Units (GPU).md",
     "100. Notes/CUDA Basics.md",
     "100. Notes/SIMD and GPU.md",
     "011. Tags/SIMD on CPU.md",
     "100. Notes/Vectorization Instructions.md",
-    "101. Utils/Images/Pasted image 20250524164605.png",
     "100. Notes/Roofline model.md",
-    "101. Utils/Images/Pasted image 20250524163918.png",
-    "100. Notes/Scalability.md",
-    "011. Tags/Computer Science Metrics.md",
-    "100. Notes/Parallelization methodology and metrics.md",
-    "100. Notes/Cache Memory.md",
-    "011. Tags/Models of Computation.md",
     "011. Tags/Cache Coherence.md",
     "011. Tags/SIMD and GPU.md",
-    "100. Notes/Speedup.md",
-    "100. Notes/Networks Metrics.md",
-    "100. Notes/Cyclic Computation Graphs.md",
-    "100. Notes/Response Time.md",
-    "011. Tags/SLURM Polices Algorithms.md",
-    "101. Utils/Images/Pasted image 20250524160608.png",
-    "101. Utils/Images/Pasted image 20250524160547.png",
-    "101. Utils/Images/Pasted image 20250524155225.png",
-    "101. Utils/Images/Pasted image 20250524153826.png",
-    "101. Utils/Images/Pasted image 20250524145143.png",
-    "101. Utils/Images/Pasted image 20250524144700.png",
-    "101. Utils/Images/Pasted image 20250524144628.png",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",

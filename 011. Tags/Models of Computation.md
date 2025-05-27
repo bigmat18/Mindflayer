@@ -1,3 +1,4 @@
+- [[Introduction to Models of Computation]]
 - [[Work-Span Model]]
 - [[PRAM Model]]
 - [[BSP Model]]

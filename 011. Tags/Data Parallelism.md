@@ -4,6 +4,7 @@
 - [[Gather]]
 - [[All-to-All]]
 - [[Virtual processors approach]]
+- [[Map Parallelization]]
 - [[Optimal parallelism degree with single inputs]]
 - [[Stencil]]
 - [[Reduce]]

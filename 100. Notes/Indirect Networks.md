@@ -26,6 +26,10 @@ The idea of **limited-degree networks** is to implement more complex switches Nx
 
 ### [[Fat-Tree Networks]]
 
+### [[Dragonfly]]
+
+### [[Linear Array]]
+
 ### Butterflies and Fat-Tree in SMP
 **Butterflies** and **Fat Trees** can be used in large **multi-CMP [[SMP Symmetric Multi-Processor]] and architectures**. They can jointly implement the **P-M network** and the **P-P network**.
 

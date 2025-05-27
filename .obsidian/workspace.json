@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/BSP Model.md",
+                "file": "100. Notes/Introduction to Interconnection Networks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BSP Model"
+              "title": "Introduction to Interconnection Networks"
             }
           }
         ]
@@ -63,10 +63,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "read after write",
+                "query": "overlap",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,42 +183,42 @@
   },
   "active": "8796e171aa60b156",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250527154128.png",
-    "101. Utils/Images/Pasted image 20250527154105.png",
-    "100. Notes/Untitled.md",
-    "100. Notes/BSP Model.md",
-    "101. Utils/Images/Pasted image 20250526184142.png",
-    "101. Utils/Images/Pasted image 20250526183226.png",
-    "101. Utils/Images/Pasted image 20250526183102.png",
-    "101. Utils/Images/Pasted image 20250526182328.png",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "100. Notes/PRAM Model.md",
-    "101. Utils/Images/Pasted image 20250526181822.png",
-    "101. Utils/Images/Pasted image 20250526181639.png",
-    "101. Utils/Images/Pasted image 20250526181146.png",
-    "101. Utils/Images/Pasted image 20250526180547.png",
-    "101. Utils/Images/Pasted image 20250526175446.png",
-    "100. Notes/Graphical Processing Units (GPU).md",
-    "100. Notes/Curvature in 3D models.md",
-    "100. Notes/Mean Curvature.md",
-    "100. Notes/Gaussian Curvature.md",
-    "100. Notes/Work-Span Model.md",
-    "100. Notes/Map Parallelization.md",
-    "100. Notes/Multicast.md",
-    "100. Notes/Stencil.md",
-    "100. Notes/Scalability.md",
-    "100. Notes/Amdahl's Law.md",
-    "011. Tags/Models of Computation.md",
-    "100. Notes/Introduction to Models of Computation.md",
-    "100. Notes/Programming with AVX2.md",
+    "101. Utils/Images/Pasted image 20250527185546.png",
+    "101. Utils/Images/Pasted image 20250527184143.png",
+    "101. Utils/Images/Pasted image 20250527184113.png",
+    "101. Utils/Images/Pasted image 20250527184103.png",
+    "101. Utils/Images/Pasted image 20250527184039.png",
+    "101. Utils/Images/Pasted image 20250527184005.png",
+    "101. Utils/Images/Pasted image 20250527183819.png",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/Speedup.md",
-    "100. Notes/Parallelization methodology and metrics.md",
-    "100. Notes/Relative Efficiency.md",
-    "011. Tags/Computer Science Metrics.md",
-    "100. Notes/Bernstein Conditions.md",
-    "010. MOCs/Cloud Computing.md",
-    "100. Notes/Cache Memory.md",
+    "100. Notes/Basics of Message Passing.md",
+    "011. Tags/Stream Parallelism.md",
+    "101. Utils/Images/Pasted image 20250527183523.png",
+    "100. Notes/Computation-to-Communication Overlap.md",
+    "101. Utils/Images/Pasted image 20250527183229.png",
+    "100. Notes/Introduction to link layer.md",
+    "100. Notes/Cache Coherence Problem.md",
+    "100. Notes/Communication Latency.md",
+    "100. Notes/Acyclic Computation Graphs.md",
+    "100. Notes/Curvature via Surface Fitting.md",
+    "100. Notes/Ideal Service Time.md",
+    "100. Notes/Introduction to Interconnection Networks.md",
+    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
+    "100. Notes/2024-10-25 - HPC.md",
+    "100. Notes/2024-11-13 - 3D GMP.md",
+    "100. Notes/2024-11-22 - HPC.md",
+    "100. Notes/All-to-All.md",
+    "011. Tags/Data Parallelism.md",
+    "100. Notes/Array Processors.md",
+    "100. Notes/Array-based Spin-Lock.md",
+    "100. Notes/Cache Coherence Abstract Architecture.md",
+    "100. Notes/Introduction to Data Parallelism.md",
+    "100. Notes/Optimal parallelism degree with single inputs.md",
+    "100. Notes/Virtual processors approach.md",
+    "100. Notes/Gather.md",
+    "100. Notes/Scatter.md",
+    "101. Utils/Images/Pasted image 20250527175941.png",
+    "101. Utils/Images/Pasted image 20250527175303.png",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",

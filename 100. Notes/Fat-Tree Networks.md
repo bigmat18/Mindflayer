@@ -37,4 +37,10 @@ A possibile solution is to map a Fat Tree topology with **N leaves** directly on
 
 Now each switch has a **limited degree**, so its design is feasible. Only modest increase in contention owing to the modular design of switches. Suitable for [[NUMA - Non Uniform Memory Access]] and [[SMP Symmetric Multi-Processor]] if switches behave according to [[Butterfly (2-fly n-ary) Networks|butterfy routing]] or to the **tree routing** depending on the type of messages.
 
+For a 2-level Fat Tree where each switch has k ports:
+- $k + \frac{k}{2}$ switches in total
+- $n = k \times \frac{K}{2}$ maximum number of endpoints
+- $bw(n) = \frac{n}{2}, \deg(n) = 4, dia(n) = 4$
+
+
 # References

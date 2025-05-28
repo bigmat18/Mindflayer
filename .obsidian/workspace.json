@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Introduction to Interconnection Networks.md",
+                "file": "100. Notes/CUDA Basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction to Interconnection Networks"
+              "title": "CUDA Basics"
             }
           }
         ]
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 372.50104904174805
+    "width": 372.50104904174805,
+    "collapsed": true
   },
   "right": {
     "id": "1d0404518313b128",
@@ -183,42 +183,42 @@
   },
   "active": "8796e171aa60b156",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250527185546.png",
-    "101. Utils/Images/Pasted image 20250527184143.png",
-    "101. Utils/Images/Pasted image 20250527184113.png",
-    "101. Utils/Images/Pasted image 20250527184103.png",
-    "101. Utils/Images/Pasted image 20250527184039.png",
-    "101. Utils/Images/Pasted image 20250527184005.png",
-    "101. Utils/Images/Pasted image 20250527183819.png",
     "010. MOCs/High Performance Computing.md",
+    "100. Notes/Graphical Processing Units (GPU).md",
+    "011. Tags/Introduction to CUDA.md",
+    "100. Notes/Multidimensional Grids.md",
+    "100. Notes/ImageBLUR.md",
+    "100. Notes/ImageFLIP.md",
+    "100. Notes/MatrixSUM.md",
+    "101. Utils/Images/Pasted image 20250528203404.png",
+    "101. Utils/Images/Pasted image 20250528202839.png",
+    "100. Notes/VectorSUM.md",
+    "100. Notes/CUDA Basics.md",
+    "100. Notes/CUDA Kernels.md",
+    "100. Notes/Multidimensional Grids in CUDA.md",
+    "100. Notes/CUDA.md",
+    "101. Utils/Images/Pasted image 20250528193858.png",
+    "101. Utils/Untitled.md",
+    "101. Utils/Images/Pasted image 20250528193148.png",
+    "101. Utils/Images/Pasted image 20250528190439.png",
+    "101. Utils/Images/Pasted image 20250528190405.png",
+    "101. Utils/Images/Pasted image 20250528131201.png",
+    "101. Utils/Images/Pasted image 20250528131149.png",
+    "101. Utils/Images/Pasted image 20250528130953.png",
+    "101. Utils/Images/Pasted image 20250528115537.png",
+    "000. Areas/Master's degree.md",
+    "100. Notes/Introduction to Interconnection Networks.md",
     "100. Notes/Basics of Message Passing.md",
     "011. Tags/Stream Parallelism.md",
-    "101. Utils/Images/Pasted image 20250527183523.png",
     "100. Notes/Computation-to-Communication Overlap.md",
-    "101. Utils/Images/Pasted image 20250527183229.png",
     "100. Notes/Introduction to link layer.md",
     "100. Notes/Cache Coherence Problem.md",
     "100. Notes/Communication Latency.md",
     "100. Notes/Acyclic Computation Graphs.md",
     "100. Notes/Curvature via Surface Fitting.md",
     "100. Notes/Ideal Service Time.md",
-    "100. Notes/Introduction to Interconnection Networks.md",
     "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
     "100. Notes/2024-10-25 - HPC.md",
-    "100. Notes/2024-11-13 - 3D GMP.md",
-    "100. Notes/2024-11-22 - HPC.md",
-    "100. Notes/All-to-All.md",
-    "011. Tags/Data Parallelism.md",
-    "100. Notes/Array Processors.md",
-    "100. Notes/Array-based Spin-Lock.md",
-    "100. Notes/Cache Coherence Abstract Architecture.md",
-    "100. Notes/Introduction to Data Parallelism.md",
-    "100. Notes/Optimal parallelism degree with single inputs.md",
-    "100. Notes/Virtual processors approach.md",
-    "100. Notes/Gather.md",
-    "100. Notes/Scatter.md",
-    "101. Utils/Images/Pasted image 20250527175941.png",
-    "101. Utils/Images/Pasted image 20250527175303.png",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",

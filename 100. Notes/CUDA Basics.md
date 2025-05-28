@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] 
+**Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
 **Area**: [[Master's degree]]
 # CUDA Basics
@@ -32,8 +32,32 @@ In general, `.cpp` files contain CUDA primitives (eg device memory allocations) 
 
 The JIT overhead can be masked with JIT caching. Alternatively we can generate a **fat binary**.
 
- ![[Pasted image 20250523133425.png | 500]]
+ ![[Pasted image 20250523133425.png | 450]]
 
 **Fat binary**: the compilation command includes some parameters indicating the specific physical model of the target GPUs. The output binary will include the physical machine code for all the specified target GPU models.
+
+### Processing Steps
+Copy of input data from the host memory to the GPU memory. 
+
+- **Step 1**: The **GPU memory** can be addressed by the device only, the **host memory** can be addressed by any PE in every CMP (i.e., CPU) of the machine.
+
+	![[Pasted image 20250528115211.png | 300]]
+
+	Primitives to start the **H2D (host-to-device)** memory copy such that input data will be copied into the GPU memory. 
+
+- **Step 2**: The host program loads the GPU program and triggers its execution on the device. During the execution of the GPU program, the c**ache hierarchy** of the device works to maintain in caches data that have been previously copied in the Global Memory by the host
+
+	![[Pasted image 20250528115336.png | 400]]
+
+	Primitives to launch a **CUDA kernel** on the device and to wait for its completion.
+
+- **Step 3**: Once the kernel execution is complete (we need to be sure about this), output results have been materialized in proper buffers in the device memory. Copy the output results into the host memory to allow the host program to read and check them
+
+	![[Pasted image 20250528115537.png | 400]]
+
+	Primitives to start the **D2H (device-to-host**) memory copy such that output data will be copied into the host memory.
+
+### [[CUDA Kernels]]
+
 
 # References

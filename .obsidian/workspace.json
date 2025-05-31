@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3fb5bfe7ca2f0c4a",
+        "id": "a336eb3dcd4d102b",
         "type": "tabs",
         "children": [
           {
-            "id": "8796e171aa60b156",
+            "id": "bfe259b9f3af9dea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/CUDA Basics.md",
+                "file": "100. Notes/Shared Memory (SMEM) on GPU.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CUDA Basics"
+              "title": "Shared Memory (SMEM) on GPU"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "overlap",
+                "query": "CPU ISA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -181,44 +181,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8796e171aa60b156",
+  "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
+    "101. Utils/Images/Pasted image 20250531163118.png",
+    "101. Utils/Images/Pasted image 20250531163044.png",
+    "101. Utils/Images/Pasted image 20250531162955.png",
+    "101. Utils/Images/Pasted image 20250531162916.png",
     "010. MOCs/High Performance Computing.md",
+    "100. Notes/Shared Memory (SMEM) on GPU.md",
+    "101. Utils/Images/Pasted image 20250531162634.png",
+    "101. Utils/Images/Pasted image 20250531162626.png",
+    "101. Utils/Images/Pasted image 20250531162419.png",
+    "101. Utils/Images/Pasted image 20250531162123.png",
+    "101. Utils/Images/Pasted image 20250531162059.png",
+    "100. Notes/GPU Memory Hierarchy.md",
+    "101. Utils/Images/Pasted image 20250531160633.png",
+    "101. Utils/Images/Pasted image 20250531155140.png",
+    "100. Notes/Atomic Instructions.md",
+    "100. Notes/Shared Memory Architectures.md",
+    "100. Notes/CUDA and GPU hardware.md",
+    "100. Notes/Logical & Physical View of Threads-Warps.md",
+    "100. Notes/Control Divergence on NVIDIA.md",
+    "100. Notes/SIMT and Synchronization.md",
+    "011. Tags/CUDA Memory Model.md",
+    "011. Tags/CUDA Execution Model.md",
+    "100. Notes/Cooperative Groups.md",
+    "100. Notes/CUDA Basics.md",
+    "100. Notes/CUDA Kernels.md",
+    "Logical and Physical View of Threads/Warps.md",
+    "Logical and Physical View of Threads",
+    "100. Notes/GPU Registers.md",
+    "100. Notes/Flynn's Taxonomy.md",
     "100. Notes/Graphical Processing Units (GPU).md",
+    "100. Notes/Performance Engineering of System Software.md",
+    "100. Notes/Vectorization Instructions.md",
+    "001. Projects/Surface Voxelization and SDF Generation.md",
+    "100. Notes/Signed Distances Field (SDF).md",
     "011. Tags/Introduction to CUDA.md",
     "100. Notes/Multidimensional Grids.md",
     "100. Notes/ImageBLUR.md",
-    "100. Notes/ImageFLIP.md",
-    "100. Notes/MatrixSUM.md",
-    "101. Utils/Images/Pasted image 20250528203404.png",
-    "101. Utils/Images/Pasted image 20250528202839.png",
-    "100. Notes/VectorSUM.md",
-    "100. Notes/CUDA Basics.md",
-    "100. Notes/CUDA Kernels.md",
-    "100. Notes/Multidimensional Grids in CUDA.md",
-    "100. Notes/CUDA.md",
-    "101. Utils/Images/Pasted image 20250528193858.png",
-    "101. Utils/Untitled.md",
-    "101. Utils/Images/Pasted image 20250528193148.png",
-    "101. Utils/Images/Pasted image 20250528190439.png",
-    "101. Utils/Images/Pasted image 20250528190405.png",
-    "101. Utils/Images/Pasted image 20250528131201.png",
-    "101. Utils/Images/Pasted image 20250528131149.png",
-    "101. Utils/Images/Pasted image 20250528130953.png",
-    "101. Utils/Images/Pasted image 20250528115537.png",
-    "000. Areas/Master's degree.md",
-    "100. Notes/Introduction to Interconnection Networks.md",
-    "100. Notes/Basics of Message Passing.md",
-    "011. Tags/Stream Parallelism.md",
-    "100. Notes/Computation-to-Communication Overlap.md",
-    "100. Notes/Introduction to link layer.md",
-    "100. Notes/Cache Coherence Problem.md",
-    "100. Notes/Communication Latency.md",
-    "100. Notes/Acyclic Computation Graphs.md",
-    "100. Notes/Curvature via Surface Fitting.md",
-    "100. Notes/Ideal Service Time.md",
-    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
-    "100. Notes/2024-10-25 - HPC.md",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
@@ -228,7 +229,6 @@
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/Appunti-Fondamenti-Informatica.pdf",
     "101. Utils/Documents/IIA.pdf",
-    "101. Utils/Documents/Calculus.pdf",
-    "101. Utils/Documents/Appunti.pdf"
+    "101. Utils/Documents/Calculus.pdf"
   ]
 }

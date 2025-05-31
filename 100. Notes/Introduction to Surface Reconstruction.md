@@ -64,7 +64,7 @@ Instead of explicit methods, the implicit methods are:
 - More resilient and uneven sampling. This means that we have a point used to sample a edge of surface, probably it will be ignored.
 
 ### Volumetric methods
-These are a derivative methods from implicit method where tessellate means that the result of this things are a **[[Signed distances field|distance field]]**, i.e. a representations where I have inside a volume a scalar and each of this scalar represents the distance to surface. The sets of points where the distance is 0  represents the surface. 
+These are a derivative methods from implicit method where tessellate means that the result of this things are a **[[Signed Distances Field (SDF)|distance field]]**, i.e. a representations where I have inside a volume a scalar and each of this scalar represents the distance to surface. The sets of points where the distance is 0  represents the surface. 
 
 ![[Pasted image 20250508132756.png | 350]]
 The standard method to build from a volumetric representations to distance field is the [[Marching cubes]]

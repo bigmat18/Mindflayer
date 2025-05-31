@@ -8,7 +8,7 @@
 
 # Marching cubes
 
-Marching cubes is an algorithm to convert implicit surface representation to parametric surface. This is a grid based method in which samples the implicit function on a regular grid and process each cell the [[Signed distances field|discrate distance field]] separately.
+Marching cubes is an algorithm to convert implicit surface representation to parametric surface. This is a grid based method in which samples the implicit function on a regular grid and process each cell the [[Signed Distances Field (SDF)|discrate distance field]] separately.
 ###### Input 
 - A regular 3D grid where each node is asociated with a scalar value $f$ (i.e. a scalar field)
 - A scalar value $\alpha$

@@ -40,15 +40,15 @@ H2D and D2H data transfers can likely be the bottleneck of a computation exploit
 
 Maximum bandwidth has evolved from a few GiB/s to tens of GiB/s in the last more powerful versions of the PCIe interconnect.
 
-### [[Fermi Architecture]]
+### [[Fermi Architecture (2010)]]
 
-### [[Kepler Architecture]]
+### [[Kepler Architecture (2012)]]
 
-### [[Maxwell Architecture]]
+### [[Maxwell Architecture (2014)]]
 
-### [[Pascal Architecture]]
+### [[Pascal Architecture (2016)]]
 
-### [[Volta Architecture]]
+### [[Volta Architecture (2017)]]
 
 ### [[Ampere and Hopper]]
 

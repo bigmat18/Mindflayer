@@ -4,3 +4,8 @@
 - [[Convolution in CUDA]]
 - [[Stencil in CUDA]]
 - [[Matrix Multiplication in CUDA]]
+- [[Pageable and Pinned host memory]]
+- [[Unified Memory (UM)]]
+- [[Accesses to GEMM]]
+- [[GEMM Exploitation]]
+- [[Working with sparse data]]

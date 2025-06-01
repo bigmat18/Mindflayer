@@ -13,11 +13,10 @@ tags:
 
 ## Study plans
 
-###### Parallel Programming (39 CFU)
+###### Parallel Programming (30 CFU)
 - [[High Performance Computing|High Performance Computing]] (9 cfu)
 - [[Parallel and distributed systems. Paradigms and models]] (9 cfu)
 - Parallel Scientific Computing (6 cfu)
-- Algorithm engineering (9 cfu)
 - Programming tools for parallel and distributed systems (6 cfu)
 ###### Computer Graphics (12 CFU)
 - [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
@@ -28,7 +27,8 @@ tags:
 - Machine learning (9 cfu)
 - Intelligent Systems for pattern recognition (9 cfu)
 - Artificial Intelligence Fundamentals (6 cfu) 
-###### Algorithms (15 CFU)
+###### Algorithms (24 CFU)
+- Algorithm engineering (9 cfu)
 - Competitive programming and contests (6 cfu)
 - Algorithm design (9 cfu)
 

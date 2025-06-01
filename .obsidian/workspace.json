@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Stencil in CUDA.md",
+                "file": "100. Notes/Fermi Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stencil in CUDA"
+              "title": "Fermi Architecture"
             }
           }
         ]
@@ -183,20 +183,25 @@
   },
   "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250601003949.png",
-    "101. Utils/Images/Pasted image 20250601003819.png",
+    "100. Notes/NVIDIA Architectures Overview.md",
+    "100. Notes/Fermi Architecture.md",
     "010. MOCs/High Performance Computing.md",
     "100. Notes/Stencil in CUDA.md",
+    "011. Tags/CUDA Architectures and Compiler.md",
+    "101. Utils/Images/Pasted image 20250601130721.png",
+    "101. Utils/Images/Pasted image 20250601130628.png",
+    "101. Utils/Images/Pasted image 20250601130449.png",
+    "101. Utils/Images/Pasted image 20250601130055.png",
+    "100. Notes/Matrix Multiplication in CUDA.md",
+    "101. Utils/Images/Pasted image 20250601125337.png",
+    "101. Utils/Images/Pasted image 20250601125259.png",
+    "101. Utils/Images/Pasted image 20250601124934.png",
+    "101. Utils/Images/Pasted image 20250601124907.png",
+    "101. Utils/Images/Pasted image 20250601124845.png",
+    "101. Utils/Images/Pasted image 20250601124809.png",
+    "100. Notes/Untitled.md",
+    "000. Areas/Master's degree.md",
     "100. Notes/Convolution in CUDA.md",
-    "101. Utils/Images/Pasted image 20250601002713.png",
-    "101. Utils/Images/Pasted image 20250601002058.png",
-    "101. Utils/Images/Pasted image 20250601001247.png",
-    "101. Utils/Images/Pasted image 20250531235938.png",
-    "101. Utils/Images/Pasted image 20250531235204.png",
-    "101. Utils/Images/Pasted image 20250531234320.png",
-    "101. Utils/Images/Pasted image 20250531234245.png",
-    "101. Utils/Images/Pasted image 20250531234157.png",
-    "101. Utils/Images/Pasted image 20250531234049.png",
     "100. Notes/Reduction in CUDA.md",
     "100. Notes/Shared Memory (SMEM) on GPU.md",
     "100. Notes/Cooperative Groups.md",
@@ -215,11 +220,6 @@
     "Logical and Physical View of Threads",
     "100. Notes/GPU Registers.md",
     "100. Notes/Flynn's Taxonomy.md",
-    "100. Notes/Graphical Processing Units (GPU).md",
-    "100. Notes/Performance Engineering of System Software.md",
-    "100. Notes/Vectorization Instructions.md",
-    "001. Projects/Surface Voxelization and SDF Generation.md",
-    "100. Notes/Signed Distances Field (SDF).md",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/HYPER-Q.md",
+                "file": "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HYPER-Q"
+              "title": "Parallel and distributed systems. Paradigms and models"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pragma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100. Notes/HYPER-Q.md",
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HYPER-Q"
+              "title": "Backlinks for Surface Voxelization and SDF Generation"
             }
           },
           {
@@ -154,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/HYPER-Q.md",
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HYPER-Q"
+              "title": "Outline of Surface Voxelization and SDF Generation"
             }
           }
         ],
@@ -186,41 +185,41 @@
   },
   "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
-    "100. Notes/CUDA Streams.md",
-    "011. Tags/CUDA Concurrency and Streams.md",
-    "100. Notes/CUDA Events.md",
-    "101. Utils/Images/Pasted image 20250602133735.png",
-    "101. Utils/Images/Pasted image 20250602133000.png",
-    "100. Notes/Overlapping Pattern on CUDA Streams.md",
-    "101. Utils/Images/Pasted image 20250602132715.png",
-    "101. Utils/Images/Pasted image 20250602132342.png",
-    "101. Utils/Images/Pasted image 20250602132318.png",
-    "100. Notes/Unpack-Compute-Pack Pattern.md",
-    "101. Utils/Images/Pasted image 20250602131703.png",
-    "101. Utils/Images/Pasted image 20250602131339.png",
-    "100. Notes/HYPER-Q.md",
-    "101. Utils/Images/Pasted image 20250602125223.png",
-    "101. Utils/Images/Pasted image 20250602125050.png",
-    "101. Utils/Images/Pasted image 20250602124629.png",
-    "100. Notes/Concurrency in CUDA.md",
-    "100. Notes/Thread Coarsening.md",
+    "100. Notes/Introduction to MPI.md",
+    "100. Notes/Symmetric Communication.md",
+    "101. Utils/Images/Pasted image 20250605175439.png",
+    "101. Utils/Images/Pasted image 20250605175304.png",
+    "101. Utils/Images/Pasted image 20250605175005.png",
+    "100. Notes/Cyclic Computation Graphs.md",
+    "101. Utils/Images/Pasted image 20250605174336.png",
+    "101. Utils/Images/Pasted image 20250605170831.png",
+    "001. Projects/Surface Voxelization and SDF Generation.md",
+    "101. Utils/Images/Pasted image 20250605143428.png",
+    "101. Utils/Images/Pasted image 20250605143326.png",
+    "101. Utils/Images/Pasted image 20250605143256.png",
+    "100. Notes/Asymmetric Communication.md",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "101. Utils/Images/Pasted image 20250605142455.png",
+    "101. Utils/Images/Pasted image 20250605140936.png",
+    "100. Notes/Resource Management -  SLURM.md",
+    "100. Notes/Priority queue algorithm.md",
+    "100. Notes/Backfill algorithm.md",
+    "011. Tags/Message Passing Interface (MPI).md",
+    "100. Notes/OpenMP task-parallelism.md",
+    "011. Tags/Parallel Programming with OpenMP.md",
+    "100. Notes/OpenMP primitives and enviroment variables.md",
+    "100. Notes/Multiple-Reader Single-Writer Pattern.md",
+    "100. Notes/Producer-Consumer Pattern.md",
+    "100. Notes/OpenMP loop-parallelism.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "100. Notes/Convolution in CUDA.md",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/Working with sparse data.md",
-    "100. Notes/ELL Data Layout.md",
-    "100. Notes/JDS Format.md",
-    "100. Notes/Compressed Sparsed Row (CSR).md",
-    "100. Notes/Coordinate Format (COO).md",
-    "011. Tags/CUDA Memory Model.md",
-    "100. Notes/GEMM Exploitation.md",
-    "100. Notes/Cache Coherence Abstract Architecture.md",
-    "100. Notes/Directory-based CC.md",
-    "100. Notes/Snoopy-based CC.md",
-    "100. Notes/Data Layout in GEMM.md",
-    "100. Notes/Accesses to GEMM.md",
-    "100. Notes/Matrix Transponse in CUDA.md",
-    "100. Notes/Untitled.md",
-    "100. Notes/Unified Memory (UM).md",
-    "100. Notes/Pageable and Pinned host memory.md",
+    "100. Notes/Stencil in CUDA.md",
+    "001. Projects/Overcyde Game Engine.md",
+    "001. Projects/Architectures DataSet Visualization.md",
+    "100. Notes/Remeshing Introduction.md",
+    "100. Notes/Parallelization methodology and metrics.md",
+    "100. Notes/Bottleneck Parallelization.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

@@ -73,7 +73,7 @@ NVIDIA provides a set of **profiling tools** that can be used toinspect the perf
 Several profilers provided by NVIDIA over the years, with different features and characteristics. 
 - Old GPU models (up to V100):
 	- `nvprof` (CLI)
-	- `nvprof` (CLI)
+	- `nvvp` (GUI)
 - Modern GPU models
 	- `ncu, ncu-ui` (**Nsight Compute**) provide both CLI/GUI
 	- `nsys, nsys-ui` (**Nsight Systems**) provide both CLI/GUI

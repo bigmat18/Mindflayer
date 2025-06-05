@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+                "file": "100. Notes/Asymmetric Communication.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Parallel and distributed systems. Paradigms and models"
+              "title": "Asymmetric Communication"
             }
           }
         ]
@@ -185,22 +185,24 @@
   },
   "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
+    "101. Utils/Images/Pasted image 20250605183958.png",
+    "101. Utils/Images/Pasted image 20250605183928.png",
+    "101. Utils/Images/Pasted image 20250605183508.png",
+    "101. Utils/Images/Pasted image 20250605183329.png",
+    "101. Utils/Images/Pasted image 20250605183235.png",
+    "101. Utils/Images/Pasted image 20250605183125.png",
+    "101. Utils/Images/Pasted image 20250605183002.png",
+    "101. Utils/Images/Pasted image 20250605182504.png",
+    "100. Notes/Scatter.md",
+    "100. Notes/Asymmetric Communication.md",
+    "101. Utils/Images/Pasted image 20250605182242.png",
+    "101. Utils/Images/Pasted image 20250605181832.png",
+    "101. Utils/Images/Pasted image 20250605181745.png",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
     "100. Notes/Introduction to MPI.md",
     "100. Notes/Symmetric Communication.md",
-    "101. Utils/Images/Pasted image 20250605175439.png",
-    "101. Utils/Images/Pasted image 20250605175304.png",
-    "101. Utils/Images/Pasted image 20250605175005.png",
     "100. Notes/Cyclic Computation Graphs.md",
-    "101. Utils/Images/Pasted image 20250605174336.png",
-    "101. Utils/Images/Pasted image 20250605170831.png",
     "001. Projects/Surface Voxelization and SDF Generation.md",
-    "101. Utils/Images/Pasted image 20250605143428.png",
-    "101. Utils/Images/Pasted image 20250605143326.png",
-    "101. Utils/Images/Pasted image 20250605143256.png",
-    "100. Notes/Asymmetric Communication.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "101. Utils/Images/Pasted image 20250605142455.png",
-    "101. Utils/Images/Pasted image 20250605140936.png",
     "100. Notes/Resource Management -  SLURM.md",
     "100. Notes/Priority queue algorithm.md",
     "100. Notes/Backfill algorithm.md",
@@ -219,7 +221,6 @@
     "001. Projects/Architectures DataSet Visualization.md",
     "100. Notes/Remeshing Introduction.md",
     "100. Notes/Parallelization methodology and metrics.md",
-    "100. Notes/Bottleneck Parallelization.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

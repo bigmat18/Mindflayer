@@ -6,6 +6,7 @@
       {
         "id": "a336eb3dcd4d102b",
         "type": "tabs",
+        "dimension": 66.55502392344498,
         "children": [
           {
             "id": "bfe259b9f3af9dea",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Asymmetric Communication.md",
+                "file": "100. Notes/Solid Voxelization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asymmetric Communication"
+              "title": "Solid Voxelization"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fcb8e69b89c71d68",
+        "type": "tabs",
+        "dimension": 33.44497607655502,
+        "children": [
+          {
+            "id": "426b20f0c27b86a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Surface Voxelization and SDF Generation"
             }
           }
         ]
@@ -185,6 +217,14 @@
   },
   "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
+    "100. Notes/Parallel Surface Voxelization.md",
+    "100. Notes/Surface Voxelization.md",
+    "100. Notes/Solid Voxelization.md",
+    "001. Projects/Surface Voxelization and SDF Generation.md",
+    "101. Utils/Excalidraw/07-06-2025 16.25.40.excalidraw.md",
+    "100. Notes/Untitled.md",
+    "100. Notes/Signed Distance Field (SDF).md",
+    "100. Notes/Asymmetric Communication.md",
     "101. Utils/Images/Pasted image 20250605183958.png",
     "101. Utils/Images/Pasted image 20250605183928.png",
     "101. Utils/Images/Pasted image 20250605183508.png",
@@ -194,15 +234,12 @@
     "101. Utils/Images/Pasted image 20250605183002.png",
     "101. Utils/Images/Pasted image 20250605182504.png",
     "100. Notes/Scatter.md",
-    "100. Notes/Asymmetric Communication.md",
     "101. Utils/Images/Pasted image 20250605182242.png",
     "101. Utils/Images/Pasted image 20250605181832.png",
-    "101. Utils/Images/Pasted image 20250605181745.png",
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
     "100. Notes/Introduction to MPI.md",
     "100. Notes/Symmetric Communication.md",
     "100. Notes/Cyclic Computation Graphs.md",
-    "001. Projects/Surface Voxelization and SDF Generation.md",
     "100. Notes/Resource Management -  SLURM.md",
     "100. Notes/Priority queue algorithm.md",
     "100. Notes/Backfill algorithm.md",
@@ -216,11 +253,6 @@
     "001. Projects/Distributed Mesh Simplification (QEM).md",
     "100. Notes/Convolution in CUDA.md",
     "010. MOCs/High Performance Computing.md",
-    "100. Notes/Stencil in CUDA.md",
-    "001. Projects/Overcyde Game Engine.md",
-    "001. Projects/Architectures DataSet Visualization.md",
-    "100. Notes/Remeshing Introduction.md",
-    "100. Notes/Parallelization methodology and metrics.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

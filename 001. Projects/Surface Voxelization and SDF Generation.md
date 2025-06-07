@@ -1,9 +1,9 @@
 The project's objective is to develop a high-performance solution, using **CUDA**, for converting a **3D Mesh** (composed by triangles) into a volumetric representation through voxelization. Subsequently, starting from the **Voxelized** representation, a **Signed Distances Field (SDF)** will be calculated, which is a function that, for each point in the volume, returns the distance (with sign) from the mesh surface. This pipeline allows obtaining a volumetric representation rich in geometric information, much more expressive than simple binary voxelization, and finds application in numerous areas.
 
-#### Surface Voxelization
+#### [[Parallel Surface Voxelization]]
 **Voxelization** consists of converting the mesh surface into a three-dimensional grid of voxels (cubic cells), marking the voxels that intersect the surface. This step **transforms a continuous geometric representation (mesh) into a discrete one (volume)**, enabling parallel processing and volumetric analysis. Voxelization is the starting point for many 3D processing techniques, as it allows working with structured data that is easily manageable on GPUs.
 
-#### Signed Distance Field (SDF)
+#### [[Signed Distances Field (SDF)]]
 The **Signed Distance Field** is a function that, for each voxel, calculates the minimum distance from the mesh surface, assigning a positive sign (outside the mesh) or negative (inside the mesh). Compared to simple voxelization, the SDF provides a **continuous and differentiable representation of the geometry**.
 
 #### Main Application Areas

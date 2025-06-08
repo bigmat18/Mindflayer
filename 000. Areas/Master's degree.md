@@ -22,7 +22,7 @@ tags:
 ###### Computer Graphics (12 CFU)
 - [[3D Geometry Modelling & Processing|3D Geometric Modeling & Processing]] (6 cfu)
 - [[Scientific and Large Data Visualisation]] (6 cfu)
-- 3D Geometry Representation and Processing for Deep Learning (extra)
+- [[3D Geometry Representation and Processing for Deep Learning]] (extra)
 ###### Machine Learning (33 CFU)
 - Computational mathematics for learning and data analysis (9 cfu)
 - Machine learning (9 cfu)

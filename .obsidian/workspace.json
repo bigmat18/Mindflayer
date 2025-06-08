@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3fb5bfe7ca2f0c4a",
+        "id": "a336eb3dcd4d102b",
         "type": "tabs",
+        "dimension": 66.55502392344498,
         "children": [
           {
-            "id": "8796e171aa60b156",
+            "id": "bfe259b9f3af9dea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Introduction to Interconnection Networks.md",
+                "file": "100. Notes/Solid Voxelization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction to Interconnection Networks"
+              "title": "Solid Voxelization"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fcb8e69b89c71d68",
+        "type": "tabs",
+        "dimension": 33.44497607655502,
+        "children": [
+          {
+            "id": "426b20f0c27b86a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Surface Voxelization and SDF Generation"
             }
           }
         ]
@@ -63,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "overlap",
+                "query": "tag:#pragma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,12 +116,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 372.50104904174805
+    "width": 372.50104904174805,
+    "collapsed": true
   },
   "right": {
     "id": "1d0404518313b128",
@@ -105,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000. Areas/Bachelor's Degree.md",
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bachelor's Degree"
+              "title": "Backlinks for Surface Voxelization and SDF Generation"
             }
           },
           {
@@ -153,16 +185,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000. Areas/Bachelor's Degree.md",
+                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bachelor's Degree"
+              "title": "Outline of Surface Voxelization and SDF Generation"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,47 +211,49 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "8796e171aa60b156",
+  "active": "bfe259b9f3af9dea",
   "lastOpenFiles": [
-    "101. Utils/Images/Pasted image 20250527185546.png",
-    "101. Utils/Images/Pasted image 20250527184143.png",
-    "101. Utils/Images/Pasted image 20250527184113.png",
-    "101. Utils/Images/Pasted image 20250527184103.png",
-    "101. Utils/Images/Pasted image 20250527184039.png",
-    "101. Utils/Images/Pasted image 20250527184005.png",
-    "101. Utils/Images/Pasted image 20250527183819.png",
-    "010. MOCs/High Performance Computing.md",
-    "100. Notes/Basics of Message Passing.md",
-    "011. Tags/Stream Parallelism.md",
-    "101. Utils/Images/Pasted image 20250527183523.png",
-    "100. Notes/Computation-to-Communication Overlap.md",
-    "101. Utils/Images/Pasted image 20250527183229.png",
-    "100. Notes/Introduction to link layer.md",
-    "100. Notes/Cache Coherence Problem.md",
-    "100. Notes/Communication Latency.md",
-    "100. Notes/Acyclic Computation Graphs.md",
-    "100. Notes/Curvature via Surface Fitting.md",
-    "100. Notes/Ideal Service Time.md",
-    "100. Notes/Introduction to Interconnection Networks.md",
-    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
-    "100. Notes/2024-10-25 - HPC.md",
-    "100. Notes/2024-11-13 - 3D GMP.md",
-    "100. Notes/2024-11-22 - HPC.md",
-    "100. Notes/All-to-All.md",
-    "011. Tags/Data Parallelism.md",
-    "100. Notes/Array Processors.md",
-    "100. Notes/Array-based Spin-Lock.md",
-    "100. Notes/Cache Coherence Abstract Architecture.md",
-    "100. Notes/Introduction to Data Parallelism.md",
-    "100. Notes/Optimal parallelism degree with single inputs.md",
-    "100. Notes/Virtual processors approach.md",
-    "100. Notes/Gather.md",
+    "100. Notes/Parallel Surface Voxelization.md",
+    "100. Notes/Surface Voxelization.md",
+    "100. Notes/Solid Voxelization.md",
+    "001. Projects/Surface Voxelization and SDF Generation.md",
+    "101. Utils/Excalidraw/07-06-2025 16.25.40.excalidraw.md",
+    "100. Notes/Untitled.md",
+    "100. Notes/Signed Distance Field (SDF).md",
+    "100. Notes/Asymmetric Communication.md",
+    "101. Utils/Images/Pasted image 20250605183958.png",
+    "101. Utils/Images/Pasted image 20250605183928.png",
+    "101. Utils/Images/Pasted image 20250605183508.png",
+    "101. Utils/Images/Pasted image 20250605183329.png",
+    "101. Utils/Images/Pasted image 20250605183235.png",
+    "101. Utils/Images/Pasted image 20250605183125.png",
+    "101. Utils/Images/Pasted image 20250605183002.png",
+    "101. Utils/Images/Pasted image 20250605182504.png",
     "100. Notes/Scatter.md",
-    "101. Utils/Images/Pasted image 20250527175941.png",
-    "101. Utils/Images/Pasted image 20250527175303.png",
+    "101. Utils/Images/Pasted image 20250605182242.png",
+    "101. Utils/Images/Pasted image 20250605181832.png",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "100. Notes/Introduction to MPI.md",
+    "100. Notes/Symmetric Communication.md",
+    "100. Notes/Cyclic Computation Graphs.md",
+    "100. Notes/Resource Management -  SLURM.md",
+    "100. Notes/Priority queue algorithm.md",
+    "100. Notes/Backfill algorithm.md",
+    "011. Tags/Message Passing Interface (MPI).md",
+    "100. Notes/OpenMP task-parallelism.md",
+    "011. Tags/Parallel Programming with OpenMP.md",
+    "100. Notes/OpenMP primitives and enviroment variables.md",
+    "100. Notes/Multiple-Reader Single-Writer Pattern.md",
+    "100. Notes/Producer-Consumer Pattern.md",
+    "100. Notes/OpenMP loop-parallelism.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "100. Notes/Convolution in CUDA.md",
+    "010. MOCs/High Performance Computing.md",
+    "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",
     "101. Utils/Documents/AESO.pdf",
@@ -228,7 +263,6 @@
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/Appunti-Fondamenti-Informatica.pdf",
     "101. Utils/Documents/IIA.pdf",
-    "101. Utils/Documents/Calculus.pdf",
-    "101. Utils/Documents/Appunti.pdf"
+    "101. Utils/Documents/Calculus.pdf"
   ]
 }

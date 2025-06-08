@@ -1,0 +1,4 @@
+- [[Introduction to OpenMP]]
+- [[OpenMP loop-parallelism]]
+- [[OpenMP task-parallelism]]
+- [[OpenMP primitives and enviroment variables]]

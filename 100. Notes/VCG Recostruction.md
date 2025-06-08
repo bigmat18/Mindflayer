@@ -14,7 +14,7 @@ This method can be difficult when we have a ton of surfaces on each other. For t
 ![[Pasted image 20250509024657.png | 250]]
 
 The basics steps are:
-1. Compute [[Signed distances field|signed distance field]] from each range map
+1. Compute [[Signed Distances Field (SDF)|signed distance field]] from each range map
 ![[Pasted image 20250509024759.png | 250]]
 
 2. Average them. This means if in a specific point a surface say the distance is 1 and other say distance 2 we have distance 1,5.

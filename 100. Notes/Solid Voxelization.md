@@ -25,8 +25,12 @@ $$
 $$
 	n_x(t) + n_y (y_{col}) + n_z(z_{col}) - (n \cdot v_0)= 0
 $$
-	we should found $t$ that determinate the intersection point long the $x$ axes.
-5. We convert $t$ to a voxel with $q = \lfloor t \rfloor$.
+	we should found $t$ that determinate the intersection point long the $x$ axes. To calculate the normal of the the triangle, we can do the following operations:
+$$
+	edge_1 = v_1 - v_0 \:\:\:\:\:\:edge_2 = v_2 - v_0
+$$
+	and after we perform che cross product between the two edge $n = edge_1 \times edge_2$ and we found A, B and C
+5. We convert $t$ to a voxel with $q = \lfloor t \rfloor$
 6. We employ the **parity principle** to fill the volume. As we traverse a row of voxels, every time we encounter a voxel that marks a boundary, we toggle a fill state using an `xor` operation. When the first boundary voxel is found, all subsequent voxels are flipped to 1. Upon finding the second boundary voxel, the `xor` operation flips them back to 0. This process creates the volumetric effect, ensuring that only the voxels between an odd and an even boundary crossing are ultimately set to 1.
 
 ### 4.2 Tile-Based Solid Voxelization

@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a336eb3dcd4d102b",
+        "id": "fcb8e69b89c71d68",
         "type": "tabs",
-        "dimension": 66.55502392344498,
         "children": [
           {
-            "id": "bfe259b9f3af9dea",
+            "id": "426b20f0c27b86a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,37 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "Solid Voxelization"
-            }
-          }
-        ]
-      },
-      {
-        "id": "fcb8e69b89c71d68",
-        "type": "tabs",
-        "dimension": 33.44497607655502,
-        "children": [
-          {
-            "id": "426b20f0c27b86a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "001. Projects/Surface Voxelization and SDF Generation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Surface Voxelization and SDF Generation"
             }
           }
         ]
@@ -215,12 +183,17 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "bfe259b9f3af9dea",
+  "active": "426b20f0c27b86a6",
   "lastOpenFiles": [
     "100. Notes/Parallel Surface Voxelization.md",
     "100. Notes/Surface Voxelization.md",
-    "100. Notes/Solid Voxelization.md",
     "001. Projects/Surface Voxelization and SDF Generation.md",
+    "100. Notes/Solid Voxelization.md",
+    "100. Notes/CUDA Compiler and Profiling Tools.md",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/Snoopy-based CC.md",
+    "100. Notes/CUDA Basics.md",
+    "100. Notes/CUDA Kernels.md",
     "101. Utils/Excalidraw/07-06-2025 16.25.40.excalidraw.md",
     "100. Notes/Untitled.md",
     "100. Notes/Signed Distance Field (SDF).md",
@@ -248,11 +221,6 @@
     "011. Tags/Parallel Programming with OpenMP.md",
     "100. Notes/OpenMP primitives and enviroment variables.md",
     "100. Notes/Multiple-Reader Single-Writer Pattern.md",
-    "100. Notes/Producer-Consumer Pattern.md",
-    "100. Notes/OpenMP loop-parallelism.md",
-    "001. Projects/Distributed Mesh Simplification (QEM).md",
-    "100. Notes/Convolution in CUDA.md",
-    "010. MOCs/High Performance Computing.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

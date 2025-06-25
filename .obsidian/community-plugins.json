@@ -1,9 +1,9 @@
 [
   "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
-  "dataview",
   "templater-obsidian",
   "obsidian-icon-folder",
   "obsidian-advanced-uri",
-  "pomodoro-timer"
+  "pomodoro-timer",
+  "phrasesync"
 ]

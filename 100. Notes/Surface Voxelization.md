@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[Surface Voxelization and SDF Generation]] 
+**Tags:** [[Solid Voxelization and SDF Generation]] [[Parallel Surface and Solid Voxelization on GPUs]]
 
 **Area**: [[Master's degree]]
 # Surface Voxelization
@@ -71,3 +71,5 @@ with this value $P=(P_x, P_y)$ we calculate $E(P_x, P_y) = e$ and checks:
 if all edges tests don't fails and AABB test is true we concluded that there is overlapping on XY plane. This test must be done for XY, XZ and YZ if all three tests are true and condition a is ok we can check the voxel with 1.
 
 # References
+- [Fast Parallel Surface and Solid Voxelization on GPUs di Michael Schwarz e Hans-Peter Seidel (2010)](https://michael-schwarz.com/research/publ/files/vox-siga10.pd)
+- [Fast 3D triangle-box overlap testing (SAT)](https://dl.acm.org/doi/abs/10.1080/10867651.2001.10487535)

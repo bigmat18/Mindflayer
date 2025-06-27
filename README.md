@@ -68,5 +68,6 @@ The vault is organized to facilitate knowledge discovery and management, with a 
 ## 📦 Usage
 
 1. **Clone the repository:**
-   ```sh
+```sh
    git clone https://github.com/bigmat18/Mindflayer.git
+```

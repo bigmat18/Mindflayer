@@ -1,9 +1,8 @@
 [
-  "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
   "templater-obsidian",
   "obsidian-icon-folder",
   "obsidian-advanced-uri",
-  "pomodoro-timer",
-  "phrasesync"
+  "phrasesync",
+  "obsidian-git"
 ]

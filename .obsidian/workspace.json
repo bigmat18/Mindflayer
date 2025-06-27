@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ac2dae69d9e3445b",
+        "id": "2ac4a730eef5ee2b",
         "type": "tabs",
         "children": [
           {
-            "id": "6c712b2dd43e520b",
+            "id": "fdaa468d8ec5f2d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "100. Notes/Surface Voxelization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".obsidian/plugins/pomodoro-timer/data.json",
+                "bFile": ".obsidian/plugins/pomodoro-timer/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Surface Voxelization"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -85,11 +75,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "7efddb311ac8bca8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c712b2dd43e520b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 372.50104904174805,
-    "collapsed": true
+    "width": 372.50104904174805
   },
   "right": {
     "id": "1d0404518313b128",
@@ -153,17 +158,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Surface Voxelization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Surface Voxelization"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b6be6f01737e90d7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,14 +193,17 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c712b2dd43e520b",
+  "active": "fdaa468d8ec5f2d3",
   "lastOpenFiles": [
+    "000. Areas/Bachelor's Degree.md",
+    "README.md",
     "100. Notes/Solid Voxelization.md",
-    "100. Notes/Surface Voxelization.md",
     "100. Notes/Parallel Surface and Solid Voxelization on GPUs.md",
+    "100. Notes/Surface Voxelization.md",
     "100. Notes/Logical & Physical View of Threads-Warps.md",
     "001. Projects/Solid Voxelization and SDF Generation.md",
     "101. Utils/Images/Pasted image 20250621234707.png",
@@ -218,8 +235,6 @@
     "101. Utils/Images/Pasted image 20250605182242.png",
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
     "100. Notes/Introduction to MPI.md",
-    "100. Notes/Symmetric Communication.md",
-    "100. Notes/Cyclic Computation Graphs.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

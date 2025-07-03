@@ -3,6 +3,7 @@
   "templater-obsidian",
   "obsidian-icon-folder",
   "obsidian-advanced-uri",
+  "obsidian-git",
   "phrasesync",
-  "obsidian-git"
+  "code-styler"
 ]

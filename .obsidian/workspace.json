@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "2ac4a730eef5ee2b",
+        "id": "a4ef914a6a5685c4",
         "type": "tabs",
         "children": [
           {
-            "id": "fdaa468d8ec5f2d3",
+            "id": "b2cf0870bb8b4ce1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/pomodoro-timer/data.json",
-                "bFile": ".obsidian/plugins/pomodoro-timer/data.json",
-                "aRef": ""
+                "file": "001. Projects/CSG on Mesh using Voxelization and SDF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "CSG on Mesh using Voxelization and SDF"
             }
           }
         ]
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bounding",
+                "query": "jf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,22 +85,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "7efddb311ac8bca8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6c712b2dd43e520b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -103,6 +97,7 @@
       {
         "id": "3c58e9ecd82a5e8c",
         "type": "tabs",
+        "dimension": 58.58143607705779,
         "children": [
           {
             "id": "6424919e9781b080",
@@ -138,6 +133,21 @@
             }
           },
           {
+            "id": "64328dd401751678",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "001. Projects/CSG on Mesh using Voxelization and SDF.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CSG on Mesh using Voxelization and SDF"
+            }
+          },
+          {
             "id": "4672e01004696d69",
             "type": "leaf",
             "state": {
@@ -151,21 +161,15 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "64328dd401751678",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "7e5e9f9f0507d3df",
+        "type": "tabs",
+        "dimension": 41.41856392294221,
+        "children": [
           {
             "id": "b6be6f01737e90d7",
             "type": "leaf",
@@ -176,12 +180,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,21 +194,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fdaa468d8ec5f2d3",
+  "active": "b2cf0870bb8b4ce1",
   "lastOpenFiles": [
-    "000. Areas/Bachelor's Degree.md",
+    "100. Notes/Jump Flooding Algorithm (JFA).md",
+    "101. Utils/Images/Pasted image 20250703172618.png",
+    "101. Utils/Images/Pasted image 20250703172555.png",
+    "100. Notes/Stencil in CUDA.md",
+    "010. MOCs/High Performance Computing.md",
+    "100. Notes/Convolution in CUDA.md",
+    "100. Notes/Unified Memory (UM).md",
+    "010. MOCs/3D Geometry Representation and Processing for Deep Learning.md",
+    "010. MOCs/Calculus 1.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
     "README.md",
-    "100. Notes/Solid Voxelization.md",
     "100. Notes/Parallel Surface and Solid Voxelization on GPUs.md",
+    "001. Projects/Overcyde Game Engine.md",
+    "000. Areas/Master's degree.md",
+    "000. Areas/Bachelor's Degree.md",
+    "100. Notes/Remeshing Introduction.md",
+    "010. MOCs/Programming & Algorithms.md",
+    "100. Notes/Solid Voxelization.md",
     "100. Notes/Surface Voxelization.md",
     "100. Notes/Logical & Physical View of Threads-Warps.md",
-    "001. Projects/Solid Voxelization and SDF Generation.md",
     "101. Utils/Images/Pasted image 20250621234707.png",
     "100. Notes/Implicit representations.md",
     "011. Tags/Surface Representations.md",
@@ -213,16 +229,6 @@
     "100. Notes/Parametric representations.md",
     "001. Projects/Architectures DataSet Visualization.md",
     "101. Utils/Templates/Tags Template.md",
-    "100. Notes/Atomic Instructions.md",
-    "100. Notes/CUDA Compiler and Profiling Tools.md",
-    "010. MOCs/High Performance Computing.md",
-    "100. Notes/Snoopy-based CC.md",
-    "100. Notes/CUDA Basics.md",
-    "100. Notes/CUDA Kernels.md",
-    "101. Utils/Excalidraw/07-06-2025 16.25.40.excalidraw.md",
-    "100. Notes/Untitled.md",
-    "100. Notes/Signed Distance Field (SDF).md",
-    "100. Notes/Asymmetric Communication.md",
     "101. Utils/Images/Pasted image 20250605183958.png",
     "101. Utils/Images/Pasted image 20250605183928.png",
     "101. Utils/Images/Pasted image 20250605183508.png",
@@ -230,11 +236,6 @@
     "101. Utils/Images/Pasted image 20250605183235.png",
     "101. Utils/Images/Pasted image 20250605183125.png",
     "101. Utils/Images/Pasted image 20250605183002.png",
-    "101. Utils/Images/Pasted image 20250605182504.png",
-    "100. Notes/Scatter.md",
-    "101. Utils/Images/Pasted image 20250605182242.png",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "100. Notes/Introduction to MPI.md",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

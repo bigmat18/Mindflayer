@@ -117,7 +117,7 @@ void foo()
 }
 ```
 
-Pascal+ GPUs has the property `cudaDevAttrConcurrentManagedAccess` enabled. Pre-Pascal GPUs not. While the GPU is working `on data[0]`, the GPU is using `data[1]`. No guarantee about **ordering constraints** of memory write. This code does not work on pre-Pascal GPUs (**bus error**)
+Pascal+ GPUs has the property `cudaDevAttrConcurrentManagedAccess` enabled. Pre-Pascal GPUs not. While the GPU is working `on data[0]`, the GPU is using `data[1]`. No guarantee about **ordering constraints** of memory write. This code does not work on pre-Pascal GPUs (**bus error**
 
 ### System-wise Atomics
 So far, we have studied atomic instructions executed within a kernel such as the `atomicAdd`. The default policy is `cuda::thread_scope_device` (i.e., atomic for all CUDA threads in the current program executing on the same compute device as the current thread). On Pascal+ GPUs, there is support for **system-wise atomics** whose atomicity is provided for all GPUs (through NVLINK) and the CPUs (through PCIe).

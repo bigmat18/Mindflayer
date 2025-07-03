@@ -1,6 +1,8 @@
 {
-  "cssTheme": "",
-  "accentColor": "#fb4934",
-  "theme": "system",
-  "baseFontSize": 14
+  "cssTheme": "Typewriter",
+  "accentColor": "#f55c5c",
+  "theme": "moonstone",
+  "baseFontSize": 12,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }

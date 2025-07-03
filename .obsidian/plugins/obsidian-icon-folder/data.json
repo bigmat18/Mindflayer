@@ -4,7 +4,7 @@
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 15,
     "emojiStyle": "twemoji",
-    "iconColor": "#fb4934",
+    "iconColor": null,
     "recentlyUsedIcons": [
       "BoBxsPackage",
       "IbArchive",
@@ -31,7 +31,8 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "000. Areas": "BoBxsPackage",
   "001. Projects": "BoBxsPen",

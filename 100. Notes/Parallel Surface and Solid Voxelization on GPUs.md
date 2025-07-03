@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling #paper
 
-**Tags:** [[Solid Voxelization and SDF Generation]]
+**Tags:** [[CSG on Mesh using Voxelization and SDF]]
 
 **Area**: [[Master's degree]]
 # Parallel Surface Voxelization

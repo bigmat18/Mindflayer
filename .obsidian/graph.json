@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"010. MOCs\"  ",
@@ -46,6 +46,6 @@
   "repelStrength": 9.42442612901028,
   "linkStrength": 0.440705674000409,
   "linkDistance": 374,
-  "scale": 0.07103702093316695,
+  "scale": 0.049060972911038864,
   "close": true
 }

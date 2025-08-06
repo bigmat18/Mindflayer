@@ -3,36 +3,39 @@ tags:
   - "#area"
 ---
 # Bachelor's Degree
+### Year 1 (Total: 54 CFU)
 
-### Year 1
-#### Fist Semester
-- [[Foundations of Computing]] (9 cfu)
-- [[Calculus 1]] (9 cfu)
-#### Second Semester
-- [[Calculus 2]] (3 cfu)
-- [[Linear Algebra]] (6 cfu)
-- Laboratory I (12 cfu)
-- [[Programming & Algorithms]] (15 cfu)
+| First Semester                         | CFU | Second Semester                      | CFU |
+|----------------------------------------|-----|--------------------------------------|-----|
+| [[Foundations of Computing]]           |  9  | [[Calculus 2]]                       |  3  |
+| [[Calculus 1]]                         |  9  | [[Linear Algebra]]                   |  6  |
+|                                        |     | Laboratory I                         | 12  |
+|                                        |     | [[Programming & Algorithms]]         | 15  |
 
-### Year 2
-#### Fist Semester
-- Programming Paradigms (9 cfu)
-- Operational Research (6 cfu) 
-- Computer Architecture (6 cfu)
-#### Second Semester
-- [[Statistics]] (6 cfu)
-- [[Numerical Calculation]](6 cfu)
-- Laboratory II (12 cfu)
-- [[Operating Systems]] (9 cfu)
-- (FC) Computer Graphics (6 cfu)
+---
 
-### Year 3
-#### Fist Semester
-- [[Software Engineering]] (6 cfu)
-- [[Basi di Dati]] (6 cfu)
-- [[Networks and Laboratory III]] (9 cfu)
-- (FC) Cryptography (6 cfu)
-#### Second Semester
-- [[Introduction to Artificial Intelligence]] (6 cfu)
-- (FC) [[Cloud Computing]] (6 cfu)
-- (FC) [[Physics]] (6 cfu)
+### Year 2 (Total: 54 CFU, 60 CFU con opzionale)
+
+| First Semester                | CFU | Second Semester                | CFU | Note  |
+|-------------------------------|-----|-------------------------------|-----|-------|
+| Programming Paradigms         |  9  | [[Statistics]]                |  6  |       |
+| Operational Research          |  6  | [[Numerical Calculation]]     |  6  |       |
+| Computer Architecture         |  6  | Laboratory II                 | 12  |       |
+|                               |     | [[Operating Systems]]         |  9  |       |
+|                               |     | Computer Graphics             |  6  | (FC)  |
+
+---
+
+### Year 3 (Total: 33 CFU, 51 CFU con opzionali)
+
+| First Semester                         | CFU | Second Semester                              | CFU | Note  |
+|----------------------------------------|-----|----------------------------------------------|-----|-------|
+| [[Software Engineering]]               |  6  | [[Introduction to Artificial Intelligence]]  |  6  |       |
+| [[Basi di Dati]]                       |  6  | [[Cloud Computing]]                         |  6  | (FC)  |
+| [[Networks and Laboratory III]]        |  9  | [[Physics]]                                 |  6  | (FC)  |
+| Cryptography                           |  6  |                                              |     | (FC)  |
+
+---
+
+**Note:**  
+- (FC) = Facoltativo/Optional Course

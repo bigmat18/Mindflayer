@@ -19,5 +19,5 @@ In this section we describe how to check if a voxel is part of triangle, in othe
 With a solid voxelization we want describe a volume where each voxel that have the center inside the object will be marked with 1, 0 otherwise. We assume to have a closed and watertight object. Recall that solid voxelization essentially boils down to rasterizing the object into a multi-sliced frame buffer, where a fragment effects flipping the inside/outside state of all voxels below. 
 
 # References
-- [Fast Parallel Surface and Solid Voxelization on GPUs di Michael Schwarz e Hans-Peter Seidel (2010)](https://michael-schwarz.com/research/publ/files/vox-siga10.pd)
+- [Fast Parallel Surface and Solid Voxelization on GPUs di Michael Schwarz e Hans-Peter Seidel (2010)](https://michael-schwarz.com/research/publ/files/vox-siga10.pdf)
 - [Fast 3D triangle-box overlap testing (SAT)][https://dl.acm.org/doi/abs/10.1080/10867651.2001.10487535]

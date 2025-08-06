@@ -1,3 +1,5 @@
+
+
 ## References
 - [Surface Simplification Using Quadric Error Metrics](https://www.cs.cmu.edu/~garland/Papers/quadrics.pdf)
 - [Scalable Algorithms for Distributed-Memory Adaptive Mesh Refinement](https://charm.cs.illinois.edu/newPapers/12-35/paper.pdf)

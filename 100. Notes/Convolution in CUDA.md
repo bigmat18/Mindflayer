@@ -5,7 +5,7 @@
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
 **Area**: [[Master's degree]]
-# Convolution in CUDA
+# **Convolution** in CUDA
 
 The **definition** of the problem is an operator where each output element is the weighted sum of the corresponding input element and a collection of input elements centered on it. The array of weights is called **convolution filter** and its size can change depending on the problem. **Different dimensionalities**: 1D (audio), 2D (image), 3D (video).
 

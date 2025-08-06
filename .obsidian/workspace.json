@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2f50f1d6f4f0904c",
+        "id": "ef7085a4d284a8c0",
         "type": "tabs",
         "children": [
           {
-            "id": "64685fbde7bdde85",
+            "id": "dcd2abcf81602b89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001. Projects/Distributed Mesh Simplification (QEM).md",
+                "file": "000. Areas/Road to Internship.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Distributed Mesh Simplification (QEM)"
+              "title": "Road to Internship"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Greedy Approach (Boundary Error).md",
+                "file": "000. Areas/Road to Internship.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Greedy Approach (Boundary Error)"
+              "title": "Outline of Road to Internship"
             }
           },
           {
@@ -202,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,14 +217,20 @@
       "graph:Open graph view": false
     }
   },
-  "active": "64685fbde7bdde85",
+  "active": "dcd2abcf81602b89",
   "lastOpenFiles": [
+    "100. Notes/Arrays and Strings.md",
+    "000. Areas/Road to Internship.md",
+    "100. Notes/Treas and Graphs.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "010. MOCs/Networks and Laboratory III.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "100. Notes/Differential Rendering.md",
+    "100. Notes/2025-06-13 - 3D IA.md",
     "100. Notes/Greedy Approach (Boundary Error).md",
     "100. Notes/Remeshing Introduction.md",
     "100. Notes/Heuristics. Incremental methods.md",
-    "010. MOCs/3D Geometry Modelling & Processing.md",
     "100. Notes/Butterfly Algorithm.md",
-    "001. Projects/Distributed Mesh Simplification (QEM).md",
     "001. Projects/CSG on Mesh using Voxelization and SDF.md",
     "README.md",
     "100. Notes/Matrix Multiplication in CUDA.md",
@@ -240,12 +245,6 @@
     "100. Notes/VectorSUM.md",
     "100. Notes/Solid Voxelization.md",
     "100. Notes/Parallel Surface and Solid Voxelization on GPUs.md",
-    "100. Notes/Surface Voxelization.md",
-    "100. Notes/Optimal Parallelism Degree.md",
-    "100. Notes/Optimal parallelism degree with single inputs.md",
-    "100. Notes/Parallelization methodology and metrics.md",
-    "100. Notes/Communication Latency.md",
-    "100. Notes/Inter Calculation Time.md",
     "101. Utils/Documents/Programmazione-Algoritmi.pdf",
     "101. Utils/Documents/IIA.pdf",
     "101. Utils/Documents/Fondamenti-Informatica.pdf",

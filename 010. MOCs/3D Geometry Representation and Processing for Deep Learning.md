@@ -7,5 +7,5 @@ Area: "[[Master's degree]]"
 # Table of Contents
 
 - [[Deep Learning Basics]]
-
+- [[Differential Rendering]]
 # Resources

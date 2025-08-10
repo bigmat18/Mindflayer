@@ -13,6 +13,8 @@ tags:
 
 ![[Refinement & Subdivision. Remeshing Algorithms]]
 
+![[Mesh Simplification and Approximation]]
+
 ![[Spatial indexing]]
 
 ![[Sampling]]

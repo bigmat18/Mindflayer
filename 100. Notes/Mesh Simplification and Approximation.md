@@ -1,0 +1,4 @@
+- [[Vertex Clustering]]
+- [[Incremental Decimation]] 
+- [[Shape Approximation]]
+- [[Out-of-Core Simplification]]

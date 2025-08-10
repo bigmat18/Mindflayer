@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7085a4d284a8c0",
+        "id": "c8dd3b712ef33e16",
         "type": "tabs",
         "children": [
           {
-            "id": "dcd2abcf81602b89",
+            "id": "f291d9debee3ef67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000. Areas/Road to Internship.md",
+                "file": "100. Notes/Mesh Simplification and Approximation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Road to Internship"
+              "title": "Mesh Simplification and Approximation"
+            }
+          },
+          {
+            "id": "9eb50d087f60ee2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Incremental Decimation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Incremental Decimation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mesh simpli",
+                "query": "homeo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +110,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "389dd3fcb2bd12f3",
@@ -156,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000. Areas/Road to Internship.md",
+                "file": "100. Notes/Incremental Decimation.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Road to Internship"
+              "title": "Outline of Incremental Decimation"
             }
           },
           {
@@ -217,21 +243,29 @@
       "graph:Open graph view": false
     }
   },
-  "active": "dcd2abcf81602b89",
+  "active": "9eb50d087f60ee2f",
   "lastOpenFiles": [
-    "100. Notes/Arrays and Strings.md",
-    "000. Areas/Road to Internship.md",
-    "100. Notes/Treas and Graphs.md",
+    "100. Notes/Mesh Simplification and Approximation.md",
+    "100. Notes/Incremental Decimation.md",
+    "100. Notes/Vertex Clustering.md",
+    "101. Utils/Images/Pasted image 20250810180157.png",
+    "100. Notes/Alpha Shapes.md",
+    "100. Notes/Representing real-world surfaces.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "010. MOCs/Networks and Laboratory III.md",
+    "101. Utils/Documents/PhD_Thesis_Cabiddu.pdf",
     "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
+    "000. Areas/Road to Internship.md",
+    "101. Utils/Excalidraw/07-08-2025 18.41.28.excalidraw.md",
+    "100. Notes/Arrays and Strings.md",
+    "100. Notes/Treas and Graphs.md",
+    "010. MOCs/Networks and Laboratory III.md",
     "100. Notes/Differential Rendering.md",
     "100. Notes/2025-06-13 - 3D IA.md",
     "100. Notes/Greedy Approach (Boundary Error).md",
     "100. Notes/Remeshing Introduction.md",
     "100. Notes/Heuristics. Incremental methods.md",
     "100. Notes/Butterfly Algorithm.md",
-    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
     "README.md",
     "100. Notes/Matrix Multiplication in CUDA.md",
     "100. Notes/Shared Memory Architectures.md",
@@ -239,12 +273,6 @@
     "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
     "001. Projects/Overcyde Game Engine.md",
     "001. Projects/Architectures DataSet Visualization.md",
-    "100. Notes/Stencil in CUDA.md",
-    "100. Notes/Cooperative Groups.md",
-    "100. Notes/GPU Memory Hierarchy.md",
-    "100. Notes/VectorSUM.md",
-    "100. Notes/Solid Voxelization.md",
-    "100. Notes/Parallel Surface and Solid Voxelization on GPUs.md",
     "101. Utils/Documents/Programmazione-Algoritmi.pdf",
     "101. Utils/Documents/IIA.pdf",
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
@@ -260,11 +288,9 @@
     "101. Utils/Images/Pasted image 20250605183329.png",
     "101. Utils/Images/Pasted image 20250605183235.png",
     "101. Utils/Images/Pasted image 20250605183125.png",
-    "101. Utils/Images/Pasted image 20250605183002.png",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",
-    "101. Utils/Documents/main.pdf",
-    "101. Utils/Documents/Appunti-Fondamenti-Informatica.pdf"
+    "101. Utils/Documents/main.pdf"
   ]
 }

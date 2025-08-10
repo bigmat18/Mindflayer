@@ -27,6 +27,7 @@
     "teData": "text",
     "Created": "datetime",
     "check": "checkbox",
-    "Exam done": "checkbox"
+    "Exam done": "checkbox",
+    "excalidraw-embed-md": "checkbox"
   }
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c8dd3b712ef33e16",
+        "id": "18708bf30ff66145",
         "type": "tabs",
         "children": [
           {
-            "id": "f291d9debee3ef67",
+            "id": "0e3900a68cc6f402",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Mesh Simplification and Approximation.md",
+                "file": "100. Notes/Greedy Shape Approximation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mesh Simplification and Approximation"
-            }
-          },
-          {
-            "id": "9eb50d087f60ee2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100. Notes/Incremental Decimation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Incremental Decimation"
+              "title": "Greedy Shape Approximation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "homeo",
+                "query": "greed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -132,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.50996017456055
+    "width": 448.50996017456055,
+    "collapsed": true
   },
   "right": {
     "id": "1d0404518313b128",
@@ -182,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Incremental Decimation.md",
+                "file": "100. Notes/Greedy Shape Approximation.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Incremental Decimation"
+              "title": "Outline of Greedy Shape Approximation"
             }
           },
           {
@@ -243,13 +219,23 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9eb50d087f60ee2f",
+  "active": "0e3900a68cc6f402",
   "lastOpenFiles": [
-    "100. Notes/Mesh Simplification and Approximation.md",
+    "100. Notes/Greedy Shape Approximation.md",
+    "100. Notes/Delaunay Triangulation.md",
     "100. Notes/Incremental Decimation.md",
+    "100. Notes/Voronoi Decoposition.md",
+    "100. Notes/Variational Shape Approximation.md",
+    "100. Notes/Surface conversions.md",
+    "100. Notes/Alpha Shapes.md",
+    "101. Utils/Images/Pasted image 20250811172245.png",
+    "100. Notes/Mesh Simplification and Approximation.md",
+    "100. Notes/Marching cubes.md",
+    "100. Notes/VSA.md",
+    "101. Utils/Images/Pasted image 20250811163320.png",
+    "100. Notes/Untitled.md",
     "100. Notes/Vertex Clustering.md",
     "101. Utils/Images/Pasted image 20250810180157.png",
-    "100. Notes/Alpha Shapes.md",
     "100. Notes/Representing real-world surfaces.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
     "101. Utils/Documents/PhD_Thesis_Cabiddu.pdf",
@@ -264,15 +250,6 @@
     "100. Notes/2025-06-13 - 3D IA.md",
     "100. Notes/Greedy Approach (Boundary Error).md",
     "100. Notes/Remeshing Introduction.md",
-    "100. Notes/Heuristics. Incremental methods.md",
-    "100. Notes/Butterfly Algorithm.md",
-    "README.md",
-    "100. Notes/Matrix Multiplication in CUDA.md",
-    "100. Notes/Shared Memory Architectures.md",
-    "010. MOCs/High Performance Computing.md",
-    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
-    "001. Projects/Overcyde Game Engine.md",
-    "001. Projects/Architectures DataSet Visualization.md",
     "101. Utils/Documents/Programmazione-Algoritmi.pdf",
     "101. Utils/Documents/IIA.pdf",
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
@@ -286,8 +263,6 @@
     "101. Utils/Images/Pasted image 20250605183928.png",
     "101. Utils/Images/Pasted image 20250605183508.png",
     "101. Utils/Images/Pasted image 20250605183329.png",
-    "101. Utils/Images/Pasted image 20250605183235.png",
-    "101. Utils/Images/Pasted image 20250605183125.png",
     "Logical and Physical View of Threads",
     "Untitled.canvas",
     "Memory and Local I",

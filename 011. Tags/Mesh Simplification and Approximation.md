@@ -1,5 +1,6 @@
+- [[Simplification Introduction]]
 - [[Vertex Clustering]]
-- [[Incremental Decimation]] 
+- [[Incremental methods]] 
 - [[Variational Shape Approximation]]
 - [[Greedy Shape Approximation]]
 - [[Out-of-Core Simplification]]

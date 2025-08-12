@@ -3,4 +3,3 @@
 - [[Catmull-Clark Algorithms]]
 - [[Loop Schema Algorithms]]
 - [[Butterfly Algorithm]]
-- [[Heuristics. Incremental methods]]

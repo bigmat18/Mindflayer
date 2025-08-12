@@ -38,7 +38,7 @@ The sum of the quadratic distance to the supportin planes $P_i$ of all triangle 
 $$
 E(x) = \sum_{t_i \in C} \bar{x}^T Q_i \bar{x}
 $$
-the resulint error is measure is called the **quadratic error metric (QEM)**. The optima lposition x minimizing the quadrati error can be computed as the solution of the least square system:
+the resulint error is measure is called the **[[Quadratics Error]] Metrics (QEM)**. The optima lposition x minimizing the quadrati error can be computed as the solution of the least square system:
 $$
 \big( \sum_i n_i n_i^T \big) x = \big( \sum_i n_i d_i \big)
 $$

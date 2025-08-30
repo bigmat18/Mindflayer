@@ -2,7 +2,7 @@
 
 **Status**: #note #master 
 
-**Tags:** [[Architettura del software]][[Software Engineering]]
+**Tags:** [[Architettura del software]] [[Software Engineering]]
 
 **Area**: [[Bachelor's Degree]]
 # Vista comportamentale

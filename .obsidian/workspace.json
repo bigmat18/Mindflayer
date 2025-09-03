@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d1bd6ad68341b83f",
+        "id": "eb0dcab84ac1efd9",
         "type": "tabs",
         "children": [
           {
-            "id": "f36b99f5d9d07d7d",
+            "id": "702d17872b1300de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "100. Notes/Anno 2025-2026 (Athlete).md",
+                "bFile": "100. Notes/Anno 2025-2026 (Athlete).md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Anno 2025-2026 (Athlete)"
             }
           }
         ]
@@ -187,13 +191,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f36b99f5d9d07d7d",
+  "active": "702d17872b1300de",
   "lastOpenFiles": [
+    "100. Notes/Anno 2025-2026 (Athlete).md",
+    "000. Areas/Bodybuilding - Gym.md",
+    "100. Notes/Alimentazione Ripresa.md",
+    "000. Areas/Road to Internship.md",
+    "README.md",
     "101. Utils/Templates/MoC course Template.md",
     "101. Utils/Templates/Note Template.md",
     "101. Utils/Templates/Project Template.md",
     "101. Utils/Templates/Area Template.md",
-    "README.md",
     "101. Utils/Templates/Tags Template.md",
     "Tasks Lists.md",
     "Untitled.canvas",
@@ -206,16 +214,12 @@
     "011. Tags/CUDA Architectures and Compiler.md",
     "011. Tags/Classifying Parallel Architectures.md",
     "011. Tags/Agenti Risolutori di problemi (Finging Algorithm).md",
-    "000. Areas/Bodybuilding - Gym.md",
     "100. Notes/A Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt.md",
     "100. Notes/Abstract factory.md",
     "101. Utils/Excalidraw/03-09-2025 22.45.00.excalidraw.md",
     "101. Utils/Excalidraw/07-06-2025 16.25.40.excalidraw.md",
     "101. Utils/Excalidraw/29-04-2025 17.03.26.excalidraw.md",
     "101. Utils/Excalidraw/30-08-2025 12.33.20.excalidraw.md",
-    "101. Utils/Excalidraw/07-08-2025 18.41.28.excalidraw.md",
-    "100. Notes/Anno 2025-2026 (Athlete).md",
-    "Home.md",
     "101. Utils/Documents/Physics.pdf",
     "101. Utils/Documents/main.pdf",
     "101. Utils/Documents/IIA.pdf",

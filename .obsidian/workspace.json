@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d457903ccceba354",
+        "id": "62b4d3177fa1f81e",
         "type": "tabs",
         "children": [
           {
-            "id": "30b21ff8c79de916",
+            "id": "3936af9ecfb674e7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "000. Areas/Bodybuilding - Gym.md",
-                "bFile": "000. Areas/Bodybuilding - Gym.md",
-                "aRef": ""
+                "file": "000. Areas/Bachelor's Degree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Bodybuilding - Gym"
+              "icon": "lucide-file",
+              "title": "Bachelor's Degree"
             }
           }
         ]
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stenci",
+                "query": "masetr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,22 +82,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "28b4cab66cb14d52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "aaab7b98560da1bf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -144,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "000. Areas/Bachelor's Degree.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Bachelor's Degree"
             }
           },
           {
@@ -205,54 +200,54 @@
       "graph:Open graph view": false
     }
   },
-  "active": "30b21ff8c79de916",
+  "active": "3936af9ecfb674e7",
   "lastOpenFiles": [
     "000. Areas/Master's degree.md",
-    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
-    "000. Areas/Bodybuilding - Gym.md",
     "000. Areas/Bachelor's Degree.md",
-    "000. Areas/Road to Internship.md",
-    "001. Projects/Distributed Mesh Simplification (QEM).md",
-    "001. Projects/Architectures DataSet Visualization.md",
-    "001. Projects/Overcyde Game Engine.md",
-    "100. Notes/Anno 2025-2026 (Athleate).md",
-    "101. Utils/Excalidraw/30-08-2025 12.33.20.excalidraw.md",
-    "000. Areas/BodyBuilding.md",
-    "011. Tags/ISO-OSI Application layer.md",
-    "100. Notes/Vista comportamentale.md",
-    "010. MOCs/Networks and Laboratory III.md",
-    "100. Notes/Curvature via Surface Fitting.md",
-    "README.md",
-    "100. Notes/Out-of-Core Simplification.md",
-    "100. Notes/Stencil in CUDA.md",
-    "100. Notes/Signed Distances Field (SDF).md",
-    "100. Notes/A Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt.md",
-    "011. Tags/Mesh Simplification and Approximation.md",
-    "101. Utils/Documents/PhD_Thesis_Cabiddu.pdf",
-    "100. Notes/Basics of Message Passing.md",
-    "100. Notes/Bottleneck Parallelization.md",
-    "100. Notes/Completion Time.md",
-    "100. Notes/Dataflow.md",
-    "100. Notes/Java Stream based IO.md",
-    "101. Utils/Images/Pasted image 20250812165433.png",
-    "101. Utils/Images/Pasted image 20250812164543.png",
-    "101. Utils/Images/Pasted image 20250811172245.png",
-    "101. Utils/Images/Pasted image 20250811163320.png",
-    "101. Utils/Images/Pasted image 20250810180157.png",
-    "101. Utils/Documents/Programmazione-Algoritmi.pdf",
+    "010. MOCs/Physics.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "100. Notes/Corpo Rigido.md",
+    "100. Notes/Sistemi di punti materiali.md",
+    "100. Notes/Energia.md",
+    "100. Notes/Forze.md",
+    "100. Notes/Punto Materiale.md",
+    "101. Utils/Documents/Physics.pdf",
+    "101. Utils/Documents/main.pdf",
+    "010. MOCs/Cloud Computing.md",
+    "100. Notes/Cloud Edge Continuum.md",
+    "100. Notes/Cloud-based Quantum Computing.md",
+    "100. Notes/Datacenters.md",
+    "100. Notes/Kubernetes.md",
     "101. Utils/Documents/IIA.pdf",
-    "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/Calcolo-Numerico.pdf",
+    "010. MOCs/Programming & Algorithms.md",
+    "010. MOCs/Calculus 1.md",
+    "101. Utils/Documents/Programmazione-Algoritmi.pdf",
+    "101. Utils/Documents/PhD_Thesis_Cabiddu.pdf",
+    "010. MOCs/Introduction to Artificial Intelligence.md",
+    "101. Utils/Documents/4-Classification.pdf",
+    "010. MOCs/Parallel and distributed systems. Paradigms and models.md",
+    "010. MOCs/Scientific and Large Data Visualisation.md",
+    "010. MOCs/Software Engineering.md",
+    "010. MOCs/Statistics.md",
+    "100. Notes/Software services.md",
+    "100. Notes/Business model.md",
+    "100. Notes/PaaS.md",
+    "100. Notes/FaaS.md",
+    "100. Notes/IaaS.md",
+    "101. Utils/Images/Screenshot 2024-05-27 at 20.36.08.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 22.40.53.png",
+    "101. Utils/Images/Screenshot 2024-05-28 at 18.55.11.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 22.39.38.png",
+    "101. Utils/Images/Screenshot 2024-05-28 at 23.01.54.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 20.35.57.png",
+    "101. Utils/Images/Screenshot 2024-05-26 at 19.52.56.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 22.42.19.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 23.16.28.png",
+    "101. Utils/Images/Screenshot 2024-05-27 at 20.19.18.png",
+    "100. Notes/Untitled.base",
+    "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/AESO.pdf",
-    "101. Utils/Documents/3-MMExample-PerformanceEngineering.pdf",
-    "101. Utils/Images/Pasted image 20250703172618.png",
-    "101. Utils/Images/Pasted image 20250703172555.png",
-    "101. Utils/Images/Pasted image 20250621234707.png",
-    "101. Utils/Images/Pasted image 20250605183958.png",
-    "101. Utils/Images/Pasted image 20250605183928.png",
-    "Logical and Physical View of Threads",
-    "Untitled.canvas",
-    "Memory and Local I",
-    "101. Utils/Documents/main.pdf"
+    "Untitled.canvas"
   ]
 }

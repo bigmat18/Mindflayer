@@ -26,3 +26,5 @@ Area: "[[Bachelor's Degree]]"
 
 ![[Serie numeriche]]
 # Resources
+
+![[Calculus.pdf]]

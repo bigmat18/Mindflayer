@@ -23,12 +23,24 @@
       "template": "101. Utils/Templates/Project Template.md"
     },
     {
-      "folder": "011. Tags",
-      "template": "101. Utils/Templates/Tags Template.md"
+      "folder": "010. MOCs",
+      "template": "101. Utils/Templates/MoC course Template.md"
+    },
+    {
+      "folder": "100. Notes",
+      "template": "101. Utils/Templates/Note Template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
-  "startup_templates": []
+  "startup_templates": [],
+  "intellisense_render": 1
 }

@@ -1,10 +1,12 @@
-**Data time:** {{time}} - {{date}}
+---
+Data: 
+Tags:
+  - note
+  - youngling
+Connection:
+Area:
+---
 
-**Status**: #note #youngling 
-
-**Tags:** 
-
-**Area**: 
 # {{Title}}
 
 

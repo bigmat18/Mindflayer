@@ -6,4 +6,6 @@ Area:
 ---
 # Table of Contents
 
+# Tasks
+
 # Resources

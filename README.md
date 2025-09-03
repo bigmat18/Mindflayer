@@ -24,18 +24,6 @@ a curated, interconnected, and ever-growing collection of notes, ideas, and reso
 
 ---
 
-## 🚀 Features
-
-- **Zettelkasten-inspired**: Atomic notes, backlinks, and a web of knowledge
-- **Rich linking**: Extensive use of Obsidian’s [[wikilinks]] and tags
-- **Visual graph**: Explore your knowledge visually with Obsidian’s graph view
-- **Multi-domain**: Covers CS, graphics, math, productivity, and more
-- **Templates & structure**: Consistent note templates for fast capture and review
-- **Code snippets**: Markdown with syntax highlighting for code and math
-- **Daily notes & journals**: Track progress and ideas over time
-
----
-
 ## 🗂️ Structure
 
 The vault is organized to facilitate knowledge discovery and management, with a focus on interconnectedness and atomic notes:
@@ -50,24 +38,26 @@ The vault is organized to facilitate knowledge discovery and management, with a 
 > **Note:**
 > The vault is a living document; this structure may evolve. Notes are often linked across different top-level folders to reflect their interconnectedness, rather than being strictly siloed.
 
----
-
-## 🛠️ Technologies & Plugins
-
-- [Obsidian](https://obsidian.md/) — The core knowledge management app
-- **Core plugins**: Graph view, backlinks, daily notes, templates, etc.
-- **Community plugins** (optional):  
-  - Advanced Tables  
-  - Dataview  
-  - Calendar  
-  - QuickAdd  
-  - (and more, see `.obsidian/plugins/`)
 
 ---
+## 📋 Task Dashboard
 
-## 📦 Usage
-
-1. **Clone the repository:**
-```sh
-   git clone https://github.com/bigmat18/Mindflayer.git
+### Not completed
+```tasks
+not done 
+no due date 
+sort by due
+```
+### Tomorrow
+```tasks 
+not done 
+due on tomorrow 
+sort by due 
+```
+### This Week
+```tasks 
+not done 
+due after today 
+due before in 7 days 
+sort by due 
 ```

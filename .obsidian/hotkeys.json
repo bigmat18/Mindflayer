@@ -66,5 +66,14 @@
       ],
       "key": " "
     }
+  ],
+  "quickadd:choice:3ff1bb3a-6321-4f70-8852-a3bf3bd635ef": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Y"
+    }
   ]
 }

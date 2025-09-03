@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"010. MOCs\"  ",
@@ -46,6 +46,6 @@
   "repelStrength": 13.1748039463698,
   "linkStrength": 0.154571507811778,
   "linkDistance": 374,
-  "scale": 0.018330617342184195,
+  "scale": 0.012220411561456122,
   "close": true
 }

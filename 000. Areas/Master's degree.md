@@ -17,11 +17,11 @@ tags:
 ---
 ### Year 2 (Total: 45 CFU)
 
-| First Semester                | CFU | Link | Second Semester                                    | CFU | Link |
-|-------------------------------|-----|------|----------------------------------------------------|-----|------|
-| Machine learning              |  9  |      | Parallel Scientific Computing                      |  6  |      |
-| Algorithm engineering         |  9  |      | Programming tools for parallel and distributed systems |  6  |      |
-| Competitive programming and contests |  6  |      | Algorithm design                                  |  9  |      |
+| First Semester                       | CFU | Link | Second Semester                                        | CFU | Link |
+| ------------------------------------ | --- | ---- | ------------------------------------------------------ | --- | ---- |
+| Machine learning                     | 9   |      | Parallel Scientific Computing                          | 6   |      |
+| Algorithm engineering                | 9   |      | Programming tools for parallel and distributed systems | 6   |      |
+| Competitive programming and contests | 6   |      | Algorithm design                                       | 9   |      |
 
 ---
 ### Year 3 (Total: 24 CFU)
@@ -55,5 +55,9 @@ tags:
 - Algorithm engineering (9 cfu)
 - Competitive programming and contests (6 cfu)
 - Algorithm design (9 cfu)
+#### Interesting
+- Generative and Deep Learning (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53215_702681_79620/2025/53215/10436?coorte=2025&schemaid=9316)\] (Secondo Semetre)
+- Distributed Enebling Platforms  (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53214_691553_78880/2025/53217/10436?coorte=2025&schemaid=9315)\] (Primo Sementre)
+- Computer vision _(non active 25/26)_ (9 cfu)
 
 **Final Thesis (24 CFU)**

@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d9f448476d517b8b",
+        "id": "d457903ccceba354",
         "type": "tabs",
         "children": [
           {
-            "id": "e53939217001ac65",
+            "id": "30b21ff8c79de916",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "100. Notes/Anno 2025-2026 (Athleate).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "000. Areas/Bodybuilding - Gym.md",
+                "bFile": "000. Areas/Bodybuilding - Gym.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Anno 2025-2026 (Athleate)"
+              "icon": "diff",
+              "title": "Diff: Bodybuilding - Gym"
             }
           }
         ]
@@ -87,11 +77,11 @@
         ]
       },
       {
-        "id": "5cbda77847ba709b",
+        "id": "28b4cab66cb14d52",
         "type": "tabs",
         "children": [
           {
-            "id": "0e3900a68cc6f402",
+            "id": "aaab7b98560da1bf",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -154,13 +144,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Anno 2025-2026 (Athleate).md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Anno 2025-2026 (Athleate)"
+              "title": "Outline"
             }
           },
           {
@@ -216,11 +205,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e53939217001ac65",
+  "active": "30b21ff8c79de916",
   "lastOpenFiles": [
-    "100. Notes/Anno 2025-2026 (Athleate).md",
+    "000. Areas/Master's degree.md",
+    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
     "000. Areas/Bodybuilding - Gym.md",
     "000. Areas/Bachelor's Degree.md",
+    "000. Areas/Road to Internship.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
+    "001. Projects/Architectures DataSet Visualization.md",
+    "001. Projects/Overcyde Game Engine.md",
+    "100. Notes/Anno 2025-2026 (Athleate).md",
+    "101. Utils/Excalidraw/30-08-2025 12.33.20.excalidraw.md",
     "000. Areas/BodyBuilding.md",
     "011. Tags/ISO-OSI Application layer.md",
     "100. Notes/Vista comportamentale.md",
@@ -229,7 +225,6 @@
     "README.md",
     "100. Notes/Out-of-Core Simplification.md",
     "100. Notes/Stencil in CUDA.md",
-    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
     "100. Notes/Signed Distances Field (SDF).md",
     "100. Notes/A Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt.md",
     "011. Tags/Mesh Simplification and Approximation.md",
@@ -239,12 +234,6 @@
     "100. Notes/Completion Time.md",
     "100. Notes/Dataflow.md",
     "100. Notes/Java Stream based IO.md",
-    "100. Notes/Channels in Message Passing.md",
-    "011. Tags/Stream Parallelism.md",
-    "010. MOCs/High Performance Computing.md",
-    "100. Notes/Pipeline.md",
-    "100. Notes/Parallelization methodology and metrics.md",
-    "100. Notes/Variational Shape Approximation.md",
     "101. Utils/Images/Pasted image 20250812165433.png",
     "101. Utils/Images/Pasted image 20250812164543.png",
     "101. Utils/Images/Pasted image 20250811172245.png",

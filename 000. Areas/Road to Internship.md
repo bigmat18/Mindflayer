@@ -3,7 +3,13 @@ tags:
   - "#area"
 ---
 # Road to Internship
-All the preparacion is based on [SuperHero Valley Wiki](https://wiki.superherovalley.fun/preparation/intro/).
+## List of Company
+
+#### General Big Tech
+
+#### Computer Graphics Big Tech
+
+#### Impossible Company
 ## Coding Interview Topics
 
 ### Algorithms
@@ -18,8 +24,8 @@ All the preparacion is based on [SuperHero Valley Wiki](https://wiki.superherova
 
 ### Computer Graphics
 
-
 ## Resources 
 - [Cracking the Code Interview](https://github.com/AatmikJain/ComputerScienceBooks/blob/master/Cracking%20the%20Coding%20Interview.pdf)
 - https://neetcode.io/roadmap 
 - https://leetcode.com/explore/learn
+- [SuperHero Valley Wiki](https://wiki.superherovalley.fun/preparation/intro/)

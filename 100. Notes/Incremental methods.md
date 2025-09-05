@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Refinement & Subdivision. Remeshing Algorithms]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
 **Area**: [[Master's degree]]
 # Incremental methods
@@ -21,7 +21,7 @@ Fortunately the Heuristics works very well. It are based on **Local Updates Oper
 The major design goal is to keep the operation as simple as possible. This means that we do not want to remove large parts of the original mesh at once but rather want to remove a single vertex at a time.
 ##### Vertex removal
 ![[Pasted image 20250403183650.png]]
-Delete one vertex plus its adjacent triagnles. For a vertex with [[Catmull-Clark Algorithms|valence]] k, this leave a k-sided hole. This hole can be fixed by any triangulation algortihms ([[Delaunay Triangulation]], [[Voronoi Decoposition]]).
+Delete one vertex plus its adjacent triangles. For a vertex with [[Catmull-Clark Algorithms|valence]] k, this leave a k-sided hole. This hole can be fixed by any triangulation algortihms ([[Delaunay Triangulation]], [[Voronoi Decoposition]]).
 
 Hence, the removal operation decreases:
 - the number of vertices one
@@ -80,6 +80,10 @@ Error accumulation meas that we store an error value for each triangle and simpl
 ##### [[Hausdorff Distance]]
 
 ### Fairness Criteria
+This i the criteria that determinate the order of candidates in the heap. The base criteria is to remove the elements that increase the error least. This criteria is ok but we can use other criteria to optimize result in special cases, examples:
+- Prefer triangles with faces that are as close as possible to equilateral.
+- If we prefer visually smooth meshes we can use the **maximum** or **average** normal jump between adjacent triangles after the removal as sorting criterion
+- Other criteria include **color deviation** or **[[Parametrization Distortion|texture distortion]]**
 
 ### Mesh optimizations
 We can also do a sets of **mesh optimizations**. Simplification based on the iterative execution of: edge collapsing, edge split and edge swap.
@@ -92,4 +96,50 @@ which evaluates geometric **fitness** and repr. **compactness**
 - $E_{dist}$: sum of squared distances of the original points from M
 - $E_{rep}$: factor proportional to the no of vertex in M
 - $E_{spring}$: sum of the edge lenghts
+
+### Simplification: Topology Preservation
+Edge collapse operation may create non [[Representing real-world surfaces|manifoldness]]
+
+![[Pasted image 20250407151525.png | 400]]
+
+ - Let $\sum$ be a 2 simplicial complex without boundary $\sum'$ is obtained by collapsing the edge $e = (ab)$
+ - Let $Lk(\alpha)$ be the set of all the faces of the co-faces of $\alpha$ disjoint from $\alpha$.
+
+![[Pasted image 20250407151759.png | 350]]
+
+$Lk(a) \cap Lk(b) = \{x,y\}= Lk(ab)$
+![[Pasted image 20250407152031.png | 150]]
+
+$Lk(a) \cap Lk(b) = \{x,y, z, zx\} \neq Lk(ab)$
+![[Pasted image 20250407152131.png | 150]]
+
+Mesh with boundary can be managed by considering a dummy vertex $v_d$ and, for each boundary edge e a dummy triangle connecting e with $v_d$. Think it wrapped on the surface of a sphere.
+
+![[Pasted image 20250407152500.png | 150]]
+### Efficient Evaluation
+Evaluating the error introduced by a collapse efficiently is not trivial. Ideally use [[Hausdorff Distance]]. This has a problem: at the beginning is easy (few points approximate well H) but at the end it become costly (you need a lot of time to evaluate property)
+
+![[Pasted image 20250407152822.png | 400]]
+
+
+### Interpolating Positions (edge collapse)
+###### Average Vertex Position
+![[Pasted image 20250407153056.png | 350]]
+
+###### Median Vertex Position
+![[Pasted image 20250407153131.png | 350]]
+
+###### [[Quadratics Error|Quadratic Edge Collapse]] Minimization
+![[Pasted image 20250407153203.png | 350]]
+
+### Triangle quality
+Possibly adding an energy term that penalize bad shaped triangles.
+
+![[Pasted image 20250407154527.png | 250]]
+
+Possibly adding an energy term that tend to balance valence.
+
+ ![[Pasted image 20250407154904.png | 250]]
+
+
 # References

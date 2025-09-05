@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Simplification and Approximation]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
 **Area**: [[Master's degree]]
 # Hausdorff Distance

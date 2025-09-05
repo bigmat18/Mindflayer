@@ -1,6 +1,6 @@
 **Data time:** 16:57 - 13-10-2024
 
-**Status**: #note #youngling 
+**Status**: #note #master
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Data Structures]]
 
@@ -12,10 +12,12 @@ This representation avoid the case distinctions of edge-based data structures by
 - **Vertex**
 	- position
 	- 1 half-edge
-- **Halfedge**
-	- 1 vertex
-	- 1 face
-	- 1, 2, or 3 half-edges
+- **Half-edge**
+	- 1 vertex it points to
+	- 1 adjacent face 
+	- next half-edge of face or boundary
+	- previous half-edge in the face
+	- opposite half-edge
 - **Face**
 	- 1 half-edge
 
@@ -23,5 +25,5 @@ This representation avoid the case distinctions of edge-based data structures by
 
 Note that the opposite half-edge don't have to be stored if two opposing half-edges are always grouped in pairs and stored in a subsequent array location.
 
-The totally memory consumption in this case is 1**6 bytes/vertex + 20 bytes/half-edge + 4 bytes/face = 144 bytes/vertex**. With not explicitly storing the previus and opposite half-edge reduces the memory costs to 96 bytes/vertex
+The totally memory consumption in this case is **16 bytes/vertex + 20 bytes/half-edge + 4 bytes/face = 144 bytes/vertex**. With not explicitly storing the previous and opposite half-edge reduces the memory costs to 96 bytes/vertex.
 # References

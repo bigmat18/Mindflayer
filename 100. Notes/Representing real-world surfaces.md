@@ -8,21 +8,20 @@
 # Representing real-world surfaces
 
 The real-world surfaces are to much to represent with basic implicit or parametric representation, to avoid this problem surfaces can be represented by **cell complexes**.
-#### Cell
+#### Convex or Cell
 A cell is a **convex** (for each couple of points in the object, the segments that join is inside the object) **polytope** (a geometric object extends in many dim, delimited by full faces)
-#### Proper face 
-A proper face of a cell is a lower dimension convex polytope subset of a cell.
+#### Simplex or Proper face 
+A proper face of a cell is a lower dimension convex polytope subset of a cell. Is is also called $d$-simplex that is a [[Convex Hull]] di $d+1$ points, $d$ is the order and represents the dimension of simplex
 
 ![[Screenshot 2024-10-08 at 13.55.26.png | 250]]
-#### Cell complex
+#### Cells Complex
 A **collection of cells** is a complex iff for each cells $C$ and $C'$ their intersection either is empty or is a common face of both.
 ![[Screenshot 2024-10-08 at 13.57.22.png | 250]]
 - **Order of a cell** is the number of its sides (or vertices)
 - **K-complex** is a complex where the maximum of the order of its cells is k.
 - **Maximal cell** if it's not a face of another cell
 - **Maximal k-complex** is a k-complex where all maximal cells have order k
-
-#### Simplicial complex
+#### Simplicial Complex
 A cell complex is a **simplicial complex** when the cells are simplexes (the smaller structure for the space dimensions). A **d-simplex** is the convex hull of d+1 points in.
 
 ![[Screenshot 2024-10-13 at 15.25.09.png | 350]]
@@ -49,12 +48,14 @@ A surface S is a **2-manifold** iff:
 
 ![[Screenshot 2024-10-13 at 15.53.18.png | 300]]
 In blue point with a homeomorphic disk and in read point (or set of poits) without a homeomorphic disk.
+
 #### Orientability
 A surface is **orientable** it's possible to make a consiste choice for the normal vector.
 Two famous shape no-oritable are **Moebius strips** and **klein blottles**.
 
 ![[Screenshot 2024-10-13 at 15.55.27.png | 350]]
-### Adjacency/Incidency
+
+#### Adjacency/Incidency
 - Two simplexes $\sigma$ and $\sigma'$ are **incident** if $\sigma$ is a proper face of $\sigma'$ (or viceversa)
 - Two k-simplexes $\sigma, \sigma'$  are **m-adjacent** (k > m) i there exists a m-simplex that is a proper face of $\sigma$ and $\sigma'$ 
 
@@ -82,7 +83,7 @@ For a two manifold simplicial 2-compex in R3 we have
 	- |E| ~ 10
 	- |F| ~ 2V
 
-### Euler characteristics
+#### Euler characteristics
 The euler characteristic are the following formula
 $$\chi = V - E + F$$
 - V is number of vertices

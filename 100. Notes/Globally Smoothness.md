@@ -13,7 +13,7 @@ Other important things in parametrization is the globally smoothness, that is an
 
  In this cases there isn't macthing between sections. To resolve this issues we need to create a parametrization **globally smooth** 
 ![[Pasted image 20250413151519.png | 150]]
-If parametrization is globally smooth we can use it to do [[Refinement & Subdivision. Remeshing Algorithms|remeshing]]. It is particular useful for quadrangulation, need good placement of singularities. A singularity is a point where my surface is significantly different from a regular place of quadrilateral mesh.  
+If parametrization is globally smooth we can use it to do [[Remeshing. Refinement & Subdivision.|remeshing]]. It is particular useful for quadrangulation, need good placement of singularities. A singularity is a point where my surface is significantly different from a regular place of quadrilateral mesh.  
 
 ![[Pasted image 20250413152002.png | 350]]
 

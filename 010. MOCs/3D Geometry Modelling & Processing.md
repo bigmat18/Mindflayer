@@ -1,7 +1,7 @@
 ---
 Year: 2024/2025
 Period: 1° semester
-Exam done: 
+Exam done:
 Area: "[[Master's degree]]"
 tags:
 ---
@@ -11,9 +11,9 @@ tags:
 
 ![[Mesh Data Structures]]
 
-![[Refinement & Subdivision. Remeshing Algorithms]]
+![[Remeshing. Refinement & Subdivision.]]
 
-![[Mesh Simplification and Approximation]]
+![[Remeshing. Mesh Simplification and Approximation]]
 
 ![[Spatial indexing]]
 

@@ -1,8 +1,8 @@
 **Data time:** 14:40 - 11-08-2025
 
-**Status**: #note #youngling 
+**Status**: #note #master  
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Simplification and Approximation]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
 **Area**: [[Master's degree]]
 # Variational Shape Approximation
@@ -14,7 +14,7 @@ R_1 \cup \dots \cup = M
 $$
 We also have $P =\{ P_1, \dots, P_2\}$ a set if proxies. A proxy $P_i = (x_i, n_i)$ is a simply a plane in space through the point $x_i$ with normal direction $n_i$.
 
-Define also two metrics that measure a generalized distance of a regsion $R_i$ to its proxy $P_i$:
+Define also two metrics that measure a generalized distance of a region $R_i$ to its proxy $P_i$:
 $$
 L²(R_i, P_i) = \int_{x\in R_i} (n_i^T x - n_i^Tx_i)² dA
 $$
@@ -52,7 +52,7 @@ In this phase we built a priority queue for each region with seed the best trian
 ```c
 // Grow the regions
 while the queue is not empty do:
-	get (t, P_i) from the queue that minimizes E(t, Pi)
+	get (t, Pi) from the queue that minimizes E(t, Pi)
 	if t is not conquered then:
 		set t to conquered
 		Ri = Ri union {t}
@@ -70,7 +70,7 @@ In this phase the partition R is kept fixed while the proxies $P_i = (x_i, n_i)$
 ##### Mesh Extraction
 From an optimal partitioning $R = \{R_1, \dots, R_k\}$ and corresponding proxies $P = \{P_i, \dots, P_k\}$ we can extract a anisotropic remesh.
 
-1. All vertices in th eoriginal mesh that are adjacet to three or more different regions are identified.
+1. All vertices in the original mesh that are adjacet to three or more different regions are identified.
 2. These vertices are projected onto each proxy and their average position in computed. These are called anchor vertices.
 3. Anchor vertices are then connected by tracing the boundaries of the region R.
 4. The result are triangulated using [[Delaunay Triangulation]] 

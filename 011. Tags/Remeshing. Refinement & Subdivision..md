@@ -1,4 +1,4 @@
-- [[Remeshing Introduction]]
+- [[Refinement Introduction]]
 - [[Doo-Sabin Algorithms]]
 - [[Catmull-Clark Algorithms]]
 - [[Loop Schema Algorithms]]

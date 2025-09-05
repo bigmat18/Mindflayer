@@ -7,11 +7,7 @@
 **Area**: [[Master's degree]]
 # Alpha Shapes
 
-An alpha shapes is a generalization of concept of **Convex Hull**. A Convex hull is the union of all half-spaces that lean on my point cloud. In other words it's the minimal convex solid that I can do around an object.
-$$CH(S) = R^d \setminus \bigcup EH(S) $$
-Where $EH(S)$ is the halfspace not containing any point is S.
-
-![[Pasted image 20250507014746.png | 200]]
+An alpha shapes is a generalization of concept of **[[Convex Hull]]**. 
 
 The result has the problem that it is convex, for this reasons it can not approximate not convex shape. For own case we use **Alpha Hull**, where we replace the halfspace with spheres.
 $$\alpha H(S) = \mathbb{R}^d \setminus \bigcup EB_{\alpha}(S)$$

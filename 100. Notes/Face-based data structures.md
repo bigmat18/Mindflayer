@@ -12,7 +12,7 @@ In this representation we store the vertex, and the faces. We have:
 - **face**: 3 positions
 
 ![[Screenshot 2024-10-13 at 20.37.00.png | 300]]
-In therm of memory we have, for a triangle mesh, 3 \* 3 \* 4 = 36 bytes per triangle. For the [[Representing real-world surfaces|euler formula]] F is about twice the number of vertices V, this data structure consume 72 bytes/vertex, it's usually call triangle or polygon soup.
+In therm of memory we have, for a triangle mesh, 3 \* 3 \* 4 = 36 bytes per triangle. For the [[Representing real-world surfaces#Euler characteristics|euler formula]] F is about twice the number of vertices V, this data structure consume 72 bytes/vertex, it's usually call triangle or polygon soup.
 
 Is often not sufficient for most applications
 - Connectivity information can't be accessed explicitly 

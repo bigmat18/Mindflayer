@@ -24,4 +24,10 @@ This types of Inexing Strucures have the goals to resolve all major issues of [[
 - A hierarchical data structures is characterized by:
 	- Number of children per node
 	- Spatial region corresponding to a node
+
+### [[Binary Space Partition-Tree (BSP)]]
+
+### [[KD-Tree]]
+
+### [[Quad-Tree]]
 # References

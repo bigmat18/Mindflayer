@@ -2,10 +2,10 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Simplification and Approximation]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
 **Area**: [[Master's degree]]
-# A Stream Algorithm for the Decimation of Massive Meshes
+# Stream Algorithm for the Decimation of Massive Meshes
 
 ### Ideal Stream Algorithm for Decimation
 We consider a input [[Channels in Message Passing|stream]] of triangle, each triangle is given by its three vertices with three coordinates for each. Define $N_{max}$ the maximum number of triangles that fit into the in-core triangle buffer.

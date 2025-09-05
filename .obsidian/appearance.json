@@ -2,9 +2,10 @@
   "cssTheme": "Material Gruvbox",
   "accentColor": "#bdae93",
   "theme": "obsidian",
-  "baseFontSize": 13,
+  "baseFontSize": 15,
   "interfaceFontFamily": "Source Code Pro,Inter",
   "textFontFamily": "Inter",
   "monospaceFontFamily": "Source Code Pro",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "nativeMenus": false
 }

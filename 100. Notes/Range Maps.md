@@ -30,6 +30,6 @@ One of the main question is how to merge different range maps? It's very difficu
 
 ![[Pasted image 20250509164156.png | 150]]
 
-4. **Post-process**: all operations like: [[Remeshing Introduction|remeshing]], filtering ecc..
+4. **Post-process**: all operations like: [[Refinement Introduction|remeshing]], filtering ecc..
 
 # References

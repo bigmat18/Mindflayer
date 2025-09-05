@@ -24,7 +24,7 @@ where $K_p$ is the matrix:
 $$
 K_p = pp^T = \begin{bmatrix} a² & ab & ac & ad \\ ab & b² & bc & bd \\ ac & bc & c² & cd \\ ad & bd & cd & d² \end{bmatrix}
 $$
-the foundamental error quadratic $K_p$ can be used to find the squared distance of any point in space to the plane p.
+foundamental error quadratic $K_p$ can be used to find the squared distance of any point in space to the plane p.
 
 It can also see in the following way: The squared distance of a point $x$ from the plane is
 $$D(x) = x(nn^T)x + 2dn^Tx + d^2$$

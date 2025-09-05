@@ -1,14 +1,15 @@
 **Data time:** 14:53 - 28-03-2025
 
-**Status**: #note #youngling 
+**Status**: #note #master
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Refinement & Subdivision. Remeshing Algorithms]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
 **Area**: [[Master's degree]]
 # Doo-Sabin Algorithms
 
 This is an algorithms **Dual** and **Approximating**. For each vertex add a face and also for each edge, and it maintain a face for each existing face. The entery process is the following:
 
+### Topological
 From a combinatorial (topological) point of view, the algorithm proceeds as follows:
 
 1. For each face, it generates a smaller face. 
@@ -22,8 +23,14 @@ An interesting things is that a face generate by vertex is not a quadrilateral b
 
 ![[Pasted image 20250402180811.png | 300]]
 
+### Continuous
+1. Calculate all middle point for each edge $E_i = \cfrac{d_{1i}+d_{1i}}{2}$
+2. Calculate all barycenter for each faces $V_j= \cfrac{1}{n}\sum_{j=1}^n d_{j}$
+3. Calculate new vertices $d_{i,j}=\cfrac{1}{4}(d_i+E_j+E_{j-1}+V_j)$
+
 The vertices of new faces come from a weighted sum of previous vertices.
 $$V_2 = \frac{1}{n}\cdot \sum{d_j} \:\:\:\:\:\: E_j = \frac{1}{2}(d_1 + d_2) \:\:\: d'_{1, j} = \frac{1}{4}(d_1 + E_j + E_{j-1} + V_j)$$
 
 The $E_i$ are the middle point of vertex of original mesh. After we calculate the $V$ vertexes taking the average of $d$ points. This is average of average, for this reason the points go inside.
 # References
+- [A subdivision algorithm for smoothing down irregularly shaped polyhedrons](https://web.archive.org/web/20110707175713/http://trac2.assembla.com/DooSabinSurfaces/export/12/trunk/docs/Doo%201978%20Subdivision%20algorithm.pdf)

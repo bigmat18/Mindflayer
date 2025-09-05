@@ -11,7 +11,7 @@
 Parametrization is a classing problem in 3D modelling and it's basic concepts for **texure mapping**. In many areas this is an advanced artistic skill using a manual UV mapping.
 
 ##### Remeshing
-Also parametrization is useful in many [[Remeshing Introduction|remeshing]] context. This because there is global approach to remeshing that use parametrization, if I obtain a parametrization in a specific domain, a grid on this domain applaied on the mesh it's a very good base to do a remeshing.
+Also parametrization is useful in many [[Refinement Introduction|remeshing]] context. This because there is global approach to remeshing that use parametrization, if I obtain a parametrization in a specific domain, a grid on this domain applaied on the mesh it's a very good base to do a remeshing.
 
 By **global approch** we mean to use the grid instead of mesh.
 ![[Pasted image 20250411161153.png | 400]]

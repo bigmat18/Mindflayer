@@ -19,6 +19,8 @@ Fortunately the Heuristics works very well. It are based on **Local Updates Oper
 
 ### Topological Operations
 The major design goal is to keep the operation as simple as possible. This means that we do not want to remove large parts of the original mesh at once but rather want to remove a single vertex at a time.
+
+![[Pasted image 20250403184947.png | 400]]
 ##### Vertex removal
 ![[Pasted image 20250403183650.png]]
 Delete one vertex plus its adjacent triangles. For a vertex with [[Catmull-Clark Algorithms|valence]] k, this leave a k-sided hole. This hole can be fixed by any triangulation algortihms ([[Delaunay Triangulation]], [[Voronoi Decoposition]]).
@@ -47,8 +49,6 @@ Instead in this version the combinatorial part is very simple, while the geometr
 - New location
 
 The common framework is the following:
-
-![[Pasted image 20250403184947.png | 400]]
 ##### Halfedge collaps
 For two adjacent vertices p and q, p is moved to q's position. This can be consider ad a special case of edge collapsing where ther new vertex position r coincides with q.
 
@@ -56,27 +56,30 @@ This type of collapse has no degrees of freedom. Note that p to q and q to p are
 
 The big advatage is that for modetate decimation, the global optimization is completely separated from the decimation operator. That makes the design of mesh decimation schemes more **modular**.
 
+![[Pasted image 20250906014912.png]]
+
+###### Link Condition
+An important critaria is called **link condition**, which stats  under which conditions an edge collapse preserve the mesh topology. A collapse $(p,q)$ is a valid operation if and only if:
+- if both p and q are boundary vertices, then the edge (p,q) has to be a boundary edge
+- for all vertices r incident to both p and q there has to be a triangle (p,q,r). In other words, the intersection of the one-rings of p and q consists of vertices opposite the edge (p,q) only
+
+We can see an example in image above where the second point is not true:
+![[Pasted image 20250812164543.png | 400]]
+
 ##### Vertex contraction
-An important critaria is called **link condition**, which stats  under which conditions an edge collapse preserve the mesh topology. We can see an example in image above:
-
-![[Pasted image 20250812164543.png | 450]]
-
 It the above criteria are satisfied, all the above removal operations preserve the mesh consistency and consequentially the topology of the surface.
 
 If a decimation should be able to also simplify the topology of the input model, we have to use non-Euler removal operators. The most common is called **vetex contraction**.
 
 In vertex contraction two vertices p and q can be contracted into one new vertex r even if they are not connected by an edge.
 
-This operation reduce the number of vertices by one but keeps the number of triangle constant. This decimation require more fexible data structure.
-
+This operation reduce the number of vertices by one but keeps the number of triangle constant. This decimation require more flexible data structure. This operation reduce the number of triangles by one but keeps the number of triangles constant
 ### Distance Measures
-
 ##### Error Accumulation
 The simplest of these techniques is error accumulation. For example if an edge collapse modifies trianlges $t_i$ by shifting one of their corner vertices from p or q to r, the distance of r to $t_i$ is an upper bound for the approximation error introduces in this step.
 
 Error accumulation meas that we store an error value for each triangle and simply add the new error contribution for every decimation step.
 ##### [[Quadratics Error]]
-
 ##### [[Hausdorff Distance]]
 
 ### Fairness Criteria
@@ -84,7 +87,6 @@ This i the criteria that determinate the order of candidates in the heap. The ba
 - Prefer triangles with faces that are as close as possible to equilateral.
 - If we prefer visually smooth meshes we can use the **maximum** or **average** normal jump between adjacent triangles after the removal as sorting criterion
 - Other criteria include **color deviation** or **[[Parametrization Distortion|texture distortion]]**
-
 ### Mesh optimizations
 We can also do a sets of **mesh optimizations**. Simplification based on the iterative execution of: edge collapsing, edge split and edge swap.
 
@@ -120,7 +122,6 @@ Mesh with boundary can be managed by considering a dummy vertex $v_d$ and, for e
 Evaluating the error introduced by a collapse efficiently is not trivial. Ideally use [[Hausdorff Distance]]. This has a problem: at the beginning is easy (few points approximate well H) but at the end it become costly (you need a lot of time to evaluate property)
 
 ![[Pasted image 20250407152822.png | 400]]
-
 
 ### Interpolating Positions (edge collapse)
 ###### Average Vertex Position

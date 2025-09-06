@@ -12,8 +12,8 @@ Let m be a mesh, we can do 3 important questions about this mesh:
 - Which are the elements inside a given region on the screen?
 - Which elements are intersected by a given ray r?
 
-Let m' be another mesh: 
-- Do m and m' intersect? If so, where?
+Let $m'$ be another mesh: 
+- Do $m$ and $m'$ intersect? If so, where?
 
 A **spatial search data structures** helps to answer efficiently to these questions.
 

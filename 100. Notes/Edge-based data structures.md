@@ -26,7 +26,7 @@ Where each edge stores reference to its endpoint vertices, incident faces, and t
 
 ![[Screenshot 2024-10-13 at 21.10.01.png | 500]]
 
-In this representation  in total we have a memory consumption of 16 bytes/vertices + 32 bytes/edge + 4 bytes/face = 120 bytes/vertex.
+In this representation  in total we have a memory consumption of 16 bytes/vertices + 32 bytes/edge + 4 bytes/face = 120 bytes/vertex (since $F \approx 2V$ and $E \approx 3V$ due to [[Representing real-world surfaces#Euler characteristics|Euroler formula]]).
 
-This representation improve the possibility of the query but have some issues, for example traversing the one-ring still requires case distinctions. To address this issues we can use [[Halfedge-based data structures|halfedge data structures]]
+This representation improve the possibility of the query but have some issues, for example traversing the one-ring still requires case distinctions (id the center vertex the first or second vertex of an edge?). To address this issues we can use [[Halfedge-based data structures|halfedge data structures]]
 # References

@@ -34,7 +34,7 @@ This data structure reduce the memory usage and, without additional informations
 This is a standard face-based data structure to optimize the query on triangle mesh, it store the following data:
 - **vertex**
 	- position
-	- 1 face
+	- 1 of incident face 
 - **face**
 	- 3 vertices
 	- 3 face neighbours

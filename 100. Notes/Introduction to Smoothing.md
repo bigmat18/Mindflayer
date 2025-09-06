@@ -27,4 +27,6 @@ where $x_i$ denotes the position of vertex $v_i$ in space and $f$ is extended by
 
 ### [[Laplacian Smooth]]
 
+### [[Toubin Smoothing]]
+
 # References

@@ -7,9 +7,10 @@
 **Area**: [[Master's degree]]
 # Scalloping
 
-This is a variance of Dart Throwing that allow to have a convergence in $O(n\log{n})$. The core idea is: if a sampling is not maximal, there must be an available location in the neighborhood of the unavailable region.
+This is a variance of [[Dart Throwing]] that allow to have a convergence in $O(n\log{n})$. The core idea is: if a sampling is not maximal, there must be an available location in the neighborhood of the unavailable region.
 
 ![[Pasted image 20250427170619.png | 550]]
+
 Intuitively:
 1. We start from a set of samples, and we store the boundary of regions that we have covered (the boundary data structure is a queue of circle arc)
 2. If I put a new point on the boundary queue we must found a way to modify the queue, and this is a simple problem
@@ -20,7 +21,7 @@ Scalloped regions:
 - **Scalloped sector**: a region of the domain bounded by two circular arcs
 - **Scalloped region**: a union of scalloped sectors.
 
-![[Pasted image 20250427171709.png | 450]]
+![[Pasted image 20250427171709.png | 500]]
 
 ### Adding a new disk
 $$N_p = D(p, 4r) - \bigcup_{p'\in P}\begin{cases}D(p', 4r) & p'<p\\D(p', 2r) &p'\geq p\end{cases}$$

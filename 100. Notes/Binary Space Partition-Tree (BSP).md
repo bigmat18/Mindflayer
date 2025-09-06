@@ -31,13 +31,13 @@ The cost of search is:
 
 The average case is possible when the **tree in balanced**, and create a balanced tree is not a easy task, in the case where the tree is not balanced the cost can be linear.
 
-Another problem is if the hyperplane is not perfectly symmetric between two primitive (most of the cases) and a search insert point in a region with a primitive but the point is closer to other. To fix this problem, for each steps we need to check if in the near partition there is a closer primitive, in worst case this became linear.
+Another problem is if the **hyperplane is not perfectly symmetric between two primitive** (most of the cases) and a search insert point in a region with a primitive but the point is closer to other. To fix this problem, for each steps we need to check if in the near partition there is a closer primitive, in worst case this became linear.
 
 To used this structure we need to do some questions:
 - What could go wrong? What happen to split primitives? Can I bound them?
 - Where to place the place?
 
-A common strategy is: Primitives are planar faces, use one of the primitives as splitting plane and decompose the rest.
+**A common strategy** is: Primitives are planar faces, use one of the primitives as splitting plane and decompose the rest.
 
 ![[Pasted image 20250426023702.png | 350]]
 

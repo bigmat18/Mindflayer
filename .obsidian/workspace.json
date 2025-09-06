@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 52.08121827411168,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Direct-Edge bata structures.md",
+                "file": "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,38 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Direct-Edge bata structures"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9c14a49eac762b4a",
-        "type": "tabs",
-        "dimension": 47.91878172588832,
-        "children": [
-          {
-            "id": "cc03ead03907b77b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100. Notes/Out-of-Core Simplification.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Out-of-Core Simplification"
+              "title": "Introduction to Spatial Indexing in Computer Graphics"
             }
           }
         ]
@@ -170,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Direct-Edge bata structures.md",
+                "file": "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Direct-Edge bata structures"
+              "title": "Outline of Introduction to Spatial Indexing in Computer Graphics"
             }
           },
           {
@@ -235,32 +203,33 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "010. MOCs/3D Geometry Modelling & Processing.md",
-    "001. Projects/Distributed Mesh Simplification (QEM).md",
-    "001. Projects/Architectures DataSet Visualization.md",
-    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
-    "001. Projects/Overcyde Game Engine.md",
-    "100. Notes/Binary Space Partition-Tree (BSP).md",
-    "100. Notes/Out-of-Core Simplification.md",
-    "100. Notes/Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt.md",
-    "011. Tags/Remeshing. Mesh Simplification and Approximation.md",
-    "100. Notes/Variational Shape Approximation.md",
-    "100. Notes/Halfedge-based data structures.md",
-    "100. Notes/Edge-based data structures.md",
-    "100. Notes/Direct-Edge bata structures.md",
-    "100. Notes/VCG Recostruction.md",
-    "100. Notes/Voronoi Decoposition.md",
-    "100. Notes/Samples generation.md",
-    "100. Notes/PDS on Surface.md",
-    "100. Notes/Poisson Disk Sampling (PDS).md",
-    "100. Notes/Hierarchical Dart Throwing (HDT).md",
-    "100. Notes/Scalloping.md",
-    "100. Notes/Dart Throwing.md",
     "100. Notes/Hierarchical Indexing Structures.md",
-    "100. Notes/Quad-Tree.md",
+    "100. Notes/KD-Tree.md",
+    "100. Notes/Binary Space Partition-Tree (BSP).md",
     "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
     "100. Notes/Non-Hierarchical Indexing Structures.md",
     "100. Notes/Spatial Hashing.md",
+    "100. Notes/Uniform Grid.md",
+    "010. MOCs/3D Geometry Modelling & Processing.md",
+    "100. Notes/Voronoi Decoposition.md",
+    "100. Notes/Samples generation.md",
+    "100. Notes/PDS on Surface.md",
+    "100. Notes/Hierarchical Dart Throwing (HDT).md",
+    "100. Notes/Poisson Disk Sampling (PDS).md",
+    "100. Notes/Dart Throwing.md",
+    "100. Notes/Scalloping.md",
+    "100. Notes/Introduction to Sampling.md",
+    "100. Notes/Quad-Tree.md",
+    "100. Notes/Incremental methods.md",
+    "README.md",
+    "100. Notes/Introduction to Smoothing.md",
+    "100. Notes/Laplacian Smooth.md",
+    "100. Notes/Toubin Smoothing.md",
+    "100. Notes/ICP Iterative Closest Point.md",
+    "100. Notes/RANSAC Random Sample Consensus.md",
+    "100. Notes/Curvature via Surface Fitting.md",
+    "100. Notes/Gradiant, Divergence and Laplacian.md",
+    "101. Utils/Images/Pasted image 20250906014912.png",
     "Untitled.canvas",
     "101. Utils/Documents/Physics.pdf",
     "101. Utils/Documents/main.pdf",
@@ -278,7 +247,6 @@
     "101. Utils/Images/Screenshot 2024-05-26 at 19.52.56.png",
     "101. Utils/Images/Screenshot 2024-05-27 at 22.42.19.png",
     "101. Utils/Images/Screenshot 2024-05-27 at 23.16.28.png",
-    "101. Utils/Images/Screenshot 2024-05-27 at 20.19.18.png",
     "100. Notes/Untitled.base",
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/AESO.pdf"

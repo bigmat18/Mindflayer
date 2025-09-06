@@ -20,9 +20,9 @@ do {
 
 1. We take a random point
 2. check the point not containt other point in a ray r
-3. if is not contains we add x_cand
-4. else we add a miss
-5. if we have too many miss we quit
+	1. if is **not contains** we add x_cand
+	2. **else** we add a miss
+3. if we have too many miss we quit
 
 **Pros**:
 - Works on any domain provided a metric

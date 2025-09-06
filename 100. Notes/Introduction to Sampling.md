@@ -11,7 +11,7 @@ In general this is the process to sample a domain, these techniques are used for
 
 Anther import case of sampling is in remeshing. There are many technique in remeshing that use sampling to found a set of points on a surface, these points then are triangulated. 
 
-![[Pasted image 20250427161143.png | 400]]
+![[Pasted image 20250427161143.png | 450]]
 
 Very useful in case of image/video stippling where for example we approssimate a grey scale with a sample process. One of this algorithms is the **Bilateral blue noise sampling**.
 

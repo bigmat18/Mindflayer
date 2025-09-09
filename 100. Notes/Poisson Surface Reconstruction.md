@@ -14,7 +14,7 @@ $$\chi_M(p) = \begin{cases}1 & p\in M\\0&p\notin M\end{cases}$$
 My problem is go from a sets of oriented points to indicator function.
 
 ![[Pasted image 20250509141732.png | 350]]
-To do that we pass through indicator gradient, because there is a relationship between the normal field and gradient of indicator function, the gradient is oriented in same direction of [[Normals on 3D Models|normal]] of points.
+To do that we pass through indicator gradient, because there is a relationship between the normal field and gradient of indicator function, the gradient is oriented in same direction of [[Surfaces Normals|normal]] of points.
 
 ![[Pasted image 20250509142030.png | 400]]
 

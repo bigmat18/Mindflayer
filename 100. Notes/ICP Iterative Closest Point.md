@@ -59,7 +59,7 @@ Variant on the following stages of ICP have been proposed:
 	- Use all available points
 	- Uniform sub-sampling
 	- Random sampling in each iteration
-	- Ensure that samples have [[Normals on 3D Models|normal]] distributed as uniformly as possible
+	- Ensure that samples have [[Surfaces Normals|normal]] distributed as uniformly as possible
 
 	![[Pasted image 20250510015713.png | 350]]
 

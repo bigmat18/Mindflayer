@@ -72,7 +72,7 @@ The standard method to build from a volumetric representations to distance field
 ### From point cloud to a scalar field
 The problem statement is: given a set of points $\{x_0, \dots, x_n\}$ define
 $$f(x) = \varphi(\{x_0, \dots, x_n\}) \:\:\:\:\: S= \{s|f(x)= \alpha\}$$
-so that S interpolates/approximates the point cloud. [[Normals on 3D Models|Normals]] are often either assumed or computed from the point cloud. The normals are importat to define a surface and the most of acquisition method compute the normal on the points.
+so that S interpolates/approximates the point cloud. [[Surfaces Normals|Normals]] are often either assumed or computed from the point cloud. The normals are importat to define a surface and the most of acquisition method compute the normal on the points.
 
 ![[Pasted image 20250508180656.png | 350]]
 But some times the point cloud lose the normals. To rebuild the normal we can use the **Principal Component Analysis (PCA)**

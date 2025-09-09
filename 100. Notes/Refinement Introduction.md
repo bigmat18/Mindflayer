@@ -17,7 +17,7 @@ We pass from a coarse object to an object more refined. Subdivision defines a sm
 
 ![[Pasted image 20250328141946.png | 350]]
 
-This concept is born from the curve concepts. Simillar to the Bezier Curve and [[Parametric representations#Spline surfaces|Spline]] its start from a small set of control points. This process is determinated from the starting points and tend towards a smooth line. This concept is extended to 3D space.
+This concept is born from the [[Curves|Curves]] concepts. Simillar to the Bezier Curve and [[Parametric representations#Spline surfaces|Spline]] its start from a small set of control points. This process is determinated from the starting points and tend towards a smooth line. This concept is extended to 3D space.
 
 Them are used by adjusting the position of a few points of (a) you control the complex shape of a few control point. 
 

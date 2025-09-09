@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "d3da08cee96fa04f",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "3f26a06296f4195c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
+                "file": "100. Notes/Introduction to Smoothing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction to Spatial Indexing in Computer Graphics"
+              "title": "Introduction to Smoothing"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
+                "file": "100. Notes/Introduction to Smoothing.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction to Spatial Indexing in Computer Graphics"
+              "title": "Outline of Introduction to Smoothing"
             }
           },
           {
@@ -201,34 +201,34 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3f26a06296f4195c",
   "lastOpenFiles": [
-    "100. Notes/Hierarchical Indexing Structures.md",
-    "100. Notes/KD-Tree.md",
-    "100. Notes/Binary Space Partition-Tree (BSP).md",
-    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
-    "100. Notes/Non-Hierarchical Indexing Structures.md",
-    "100. Notes/Spatial Hashing.md",
-    "100. Notes/Uniform Grid.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/Voronoi Decoposition.md",
-    "100. Notes/Samples generation.md",
-    "100. Notes/PDS on Surface.md",
-    "100. Notes/Hierarchical Dart Throwing (HDT).md",
-    "100. Notes/Poisson Disk Sampling (PDS).md",
-    "100. Notes/Dart Throwing.md",
-    "100. Notes/Scalloping.md",
-    "100. Notes/Introduction to Sampling.md",
-    "100. Notes/Quad-Tree.md",
-    "100. Notes/Incremental methods.md",
-    "README.md",
-    "100. Notes/Introduction to Smoothing.md",
-    "100. Notes/Laplacian Smooth.md",
-    "100. Notes/Toubin Smoothing.md",
     "100. Notes/ICP Iterative Closest Point.md",
     "100. Notes/RANSAC Random Sample Consensus.md",
-    "100. Notes/Curvature via Surface Fitting.md",
-    "100. Notes/Gradiant, Divergence and Laplacian.md",
+    "100. Notes/How do Parametrization.md",
+    "100. Notes/As-rigid-as-possible Parametrization.md",
+    "100. Notes/Least Squares Conformal maps.md",
+    "100. Notes/Harmonic Parametrization.md",
+    "100. Notes/Mass-Spring Parametrization.md",
+    "100. Notes/Gaussian Curvature.md",
+    "100. Notes/Curves.md",
+    "100. Notes/Uniform Grid.md",
+    "100. Notes/KD-Tree.md",
+    "100. Notes/Quad-Tree.md",
+    "100. Notes/Introduction to Smoothing.md",
+    "100. Notes/Toubin Smoothing.md",
+    "100. Notes/Laplacian Smooth.md",
+    "100. Notes/Introduction to Sampling.md",
+    "100. Notes/Butterfly Algorithm.md",
+    "100. Notes/Loop Schema Algorithms.md",
+    "100. Notes/Refinement Introduction.md",
+    "100. Notes/Catmull-Clark Algorithms.md",
+    "100. Notes/Doo-Sabin Algorithms.md",
+    "100. Notes/Direct-Edge bata structures.md",
+    "100. Notes/Halfedge-based data structures.md",
+    "100. Notes/Edge-based data structures.md",
+    "100. Notes/Face-based data structures.md",
     "101. Utils/Images/Pasted image 20250906014912.png",
     "Untitled.canvas",
     "101. Utils/Documents/Physics.pdf",

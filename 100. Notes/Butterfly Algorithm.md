@@ -19,7 +19,7 @@ This is an algorithms that use **triangular meshes**, it is also **primal** and 
 
 ### Continuous
 We add vertex on edge using the following pattern:
-$$E_1 = \frac{1}{2}(d_1 + d_2) + \omega (d_3 + d_4) - \frac{\omega}{2}(d_5 + d_6 + d_7 + d_7) \:\:\:\:\:\: d'_i = d_i$$
+$$E_1 = \frac{1}{2}(d_1 + d_2) + \omega (d_3 + d_4) - \frac{\omega}{2}(d_5 + d_6 + d_7 + d_8) \:\:\:\:\:\: d'_i = d_i$$
 
 ![[Pasted image 20250403170944.png | 350]]
 

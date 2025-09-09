@@ -9,11 +9,17 @@
 
 **Voronoi** is a recurring pattern in Nature structures. The main idea of this decoposition is a discrete set of entities competing for resources.
 
-In a formal way we consider a set P of points on the plane $P = \{p_0, \dots, p_i, \dots, p_n\}$. The **Voronoi Diagram** is a partition of the plane. Consider for each point $p_i$ the region of the plane closest to $p_i$.
+In a formal way we consider a set P of points on the plane $P = \{p_0, \dots, p_i, \dots, p_n\}$, so-called **sites**. The **Voronoi Diagram** is a partition of the plane. Consider for each point $p_i$ the region of the plane closest to $p_i$. Formally we associate to each site $p_i$, its **Voronoi region** $V(p_i)$ such that
+$$
+V(p_i) = \{x \in \mathbb{R}^d : ||x - p_i|| \leq ||x - p_j||, \forall j \neq i\}
+$$
 
 ![[Pasted image 20250428164426.png | 200]]
 
-In the classic definition there are bounded and unbounded. Regions are convex polygons bounded by half plane intersections.
+Some properties and consideration about voronoi diagrams:
+- The locus of points that are equidistant to two sites $p_i$ and $p_j$ is called **bisector**
+- Regions are **convex** polygons bounded by half plane intersections.
+- In the classic definition there are **bounded** and **unbounded**. 
 
 ![[Pasted image 20250428164607.png | 200]]
 
@@ -42,7 +48,7 @@ The Lioyd's method is based on:
 3. if the new sites in S meet some convergence criterion, then termiante; otherwise return to step 1.
 
 #### Centroid Voronoi Tasselation (CVT)
-Methods that iterativeky optimize the position of the samoples using some energy function. 
+Methods that iteratively optimize the position of the samples using some energy function. 
 
 A CVT is a VT where each site (point) lies in the centroid of its region:
 $$p_i = \frac{\int_{V_i}x\rho(x) dx}{\int_{V_i}\rho(x)dx}$$

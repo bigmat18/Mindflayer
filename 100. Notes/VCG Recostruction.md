@@ -9,7 +9,7 @@
 
 In main case we have not a point cloud but an [[Range Maps]]. We want to get a nice isosurface from the range maps. We can use an approch similar to [[Mesh Zippering]]. 
 
-This method can be difficult when we have a ton of surfaces on each other. For this reason we decided to switch into a [[Introduction to Surface Reconstruction|volumetric rapresentation]], the basic approch was with surface with [[Normals on 3D Models|normas]] to interpolate.
+This method can be difficult when we have a ton of surfaces on each other. For this reason we decided to switch into a [[Introduction to Surface Reconstruction|volumetric rapresentation]], the basic approch was with surface with [[Surfaces Normals|normas]] to interpolate.
 
 ![[Pasted image 20250509024657.png | 250]]
 

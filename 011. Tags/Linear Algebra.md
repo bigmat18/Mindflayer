@@ -1,3 +1,3 @@
 - [[Signed Distances Field (SDF)]]
-- [[Normals on 3D Models]]
-- [[Curvature in 3D models]]
+- [[Surfaces Normals]]
+- [[Surfaces Curvatures]]

@@ -17,6 +17,8 @@ Very useful in case of image/video stippling where for example we approssimate a
 
 ### Jittering
 
+It is use to add noise in the sampling operation, this is usefull to scatter the systematic error. 
+
 ![[Pasted image 20250427162217.png | 400]]
 
 - If we get **random** points in a domain with an [[Calcolo combinatorio|uniform distribution]] the domain not uniformly sampled.
@@ -24,7 +26,7 @@ Very useful in case of image/video stippling where for example we approssimate a
 - The best approach is the **jittered** sampling. It is uniform and random. Trading aliasing for noise.
 
 ```js
-S JitteredSampoling() {
+S JitteredSampling() {
 	for each cell in GRID
 		S = S + RandomPointInTheCell()
 	return S

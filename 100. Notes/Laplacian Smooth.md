@@ -53,7 +53,7 @@ This approach allow in implement in a very simple way the smoothing by diffusion
 
 ### Problems
 ###### Shrinking
-The first problems is the **shrinking**. If I start from a model and I move each vertex towards the mean of its neighbor when I have a positive [[Curvature in 3D models|curvature]] it go to bottom because each vertex is moved to the opposite of the curvature.
+The first problems is the **shrinking**. If I start from a model and I move each vertex towards the mean of its neighbor when I have a positive [[Surfaces Curvatures|curvature]] it go to bottom because each vertex is moved to the opposite of the curvature.
 
 ![[Pasted image 20250510145807.png | 500]]
 
@@ -69,7 +69,7 @@ $$U(P) = \frac{2}{E} \sum_i \frac{Q_i}{|e_{ij}|} - P \:\:\:\:\:\:\:\:\:\:\:\:\:w
 with this method we limit the speed of the algorithms to the most dense part.
 
 ### Mean Curvature Flow
-We can use the cotangent weight in the diffusion flow process. In this case we weight differently considering the different mean [[Curvature in 3D models|curvature]].  The Laplace beltrami-operator is:
+We can use the cotangent weight in the diffusion flow process. In this case we weight differently considering the different mean [[Surfaces Curvatures|curvature]].  The Laplace beltrami-operator is:
 $$Hn(P) = \frac{1}{4A}\sum_i (\cot\alpha_i + \cot\beta_i)(Q_i - P)$$
 What happens is the vertex will be projected along the perpendicular of the plane built on the neighbor vertex.
 

@@ -109,13 +109,13 @@ A basic analysis is:
 - The probability of having a valid triplet in N trials is $1-(1 - p³)^N$
 
 #### Ransac with Normals
-One of feature that can be added is the [[Normals on 3D Models|normal]] and ask how many surfel (position + normal) correspondences specify a rigid transform:
+One of feature that can be added is the [[Surfaces Normals|normal]] and ask how many surfel (position + normal) correspondences specify a rigid transform:
 ![[Pasted image 20250509182219.png ]]
 
 We need only 2 points with normal to define a transformation from a surface to other, reduce the number of trials from $O(m³)$ to $O(m²)$, the success rate became $1 - (1 - p²)^N$
 
 #### Ransac with Curvature
-Other features that can we add is the [[Curvature in 3D models|principal curvature]]. We that one point is enough
+Other features that can we add is the [[Surfaces Curvatures|principal curvature]]. We that one point is enough
 
 ![[Pasted image 20250509182913.png | 400]]
 

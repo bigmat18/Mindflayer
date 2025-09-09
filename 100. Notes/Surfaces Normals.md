@@ -5,11 +5,11 @@
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
 **Area**: [[Master's degree]]
-# Normal on 3D Models
+# Surfaces Normals
 
 ### Normal
 
-Let's consider a 2 manifold surface S in $\mathbb{R}³$. Suppose to have a mapping $\mathbb{R}² \to \mathbb{R}³$ 
+Let's consider a [[Representing real-world surfaces#Manifoldness|2-manifold]] surface S in $\mathbb{R}³$. Suppose to have a mapping $\mathbb{R}² \to \mathbb{R}³$ 
 $$S(u,v) \to \mathbb{R}³$$
 
 Then we can define the normal for each point of the surface as: 

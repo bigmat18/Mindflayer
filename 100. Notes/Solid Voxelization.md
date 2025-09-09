@@ -25,7 +25,7 @@ with $t$ is a parameter long the $x$ axes. We want calculate the intersection wi
 $$
 	Ax + By + Cz + D= 0
 $$
-where $(A, B, C)$ is the normal vector of plane (the [[Normals on 3D Models|normal]] of triangle $n$), and $D$ is a constant that we can find using one of the 3 triangle vertex, $D = -(n \cdot v_0)$. The intersection is described by:
+where $(A, B, C)$ is the normal vector of plane (the [[Surfaces Normals|normal]] of triangle $n$), and $D$ is a constant that we can find using one of the 3 triangle vertex, $D = -(n \cdot v_0)$. The intersection is described by:
 $$
 	n_x(t) + n_y (y_{col}) + n_z(z_{col}) - (n \cdot v_0)= 0
 $$

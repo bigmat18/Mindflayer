@@ -23,7 +23,11 @@ We have a regular grid each cell is the root of a [[Quad-Tree]]. Size of each ce
 Choice a sample:
 1. Keep the sum of areas for each list $a_0, \dots, a_k$
 2. Generate a random number in $[0,1]$
-3. Find m s.t. $\sum^{m-1}_{i=0} a_i \leq a_{tot}x < \sum^{m}_{i=0} a_i$
+3. Find $m$ tale che:
+$$
+\sum^{m-1}_{i=0} a_i \leq a_{tot} \cdot x < \sum^{m}_{i=0} a_i
+$$
+	this is a search on the cumulative prefix and it has $O(\log k)$ complexity
 4. Pick a random square in the list.
 
 We have a **asyntoptic cost**, it can be determinated by the question "how many cells are created?" authors of this technique said $O(N)$:

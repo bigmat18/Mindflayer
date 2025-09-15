@@ -7,21 +7,53 @@
 **Area**: [[Master's degree]]
 # Laplacian Smooth
 
-With this approach we use the **diffusion flow**, it is widely used to blur images and smooth terrain surfaces. it diffuse a signal over a domain, build a scale space describing the evolution of data through 
-time under the blurring/smoothing process.
+With this approach we use the **diffusion flow**, it is widely used to blur images and smooth terrain surfaces. it diffuse a signal over a domain, build a scale space describing the evolution of data through time under the blurring/smoothing process.
 
 ![[Pasted image 20250510143515.png | 250]]
 
-This method is calle **Laplacian Smooth**. Where for each vertex, compute the displacement vector towards the average of its neighbors (Laplacian Operator). Then move each vertex by a fraction of its displacementet vector (diffusion over time).
+This method is called **Laplacian Smooth**. Where for each vertex, compute the displacement vector towards the average of its neighbors (Laplacian Operator). Then move each vertex by a fraction of its displacementet vector (diffusion over time).
 
 ![[Pasted image 20250510143754.png | 250]]
 
-This use the base concept of diffusion flow: the neighbors (the domain) diffuse value to my point to move it proportionally.
+This use the base concept of diffusion flow: the neighbors (the domain) diffuse value to my point to move it proportionally. We can describe this approch in a more formal way.
+
+Diffusion flow is modelled by the **diffusion equation**:
+$$
+\frac{\partial f(x,t)}{\partial t} = \lambda \Delta f(x,t)
+$$
+this equation is a second-order linear partial differential equation which statess that the function $f$ changes over time by a scalar diffusion coefficient $\lambda$ times its spatial [[Gradiant, Divergence and Laplacian#Laplacian|Laplacian]] 
+
+To use this equation to smooth a manifold surface S, simply by replacing the regular Laplacian operator with the [[Discrete Differential Operators#Uniform Laplacian|Laplace-Beltrami]]. We also replace $f$ with its sample values 
+$$
+(f(v_1, t), f(v_2, t), \dots, f(v_n,t))^T
+$$
+This yields an equation:
+$$
+\frac{\partial}{\partial}f(v_i, t) = \lambda\Delta f(v_i, t), \:\:\:\: i = 1, \dots, n
+$$
+For a temporal discretizationm we divide the time axis into regular intervals of size $h$, yielding time steps $\{ t, t+h, t+2h, \dots \}$. Approximating the time derivative by finite differences:
+$$
+\frac{\partial f(f)}{\partial t} \approx \frac{f(t+h) - f(t)}{h}
+$$
+and solving for $f(t + h)$ yields the **explicit Euler integration**:
+$$
+f(t + h) = f(t) + h \frac{\partial f(t)}{\partial t} = f(t) + h \lambda Lf(t)
+$$
+with this we have now a sparse linear system has to be solved for the function values $f(t + h)$.
+### Implicit Explicit
+The smoothing operations can see like the resolution of linear system to minimize Laplacian
+- **Explicit Euler Integration**: resolve the system by iterative substitution for small time step h
+$$f(t + h) = f(t) + h\lambda Lf(t)$$
+- **Implicit Euler Integration**: resolve the following linear system
+$$(I - h\lambda L)f(t + h) = f(t)$$
+	the system is very large but sparse.
+
+![[Pasted image 20250510154900.png | 500]]
 
 ### Umbrella Operator
 For the mesh is a little bit complicated apply Laplacian Smooth. A easy approch can be to use a simple average of neighbor, a more complex is use Umbrella Operator. For each vertex of the mesh:
 $$P_{new} = P_{old} + \lambda U(P_{old})$$
-where U is the Umbrella operator
+where U is the Umbrella operator (the [[Discrete Differential Operators#Uniform Laplacian|Uniform Laplacian]])
 $$U(P) = \frac{1}{\sum_i w_i}\sum_i w_i Q_i - P$$
 ![[Pasted image 20250510144308.png | 170]] ![[Pasted image 20250510144332.png | 170]]
 
@@ -69,7 +101,7 @@ $$U(P) = \frac{2}{E} \sum_i \frac{Q_i}{|e_{ij}|} - P \:\:\:\:\:\:\:\:\:\:\:\:\:w
 with this method we limit the speed of the algorithms to the most dense part.
 
 ### Mean Curvature Flow
-We can use the cotangent weight in the diffusion flow process. In this case we weight differently considering the different mean [[Surfaces Curvatures|curvature]].  The Laplace beltrami-operator is:
+We can use the [[Discrete Differential Operators#Cotangent formula|cotangent weight]] in the diffusion flow process. In this case we weight differently considering the different mean [[Surfaces Curvatures|curvature]].  The Laplace beltrami-operator is:
 $$Hn(P) = \frac{1}{4A}\sum_i (\cot\alpha_i + \cot\beta_i)(Q_i - P)$$
 What happens is the vertex will be projected along the perpendicular of the plane built on the neighbor vertex.
 
@@ -78,13 +110,5 @@ This means that the initial triangulation equality will be maintain.
 
 ![[Pasted image 20250510154152.png | 500]]
 
-### Implicit Explicit
-The smoothing operations can see like the resolution of linear system to minimize Laplacian
-- **Explicit Euler Integration**: resolve the system by iterative substitution for small time step h
-$$f(t + h) = f(t) + h\lambda Lf(t)$$
-- **Implicit Euler Integration**: resolve the following linear system
-$$(I - h\lambda L)f(t + h) = f(t)$$
-	the system is very large but sparse.
-
-![[Pasted image 20250510154900.png | 500]]
 # References
+- [Laplacian Smoothing and Delaunay Triangulation](https://www.ljll.fr/frey/papers/meshing/Field%20D.A.,%20Laplacian%20smoothing%20and%20Delaunay%20triangulations,%201988.pdf)

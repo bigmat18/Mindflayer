@@ -14,15 +14,15 @@ We assume that meshes are piecewise linear approximations of smooth surfaces. Th
 - x = mesh vertex
 - $N(x)$ = n-ring neighborhood (or local [[PDS on Surface|geodesic]] ball)
 
-#### Uniform Laplacin
-This is a uniform discretization of the [[Gradiant, Divergence and Laplacian#Laplacian|Laplacian]] operator
+#### Uniform Laplacian
+This is a uniform discretization of the [[Gradiant, Divergence and Laplacian#Laplacian|Laplacian-beltrami]] operator
 $$\Delta_{uni}f(v) := \frac{1}{|N_1(v)|} \sum_{v_i \in N_1(v)} (f(v_i) - f(v))$$
 - Depends only on connectivity, simple and efficient
 - Bad approximation for irregular triangulation (non uniform mesh) because in some cases we expect a zero value since the mean curvature over the entire region in zero
 
 This formula, applied to the coordinate function x evalutes to the vector pointing from the center vertex $x_i$ to the average of the one-ring vertices $x_j$.
 #### Cotangent formula 
-A more accurate discretization of the [[Gradiant, Divergence and Laplacian#Laplacian|laplacian]] operator can be derived using a mixed finite elment/finit volume method.
+A more accurate discretization of the [[Gradiant, Divergence and Laplacian#Laplacian|laplacian-beltrami]] operator can be derived using a mixed finite elment/finit volume method.
 $$\Delta_S f(v) := \frac{2}{A(v)} \sum_{v_i \in N_1(v)} (\cot \alpha_i + \cot \beta_i)(f(v_i) - f(v))$$
 We need to weight each vertex using the sum of cotangent of the two angles that affect the edge that leads ti the vertex to weight.
 ![[Pasted image 20250429162908.png | 600]]

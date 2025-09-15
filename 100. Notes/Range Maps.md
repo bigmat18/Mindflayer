@@ -21,7 +21,7 @@ One of the main question is how to merge different range maps? It's very difficu
 ![[Pasted image 20250509163736.png | 400]]
 
 2. **Registration**: this is the process to move each range map in a single coordinate system. It may be spitted: 
-	- **Cores registration**: more approximated, it is called also [[RANSAC Random Sample Consensus|raf alignment]]
+	- **Cores registration**: more approximated, it is called also [[RANSAC Random Sample Consensus|ranasc alignment]]
 	- **Fine registration**: registration with more precision, like with [[ICP Iterative Closest Point]]
 
 ![[Pasted image 20250509164125.png | 300]]

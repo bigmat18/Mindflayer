@@ -75,7 +75,7 @@ $$f(x) = \varphi(\{x_0, \dots, x_n\}) \:\:\:\:\: S= \{s|f(x)= \alpha\}$$
 so that S interpolates/approximates the point cloud. [[Surfaces Normals|Normals]] are often either assumed or computed from the point cloud. The normals are importat to define a surface and the most of acquisition method compute the normal on the points.
 
 ![[Pasted image 20250508180656.png | 350]]
-But some times the point cloud lose the normals. To rebuild the normal we can use the **Principal Component Analysis (PCA)**
+But some times the point cloud lose the normals. To rebuild the normal we can use the **[[RANSAC Random Sample Consensus#Principal Component Analysis (PCA)|Principal Component Analysis (PCA)]]**
 $$q_i = p_i - c \:\:\:\: c_{ov} = \sum_i q_i q_i^T \:\:\:\:\:\: c_{ov} = \begin{bmatrix}\sum_i q_{i²_x} & \sum_i q_{i_x}q_{i_x y} & \sum_i q_{i_x}q_{i_z}\\ \sum_i q_{i_y}q_{i_x} & \sum_i q_{i²_y} & \sum_i q_{i_y}q_{i_z}\\\sum_i q_{i_z}q_{i_x} & \sum_i q_{i_z}q_{i_y}&\sum_i q_{i²_z}\end{bmatrix}$$
 $C_{ov}$ (that is the covariance matrix) is symmetric this means real eigenvalues and orthogonal eigenvector. Take the eigenvector corresponding to the smallest eigenvalue as normal direction:
 - Check that the smallest eigenvalue is unique

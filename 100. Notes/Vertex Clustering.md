@@ -28,7 +28,7 @@ This can be and advantage because the scheme is able to change the topology of t
 It is determined by the effor it takes to map the mesh vertices to clusters. For simple uniform spatial grids this can be achived in linear time with small constrants.
 
 ### Computing Cluster Representatives 
-Exists differents way to compute the center of each cells. The average is one of them, it is very simple but usually not enough. A more reasonable choise is based on finding the optimal vertex position as least-square approsimation.
+Exists differents way to compute the center of each cells. The average is one of them, it is very simple but usually not enough. A more reasonable choise is based on finding the optimal vertex position as **least-square approsimation**.
 
 Consider a triangle $t_i$ within the current cell of intereset. Les us denote by $P_i = (x_i, n_i)$ with $x_i$ an arbitrary vertex on the plane and $n_i$ the unit normal vector of $t_i$. With $d_i = n_i^T x_i$ the squared distance of a point x from the plane $P_i$ can be computes as:
 $$

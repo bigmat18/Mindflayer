@@ -18,7 +18,7 @@ Where $EB_{\alpha}(S)$ is the ball with radius $\alpha$ not containing any point
 
 ### Computing Alpha Shapes
 To compute alpha shapes we use:
-- **Alpha diagram**: [[Voronoi Decoposition |Voronoi Diagram]] restricted to space closest than $\alpha$ one point in S.
+- **Alpha Diagram**: [[Voronoi Decoposition |Voronoi Diagram]] restricted to space closest than $\alpha$ one point in S.
 - **Alpha [[Representing real-world surfaces|Complex]]**: Subset of [[Delaunay Triangulation]] (if two cells of voronoi are adjacent insert and edge) computed as the dual of the alpha diagram.
 
 L'**alpha complex** is the triangulation built on the alpha diagram.

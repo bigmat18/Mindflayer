@@ -18,7 +18,7 @@ The concepts of distortions is essential to determinate the quality of a paramet
 What happens to the surface point $f(u,v)$ as we more a tiny little bit away from (u,v) in the parameter domain? We approximate with first order Taylor expansion. We have $f_u = \frac{\partial f}{\partial u}$ and $f_v = \frac{\partial f}{\partial v}$
 $$\tilde{f}(u + \Delta u, v + \Delta v) = f(u,v) + f_u(u,v) \Delta u + f_v(u,v) \Delta v$$
 $$\tilde{f}(u + \Delta u, v + \Delta v) = p + J_f (u) \begin{bmatrix}\Delta u \\ \Delta v\end{bmatrix} \:\:\:\:\:\: J_f = U\Sigma V^T = U \begin{bmatrix}\sigma_1 & 0 \\ 0 & \sigma_2 \\ \sigma & 0\end{bmatrix} V^T$$
-$J_f$ is the Jacobian of $f$, ie the 3x2 matrix with partial derivatives of $f$ as column vectors. To describe the Jacobian we have $U$ and $V^T$ that describe the rotation, while $\Sigma$ encodes how much the two axies that we have use to do the evaluation are stretches.
+$J_f$ is the [[Jacobian Matrix|Jacobian]] of $f$, ie the 3x2 matrix with partial derivatives of $f$ as column vectors. To describe the Jacobian we have $U$ and $V^T$ that describe the rotation, while $\Sigma$ encodes how much the two axies that we have use to do the evaluation are stretches.
 
 ![[Pasted image 20250410124709.png | 400]]
 

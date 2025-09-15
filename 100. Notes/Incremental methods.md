@@ -69,11 +69,11 @@ We can see an example in image above where the second point is not true:
 ##### Vertex contraction
 It the above criteria are satisfied, all the above removal operations preserve the mesh consistency and consequentially the topology of the surface.
 
-If a decimation should be able to also simplify the topology of the input model, we have to use non-Euler removal operators. The most common is called **vetex contraction**.
+If a decimation should be able to also simplify the topology of the input model, we have to use **non-Euler removal operators**. The most common is called **vetex contraction**.
 
 In vertex contraction two vertices p and q can be contracted into one new vertex r even if they are not connected by an edge.
 
-This operation reduce the number of vertices by one but keeps the number of triangle constant. This decimation require more flexible data structure. This operation reduce the number of triangles by one but keeps the number of triangles constant
+This operation reduce the number of vertices by one but keeps the number of triangle constant. This decimation require more flexible data structure. 
 ### Distance Measures
 ##### Error Accumulation
 The simplest of these techniques is error accumulation. For example if an edge collapse modifies trianlges $t_i$ by shifting one of their corner vertices from p or q to r, the distance of r to $t_i$ is an upper bound for the approximation error introduces in this step.

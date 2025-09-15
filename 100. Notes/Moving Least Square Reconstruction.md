@@ -20,8 +20,14 @@ In this approach we use moving Least Square (like [[Least Squares Conformal maps
 
 Our approach is **iterative**: project the points near the surface onto the surface
 1. $\min_{n,t}\sum^N_{i=1} \langle n, p_i - r -tn \rangle² \theta(||p_i - r - tn||)$
+	Where  $\langle n, p_i - r -tn \rangle²$ is the squared distance between $p_i$ and the plane $n,t$ (non linear problem)
+	
 2. $\min_{n,t}\sum^N_{i=1} (g(x_i, y_i) - f)² \theta(||p_i - q||)$
+	Where $g: \mathbb{R}² \to \mathbb{R}$ approximates point set in the local reference system centered in $q$.
+	
 3. Move $r$ to $q + g(0,0)n$
+
+![[Pasted image 20250911162159.png | 350]]
 
 We try to do a fitting of polynomial, we start from a set of points and try to build the best fitting plane and after use this plane to build a parametrization express the other points like distance from the plane.
 
@@ -29,3 +35,4 @@ We can use the projection of a point along the normal on polynomial to move the 
 
 ![[Pasted image 20250509141227.png | 450]]
 # References
+- [A moving-least-squares reconstruction for embedded-boundary formulations](https://www.sciencedirect.com/science/article/pii/S0021999109003246?ref=pdf_download&fr=RR-2&rr=97d7fa831f125a43)

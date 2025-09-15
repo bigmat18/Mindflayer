@@ -43,14 +43,14 @@ With this approach we can't reproduce linear situations. If we have a planar mes
 
 ![[Pasted image 20250413164402.png | 500]]
 
-For this reasons there are different approach to found weights to express a vertex with the sum of neighbours. Suppose S to be is planar.
+For this reasons there are **different approach** to found weights to express a vertex with the sum of neighbours. Suppose S to be is planar.
 1. Specify weights $\lambda_{ij}$ such that:     $p_i = \sum_{j \in N_i} \lambda_{ij}p_j$
 2. Then solving:                                $u_i = \sum_{j \in N_i} \lambda_{ij}u_j$
 3. Reproduces S
 
 ###### Watchpress coordinates
 $$w_{ij} = \frac{\cot \alpha_{ji} + \cot{\beta_{ij}}}{r_{ij}²}$$**[[Harmonic Parametrization|Discrete harmonic coordinates]]**
-$$w_{ij} = \cot{\gamma_{ij}} + \cot{\gamma_{ji}}$$
+$$w_{ij} = \frac{1}{2} (\cot{\gamma_{ij}} + \cot{\gamma_{ji}})$$
 This maintain the proportions during parametrizzazione
 ###### Mean value coordinates
 $$w_{ij} = \frac{\tan{\frac{\alpha_{ij}}{2}} + \tan{\frac{\beta_{ji}}{2}}}{r_{ij}}$$

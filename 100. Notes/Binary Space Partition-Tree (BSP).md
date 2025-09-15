@@ -49,9 +49,11 @@ Building a BSP-Tree requires to choose the partition plane. Choose the partition
 The choose depends on the application. In general the cost of BSP-Tree is
 $$C(T) = 1 + P(T_L)C(T_L) + P(T_R)C(T_R)$$
 Where $P(T_L)$ is probability that $T_L$ is visited given that T has been visited. We can use this formula to choose the splitting primitive. Try to guest the cost: we choose the primitive that minimize
-$$1 + |S(T_L)|\alpha + |S(T_R)|\alpha + \beta s$$
+$$C(T) \approx 1 + |S(T_L)|\alpha + |S(T_R)|\alpha + \beta \cdot s$$
 - $S_L$ number of primitives in the left subtree
 - $s$ number of primitives in split by chosen pimitive
+- $\alpha$ avg cost to traverse a node and handle his primitives
+- $\beta$ cost to split primitive
 
 We can have two cases:
 - Big $\alpha$, small $\beta$ yield a balanced tree.

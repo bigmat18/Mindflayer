@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d3da08cee96fa04f",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "3f26a06296f4195c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Notes/Introduction to Smoothing.md",
+                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction to Smoothing"
+              "title": "3D Geometry Modelling & Processing"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bsp",
+                "query": "pca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Notes/Introduction to Smoothing.md",
+                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction to Smoothing"
+              "title": "Outline of 3D Geometry Modelling & Processing"
             }
           },
           {
@@ -201,34 +202,37 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "3f26a06296f4195c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "100. Notes/Hierarchical Dart Throwing (HDT).md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/ICP Iterative Closest Point.md",
-    "100. Notes/RANSAC Random Sample Consensus.md",
-    "100. Notes/How do Parametrization.md",
-    "100. Notes/As-rigid-as-possible Parametrization.md",
-    "100. Notes/Least Squares Conformal maps.md",
-    "100. Notes/Harmonic Parametrization.md",
-    "100. Notes/Mass-Spring Parametrization.md",
-    "100. Notes/Gaussian Curvature.md",
-    "100. Notes/Curves.md",
-    "100. Notes/Uniform Grid.md",
-    "100. Notes/KD-Tree.md",
-    "100. Notes/Quad-Tree.md",
-    "100. Notes/Introduction to Smoothing.md",
-    "100. Notes/Toubin Smoothing.md",
-    "100. Notes/Laplacian Smooth.md",
-    "100. Notes/Introduction to Sampling.md",
+    "100. Notes/Binary Space Partition-Tree (BSP).md",
+    "100. Notes/Radial Basis Functions (RBF).md",
+    "100. Notes/Refinement Introduction.md",
     "100. Notes/Butterfly Algorithm.md",
     "100. Notes/Loop Schema Algorithms.md",
-    "100. Notes/Refinement Introduction.md",
     "100. Notes/Catmull-Clark Algorithms.md",
     "100. Notes/Doo-Sabin Algorithms.md",
-    "100. Notes/Direct-Edge bata structures.md",
-    "100. Notes/Halfedge-based data structures.md",
-    "100. Notes/Edge-based data structures.md",
-    "100. Notes/Face-based data structures.md",
+    "100. Notes/Representing real-world surfaces.md",
+    "100. Notes/Gradiant, Divergence and Laplacian.md",
+    "100. Notes/Toubin Smoothing.md",
+    "100. Notes/Laplacian Smooth.md",
+    "100. Notes/ICP Iterative Closest Point.md",
+    "100. Notes/RANSAC Random Sample Consensus.md",
+    "100. Notes/Mean Curvature.md",
+    "100. Notes/Gaussian Curvature.md",
+    "100. Notes/PDS on Surface.md",
+    "100. Notes/Samples generation.md",
+    "100. Notes/Hierarchical Indexing Structures.md",
+    "100. Notes/Quad-Tree.md",
+    "100. Notes/KD-Tree.md",
+    "100. Notes/Discrete Differential Operators.md",
+    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
+    "100. Notes/Surfaces Curvatures.md",
+    "100. Notes/Surfaces Normals.md",
+    "101. Utils/Images/Pasted image 20250911173540.png",
+    "101. Utils/Images/Pasted image 20250911173519.png",
+    "101. Utils/Images/Pasted image 20250911162159.png",
     "101. Utils/Images/Pasted image 20250906014912.png",
     "Untitled.canvas",
     "101. Utils/Documents/Physics.pdf",
@@ -244,9 +248,6 @@
     "101. Utils/Images/Screenshot 2024-05-27 at 22.39.38.png",
     "101. Utils/Images/Screenshot 2024-05-28 at 23.01.54.png",
     "101. Utils/Images/Screenshot 2024-05-27 at 20.35.57.png",
-    "101. Utils/Images/Screenshot 2024-05-26 at 19.52.56.png",
-    "101. Utils/Images/Screenshot 2024-05-27 at 22.42.19.png",
-    "101. Utils/Images/Screenshot 2024-05-27 at 23.16.28.png",
     "100. Notes/Untitled.base",
     "101. Utils/Documents/Fondamenti-Informatica.pdf",
     "101. Utils/Documents/AESO.pdf"

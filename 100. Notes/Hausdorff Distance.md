@@ -24,7 +24,7 @@ To calculate this similarity we nee two main components:
 
 ###### Hausdorff distance
 It's defined by the following formula:
-$$D_H(S_1, S_2) = \max_{x \in S_1}(\max_{x \in S_2} D(x,y))$$
+$$D_H(S_1, S_2) = \max_{x \in S_1}(\max_{y \in S_2} D(x,y))$$
 ![[Pasted image 20250403180856.png | 500]]
 We take each points in $S_1$ and for each points we search the closest point in $S_2$. The **Symmetric version** is the following:
 $$D(S_1, S_2) =\max\{D_H(S_1,S_2),D_H(S_2,S_1)\}$$
@@ -34,5 +34,13 @@ With this version leads to a different results. This means that the two distance
 
 This problem is **NP-hard**. It is NP-hard to decide if a given surface of n vertexes can be $\epsilon$-approximated with a surface composed by k vertices.
 
-But even the 2D version of the problem is NP-Hard: Simplifying a polyline to k vertexes so that it $\epsilon$-approximate a optimal simplification using the undirected Hausdorff distance is NP-hard. The same holds when using the directed Hausdorff distance from the input to the output polyline, whereas the reverse can be computed in polynomial time.
+But even the 2D version of the problem is NP-Hard: Simplifying a polyline to k vertexes so that it $\epsilon$-approximate a optimal simplification using the undirected Hausdorff distance is NP-hard. 
+
+The same holds when using the directed Hausdorff distance from the input to the output polyline, whereas the reverse can be computed in **polynomial time**.
+
+he difficulty comes from the **combinatorial explosion** of possibilities: 
+- To choose which \(k\) vertices to keep (or where to place them), we essentially have to search among all possible subsets of the \(n\) original vertices. 
+- The number of such subsets is $\binom{n}{k}$, which grows exponentially with \(n\). 
+
+Because the choice of vertices is not independent (removing one vertex can affect the global error across the whole curve), there is no simple greedy rule that always finds the optimum. As a result, deciding whether there exists a simplification with \(k\) vertices within error \(\epsilon\) is **NP-hard**.
 # References

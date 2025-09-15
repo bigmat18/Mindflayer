@@ -52,8 +52,12 @@ Methods that iteratively optimize the position of the samples using some energy 
 
 A CVT is a VT where each site (point) lies in the centroid of its region:
 $$p_i = \frac{\int_{V_i}x\rho(x) dx}{\int_{V_i}\rho(x)dx}$$
-With $\rho(x)$ some [[Probabilità sulla retta reale|density function]]. The miminum of the energy function below is on CVT:
+With $\rho(x)$ some [[Probabilità sulla retta reale|density function]]. This version of voronoi tasselation has extra property, for example:
+- if $p(x)$ is constant the sampling is uniform. Otherwise er have adaptive sampling
+- the miminum of the energy function below is on CVT:
 $$F(S,V) = \sum_{i=1}^n \int_{V_i} \rho(x) |x - s_i|² dx$$
+where $S$ is a set of $x$.
+
 ![[Pasted image 20250428174232.png]]
 
 There is methiods that modify CVT to obtein better sampling properties. **Capacity Constrained CVT** for example is CVT plus the contraint that each region of the VT has the same area.

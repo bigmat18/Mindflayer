@@ -15,3 +15,4 @@ $$f(x) = \sum_i\bigg(2\frac{r³}{R³} - 3\frac{r²}{R²} + 1\bigg) \:\:\:\:r=||x
 
 This methods has the problem that many time dont create a surface that go through the points but a surface near the points. The solution was the [[Radial Basis Functions (RBF)]]
 # References
+- [Wikipedia page](https://en.wikipedia.org/wiki/Metaballs)

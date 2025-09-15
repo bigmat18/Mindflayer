@@ -18,7 +18,7 @@ $$\nabla F(x,y) = \bigg (\frac{\partial F}{\partial x}, \frac{\partial F}{\parti
 ## Divergence
 Given a function $F(F_1, F_2): \mathbb{R}² \to \mathbb{R}²$ the **divergence** of F is the function $div: \mathbb{R}² \to \mathbb{R}$ defined as:
 $$div \: F(x,y) = \partial F_1 / \partial x + \partial F_2 / \partial y$$
-**Intuitively**: At the point $p_0$ the divergence $div\: F(p_0)$ is a measure of the extent to which the flow (de)compresses at $p_0$.
+**Intuitively**: At the point $p_0$ the divergence $div\: F(p_0)$ is a measure of the extent to which the flow (de)compresses at $p_0$. How much a vectors fiends enter or exit from a point.
 
 ## Laplacian
 Given a function $F(F_1, F_2): \mathbb{R}² \to \mathbb{R}$ the **Laplacian** of F is the function $\Delta F: \mathbb{R}² \to \mathbb{R}$ defined by the divergence of the gradiant of the partial derivatives.

@@ -28,13 +28,15 @@ Intial seed triangle: Empty ball of radius p passes through the three points. Th
 
 ![[Pasted image 20250507142902.png | 100]]
 
-Ball pivoting around active edge:
+Ball pivoting around active edge until we found a new vertex:
 ![[Pasted image 20250507153651.png | 100]]
+with the new vertex and the two vertex of edge we create a new triangle.
 ![[Pasted image 20250507153703.png | 100]]
+we iterate the process
 ![[Pasted image 20250507153719.png | 100]]
 ![[Pasted image 20250507153737.png | 100]]
 ![[Pasted image 20250507153837.png | 100]]
-No pivot found:
+if we to found an vertex we mark the edge like boundary. No pivot found:
 ![[Pasted image 20250507153908.png | 100]]
 ![[Pasted image 20250507153941.png | 100]]
 ![[Pasted image 20250507154000.png | 100]]

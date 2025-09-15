@@ -25,6 +25,13 @@ The smoothing can see like signals processing, the mesh can be viewed as two-dim
 $$f: M \to \mathbb{R}³ \:\:\:\:\:f(v_i) = x_i$$
 where $x_i$ denotes the position of vertex $v_i$ in space and $f$ is extended by linear interpolation to the rest of the mesh. With this representations we can use signal-processing techniques, smoothing at that point view can be viewed as a **filtering process of the signal f**.
 
+Exists two aspect in smoothing function:
+- **Denoising**: is used to **remove high-frequency** noise from function $f$. In many case $f$ denotes vertex position, it can be corrupted by high frequency noise ude to a physical scanning process.
+- **Faring**: does not just slightly smooth the function $f$ in order to remove noise. It also smooths the function as mush as possible in order to obtain an **as-smooth-as-possible** surface patch or shape deformation
+	- **as-smooth-as-possibile** means that a certain energy function have to be minimized.
+
+### [[Manifold Harmonics]]
+
 ### [[Laplacian Smooth]]
 
 ### [[Toubin Smoothing]]

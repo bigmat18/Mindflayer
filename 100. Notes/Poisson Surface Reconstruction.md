@@ -51,3 +51,4 @@ $$\sum_{s\in S}|P_s|\tilde{F}_{s\cdot p} s.\vec{N} dp \equiv \vec{V}$$
 
 This algorithm is the stato of arts. It's very easy to [[Introduction to parallel and distributed systems|parallelized]]
 # References
+- [Poisson Surface Reconstruction by Michael Kazhdan, Matthew Bolitho and Hugues Hoppe](https://hhoppe.com/poissonrecon.pdf)

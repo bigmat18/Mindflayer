@@ -31,6 +31,7 @@ Reduce the number of vertices, minimizing the **[[Hausdorff Distance| approximat
 ![[Pasted image 20250403174131.png | 500]]
 
 ### [[Vertex Clustering]]
+
 ### [[Incremental methods]]
 
 ### [[Variational Shape Approximation]]

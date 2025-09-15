@@ -53,7 +53,7 @@ The main issues are:
 
 
 ### RANSAC: Basis
-RANSAC is the main method to found what fit and discard during the fitting operation. Random Sample Consensus has for core idea is found model parameters to fit two things to do this we hypothesized match can be described by parameters (ess. translation, affine).
+RANSAC is the main method to found what fit and discard during the fitting operation. Random Sample Consensus has for core idea is found model parameters to fit two things. To do this we hypothesized match can be described by parameters (ess. translation, affine).
 
 In synthesis we match enough features to determine a hypothesis:
 - See if it is good
@@ -68,8 +68,8 @@ The classic approach with least square create a line moved for all noise points,
 - we select a random subset of the original data. Call this subset the hypothetical inliers.
 - A model is fitted to the set of hypothetical inliers
 - All other data are than tested against the fitted model
-- The estimated model is reasonably good if enough points have been classified as part of the consensus set
-- Afterwards the model may be improved by re-estimating it using all members of the consensus set.
+- The estimated model is reasonably good if **enough points have been classified as part of the consensus set**
+- Afterwards the model may be **improved by re-estimating** it using all members of the consensus set.
 
 ![[Pasted image 20250509174847.png | 200]] ![[Pasted image 20250509174857.png | 200]]
 
@@ -77,9 +77,13 @@ The classic approach with least square create a line moved for all noise points,
 How many samples do we need to take? 
 - p is fraction of points on the line
 - n points needed to define hypothesis (2 for lines)
-- k number of trials
+- N number of trials
 
-The probability that after N trials I have the correct solution is: $1 - (1 - p^n)^N$ similar to [[Variabili Aleatorie Notevoli|binomial]].
+The probability that after N trials I have the correct solution is: 
+$$
+1 - (1 - p^n)^N 
+$$
+similar to [[Variabili Aleatorie Notevoli|binomial]].
 
 ### More complex fitting
 How many point-pairs specify a rigid transform in R2 or R3? We need additional constraints? 
@@ -92,13 +96,15 @@ How many point-pairs specify a rigid transform in R2 or R3? We need additional c
 ### Algorithm
 The full RANSAC algorithm we need to follow the following steps:
 
-1. Sample tree (two) pairs, check distance constraints 
-2. Fit a rigid transform
-3. Check how many point pairs agree. If above threshold terminates, otherwise goes to step 1.
+1. Sample tree (two) pairs
+2. Check distance constraints 
+3.  Check if fit a rigid transform
+4. Check how many point pairs agree. If above threshold terminates, otherwise goes to step 1.
 
 ![[Pasted image 20250509180854.png | 400]]
 
 This algorithm work well but in 3D the probability begin to decrease a lot why we need 3 points. To fix that we add other measures, it is usually call **feature point detection**
+
 1. Use feature descriptors, they store local information about surface 
 2. Denote a larger success rate p
 3. Probability a descriptor identifies the correct match

@@ -20,7 +20,7 @@ tags:
 | First Semester                                           | CFU | Degree | Second Semester                                        | CFU | Degree |
 | -------------------------------------------------------- | --- | ------ | ------------------------------------------------------ | --- | ------ |
 | Machine learning                                         | 9   |        | Generative and Deep Learning                           | 9   |        |
-| Algorithm engineering                                    | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
+| [[Algorithm Engineering]]                                | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
 | Computational mathematics for learning and data analysis | 9   |        |                                                        |     |        |
 
 ---
@@ -28,7 +28,7 @@ tags:
 
 | First Semester                                                 | CFU | Degree | Second Semester | CFU | Degree |
 | -------------------------------------------------------------- | --- | ------ | --------------- | --- | ------ |
-| Competitive programming and contests                           | 6   |        | Computer Vision | 9   |        |
+| [[Competitive Programming and Contests]]                       | 6   |        | Computer Vision | 9   |        |
 | Distributed Algorithms                                         | 6   |        |                 |     |        |
 | Algorithms and data structures for data-intensive applications | 9   |        |                 |     |        |
 |                                                                |     |        |                 |     |        |

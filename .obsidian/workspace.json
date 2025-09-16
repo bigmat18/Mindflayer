@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "b1a5a7f820cdfe2c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "aa6d0fe4a5831991",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "100. Notes/Competitive Programming and Contests.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Competitive Programming and Contests"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pca",
+                "query": "bsp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "100. Notes/Competitive Programming and Contests.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Competitive Programming and Contests"
             }
           },
           {
@@ -173,7 +188,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -187,37 +201,37 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "aa6d0fe4a5831991",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "000. Areas/Road to Internship.md",
     "000. Areas/Master's degree.md",
-    "000. Areas/Bachelor's Degree.md",
-    "000. Areas/Bodybuilding - Gym.md",
-    "README.md",
-    "100. Notes/Uniform Grid.md",
+    "010. MOCs/Algorithm Engineering.md",
+    "100. Notes/Competitive Programming and Contests.md",
+    "010. MOCs/High Performance Computing.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
-    "100. Notes/KD-Tree.md",
-    "100. Notes/Binary Space Partition-Tree (BSP).md",
-    "100. Notes/Hierarchical Dart Throwing (HDT).md",
-    "100. Notes/Radial Basis Functions (RBF).md",
-    "100. Notes/Refinement Introduction.md",
+    "100. Notes/2025-09-16 - AENG.md",
+    "README.md",
     "100. Notes/Butterfly Algorithm.md",
-    "100. Notes/Loop Schema Algorithms.md",
-    "100. Notes/Catmull-Clark Algorithms.md",
-    "100. Notes/Doo-Sabin Algorithms.md",
     "100. Notes/Representing real-world surfaces.md",
-    "100. Notes/Gradiant, Divergence and Laplacian.md",
-    "100. Notes/Toubin Smoothing.md",
-    "100. Notes/Laplacian Smooth.md",
-    "100. Notes/ICP Iterative Closest Point.md",
-    "100. Notes/RANSAC Random Sample Consensus.md",
+    "001. Projects/CSG on Mesh using Voxelization and SDF.md",
+    "001. Projects/Distributed Mesh Simplification (QEM).md",
     "100. Notes/Mean Curvature.md",
-    "100. Notes/Gaussian Curvature.md",
-    "100. Notes/PDS on Surface.md",
-    "100. Notes/Samples generation.md",
+    "100. Notes/Introduction to Smoothing.md",
     "101. Utils/Images/Pasted image 20250911173540.png",
     "101. Utils/Images/Pasted image 20250911173519.png",
     "101. Utils/Images/Pasted image 20250911162159.png",
+    "100. Notes/Manifold Harmonics.md",
+    "100. Notes/Jacobian Matrix.md",
+    "100. Notes/ICP Iterative Closest Point.md",
+    "100. Notes/RANSAC Random Sample Consensus.md",
+    "100. Notes/How do Parametrization.md",
+    "100. Notes/As-rigid-as-possible Parametrization.md",
+    "100. Notes/Least Squares Conformal maps.md",
+    "100. Notes/Harmonic Parametrization.md",
+    "100. Notes/Mass-Spring Parametrization.md",
+    "100. Notes/Gaussian Curvature.md",
+    "100. Notes/Curves.md",
+    "100. Notes/Uniform Grid.md",
+    "100. Notes/KD-Tree.md",
     "101. Utils/Images/Pasted image 20250906014912.png",
     "Untitled.canvas",
     "101. Utils/Documents/Physics.pdf",

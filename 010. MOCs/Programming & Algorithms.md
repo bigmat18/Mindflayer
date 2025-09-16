@@ -22,7 +22,5 @@ Area: "[[Bachelor's Degree]]"
 
 ![[Graph Algorithms]]
 
-![[Dynamic Programming]]
-
 # Resources
 ![[Programmazione-Algoritmi.pdf]]

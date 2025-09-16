@@ -9,4 +9,4 @@ Area: "[[Master's degree]]"
 # Tasks
 
 # References
-- [Unipi Page](https://pages.di.unipi.it/rossano/competitive/)
+- [Competitive Programming Course Page](https://pages.di.unipi.it/rossano/competitive/)

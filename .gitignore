@@ -1,6 +1,7 @@
 .trash/*
 
-
+.obsidian/workspace*.json
+.obsidian/backlink.json
 
 # Ignore Smart Environment folder
 .smart-env

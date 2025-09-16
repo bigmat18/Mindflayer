@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "b1a5a7f820cdfe2c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "aa6d0fe4a5831991",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3D Geometry Modelling & Processing"
+              "title": "New tab"
             }
           }
         ]
@@ -84,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,13 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010. MOCs/3D Geometry Modelling & Processing.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3D Geometry Modelling & Processing"
+              "title": "Outline"
             }
           },
           {
@@ -189,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -202,11 +187,18 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "aa6d0fe4a5831991",
   "lastOpenFiles": [
-    "100. Notes/Hierarchical Dart Throwing (HDT).md",
+    "000. Areas/Road to Internship.md",
+    "000. Areas/Master's degree.md",
+    "000. Areas/Bachelor's Degree.md",
+    "000. Areas/Bodybuilding - Gym.md",
+    "README.md",
+    "100. Notes/Uniform Grid.md",
     "010. MOCs/3D Geometry Modelling & Processing.md",
+    "100. Notes/KD-Tree.md",
     "100. Notes/Binary Space Partition-Tree (BSP).md",
+    "100. Notes/Hierarchical Dart Throwing (HDT).md",
     "100. Notes/Radial Basis Functions (RBF).md",
     "100. Notes/Refinement Introduction.md",
     "100. Notes/Butterfly Algorithm.md",
@@ -223,13 +215,6 @@
     "100. Notes/Gaussian Curvature.md",
     "100. Notes/PDS on Surface.md",
     "100. Notes/Samples generation.md",
-    "100. Notes/Hierarchical Indexing Structures.md",
-    "100. Notes/Quad-Tree.md",
-    "100. Notes/KD-Tree.md",
-    "100. Notes/Discrete Differential Operators.md",
-    "100. Notes/Introduction to Spatial Indexing in Computer Graphics.md",
-    "100. Notes/Surfaces Curvatures.md",
-    "100. Notes/Surfaces Normals.md",
     "101. Utils/Images/Pasted image 20250911173540.png",
     "101. Utils/Images/Pasted image 20250911173519.png",
     "101. Utils/Images/Pasted image 20250911162159.png",

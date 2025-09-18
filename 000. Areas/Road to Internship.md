@@ -6,23 +6,42 @@ tags:
 ## List of Company
 
 #### General Big Tech
-
+- [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)
+- [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc)
+- [Amazon](https://www.amazon.jobs/it/teams/internships-for-students)
+- [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1)
+- [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7)
+- [Spotify](https://www.lifeatspotify.com/students)
+- [Netflix](https://explore.jobs.netflix.net/careers)
+- [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN)
+- [Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=intern&p=Software%20Engineering&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true)
+- [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036)
 #### Computer Graphics Big Tech
+- [Activition](https://careers.activision.com/search-results?keywords=intern)
+- [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern)
+- [Blizzard](https://careers.blizzard.com/global/en/c/internships-jobs)
+- [EA](https://jobs.ea.com/en_US/careers/Home/?4536=%5B8301%5D&4536_format=3019&4537=%5B8693%5D&4537_format=3020&listFilterMode=1&jobRecordsPerPage=20&)
+- [Epic Games](https://www.epicgames.com/site/en-US/careers/jobs?type=Intern&department=Engineering&page=1)
+- [Nintendo](https://careers.nintendo.com/job-openings/?search=internship)
+- [Sony](https://www.sonyjobs.com/jobs.html)
+- [Ubisoft](https://www.ubisoft.com/en-us/company/careers/search?query=internship)
+- [Unity](https://unity.com/careers/positions?title=intern)
+- [Valve](https://www.valvesoftware.com/it/?job_cat=software-engineering)
+- [Autodesk](https://autodesk.wd1.myworkdayjobs.com/en-US/uni/details/Intern--Software-Engineer_25WD91327-1?q=itern)
 
-#### Impossible Company
 ## Coding Interview Topics
 
 ### Algorithms
-
+- [Neetcode roadmap](https://neetcode.io/roadmap)
+- [Leatcode](https://leetcode.com/explore/learn)
 ### Languages
-
-### System Design
-
+- [CPP Interview questions](https://www.interviewbit.com/cpp-interview-questions/)
+- [General C++ Questions](https://hellointern.in/blog/c-interview-questions-and-answers-for-internship-88141)
+- [Reddit Questions](https://www.reddit.com/r/cpp/comments/17r95li/questions_from_one_job_interview_on_c_developer/)
 ### Computer Graphics
+- [Common Computer Graphics Questions](https://erkaman.github.io/posts/junior_graphics_programmer_interview.html)
+- [Reddit Questions](https://www.reddit.com/r/GraphicsProgramming/comments/194ewll/graphics_programming_interview_prep/)
 
 ## Resources 
-- https://wiki.superherovalley.fun/link_utili/ricerca_internships/
 - [Cracking the Code Interview](https://github.com/AatmikJain/ComputerScienceBooks/blob/master/Cracking%20the%20Coding%20Interview.pdf)
-- https://neetcode.io/roadmap 
-- https://leetcode.com/explore/learn
 - [SuperHero Valley Wiki](https://wiki.superherovalley.fun/preparation/intro/)

@@ -17,11 +17,11 @@ tags:
 ---
 ### Year 2 (Total: 45 CFU)
 
-| First Semester                                           | CFU | Degree | Second Semester                                        | CFU | Degree |
-| -------------------------------------------------------- | --- | ------ | ------------------------------------------------------ | --- | ------ |
-| Machine learning                                         | 9   |        | Generative and Deep Learning                           | 9   |        |
-| [[Algorithm Engineering]]                                | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
-| Computational mathematics for learning and data analysis | 9   |        |                                                        |     |        |
+| First Semester                                               | CFU | Degree | Second Semester                                        | CFU | Degree |
+| ------------------------------------------------------------ | --- | ------ | ------------------------------------------------------ | --- | ------ |
+| [[Machine Learning]]                                         | 9   |        | Generative and Deep Learning                           | 9   |        |
+| [[Algorithm Engineering]]                                    | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
+| [[Computational mathematics for learning and data analysis]] | 9   |        |                                                        |     |        |
 
 ---
 ### Year 3 (Total: 24 CFU)

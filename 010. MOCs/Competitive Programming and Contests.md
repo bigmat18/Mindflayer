@@ -6,6 +6,10 @@ Area: "[[Master's degree]]"
 ---
 # Table of Contents
 
+- [[Kadane's Algorithm]]
+- [[Trapping Rain Water]]
+- [[Slinding Window Maximum]]
+
 # Tasks
 
 # References

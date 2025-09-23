@@ -1,4 +1,3 @@
-- [[Rappresentazione Grafi]]
 - [[Distance vector algorithm]]
 - [[Link-state algorithm (LSP)]]
 - [[Ricerca in ampiezza (BF)]]

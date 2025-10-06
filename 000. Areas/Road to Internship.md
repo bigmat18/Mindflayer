@@ -35,8 +35,8 @@ tags:
 ## Coding Interview Topics
 
 ### Algorithms
-- [Neetcode roadmap](https://neetcode.io/roadmap)
-- [Leatcode](https://leetcode.com/explore/learn)
+- [Neetcode Roadmap](https://neetcode.io/roadmap)
+- [Leetcode](https://leetcode.com/explore/learn)
 ### Languages
 - [CPP Interview questions](https://www.interviewbit.com/cpp-interview-questions/)
 - [General C++ Questions](https://hellointern.in/blog/c-interview-questions-and-answers-for-internship-88141)

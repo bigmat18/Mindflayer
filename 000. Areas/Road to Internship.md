@@ -8,7 +8,7 @@ tags:
 #### General Big Tech
 - [X] [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)
 - [ ] [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc)
-- [ ] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students)
+- [x] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students)
 - [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1)
 - [X] [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7)
 - [ ] [Spotify](https://www.lifeatspotify.com/students)

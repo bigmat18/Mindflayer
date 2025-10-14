@@ -8,7 +8,9 @@ Area: "[[Master's degree]]"
 
 - [[Kadane's Algorithm]]
 - [[Trapping Rain Water]]
-- [[Slinding Window Maximum]]
+- [[Sliding Window Maximum]]
+- [[Two Pointers Patterns]]
+
 
 # Tasks
 

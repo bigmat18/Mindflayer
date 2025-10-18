@@ -6,34 +6,35 @@ tags:
 ## List of Company
 
 #### General Big Tech
-- [X] [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)
-- [x] [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc)
-- [x] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students)
-- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1)
-- [X] [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7)
+- [X] [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)​ 🟡​
+- [x] [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc) ​🟡​
+- [x] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students) ​🔴​
+- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1) ​🟡​
+- [X] [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7) ​🟡​
 - [ ] [Spotify](https://www.lifeatspotify.com/students)
 - [ ] [Netflix](https://explore.jobs.netflix.net/careers)
-- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN)
-- [X] [Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=intern&p=Software%20Engineering&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true)
-- [X] [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036)
-- [X] [Stripe](https://stripe.com/jobs/listing/software-engineer-intern/7206494)
-- [x] [Cloudflare](https://www.cloudflare.com/it-it/careers/jobs/?department=Early+Talent)
-- [X] [DataBricks]()
-- [x] [IBM]()
-- [x] [Revolut](https://www.revolut.com/careers/?text=rev-celerator+internship)
-- [x] [ARM](https://earlycareers-arm.icims.com/jobs/15805/software-engineering-intern/job?mode=submit_apply) 
+- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) ​🟡​
+- [X] [Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=intern&p=Software%20Engineering&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) ​🔴​
+- [X] [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036) ​🔴
+- [X] [Stripe](https://stripe.com/jobs/listing/software-engineer-intern/7206494) ​🟡​
+- [x] [Cloudflare](https://www.cloudflare.com/it-it/careers/jobs/?department=Early+Talent) ​🟡​
+- [X] [DataBricks]()​ 🟢​
+- [x] [IBM]() ​🟢​
+- [x] [Revolut](https://www.revolut.com/careers/?text=rev-celerator+internship) ​🟡​
+- [x] [ARM](https://earlycareers-arm.icims.com/jobs/15805/software-engineering-intern/job?mode=submit_apply) ​🔴​
+- [x] [MongoDB]() 🟡
 #### Computer Graphics Big Tech
-- [X] [Activition](https://careers.activision.com/search-results?keywords=intern)
-- [X] [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern)
-- [ ] [Blizzard](https://careers.blizzard.com/global/en/c/internships-jobs)
-- [X] [EA](https://jobs.ea.com/en_US/careers/Home/?4536=%5B8301%5D&4536_format=3019&4537=%5B8693%5D&4537_format=3020&listFilterMode=1&jobRecordsPerPage=20&)
-- [X] [Epic Games](https://www.epicgames.com/site/en-US/careers/jobs?type=Intern&department=Engineering&page=1)
+- [X] [Activition](https://careers.activision.com/search-results?keywords=intern) ​​​​🟡
+- [X] [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern) ​​🔴​​
+- [x] [Blizzard](https://careers.blizzard.com/global/en/c/internships-jobs) 🟡
+- [X] [EA](https://jobs.ea.com/en_US/careers/Home/?4536=%5B8301%5D&4536_format=3019&4537=%5B8693%5D&4537_format=3020&listFilterMode=1&jobRecordsPerPage=20&) ​🟡​
+- [X] [Epic Games](https://www.epicgames.com/site/en-US/careers/jobs?type=Intern&department=Engineering&page=1) ​🔴​
 - [ ] [Nintendo](https://careers.nintendo.com/job-openings/?search=internship)
 - [ ] [Sony](https://www.sonyjobs.com/jobs.html)
 - [ ] [Ubisoft](https://www.ubisoft.com/en-us/company/careers/search?query=internship)
 - [ ] [Unity](https://unity.com/careers/positions?title=intern)
-- [X] [Larian Studio]()
-- [X] [Autodesk](https://autodesk.wd1.myworkdayjobs.com/en-US/uni/details/Intern--Software-Engineer_25WD91327-1?q=itern)
+- [X] [Larian Studio]() ​🔴​
+- [X] [Autodesk](https://autodesk.wd1.myworkdayjobs.com/en-US/uni/details/Intern--Software-Engineer_25WD91327-1?q=itern) ​🔴​
 
 ## Coding Interview Topics
 
@@ -94,7 +95,7 @@ With my studies and experiences in cloud platforms and software engineering for 
 **A:** Databricks is a unified analytics platform that combines data engineering, data science, and machine learning. It's key features include an interactive workspace for collaboration, support for multiple languages like python, scala and sql, as well as integrated data management solutions.  Databricks streamlines the process of building and managing data pipelines with delta lake, which provides ACID transaction and salable metadata handling. The platform also offers built-in machine learning tools, real-time stream processing, and seamless integration with various data sources and cloud services enhancing productivity for data teams.
 
 ###### Where do you see yourself in 5 years?
-**A:** In five years, I see myself as a strong software engineer with advanced skills in optimization, problem solving, and managing complex systems. I’d like to be in a stimulating environment, such as Databricks, where I can leverage my abilities to improve services used by thousands of users and, above all, continue growing both technically and as a leader. I envision being able to manage contexts where others depend on me and to guide them toward achieving better outcomes for the company and, most importantly, for customers.
+**A:** In five years, I see myself as a strong software engineer with advanced skills in optimization, problem solving, and managing complex systems. I would like to be in a stimulating environment, such as Databricks, where I can leverage my abilities to improve services used by thousands of users and, above all, continue growing both technically and as a leader. I envision being able to manage contexts where others depend on me and to lead them toward achieving better outcomes for the company and, most importantly, for customers.
 ###### What do you do outside of work?
 **A:** Outside school I work on many personal projects, one of the least is a system to do mesh simplification in a parallel and distributed way. In general computer science it's not only my school subject but also a passion and in my free time I like to read or watch video about many topics ralated with computer science. I also love sport and I practice it almost every days. 
 ###### What are your strengths and weaknesses?

@@ -8,8 +8,6 @@ Area: "[[Bachelor's Degree]]"
 
 ![[Introduction to Algorithms]]
 
-![[Teoria Calcolabilità]]
-
 ![[Teoria Complessità]]
 
 ![[Sorting Algorithms]]
@@ -21,6 +19,8 @@ Area: "[[Bachelor's Degree]]"
 ![[Tree Algorithms]]
 
 ![[Graph Algorithms]]
+
+![[Dynamic Programming]]
 
 # Resources
 ![[Programmazione-Algoritmi.pdf]]

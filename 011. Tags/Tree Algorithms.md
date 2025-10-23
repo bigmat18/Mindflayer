@@ -1,3 +1,5 @@
-- [[Introduzione Alberi]]
-- [[Visita albero]]
-- [[Alberi binari di ricerca]]
+- [[Tree Delete in BST]]
+- [[Tree Insert in BST]] 
+- [[Tree Min-Max]]
+- [[Tree Pred-Succ]]
+- [[Tree Search]]

@@ -1,3 +1,6 @@
+- [[Introduzione Teoria Calcolabilià]]
+- [[Problemi Indecidibili]]
+- [[Problemi decidibili ma intrattabili]]
 - [[Introduzione teoria Complessità]]
 - [[Classi di Complessità]]
 - [[Notazione Asintotica]]

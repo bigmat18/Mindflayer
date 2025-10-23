@@ -1,3 +1,3 @@
-- [[Definizione Liste]]
-- [[Operazioni sulle liste]]
-- [[Liste particolari]]
+- [[Lists]]
+- [[Queue]]
+- [[Stack]]

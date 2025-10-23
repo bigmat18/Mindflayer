@@ -4,3 +4,5 @@
 - [[Ricerca in profondità (DF)]]
 - [[Ricerca di costo uniforme (UC)]]
 - [[Ricerca con approfondimento iterativo (ID)]]
+- [[Dijkstra]]
+- [[Bellman-Ford]]

@@ -4,21 +4,21 @@ tags:
 ---
 # Road to Internship
 ## List of Company
-- Total Company: 32
-- Open Company: 24
+- Total Company: 34
+- Open Company: 26
 
-- 🟡 No response: 14
-- 🟢 Approved: 2
-- 🔴 Rejected: 8
+- 🟡 No response: 13
+- 🟢 Approved: 3
+- 🔴 Rejected: 10
 #### General Big Tech
 - [X] [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)​ 🟡​
 - [x] [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc) ​🟡​
 - [x] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students) ​🔴​
-- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1) ​🟡​
+- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1) ​🔴
 - [X] [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7) ​🟡​
 - [ ] [Spotify](https://www.lifeatspotify.com/students)
 - [ ] [Netflix](https://explore.jobs.netflix.net/careers)
-- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) ​🟡​
+- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) ​🟢​
 - [X] [Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=intern&p=Software%20Engineering&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) ​🔴​
 - [X] [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036) ​🔴
 - [X] [Stripe](https://stripe.com/jobs/listing/software-engineer-intern/7206494) ​🟡​
@@ -32,6 +32,8 @@ tags:
 - [ ] [Tesla](https://www.tesla.com/careers/search/?type=intern&site=IT)
 - [ ] [OpenAI]()
 - [x] [Samsung](https://sec.wd3.myworkdayjobs.com/Samsung_Careers?q=software&workerSubType=189767dd6c920145d5c3e59c2c297819) 🟡
+- [x] [Booking](https://careers.booking.com/early-careers/) 🟡
+- [x] [Uber]() ​🔴
 #### Computer Graphics Big Tech
 - [X] [Activition](https://careers.activision.com/search-results?keywords=intern) ​​​​🟡
 - [X] [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern) ​​🔴​​
@@ -78,8 +80,8 @@ Databricks collaborative culture and its mission to make big data simple and act
 
 With my studies and experiences in cloud platforms and software engineering for high performance I believe I can add real value by solving complex problems and helping customers achieve measurable business outcomes with Databricks technology.
 
-###### Tell me about a time when you worked on a project with limited direction. What did you do?
 
+###### Tell me about a time when you worked on a project with limited direction. What did you do?
 **ANSWER 1**
 **Situations**: During one of my master degree course I was asked to implemented an efficiente algorithm for mesh processing using gpgpu techniques, but there was little clarity on what the end result should be.
 **Task**: My responsibility was to identify the key issues on the naive solution proposed and find a way to improve the efficiency to reduce the time and memory used by it.
@@ -102,8 +104,10 @@ With my studies and experiences in cloud platforms and software engineering for 
 **Result**: This delayed delivery by 3–4 days, but the final benckmarks was complete, accurate, and clearly showed the strengths and weaknesses of my work
 **Learning**: From this experience, I learned that standing by your values, even under pressure, builds long-term trust and credibility. At Databricks, where data analysis is fundamental, I would always prioritize doing the right thing for customers and the business.
 
+
 ###### What is DataBricks, and what are its key features?
 **A:** Databricks is a unified analytics platform that combines data engineering, data science, and machine learning. It's key features include an interactive workspace for collaboration, support for multiple languages like python, scala and sql, as well as integrated data management solutions.  Databricks streamlines the process of building and managing data pipelines with delta lake, which provides ACID transaction and salable metadata handling. The platform also offers built-in machine learning tools, real-time stream processing, and seamless integration with various data sources and cloud services enhancing productivity for data teams.
+
 
 ###### Where do you see yourself in 5 years?
 **A:** In five years, I see myself as a strong software engineer with advanced skills in optimization, problem solving, and managing complex systems. 
@@ -112,8 +116,11 @@ I would like to be in a stimulating environment, such as Databricks, where I can
 
 I envision being able to manage contexts where others depend on me and to lead them toward achieving better outcomes for the company and, most importantly, for customers.
 
+
 ###### What do you do outside of work?
 **A:** Outside school I work on many personal projects, one of the least is a system to do mesh simplification in a parallel and distributed way. In general computer science it's not only my school subject but also a passion and in my free time I like to read or watch video about many topics ralated with computer science. I also love sport and I practice it almost every days. 
+
+
 ###### What are your strengths and weaknesses?
 **A:** One of my biggest strengths is the ability to organize my time and handle difficult situations with analytical and adaptive skills. I also have good leadership abilities; in fact, in many school contexts I have felt very comfortable managing large team projects and leading my teammates to achieve the goal with the best results possible. 
 
@@ -122,12 +129,15 @@ In the other hand, while I’m comfortable with one-on-one negotiations or small
 To improve it, I have taken steps such as putting myself to the test in contexts where I need to present not-too-complex topics to multiple people in a non-native language, in order to challenge myself. I also practice with people I know to prepare myself before a talk.
 
 These efforts have significantly improved my confidence and my ability to communicate effectively, but it is still a work in progress.
+
+
 ###### Tell me about a project/class that you enjoyed/worked on.
 **Situation:** One of the project-based classes that engaged me the most and that I loved developing, was High Performance Computing, which I took last year. In this course, we studied the fundamentals of parallel programming and the main patterns used in streaming and data-flow contexts. We also delved into GPU architectures, their execution model and memory hierarchy, working with real-world code examples in C++ and CUDA.
 **Task:** The final project required implementing an algorithm of our choice efficiently in CUDA and optimizing it over the CPU and parallel versions by leveraging all the knowledge we had acquired
 **Action**: Throughout the project, I applied these concepts by first conducting an in-depth study of the algorithm’s behavior and how it could be mapped to a parallel GPU context; then I built an initial implementation and ran a series of tests and profiling sessions to identify bottlenecks
 **Result** I iterated on this approach until I achieved a fully working result with performance significantly above the baseline
 **Learning**: This experience allowed me to explore an area I had never studied before and to test my skills in a real project; moreover, I was able to apply an analytical approach to the problem, analyzing the algorithm and progressively identifying bottlenecks to optimize, a skill I intend to use to improve the services offered by Databricks.
+
 
 ###### Tell me about a time when you tried something risky and failed?
 **Situation:** During my Bachelor's degree, I followed an important course on low-level programming and multi-threading in C called Laboratory II.

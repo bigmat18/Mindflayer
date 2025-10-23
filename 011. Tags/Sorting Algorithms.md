@@ -1,4 +1,3 @@
-- [[Divide et Impera idioma]]
 - [[Merge Sort]]
 - [[Insertion Sort]]
 - [[Selection Sort]]

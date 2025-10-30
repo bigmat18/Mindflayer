@@ -96,8 +96,7 @@ __device__ kernel_name(…)
 Initialization of constant memory can be done in the host program through the `cudaMemcpyToSymbol` primitive instead of using standard `cudaMemcpy`.
 
 ### Texture Memory
-It is allocated in the **off-chip device memory** and can be accessed only through a **dedicated read-only L1 cache** per stream multi-processor. Such cache provides efficient hardware support for **floating-**
-**point interpolation** and **filtering**.
+It is allocated in the **off-chip device memory** and can be accessed only through a **dedicated read-only L1 cache** per stream multi-processor. Such cache provides efficient hardware support for **floating-point interpolation** and **filtering**.
 
 **Example** of a computation requiring floating-point interpolation is a rotation of an image of, for example, 30 degrees (in general any angle not multiple of 90).
 

@@ -55,14 +55,14 @@ for (int i = 0; i < N; i++) {
 
 We have $I = \frac{2 \cdot N}{8 \cdot N} = \frac{1}{4} = 0.25$ FLOP/byte at the steady-state. $P = \min(10, 0.25 \cdot 10) = 2.5$ GFLOPS, which means bandwidth-bound computation.
 
-![[Pasted image 20250524163918.png | 280]]
+![[Pasted image 20250524163918.png | 350]]
 
 ### Utilization 
 The roofline is computed as:
 $$AttainablePerf(AI) = \max\{PeakFP, PeakBW \cdot AI\}$$
 Where ActualFP will be certainly lower than the upper bound given by roofline. Based on its value, we can understand if the problem is **memory bound** or **compute bound** and how far we are from the top performance that we can achieve on that machine having a problem with a given AI.
 
-![[Pasted image 20250511200652.png | 550]]
+![[Pasted image 20250511200652.png | 600]]
 
 For the read points there are a problem of memory bound, instead for yellow there are compute bound problem, in both case we can improve performance until the line above.
 ### Hierarchical Roofline

@@ -51,7 +51,7 @@ From the performance viewpoint, a farm can be studied as a **pipeline of three s
 
 The **[[Inter Calculation Time|inter-departure time]]** from the farm is
 $$T_{\Sigma} = \max\{T_A, T_{id-\Sigma}\}$$
-To remove the [[Bottleneck Parallelization|bottleneck]] provided that load is balanced, we need to use $N_{opt} = \lceil T_{id-W} / T_A \rceil$. Ideally, the [[Processing Bandwidth]] increases proportionally with the number of workers.
+To remove the [[Bottleneck Parallelization|bottleneck]] provided that load is balanced, we need to use $N_{opt} = \lceil T_{id-W} / T_A \rceil$. Ideally, the [[Processing Bandwidth & Throughput]] increases proportionally with the number of workers.
 ### Read-Only State
 Farm is feasible for stateless computations. No worries if a state exists and it is **read only** ie we can replica it. **State replication** if workers are processes with independent addressing spaces (higher memory occupancy).
 

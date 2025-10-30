@@ -5,3 +5,4 @@
 - [[Rod Cutting Problem]]
 - [[Edit Distance (Distanza di Levenshtein)]]
 - [[Zaino 0-1 (0-1 Knapsack Problem)]]
+- [[Longest Palindromic Substring]]

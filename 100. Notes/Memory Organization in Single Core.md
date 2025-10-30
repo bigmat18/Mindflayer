@@ -15,7 +15,7 @@ From a logical perspective, the memory of a [[Shared Memory Architectures|shared
 
 Non-determinism can be implemented as **real parallelism** in the same clock cycle
 - if more input requests (coming from different PEs) are **compatible** (for different addresses, different lines) and
-- if **memory [[Processing Bandwidth|bandwidth]]** is sufficient, more compatible memory requests can be served simultaneously.
+- if **memory [[Processing Bandwidth & Throughput|bandwidth]]** is sufficient, more compatible memory requests can be served simultaneously.
 
 ### [[Memory Atomicity]]
 
@@ -28,7 +28,7 @@ The main technologies to implement **Random Access Memory** (RAM) are the follow
 ##### [[Memory Controllers (MINF)]]
 
 ### Address Mapping Schemes
-A system can feature several DIMM Macro-Modules (MM) to provide a high-capacity and high-[[Processing Bandwidth|bandwidth]] memory. The question is: How can we distribute the cache lines among the different MMs?
+A system can feature several DIMM Macro-Modules (MM) to provide a high-capacity and high-[[Processing Bandwidth & Throughput|bandwidth]] memory. The question is: How can we distribute the cache lines among the different MMs?
 ##### Solution 1: Sequential Memory Organization
 
 ![[Pasted image 20250518001225.png | 500]]

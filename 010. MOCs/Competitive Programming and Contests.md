@@ -10,7 +10,7 @@ Area: "[[Master's degree]]"
 - [[Trapping Rain Water]]
 - [[Sliding Window Maximum]]
 - [[Two Pointers Patterns]]
-
+- [[Longest Palindromic Substring]]
 
 # Tasks
 

@@ -43,7 +43,7 @@ Upon finding the second boundary voxel, the `xor` operation flips them back to 0
 ##### Issues
 This approach has **three main weakness**:
 1. The number of relevant voxel columns can vary significantly among the triangles processed by one warp, leading to under-utilization.
-2. For large voxel grids, flipping all voxels in the derived x range poses high memory [[Processing Bandwidth|bandwidth requirements]].
+2. For large voxel grids, flipping all voxels in the derived x range poses high memory [[Processing Bandwidth & Throughput|bandwidth requirements]].
 3. Many [[Atomic Instructions|atomic operations]] may have to be sentimentalized, negatively affecting performance. 
 
 

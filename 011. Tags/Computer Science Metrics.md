@@ -3,7 +3,7 @@
 - [[Inter Calculation Time]]
 - [[Utilization Factor]]
 - [[Optimal Parallelism Degree]]
-- [[Processing Bandwidth]]
+- [[Processing Bandwidth & Throughput]]
 - [[Completion Time]]
 - [[Communication Latency]]
 - [[Relative Efficiency]]

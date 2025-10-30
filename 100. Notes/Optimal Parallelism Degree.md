@@ -10,4 +10,7 @@ $$N_{opt} = \lceil T_{id-Q}/T_{A-Q}\rceil$$
 Strong relationship between [[Utilization Factor|utilization factor]] and optimal parallelism degree. For example if $\rho=\frac{20}{5}= 4 > 1$ to improve the performance we need to multiply to 4.
 
 ### [[Optimal parallelism degree with single inputs]]
+
+### [[Bottleneck Parallelization]]
+
 # References

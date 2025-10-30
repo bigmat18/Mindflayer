@@ -9,7 +9,7 @@
 
 We define the **ideal service time** of process Q, denoted by $T_{id-Q}$, as the average time interval between the beginning of the processing of two consecutive stream items. It is composed of two components:
 - **Average Calculation Time** to process a generic input $T_{calc-Q}$
-- **[[Inter Calculation Time|Inter-Process]] Communication** $L_{com}$ to send the result onto the output stream
+- **[[Communication Latency|Latency]] Communication** $L_{com}$ to send the result onto the output stream
 
 The complete formula is:
 $$T_{id-Q} = T_{calc-Q} + L_{com}\:\:\:\:\:T_{calc-Q}= T_{calc-0} + T_{miss}$$
@@ -28,7 +28,7 @@ For example, in the [[Parallelization methodology and metrics|example above]], i
 Let us assume an **L1-L2 cache hierarchy** on the processore **on-demand caches** (no prefetching data)
 - if **capacity(L1) > size(A)** we have $T_{miss} \sim0$
 
-- if **capacity(L1) < size(A) && capacity(L1) > size(A)** we have $T_{miss} \sim L \cdot \frac{4}{\sigma} \cdot L_{L2-L1}(\sigma)$
+- if **capacity(L1) < size(A) && capacity(L2) > size(A)** we have $T_{miss} \sim L \cdot \frac{4}{\sigma} \cdot L_{L2-L1}(\sigma)$
 $L_{L2-L1}(\sigma)$ is the time to transfer a cache line from L1 to L2. $L \cdot \frac{4}{\sigma}$ the size of array L times 4 bytes (integer are 4 bytes) divided by the size of a cache line ($\sigma$)
 
 - if **capacity(L2) < size(A)**: $T_{miss} \sim L \cdot \frac{4}{\sigma} \cdot L_{M-L1}(\sigma)$

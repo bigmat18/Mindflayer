@@ -35,7 +35,7 @@ Let us try to understand the firmware messages exchanged between caches.
 - $PE_i, PE_{j1}, \dots, PE_{jk}$ reply with a **done** message to $PE_i$
 ![[Pasted image 20250521153452.png | 400]]
 
-The whole number of exchanged words is greater with invalidation. It is batter in term of number of message. However, in the update-based solution, the required **[[Processing Bandwidth|communication bandwidth]]** is higher because we must send a multicast with all cache line to all the PE.
+The whole number of exchanged words is greater with invalidation. It is batter in term of number of message. However, in the update-based solution, the required **[[Processing Bandwidth & Throughput|communication bandwidth]]** is higher because we must send a multicast with all cache line to all the PE.
 
 In general, for these reasons, invalidation is better, in some case instead we use technique that mix the two versions of solutions.
 

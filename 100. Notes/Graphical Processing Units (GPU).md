@@ -15,7 +15,7 @@ CPUs and GPUs follow a completely different design:
 - Sophisticated control
 - Branch prediction to reduce control hazards
 - Data forwarding to reduce data hazards
-- Modest **mult-ithreading** to hide short latencies
+- Modest **multi-threading** to hide short latencies
 - High clock frequency
 ###### GPU
 - Many small **ALUs**
@@ -25,7 +25,7 @@ CPUs and GPUs follow a completely different design:
 - More chip area dedicates to computation
 - **Massive number of threads**
 
-Comparizson of **peak memory bandwitdh** in GiB/s and **peak double precision GFLOP/s** for GPUs and CPUs since 2008. Data for Nvidia **Volta V100** and Intel **Cascade Lake** Xeon SP are used for 2019 and project into 2020. There is a huge difference (at least 10x but also more) owing to the completely different design of GPUs.
+Comparison of **peak memory [[Processing Bandwidth & Throughput|bandwitdh]]** in GiB/s and **peak double precision GFLOP/s** for GPUs and CPUs since 2008. Data for Nvidia **Volta V100** and Intel **Cascade Lake** Xeon SP are used for 2019 and project into 2020. There is a huge difference (at least 10x but also more) owing to the completely different design of GPUs.
 
 ![[Pasted image 20250522234304.png | 500]]
 
@@ -72,7 +72,7 @@ GPU is a collection of **GPU cores** (execution units actually, no control logic
 
 Cores in the same 32-wide group run the same wrap-wide instruction at a time (**SIMD**). Cores in different groups run instructions of different wraps in parallel (**MIMD**). More wrap-wide instructions are scheduled in an interleaved manner to the same 32-wide group of cores to hide latencies, **hardware multi-threading** 
 ### NVIDIA Architectures
-An NVIDIA GPU is a scalable set of **Stream Multi-Processors (SMs)**. Each SM supports the concurrent/parallel execution of hundreds of **threads**. Each SM runs threads in group of 32 (**wrap**): all threads of the same wrap execute the same instruction (SIMD). Each SM is composed of several **CUDA cores** (essentially it is an **EU** with **FP** and **INT** compabilities)
+An NVIDIA GPU is a scalable set of **Stream Multi-Processors (SMs)**. Each SM supports the concurrent/parallel execution of hundreds of **threads**. Each SM runs threads in group of 32 (**wrap**) all threads of the same wrap execute the same instruction (SIMD). Each SM is composed of several **CUDA cores** (essentially it is an **EU** with **FP** and **INT** compabilities)
 
 ![[Pasted image 20250523001511.png]]
 

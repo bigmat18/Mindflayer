@@ -6,6 +6,16 @@ Area: "[[Master's degree]]"
 ---
 # Table of Contents
 
+- [[Introduction to Machine Learning]]
+- [[Regression Models]]
+- [[Classification Models]]
+- [[K-nn Algorithm]]
+- [[Neural Networks (NN)]]
+- [[Backpropagation]]
+- [[Validation & SLT]]
+- [[Support Vector Machiens (SVM)]]
+- [[Bias-Variance and Ensembling]]
+
 # Tasks
 
 # Resources

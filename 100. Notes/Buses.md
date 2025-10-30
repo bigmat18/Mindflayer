@@ -9,5 +9,5 @@
 
 
 ![[Pasted image 20250518024855.png]]
-All N units are connected through a shared broadcast medium Lowest link cost (only one link) **Maximum [[Processing Bandwidth|bandwidth]]** O(1), **[[Communication Latency]]** O(N) (due to the arbitration delay), **node degree** 1 It is a blocking network with diameter 1 and [[Bisection Width]] 1.
+All N units are connected through a shared broadcast medium Lowest link cost (only one link) **Maximum [[Processing Bandwidth & Throughput|bandwidth]]** O(1), **[[Communication Latency]]** O(N) (due to the arbitration delay), **node degree** 1 It is a blocking network with diameter 1 and [[Bisection Width]] 1.
 # References

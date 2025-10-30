@@ -40,19 +40,27 @@ CONT: INCR Ri
 
 Processing time is **O(L)** dominated by the loop instructions (4.5 instructions per iterations on average, probability to find an occurrence of x, 4 sure instruction + 1 with 1/2 probability the INCR Ry)
 
-![[Pasted image 20250511144506.png ]]
+![[Pasted image 20250511144506.png | 350]]
 
 #### [[Ideal Service Time]]
-#### [[Inter Calculation Time]]
-#### [[Utilization Factor]]
-#### [[Optimal Parallelism Degree]]
-
-#### [[Bottleneck Parallelization ]]
-#### [[Processing Bandwidth]]
-#### [[Completion Time]]
+Average time interval between the beginning of the processing of two consecutive stream items
 #### [[Communication Latency]]
+The time need between the send of message and the receive.
+#### [[Inter Calculation Time]]
+Inter-Departure and Inter-Arrival time average between difference of two consecutive send or receive in a process.
+#### [[Utilization Factor]]
+Describe if there is a bottleneck for the computation from inter-arrival time
+#### [[Optimal Parallelism Degree]]
+Describe the minimum parallelism degree to achive the perfect utilization factor (remove bottleneck).
+#### [[Processing Bandwidth & Throughput]]
+It is the maximum amount of data that a system can compute unit of time.  The throughput instead is the real amount of data computed per unit of time.
+#### [[Completion Time]]
+Time to complete an input in a full system.
 #### [[Relative Efficiency]]
+Ration between speedup and the number of process, describe how much is efficient the system related with the number of process used.
 #### [[Scalability]]
+Week scalability describe how the system has constant time with increase of process and data size. Strong scalability measure how fast the parallel version is compared to sequential. 
 #### [[Roofline model]]
+A model to analyze the arithmetic intensive of a system and if there is memory bottleneck.
 
 # References

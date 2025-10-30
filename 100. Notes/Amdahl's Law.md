@@ -17,7 +17,7 @@ A const part (dark blue) can not be parallelized for this with a n=2 we have not
 
 Almost every program has a fraction of the code that cannot be parallelized. This fraction must be executed sequentially, even in a parallel implementation. Thus, Amdahl’s law establishes an upper bound on achievable speedup/scalability.
 
-We now assume that the best possible speedup/scalability we can achieve is linear (no super-linear speedup). Then, we derive an upper bound for achievable speedup/scalability.
+We now assume that the best possible speedup/scalability we can achieve is **linear** (no super-linear speedup). Then, we derive an upper bound for achievable speedup/scalability.
 
 ![[Screenshot 2025-05-25 at 21.58.24.png|350]]
 

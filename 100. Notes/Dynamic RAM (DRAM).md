@@ -37,7 +37,7 @@ A single **DRAM chip** will contain multiple DRAM Arrays (also called **banks**)
 
 - Precharge/activate row/columns selection to one bank while transferring data from another bank
 - All banks of a DRAM chip **share the same output pins** (one byte transferred at a time)
-- The goal is in all cycles, the chip is sending one byte, **highest [[Processing Bandwidth|bandwidth]] for a DRAM chip**
+- The goal is in all cycles, the chip is sending one byte, **highest [[Processing Bandwidth & Throughput|bandwidth]] for a DRAM chip**
 
 ### DIMM Macro-Module (MM)
 To further increase bandwidth, we can place more DRAM chips in the same **DIMM macro-module**. Eight DRAM chips represent a rank. A single memory request for 8 contiguous bytes (64 bits) is served by a rank.

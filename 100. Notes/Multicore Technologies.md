@@ -42,9 +42,9 @@ This is the block diagram of an Intel Mutlicore. We can see also the **terminolo
 Two extreme cases of **on-chip interconnection networks** are below:
 ![[Pasted image 20250517151639.png | 400]]
 
-- **[[Buses]]** has one single medium connected to all nodes. Cheap, but no parallelism. So, **minimum [[Processing Bandwidth|bandwitdh]]** and **maximum [[Communication Latency|letency]]**
+- **[[Buses]]** has one single medium connected to all nodes. Cheap, but no parallelism. So, **minimum [[Processing Bandwidth & Throughput|bandwitdh]]** and **maximum [[Communication Latency|letency]]**
 
-- **[[Crossbars]]** is a fully interconnected structure with $N²$ dedicated links. So **maximum [[Processing Bandwidth|bandwidth]]** and **minimum [[Communication Latency|latency]]**, suitable for limited parallelism only (ess. N=8) because of **link cost** and **pin-count** reasons.
+- **[[Crossbars]]** is a fully interconnected structure with $N²$ dedicated links. So **maximum [[Processing Bandwidth & Throughput|bandwidth]]** and **minimum [[Communication Latency|latency]]**, suitable for limited parallelism only (ess. N=8) because of **link cost** and **pin-count** reasons.
 
 **Limited degree networks**. Much lower cost than crossbars but with a smaller number of links at the expense of **latency** (ess. **logarithmic** is some notable cases) but **maximum bandwidth** can be achived.
 

@@ -21,7 +21,7 @@ Example of an **Omega Network** having N=8 endpoints in the two sets respectivel
 - However, we have a different connectivity rule
 - Still exactly one path for each pair (src, dest)
 - It is a  **blocking networks** having node degree 4
-- **Maximum [[Processing Bandwidth|bandwidth]]** is O(n)
+- **Maximum [[Processing Bandwidth & Throughput|bandwidth]]** is O(n)
 - **[[Communication Latency|Latency]]** $O(\log_2 N)$ and **diameter** $\log_2N$
 - **[[Bisection Width]]** is N/2
 

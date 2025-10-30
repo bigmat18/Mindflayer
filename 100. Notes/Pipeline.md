@@ -37,8 +37,8 @@ Variation of the cost model in the previous slide, where the first stage is also
 
 ![[Pasted image 20250512124635.png]]
 
-- In this scenario the [[Ideal Service Time]] of the system is the inverse of the **generation [[Processing Bandwidth|bandwidth]]** of the source.
-- The system archives the highest [[Relative Efficiency|efficiency]] if the **[[Processing Bandwidth|output bandwidth]]** matches the generation bandwidth, ie, the **first stage is a [[Bottleneck Parallelization|bottleneck]]**.
+- In this scenario the [[Ideal Service Time]] of the system is the inverse of the **generation [[Processing Bandwidth & Throughput|bandwidth]]** of the source.
+- The system archives the highest [[Relative Efficiency|efficiency]] if the **[[Processing Bandwidth & Throughput|output bandwidth]]** matches the generation bandwidth, ie, the **first stage is a [[Bottleneck Parallelization|bottleneck]]**.
 ##### Completion Time
 The **[[Completion Time]]** of the whole stream (composed by $m>0$ dinstinct inputs) by a pipeline with $n>0$ stages is the sum of two components:
 

@@ -32,17 +32,17 @@ L'algoritmo mantiene per ogni vertice `v` una stima della distanza `d[v]` dalla 
 
 Il processo si svolge come segue:
 1.  **Inizializzazione**:
-    *   Crea un insieme `S` di vertici finalizzati, inizialmente vuoto.
-    *   Inizializza le distanze: `d[s] = 0` e `d[v] = ∞` per ogni `v ≠ s`.
-    *   Crea una coda di priorità `Q` contenente tutti i vertici di `V`, con priorità data dalla loro distanza `d`.
+    * Crea un insieme `S` di vertici finalizzati, inizialmente vuoto.
+    * Inizializza le distanze: `d[s] = 0` e `d[v] = ∞` per ogni `v ≠ s`.
+    * Crea una coda di priorità `Q` contenente tutti i vertici di `V`, con priorità data dalla loro distanza `d`.
 
 2.  **Ciclo Principale**: Finché la coda `Q` non è vuota:
-    *   **Selezione Greedy**: Estrai dalla coda `Q` il vertice `u` con la stima di distanza minima `d[u]`. Questo è il passo "greedy": si assume ottimisticamente che la via più breve per il nodo non ancora esplorato sia quella trovata finora.
-    *   **Finalizzazione**: Aggiungi `u` all'insieme `S`. La distanza `d[u]` è ora considerata definitiva.
-    *   **Rilassamento (Relaxation)**: Per ogni vertice `v` adiacente a `u` (cioè, per ogni arco `(u, v)`):
-        *   Se si trova un percorso più breve per `v` passando attraverso `u` (ovvero se `d[u] + w(u, v) < d[v]`), allora aggiorna la distanza di `v`:
+    * **Selezione Greedy**: Estrai dalla coda `Q` il vertice `u` con la stima di distanza minima `d[u]`. Questo è il passo "greedy": si assume ottimisticamente che la via più breve per il nodo non ancora esplorato sia quella trovata finora.
+    * **Finalizzazione**: Aggiungi `u` all'insieme `S`. La distanza `d[u]` è ora considerata definitiva.
+    * **Rilassamento (Relaxation)**: Per ogni vertice `v` adiacente a `u` (cioè, per ogni arco `(u, v)`):
+        * Se si trova un percorso più breve per `v` passando attraverso `u` (ovvero se `d[u] + w(u, v) < d[v]`), allora aggiorna la distanza di `v`:
             `d[v] = d[u] + w(u, v)`
-        *   Aggiorna la priorità di `v` nella coda `Q`.
+        * Aggiorna la priorità di `v` nella coda `Q`.
 
 L'algoritmo termina quando tutti i vertici raggiungibili dalla sorgente sono stati aggiunti a `S` (o quando la coda `Q` è vuota).
 
@@ -56,34 +56,35 @@ La performance dell'algoritmo di Dijkstra dipende criticamente dalla struttura d
 
 *   **Struttura Dati**: Si usa un semplice array per memorizzare le distanze. La coda `Q` è gestita implicitamente.
 *   **Operazioni**:
-    *   `extract-min`: Richiede una scansione lineare di tutti i vertici per trovare quello non ancora in `S` con la distanza minima. **Costo: $O(|V|)$**.
-    *   `decrease-key`: Consiste semplicemente nell'aggiornare un valore nell'array. **Costo: $O(1)$**.
+    *  `extract-min`: Richiede una scansione lineare di tutti i vertici per trovare quello non ancora in `S` con la distanza minima. **Costo: $O(|V|)$**.
+    *  `decrease-key`: Consiste semplicemente nell'aggiornare un valore nell'array. **Costo: $O(1)$**.
 *   **Complessità Totale**: Il ciclo principale viene eseguito $|V|$ volte. Ad ogni iterazione, l'operazione dominante è `extract-min`.
-    *   **$O(|V| \cdot |V| + |E|) = O(|V|^2)$**.
+    * **$O(|V| \cdot |V| + |E|) = O(|V|^2)$**.
 *   **Quando usarla**: Questa implementazione è efficiente per **grafi densi**, dove il numero di archi $|E|$ è vicino a $|V|^2$. In questo scenario, il termine $|V|^2$ domina comunque, e la semplicità di implementazione è un vantaggio.
 
 ### Implementazione 2: Heap Binario (la più comune)
 
-*   **Struttura Dati**: Una coda a min-priorità implementata con un heap binario.
-*   **Operazioni**:
-    *   `extract-min`: L'estrazione della radice dell'heap. **Costo: $O(\log |V|)$**.
-    *   `decrease-key`: L'aggiornamento della priorità di un nodo. **Costo: $O(\log |V|)$**.
-*   **Complessità Totale**: L'algoritmo esegue $|V|$ operazioni di `extract-min` e al più $|E|$ operazioni di `decrease-key` (una per ogni arco, nel caso peggiore).
-    *   **$O(|V| \log |V| + |E| \log |V|) = O((|V| + |E|) \log |V|)$**. Per grafi connessi, $|E| \ge |V|-1$, quindi la complessità si semplifica in **$O(|E| \log |V|)$**.
-*   **Quando usarla**: È la scelta standard per **grafi sparsi** (dove $|E|$ è molto più piccolo di $|V|^2$), poiché la sua performance è significativamente migliore di quella quadratica.
+* **Struttura Dati**: Una coda a min-priorità implementata con un heap binario.
+* **Operazioni**:
+    * `extract-min`: L'estrazione della radice dell'heap. **Costo: $O(\log |V|)$**.
+    * `decrease-key`: L'aggiornamento della priorità di un nodo. **Costo: $O(\log |V|)$**.
+* **Complessità Totale**: L'algoritmo esegue $|V|$ operazioni di `extract-min` e al più $|E|$ operazioni di `decrease-key` (una per ogni arco, nel caso peggiore).
+    * **$O(|V| \log |V| + |E| \log |V|) = O((|V| + |E|) \log |V|)$**. Per grafi connessi, $|E| \ge |V|-1$, quindi la complessità si semplifica in **$O(|E| \log |V|)$**.
+* **Quando usarla**: È la scelta standard per **grafi sparsi** (dove $|E|$ è molto più piccolo di $|V|^2$), poiché la sua performance è significativamente migliore di quella quadratica.
 
 ### Implementazione 3: Heap di Fibonacci
 
-*   **Struttura Dati**: Una struttura dati più avanzata che ottimizza l'operazione di `decrease-key`.
-*   **Operazioni** (costo ammortizzato):
-    *   `extract-min`: **$O(\log |V|)$**.
-    *   `decrease-key`: **$O(1)$**.
-*   **Complessità Totale**: Con $|V|$ estrazioni e $|E|$ aggiornamenti, la complessità ammortizzata è:
-    *   **$O(|V| \log |V| + |E|)$**.
-*   **Quando usarla**: Offre la migliore performance asintotica, specialmente per grafi densi dove batte l'heap binario. Tuttavia, la sua implementazione è molto complessa e le costanti nascoste nella notazione O-grande la rendono spesso più lenta in pratica rispetto a un heap binario, a meno che i grafi non siano estremamente grandi.
+* **Struttura Dati**: Una struttura dati più avanzata che ottimizza l'operazione di `decrease-key`.
+* **Operazioni** (costo ammortizzato):
+    * `extract-min`: **$O(\log |V|)$**.
+    * `decrease-key`: **$O(1)$**.
+* **Complessità Totale**: Con $|V|$ estrazioni e $|E|$ aggiornamenti, la complessità ammortizzata è:  
+$$
+O(|V| \log |V| + |E|)
+$$
+* **Quando usarla**: Offre la migliore performance asintotica, specialmente per grafi densi dove batte l'heap binario. Tuttavia, la sua implementazione è molto complessa e le costanti nascoste nella notazione O-grande la rendono spesso più lenta in pratica rispetto a un heap binario, a meno che i grafi non siano estremamente grandi.
 
 ### Tabella Riassuntiva
-
 
 | Struttura Dati | Time 'extract-min'       | Time 'decrease-key' | Time Totale                   |
 | -------------- | ------------------------ | ------------------- | ----------------------------- |
@@ -155,27 +156,6 @@ void dijkstra(const vector<vector<iPair>>& adj, int start_node, int num_vertices
             cout << "Nodo " << i << ": " << dist[i] << endl;
         }
     }
-}
-
-int main() {
-    int V = 5; // Numero di vertici
-    vector<vector<iPair>> adj(V);
-
-    // Grafo di esempio
-    // add_edge(u, v, peso)
-    adj[0].push_back({1, 10});
-    adj[0].push_back({4, 3});
-    adj[1].push_back({2, 2});
-    adj[1].push_back({4, 4});
-    adj[2].push_back({3, 9});
-    adj[3].push_back({2, 7});
-    adj[4].push_back({1, 1});
-    adj[4].push_back({2, 8});
-    adj[4].push_back({3, 2});
-
-    dijkstra(adj, 0, V);
-
-    return 0;
 }
 ```
 

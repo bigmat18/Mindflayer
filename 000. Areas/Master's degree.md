@@ -26,12 +26,10 @@ tags:
 ---
 ### Year 3 (Total 30 CFU)
 
-| First Semester                                                 | CFU | Degree | Second Semester | CFU | Degree |
-| -------------------------------------------------------------- | --- | ------ | --------------- | --- | ------ |
-| [[Competitive Programming and Contests]]                       | 6   |        | Computer Vision | 9   |        |
-| Distributed Algorithms                                         | 6   |        |                 |     |        |
-| Algorithms and data structures for data-intensive applications | 9   |        |                 |     |        |
-|                                                                |     |        |                 |     |        |
+| First Semester                                                     | CFU | Degree | Second Semester | CFU | Degree |
+| ------------------------------------------------------------------ | --- | ------ | --------------- | --- | ------ |
+| Scable Distributed Computing                                       | 6   |        | Computer Vision | 9   |        |
+| Algorithms and data structures for data-intensive applications<br> | 9   |        |                 |     |        |
 
 ---
 ## Study Plan
@@ -43,19 +41,20 @@ tags:
 #### Parallel Programming (30 CFU)
 - [[High Performance Computing\|High Performance Computing]] (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2024/52756_691455_71077/2012/52756/10434?coorte=2024&schemaid=9087)\]
 - [[Parallel and distributed systems. Paradigms and models]] (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2024/52479_686199_67356/2020/52482/10436?coorte=2024&schemaid=8922)\]
-- Programming tools for parallel and distributed systems (6 cfu)
-- Distributed Algorithms (6 cfu) \[[Link]()\]
+- Programming tools for parallel and distributed systems (6 cfu) \[[Link](https://didawiki.cli.di.unipi.it/doku.php/magistraleinformaticanetworking/spd/start)\]
+- Scable Distributed Computing (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53214_691553_78880/2025/53217/10436?coorte=2025&schemaid=9315)\]
+
 #### Machine Learning (36 CFU)
 - Computational mathematics for learning and data analysis (9 cfu)
 - Machine learning (9 cfu)
 - Computer vision (9 cfu)
 - Generative and Deep Learning (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53215_702681_79620/2025/53215/10436?coorte=2025&schemaid=9316)\]
-#### Algorithms (24 CFU)
-- Algorithm engineering (9 cfu)
-- Competitive programming and contests (6 cfu)
-- Algorithms for data-intensive applications (9 cfu) \[[Link](https://docs.google.com/document/d/1AQQHEdlkG2bPTSnRzSrX_sFCbQVPvNwq/edit?usp=drive_link&ouid=117702815161827663537&rtpof=true&sd=true)\]
+#### Algorithms (18 CFU)
+- Algorithm engineering (9 cfu) \[[Link](https://github.com/ferragina/AlgorithmEngineering/wiki/Algorithm-Engineering-(a.a.-2025%E2%80%9026))\]
+- Algorithms for data-intensive applications (9 cfu) \[[Link](https://didawiki.cli.di.unipi.it/doku.php/digitalhealth/0002a)\]
 #### Interesting
-- Scable Distributed Computing (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53214_691553_78880/2025/53217/10436?coorte=2025&schemaid=9315)\] (Primo Sementre)
+- Distributed Algorithms (6 cfu) \[[Link]()\] (Primo Semestre)
 - Parallel Scientific Computing (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2024/52206_685872_71746/2012/52206/10434?coorte=2023&schemaid=8566)\] (Secondo Semestre)
+- Competitive programming and contests (6 cfu) \[[Link](https://pages.di.unipi.it/rossano/competitive/)\] (Primo Semestre)
 
 **Final Thesis (24 CFU)**

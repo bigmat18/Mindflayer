@@ -13,16 +13,15 @@ Area: "[[Bachelor's Degree]]"
 L'algoritmo di Dijkstra, concepito dall'informatico olandese Edsger W. Dijkstra nel 1956, è un algoritmo greedy utilizzato per risolvere il problema dei **cammini minimi da una sorgente singola** (Single-Source Shortest Path, SSSP) in un grafo pesato e orientato.
 
 **Dati di input:**
-1.  Un grafo `G = (V, E)`, dove `V` è l'insieme dei vertici (nodi) ed `E` è l'insieme degli archi (collegamenti).
-2.  Una funzione peso `w(u, v)` che associa un peso non-negativo a ogni arco `(u, v)`.
-3.  Un vertice sorgente `s` da cui calcolare i percorsi.
+1. Un grafo `G = (V, E)`, dove `V` è l'insieme dei vertici (nodi) ed `E` è l'insieme degli archi (collegamenti).
+2. Una funzione peso `w(u, v)` che associa un peso non-negativo a ogni arco `(u,v)`
+3. Un vertice sorgente `s` da cui calcolare i percorsi.
 
 **Obiettivo:**
 Trovare la distanza minima (il percorso di peso totale minimo) dal vertice sorgente `s` a ogni altro vertice `v` nel grafo.
 
 **Vincolo Fondamentale:** L'algoritmo di Dijkstra funziona correttamente solo se **tutti i pesi degli archi sono non-negativi** (`w(u, v) >= 0`). In presenza di pesi negativi, l'approccio greedy dell'algoritmo potrebbe fallire; in tal caso, si devono usare algoritmi come Bellman-Ford.
 
----
 
 ## 1. Logica dell'Algoritmo
 
@@ -46,7 +45,6 @@ Il processo si svolge come segue:
 
 L'algoritmo termina quando tutti i vertici raggiungibili dalla sorgente sono stati aggiunti a `S` (o quando la coda `Q` è vuota).
 
----
 
 ## 2. Implementazioni e Analisi della Complessità
 
@@ -54,13 +52,13 @@ La performance dell'algoritmo di Dijkstra dipende criticamente dalla struttura d
 
 ### Implementazione 1: Array Semplice
 
-*   **Struttura Dati**: Si usa un semplice array per memorizzare le distanze. La coda `Q` è gestita implicitamente.
-*   **Operazioni**:
+* **Struttura Dati**: Si usa un semplice array per memorizzare le distanze. La coda `Q` è gestita implicitamente.
+* **Operazioni**:
     *  `extract-min`: Richiede una scansione lineare di tutti i vertici per trovare quello non ancora in `S` con la distanza minima. **Costo: $O(|V|)$**.
     *  `decrease-key`: Consiste semplicemente nell'aggiornare un valore nell'array. **Costo: $O(1)$**.
-*   **Complessità Totale**: Il ciclo principale viene eseguito $|V|$ volte. Ad ogni iterazione, l'operazione dominante è `extract-min`.
+* **Complessità Totale**: Il ciclo principale viene eseguito $|V|$ volte. Ad ogni iterazione, l'operazione dominante è `extract-min`.
     * **$O(|V| \cdot |V| + |E|) = O(|V|^2)$**.
-*   **Quando usarla**: Questa implementazione è efficiente per **grafi densi**, dove il numero di archi $|E|$ è vicino a $|V|^2$. In questo scenario, il termine $|V|^2$ domina comunque, e la semplicità di implementazione è un vantaggio.
+* **Quando usarla**: Questa implementazione è efficiente per **grafi densi**, dove il numero di archi $|E|$ è vicino a $|V|^2$. In questo scenario, il termine $|V|^2$ domina comunque, e la semplicità di implementazione è un vantaggio.
 
 ### Implementazione 2: Heap Binario (la più comune)
 
@@ -93,20 +91,11 @@ $$
 | Heap Fibonacci | $O(\log\|V\|)$ (ammort.) | $O(1)$ (ammort.)    | $O(\|E\| + \|V\| \log \|V\|)$ |
 
 
----
-
 ## 3. Codice di Esempio (C++ con Heap Binario)
 
 Questa implementazione usa una lista di adiacenza per rappresentare il grafo e una `std::priority_queue` di C++ (che è un max-heap, adattato per funzionare come min-heap) per la coda di priorità.
 
 ```cpp
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <limits>
-
-using namespace std;
-
 // Definiamo un alias per le coppie (peso, vertice) per chiarezza
 using iPair = pair<int, int>;
 
@@ -128,7 +117,7 @@ void dijkstra(const vector<vector<iPair>>& adj, int start_node, int num_vertices
         int d = pq.top().first;
         pq.pop();
 
-        // Ottimizzazione: se abbiamo trovato un percorso più breve per 'u'
+        // Ottimizzazione: un percorso più breve per 'u'
         // in una precedente iterazione, ignora questa voce.
         if (d > dist[u]) {
             continue;
@@ -144,16 +133,6 @@ void dijkstra(const vector<vector<iPair>>& adj, int start_node, int num_vertices
                 dist[v] = dist[u] + weight;
                 pq.push({dist[v], v});
             }
-        }
-    }
-
-    // Stampa delle distanze minime
-    cout << "Distanze minime dal nodo " << start_node << ":" << endl;
-    for (int i = 0; i < num_vertices; ++i) {
-        if (dist[i] == numeric_limits<int>::max()) {
-            cout << "Nodo " << i << ": Infinito" << endl;
-        } else {
-            cout << "Nodo " << i << ": " << dist[i] << endl;
         }
     }
 }

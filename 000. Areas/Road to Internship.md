@@ -4,50 +4,53 @@ tags:
 ---
 # Road to Internship
 ## List of Company
-- Total Company: 34
-- Open Company: 26
+- Total Company: 37
+- Open Company: 31
 
-- 🟡 No response: 13
-- 🟢 Approved: 3
-- 🔴 Rejected: 10
+- 🟡 No response: 20
+- 🟢 Approved: 0
+- 🔴 Rejected: 11
 #### General Big Tech
 - [X] [Google](https://www.google.com/about/careers/applications/jobs/results/?company=Fitbit&company=Google&company=YouTube&distance=50&employment_type=INTERN)​ 🟡​
 - [x] [Meta](https://www.metacareers.com/jobs?teams[0]=University%20Grad%20-%20Business&teams[1]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design&teams[2]=University%20Grad%20-%20PhD%20%26%20Postdoc) ​🟡​
 - [x] [Amazon](https://www.amazon.jobs/it/teams/internships-for-students) ​🔴​
-- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1) ​🔴
+- [X] [AMD](https://careers.amd.com/students/jobs?keywords=intern&categories=Student%20%2F%20Intern%20%2F%20Temp&page=1) ​​🟡
 - [X] [Nvidia](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7) ​🟡​
 - [ ] [Spotify](https://www.lifeatspotify.com/students)
 - [ ] [Netflix](https://explore.jobs.netflix.net/careers)
-- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) ​🟢​
+- [X] [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) ​🟢 => ​🔴​
 - [X] [Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=intern&p=Software%20Engineering&exp=Students%20and%20graduates&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) ​🔴​
-- [X] [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036) ​🔴
+- [X] [Intel](https://intel.wd1.myworkdayjobs.com/en-US/External/details/Compiler-Development-Intern_JR0276991?q=software&workerSubType=dc8bf79476611087dfde99931439ae75&jobFamilyGroup=dc8bf79476611087d67b36517cf17036) ​​🟡
 - [X] [Stripe](https://stripe.com/jobs/listing/software-engineer-intern/7206494) ​🟡​
 - [x] [Cloudflare](https://www.cloudflare.com/it-it/careers/jobs/?department=Early+Talent) ​🟡​
-- [X] [DataBricks]()​ 🟢​
-- [x] [IBM]() ​🟢​
+- [X] [DataBricks]()​ 🟢 => ​🔴​
+- [x] [IBM]() ​🟢​ => 🔴
 - [x] [Revolut](https://www.revolut.com/careers/?text=rev-celerator+internship) ​🟡​
 - [x] [ARM](https://earlycareers-arm.icims.com/jobs/15805/software-engineering-intern/job?mode=submit_apply) ​🔴​
 - [x] [MongoDB]() 🟡
 - [x] [Pinterest](https://www.pinterestcareers.com/jobs/7128594/software-engineering-intern-2026-dublin/?gh_jid=7128594#apply-now)​ 🟡
-- [ ] [Tesla](https://www.tesla.com/careers/search/?type=intern&site=IT)
+- [x] [Tesla](https://www.tesla.com/careers/search/?type=intern&site=IT) 🟡
 - [ ] [OpenAI]()
 - [x] [Samsung](https://sec.wd3.myworkdayjobs.com/Samsung_Careers?q=software&workerSubType=189767dd6c920145d5c3e59c2c297819) 🟡
-- [x] [Booking](https://careers.booking.com/early-careers/) 🟡
+- [x] [Booking](https://careers.booking.com/early-careers/) 🔴
 - [x] [Uber]() ​🔴
+- [x] [Snapchat]() ​🟡 
+- [x] [Qualcomm]() ​🟡
+- [x] [Arista Networks]()​ 🟡
 #### Computer Graphics Big Tech
 - [X] [Activition](https://careers.activision.com/search-results?keywords=intern) ​​​​🟡
-- [X] [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern) ​​🔴​​
+- [X] [Adobe](https://careers.adobe.com/us/en/search-results?qkexperienceLevel=University%20Intern) ​​​🟡​​
 - [x] [Blizzard](https://careers.blizzard.com/global/en/c/internships-jobs) 🟡
 - [X] [EA](https://jobs.ea.com/en_US/careers/Home/?4536=%5B8301%5D&4536_format=3019&4537=%5B8693%5D&4537_format=3020&listFilterMode=1&jobRecordsPerPage=20&) ​🟡​
 - [X] [Epic Games](https://www.epicgames.com/site/en-US/careers/jobs?type=Intern&department=Engineering&page=1) ​🔴​
 - [ ] [Nintendo](https://careers.nintendo.com/job-openings/?search=internship)
 - [ ] [Sony](https://www.sonyjobs.com/jobs.html)
-- [ ] [Ubisoft](https://www.ubisoft.com/en-us/company/careers/search?query=internship)
+- [x] [Ubisoft](https://www.ubisoft.com/en-us/company/careers/search?query=internship) ​🟡
 - [ ] [Unity](https://unity.com/careers/positions?title=intern)
 - [X] [Larian Studio]() ​🔴​
 - [X] [Autodesk](https://autodesk.wd1.myworkdayjobs.com/en-US/uni/details/Intern--Software-Engineer_25WD91327-1?q=itern) ​🔴​
 
-## Techinal Interview
+## Technical Interview
 
 ### Algorithms
 - [Neetcode Roadmap](https://neetcode.io/roadmap)

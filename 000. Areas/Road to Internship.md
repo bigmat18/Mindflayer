@@ -4,7 +4,7 @@ tags:
 ---
 # Road to Internship
 ## List of Company
-- Total Company: 37
+- Total Company: 36
 - Open Company: 31
 
 - 🟡 No response: 20
@@ -30,7 +30,6 @@ tags:
 - [x] [MongoDB]() 🟡
 - [x] [Pinterest](https://www.pinterestcareers.com/jobs/7128594/software-engineering-intern-2026-dublin/?gh_jid=7128594#apply-now)​ 🟡
 - [x] [Tesla](https://www.tesla.com/careers/search/?type=intern&site=IT) 🟡
-- [ ] [OpenAI]()
 - [x] [Samsung](https://sec.wd3.myworkdayjobs.com/Samsung_Careers?q=software&workerSubType=189767dd6c920145d5c3e59c2c297819) 🟡
 - [x] [Booking](https://careers.booking.com/early-careers/) 🔴
 - [x] [Uber]() ​🔴

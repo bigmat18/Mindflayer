@@ -43,7 +43,6 @@ tags:
 - [[Parallel and distributed systems. Paradigms and models]] (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2024/52479_686199_67356/2020/52482/10436?coorte=2024&schemaid=8922)\]
 - Programming tools for parallel and distributed systems (6 cfu) \[[Link](https://didawiki.cli.di.unipi.it/doku.php/magistraleinformaticanetworking/spd/start)\]
 - Scable Distributed Computing (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53214_691553_78880/2025/53217/10436?coorte=2025&schemaid=9315)\]
-
 #### Machine Learning (36 CFU)
 - Computational mathematics for learning and data analysis (9 cfu)
 - Machine learning (9 cfu)

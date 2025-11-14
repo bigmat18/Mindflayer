@@ -1,52 +1,15 @@
 ---
-Data: 2025-11-11T12:02:00
+Data: 2025-11-14T14:42:00
 Tags:
   - note
   - youngling
 Connection:
   - "[[Machine Learning]]"
+  - "[[Introduction to Machine Learning]]"
 Area: "[[Master's degree]]"
 ---
-# Introduction to Machine Learning
+# Tasks in ML
 
-## Data
-The data represent the available fact (experience) and are used to capture the structure of the analyzed objects.
-#### Flat
-Are data with attribue-value language, they are fixed-size vectors of properties (features), with a single table of tuple (measurements of the objects).
-
-![[Pasted image 20251111121128.png]]
-
-For flat data can be done **numerical encoding** for same categories, example:
-- 0/1 (or -1 / +1) for 2 classes
-- For more classes:
-	- 1, 2, 3, ... (**Warning**: grade of similarity (1 vs 2 or 3):  useful for "order categorical" variables as small, medium, large)
-	- **1-of-k** (or 1-hot) encoding: useful for symbols
-
-![[Pasted image 20251111121450.png | 600]]
-
-- **Dimension of data**: number of examples $l$
-- **Dimension** (of input $x$): number of features $n$
-- If we will index the features/inputs/variables by $i$ or $j$: variable $x_i$ is (typically) the $i-th$ feature/property/attribute/element/component of $x$
-- $x_p$ (or $x_i$) is (typically) the $p-th$ (or $i-th$) pattern/example/row
-- $x_{p,i}$ can be attribute $i$ of the pattern $p$.
-#### Structures
-**Structured** data are for examples lists, trees, graphs, multi-relational data (table). 
-
-For example: images, microarray, temporal data, strings of a language, DNA e proteins, hierarchical relationships, molecules, hyperlink connectivity in web pages, ...
-
-![[Pasted image 20251111121607.png]]
-#### Noise
-Addition of external factors to the stream of (target) information (signal); due to randomness in the measurements, not due to the underlying law, example the Gaussian noise.
-
-![[Pasted image 20251111124538.png]]
-#### Outliers
-Are unusual values that re not consistent with most observations (es due to abnormal measurements errors). To avoid it:
-- outlier detection in preprocessing operations: remove
-- robust modeling methods
-#### Features Selection
-Selection of a small number of informative features: it can provide an optimal input representation for a learning problem.
-
-## Tasks
 The task defines the purpose of the application:
 - Knowledge that we want to achieve? (e.g. pattern in DM or model in ML)
 - Which is the helpful nature of the result?
@@ -115,13 +78,4 @@ Process of estimating of a real-value function on the basis of finite set of noi
 
 ![[Pasted image 20251111132255.png | 550]]
 
-## Models
-Aim: to capture/describes the relationships among the data (on the basis of the task) by a “language” (numerical, symbolic, …). The “language” is related to the representation used to get knowledge. The model defines the class of functions that the learning machine can implement (hypotheses space)
-
-**Example**: set of functions $h(x, w)$ where $w$ is the (abstract) parameter.
-
-- **Training example** (superv.): An example of the form $(x, f(x)+noise)$, $x$ is usually an input vector of features, ($d$ or $t$ or) $y=f(x)+noise$ is called the target value
-- **Target function**: the true function $f$
-- **Hypothesis**: A proposed function $h$ believed to be similar to $f$. An expression in a given language that describes the relationships among data.
-- **Hypothesis space** H: The space of all hypotheses (specific models) that can, in principle be output by the learning algorithm
 # References

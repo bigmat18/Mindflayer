@@ -6,7 +6,8 @@ Area: "[[Master's degree]]"
 ---
 # Table of Contents
 
-- [[Introduction to Machine Learning]]
+![[Introduction to Machine Learning]]
+
 - [[Regression Models]]
 - [[Classification Models]]
 - [[K-nn Algorithm]]

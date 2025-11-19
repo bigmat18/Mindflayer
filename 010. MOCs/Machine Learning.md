@@ -13,7 +13,7 @@ Area: "[[Master's degree]]"
 - [[K-nn Algorithm]]
 - [[Neural Networks (NN)]]
 - [[Backpropagation]]
-- [[Validation & SLT]]
+- [[Validation]]
 - [[Support Vector Machiens (SVM)]]
 - [[Bias-Variance and Ensembling]]
 

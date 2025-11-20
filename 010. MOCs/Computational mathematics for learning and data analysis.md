@@ -9,6 +9,7 @@ Area: "[[Master's degree]]"
 ### Numeric Linear Algebra
 - [[Introduction to Linear Algebra]]
 - [[Orthogonality]]
+- [[Eigenvalues and Eigenvectors]]
 - [[Least Squares]]
 - [[Conjugate Gradiant]]
 - [[Singular Value Decomposition (SVD)]]

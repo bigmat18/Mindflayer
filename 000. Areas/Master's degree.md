@@ -29,7 +29,7 @@ tags:
 | First Semester               | CFU | Degree | Second Semester        | CFU | Degree |
 | ---------------------------- | --- | ------ | ---------------------- | --- | ------ |
 | Scable Distributed Computing | 6   |        | Computer Vision        | 9   |        |
-| <br>                         |     |        | Compilation Techniques | 9   |        |
+| Distributed Algorithms <br>  | 6   |        | Compilation Techniques | 9   |        |
 
 ---
 ## Study Plan

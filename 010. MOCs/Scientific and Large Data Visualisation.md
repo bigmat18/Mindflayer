@@ -7,11 +7,15 @@ Area: "[[Master's degree]]"
 # Table of Contents
 
 - [[Applied Perception]]
-- [[Data Abstraction]]
+- [[Color in Perception]]
+- [[Basics of Data Visualization]]
+- [[Data and Task Abstractions]]
 - [[Mark and Channels]]
-- [[Ranking and Charts]]
-- [[Charts Multiple Attributes]]
-- [[Radial and Maps]]
-- [[Graph Drawing]]
+- [[Charts]]
+- [[Multidimensional Data Visualization]]
+- [[Graph and Network Visualization]]
+- [[Geometric Data Visualization]]
+- [[AI & Visualization]]
+- [[Best Practices]]
 
 # Resources

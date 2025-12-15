@@ -10,16 +10,10 @@ Area: "[[Bachelor's Degree]]"
 ---
 # Cancellazione di un Nodo in un Albero Binario di Ricerca (BST)
 
-La cancellazione di un nodo da un [[Balanced Binary Search Tree (BST)]]  è un'operazione più complessa dell'inserimento, poiché è fondamentale preservare la proprietà del BST: per ogni nodo `x`, tutti i valori nel suo sottoalbero sinistro devono essere minori di `x.value` e tutti i valori nel suo sottoalbero destro devono essere maggiori di `x.value`.
-
-L'algoritmo deve gestire tre scenari distinti, a seconda del numero di figli del nodo da eliminare.
-
----
+La cancellazione di un nodo da un [[Balanced Binary Search Tree (BST)]]  è un'operazione più complessa dell'inserimento, poiché è fondamentale preservare la proprietà del BST: per ogni nodo `x`, tutti i valori nel suo sottoalbero sinistro devono essere minori di `x.value` e tutti i valori nel suo sottoalbero destro devono essere maggiori di `x.value`. L'algoritmo deve gestire tre scenari distinti, a seconda del numero di figli del nodo da eliminare.
 
 ## 1. Logica dell'Algoritmo: I Tre Casi
-
 Sia `z` il nodo da eliminare.
-
 ### Caso 1: `z` non ha figli (è una foglia)
 Questo è il caso più semplice. Per eliminare `z`, è sufficiente modificare il puntatore del suo genitore (`z.parent`) che puntava a `z`, impostandolo a `NULL`, e poi deallocare la memoria di `z`.
 
@@ -46,18 +40,18 @@ Anche questo caso è relativamente semplice. Si "scavalca" il nodo `z`, collegan
 Questo è il caso più complesso. Non possiamo semplicemente rimuovere `z`, perché lasceremmo due sottoalberi "orfani". La strategia consiste nel trovare un altro nodo nell'albero che possa prendere il posto di `z` senza violare la proprietà del BST.
 
 Questo nodo sostituto deve essere:
-*   Più grande di ogni elemento nel sottoalbero sinistro di `z`.
-*   Più piccolo di ogni elemento nel sottoalbero destro di `z`.
+- Più grande di ogni elemento nel sottoalbero sinistro di `z`.
+- Più piccolo di ogni elemento nel sottoalbero destro di `z`.
 
 Esistono due candidati perfetti:
 1.  Il **predecessore** di `z`: il nodo con il valore più grande nel sottoalbero sinistro di `z`.
 2.  Il **successore** di `z`: il nodo con il valore più piccolo nel sottoalbero destro di `z`.
 
 La procedura standard è:
-1.  Trova il successore (o predecessore) di `z`. Chiamiamolo `y`.
-2.  Copia il valore di `y` nel nodo `z` (`z.value = y.value`).
-3.  A questo punto, il problema si è ridotto a eliminare il nodo `y` dall'albero. Poiché `y` è il minimo del sottoalbero destro (o il massimo del sinistro), avrà **al massimo un figlio** (il figlio destro se è il minimo, o il sinistro se è il massimo).
-4.  Si procede quindi a eliminare `y` usando la logica del Caso 1 o del Caso 2.
+1. Trova il successore (o predecessore) di `z`. Chiamiamolo `y`.
+2. Copia il valore di `y` nel nodo `z` (`z.value = y.value`).
+3. A questo punto, il problema si è ridotto a eliminare il nodo `y` dall'albero. Poiché `y` è il minimo del sottoalbero destro (o il massimo del sinistro), avrà **al massimo un figlio** (il figlio destro se è il minimo, o il sinistro se è il massimo).
+4. Si procede quindi a eliminare `y` usando la logica del Caso 1 o del Caso 2.
 
 ---
 ## 2. Implementazione C++
@@ -144,20 +138,16 @@ void tree_delete(node** root, node* z) {
     // Dealloca la memoria del nodo rimosso
     free(z);
 }
-
-// L'inserimento e la visita rimangono simili
-node* insert(node** root, int value);
-void simmetrica(node* root);
-
-/* ... Implementazioni di insert e simmetrica ... */
 ```
 
 ### Spiegazione dell'Implementazione
-1.  **`tree_minimum(node* x)`**: Funzione ausiliaria corretta per trovare il nodo con valore minimo in un sottoalbero (navigando sempre a sinistra).
-2.  **`transplant(root, u, v)`**: È il cuore della logica di sostituzione. Prende un nodo `u` da rimpiazzare e un nodo `v` che lo rimpiazza. Aggiorna correttamente il figlio del genitore di `u` e il genitore di `v`, gestendo anche il caso in cui `u` sia la radice dell'albero.
-3.  **`tree_delete(root, z)`**:
-    *   **Caso 1/2**: Se `z` non ha un figlio sinistro, viene rimpiazzato dal suo figlio destro (che può essere `nullptr`, coprendo il caso foglia). Se non ha un figlio destro, viene rimpiazzato da quello sinistro. La funzione `transplant` gestisce tutto.
-    *   **Caso 3**: Se `z` ha due figli, troviamo il suo successore `y`. La logica si assicura che `y` sia spostato correttamente al posto di `z`, adottando i figli di `z` e mantenendo la struttura dell'albero. Infine, il nodo `z` viene deallocato.
+1. **`tree_minimum(node* x)`**: Funzione ausiliaria corretta per trovare il nodo con valore minimo in un sottoalbero (navigando sempre a sinistra).
+
+2. **`transplant(root, u, v)`**: È il cuore della logica di sostituzione. Prende un nodo `u` da rimpiazzare e un nodo `v` che lo rimpiazza. Aggiorna correttamente il figlio del genitore di `u` e il genitore di `v`, gestendo anche il caso in cui `u` sia la radice dell'albero.
+
+3. **`tree_delete(root, z)`**:
+    *  **Caso 1/2**: Se `z` non ha un figlio sinistro, viene rimpiazzato dal suo figlio destro (che può essere `nullptr`, coprendo il caso foglia). Se non ha un figlio destro, viene rimpiazzato da quello sinistro. La funzione `transplant` gestisce tutto.
+    *  **Caso 3**: Se `z` ha due figli, troviamo il suo successore `y`. La logica si assicura che `y` sia spostato correttamente al posto di `z`, adottando i figli di `z` e mantenendo la struttura dell'albero. Infine, il nodo `z` viene deallocato.
 
 ---
 

@@ -24,12 +24,12 @@ tags:
 | [[Computational mathematics for learning and data analysis]] | 9   |        |                                                        |     |        |
 
 ---
-### Year 3 (Total 30 CFU)
+### Year 3 (Total 24 CFU)
 
-| First Semester                                                     | CFU | Degree | Second Semester | CFU | Degree |
-| ------------------------------------------------------------------ | --- | ------ | --------------- | --- | ------ |
-| Scable Distributed Computing                                       | 6   |        | Computer Vision | 9   |        |
-| Algorithms and data structures for data-intensive applications<br> | 9   |        |                 |     |        |
+| First Semester               | CFU | Degree | Second Semester        | CFU | Degree |
+| ---------------------------- | --- | ------ | ---------------------- | --- | ------ |
+| Scable Distributed Computing | 6   |        | Computer Vision        | 9   |        |
+| <br>                         |     |        | Compilation Techniques | 9   |        |
 
 ---
 ## Study Plan
@@ -50,10 +50,11 @@ tags:
 - Generative and Deep Learning (9 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2025/53215_702681_79620/2025/53215/10436?coorte=2025&schemaid=9316)\]
 #### Algorithms (18 CFU)
 - Algorithm engineering (9 cfu) \[[Link](https://github.com/ferragina/AlgorithmEngineering/wiki/Algorithm-Engineering-(a.a.-2025%E2%80%9026))\]
-- Algorithms for data-intensive applications (9 cfu) \[[Link](https://didawiki.cli.di.unipi.it/doku.php/digitalhealth/0002a)\]
+- Compilation Techniques (9 cfu) \[[Link](https://pages.di.unipi.it/gori/Linguaggi-Compilatori2024/index.html)\]
 #### Interesting
 - Distributed Algorithms (6 cfu) \[[Link]()\] (Primo Semestre)
 - Parallel Scientific Computing (6 cfu) \[[Link](https://unipi.coursecatalogue.cineca.it/insegnamenti/2024/52206_685872_71746/2012/52206/10434?coorte=2023&schemaid=8566)\] (Secondo Semestre)
 - Competitive programming and contests (6 cfu) \[[Link](https://pages.di.unipi.it/rossano/competitive/)\] (Primo Semestre)
+- Algorithms for data-intensive applications (9 cfu) \[[Link](https://didawiki.cli.di.unipi.it/doku.php/digitalhealth/0002a)\] (Primo Semestre)
 
 **Final Thesis (24 CFU)**

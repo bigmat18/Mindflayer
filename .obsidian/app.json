@@ -3,7 +3,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "100. Notes",
   "attachmentFolderPath": "101. Utils/Images",
-  "vimMode": true,
+  "vimMode": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",

@@ -9,10 +9,9 @@ Area: "[[Master's degree]]"
 - [[Kadane's Algorithm]]
 - [[Trapping Rain Water]]
 - [[Sliding Window Maximum]]
-- [[Two Pointers Patterns]]
-- [[Longest Palindromic Substring]]
+- [[Floyd's Algorithm]]
 
-# Tasks
+![[Algorithms Patterns]]
 
 # References
 - [Competitive Programming Course Page](https://pages.di.unipi.it/rossano/competitive/)

@@ -4,7 +4,8 @@ Tags:
   - note
   - youngling
 Connection:
-Area:
+  - "[[Scientific and Large Data Visualisation]]"
+Area: "[[Master's degree]]"
 ---
 # Charts
 
@@ -22,16 +23,21 @@ For example:
 - Two keys, one value: Possible visualization: Heatmap
 
 Using space to express quantitative attributes is a straightforward use of the spatial position channel to visually encode data. The attributes are mapped to spatial position along axes
+#### [[Scatterplots]]
+#### [[Bar Charts]]
+#### [[Histograms]]
+#### [[Line Charts]]
 
-### [[Scatterplots]]
-### [[Bar Charts]]
-### [[Histograms]]
-### [[Line Charts]]
-### [[Bubble Charts]]
-### [[Stacked Bar Charts]]
-### [[Norm/Group stacked bar charts]]
-### [[Flow maps]]
 
-### [[Heatmaps]]
-### [[Wordclouds]]
+## Chart multiple attributes
+#### [[Bubble Charts]]
+#### [[Stacked Bar Charts]]
+#### [[Stacked line charts]]
+#### [[Flow maps]]
+#### [[Heatmaps]]
+#### [[Wordclouds]]
+#### [[Multidimensional icons]]
+#### [[Petals as a glyph]]
+#### [[Chernoff faces]]
+
 # References

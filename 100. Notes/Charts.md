@@ -11,7 +11,7 @@ Area: "[[Master's degree]]"
 
 ![[Pasted image 20251215192010.png]]
 
-## Chart for [[Tables]] data
+## Charts for arranging [[Tables|tables]]
 A **key** is an independent attribute that can be used as a unique index to look up items in a table, while a **value** is a dependent attribute (the value of a cell)
 - key attributes can be categorical or ordinal, whereas values can also be quantitative
 

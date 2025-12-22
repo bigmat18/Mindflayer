@@ -14,7 +14,6 @@ Area: "[[Master's degree]]"
 - [[Charts]]
 - [[Multidimensional Data Visualization]]
 - [[Graph and Network Visualization]]
-- [[Geometric Data Visualization]]
 - [[Scientific Visualization]]
 
 # Resources

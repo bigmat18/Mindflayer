@@ -2,6 +2,7 @@
 
 .obsidian/workspace*.json
 .obsidian/backlink.json
+.obsidian/plugins/remotely-save/
 
 # Ignore Smart Environment folder
 .smart-env

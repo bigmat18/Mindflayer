@@ -8,10 +8,11 @@
 #### Stack
 - **Front-end**: 
 	- React (TS) (https://react.dev/learn)
-	- D3.js (https://d3js.org/)
-	- Tree.js (https://threejs.org/)
-	- MU (https://mui.com/material-ui/getting-started/)
+	- Plotly.js (https://plotly.com/javascript/)
+	- Tree.js (https://r3f.docs.pmnd.rs/getting-started/introduction)
+	- MUI (https://mui.com/material-ui/getting-started/)
 - **Back-end**: 
 	- Bun (TS) (https://bun.com/docs/runtime)
+	- SQLite (https://sql.js.org/#/)
 
 # References

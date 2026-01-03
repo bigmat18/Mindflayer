@@ -192,8 +192,8 @@ If special type matching is not required, a wildcard message tag (`MPI_ANY_TAG`)
 - If the receiver gets a message with a different TAG than that expected by the `MPI_Recv()` call, the message is kept on hold and will be matched by a future `MPI_Recv()` with a matching TAG
 
 ### Communication Taxonomy
-###### [[Symmetric Communication|Symmetric or point-to-point or 1:1]]
-###### [[Asymmetric Communication|Asymmetric or collective]]
+#### [[Symmetric Communication|Symmetric or Point-to-Point or 1:1]]
+#### [[Asymmetric Communication|Asymmetric or Collective Communication]]
 
 
 # References

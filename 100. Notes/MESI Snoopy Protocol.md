@@ -7,6 +7,9 @@
 **Area**: [[Master's degree]]
 # MESI Snoopy Protocol
 
+Under the write invalidate MOESI protocol, when a processor writes to a cache line, any copies of the data in other caches are invalidated. The simplest implementation uses a **snooping bus protocol**
+- More advanced implementations use a **directory-based protocol**
+
 **MESI** is the basic protocol adopted by **Intel Architectures**. We have four possibile states for a given block $b$ and $PE_i$:
 - **Modified (M)**: the line b is in the cache of $PE_i$ only, while the copy in memory is not updated
 - **Exclusive (E)**: the line $b$ is in the cache of $PE_i$ only, and the copy in memory is updated.
@@ -61,4 +64,9 @@ In case of a **LOAD with hit** the state of the cache line in the LSK does not c
 ![[Pasted image 20250521192458.png | 400]]
 
 A Variant called **MESIF** introduces a further **Forward** state of the PE in charge of sending the cache line after a LOAD with miss. This means that when PE3 execute a LOAD received only from the forward processor the block to avoid flood.
+
+###### Example
+
+![[Pasted image 20260203163202.png]]
+
 # References

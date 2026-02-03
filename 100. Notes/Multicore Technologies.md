@@ -88,6 +88,9 @@ The figure above does not capture completely the heterogeneity of modern paralle
 Heterogeneous computing platforms equipped with different hardware accelerators visible as **advanced I/O co-processors**.
 
 ![[Pasted image 20250517155115.png | 350]]
-- **GPU**: [[SIMT-on-GPU|SIMT]] (**Single-Intruction Multiple-Threads**) co-processors suitable to accelerate data parallel computations. Not only for graphic tasks, but also **general purpose** and fully programmable.
+- **GPU**: [[SIMT and Synchronization|SIMT]] (**Single-Intruction Multiple-Threads**) co-processors suitable to accelerate data parallel computations. Not only for graphic tasks, but also **general purpose** and fully programmable.
 - **Smart-NIC**: No longer **ASIC-based boards** with rigid and non-extensible functionalities, but rather small **System-on-Chip devices** composed of a traditional **NIC** and a small **multicore CPU** (used to accelerate networking functionalities like check-summing, routing, compression, filtering, ...)
+
+ 
+
 # References

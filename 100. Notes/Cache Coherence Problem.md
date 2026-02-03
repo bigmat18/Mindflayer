@@ -73,7 +73,7 @@ Cache Coherence means to provide the same semantics in a system with multiple co
 What does happens after above mean?
 
 ### CC in Uni-Processors
-Uni-processor systems (ie, featuring **one sigle-cored CPU**) are still affected by cache coherence issues, and in case, why? The answer is yes, and because interaction with I/) units may generate coherency issues like in multi-processors.
+Uni-processor systems (ie, featuring **one sigle-cored CPU**) are still affected by cache coherence issues, and in case, why? The answer is yes, and because interaction with I/O units may generate coherency issues like in multi-processors.
 
 ![[Pasted image 20250520193014.png]]
 

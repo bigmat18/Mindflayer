@@ -18,7 +18,7 @@ Why using **Intrinsics SIMD**:
 ![[Pasted image 20250524165216.png]]
 
 ###### Example
-![[Screenshot 2025-05-25 at 16.51.01.png | 550]]
+![[Screenshot 2025-05-25 at 16.51.01.png | 650]]
 
 ### Aligned and Unaligned Operations
 Aligned and unaligned operations refer to how data is stored in memory relative to certain byte boundaries. Data is aligned when its **memory address is a multiple of a specific boundary** (e.g., 32 bytes for AVX). Aligned memory accesses are generally faster. For unaligned accesses, the CPU may need to perform extra work to handle data crossing cache line boundaries
@@ -62,7 +62,7 @@ void mm_avx(float * A, float * B, float * C, uint64_t M, uint64_t L, uint64_t N)
 			// init temporary vector 
 			__m256 X = _mm256_setzero_ps();
 			for (uint64_t k=0; k<L; k++) {
-				// replicate A[i][k] across all 8 lanes 
+				// replicate A[i][k] across all 8 lanes ss = scalar single preci
 				__m256 Aik = _mm256_broadcast_ss(&A[i*L+k]); 
 				// load 8 contiguous float from 
 				B[k][j…j+7] __m256 BV = _mm256_load_ps(&B[k*N+j]); 
@@ -185,9 +185,9 @@ In this version, during each loop iteration, eight vectors are normalized simult
 
 To converto from AoS to SoA we can use **Vectorized Shuffling**:
 
-![[Screenshot 2025-05-25 at 18.08.08.png | 500]]
+![[Screenshot 2025-05-25 at 18.08.08.png | 700]]
 
-AoS on the fly transposition into SoA and inverse transposition of results:
+This operation allow to reoder the structure to applay AVX vector operations. AoS on the fly transposition into SoA and inverse transposition of results:
 
 ![[Screenshot 2025-05-25 at 18.09.07.png|500]]
 
@@ -286,11 +286,11 @@ float plain_max_unroll_2(float * data, uint64_t length) {
 
 
 **General tips** for loop vectorization:
-- In general, for code style, Prefer unit stride access in the innermost loop (e.g., i,k,j instead of i,j,k in GEMM): Efficient prefetching of data, loading of vector registers with fewer instructions, better cache locality
-- The exit of the loop must not be data-dependent. Avoid conditional ‘break’.
+- In general, for code style, Prefer **unit stride access in the innermost loop** (e.g., i,k,j instead of i,j,k in GEMM): Efficient prefetching of data, loading of vector registers with fewer instructions, better cache locality
+- The exit of the loop **must not be data-dependent**. Avoid conditional ‘break’.
 - The loop count must be known at entry to the loop. The variable setting the number of iterations must remain constant for the duration of the loop
 - Avoid `switch/return` statements inside the loop. The ‘if’ statement can be vectorized if it can be implemented as a masked assignment
-- No function calls. If a function call can be inlined, this is okay. Intrinsics math functions (sin, sqrt, etc…) are allowed. Library functions inside the loop body may prevent vectorization
+- **No function calls**. If a function call can be inlined, this is okay. Intrinsics math functions (sin, sqrt, etc…) are allowed. Library functions inside the loop body may prevent vectorization
 - Use aligned addresses to avoid compiler peels the accesses. If unaligned, the compiler can generate extra code (peeling) to handle misaligned data at the beginning/end of a loop
 - Avoid dependencies between loop iterations, if possible
 - Avoid pointer aliasing by using `__restrict__`

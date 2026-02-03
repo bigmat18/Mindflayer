@@ -12,4 +12,6 @@ Sometimes, instead of implementing a complex algorithm directly on a specific pa
 They allow the programmer to focus first on the best algorithm and then on how to deal with specific technological limitations. Additionally, they may provide **lower bounds** for the implementation on a real machine. A lower bound sets a limit on **the best performance any algorithm can achieve for a problem**.
 
 ### [[Work-Span Model]]
+### [[PRAM Model]]
+### [[BSP Model]]
 # References

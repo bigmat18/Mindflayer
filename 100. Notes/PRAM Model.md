@@ -20,7 +20,7 @@
 - Synchronous execution model (**lockstep execution**)
 
  In PRAM model n identical processors $P_0, \dots, P_{n-1}$ **operate in lockstep**. In every step, each processor executes an instruction cycle in three phases:
- 1. **Ream phase**: Each processor can simultaneously read a single data item from a (distinct) shared memory cell and store it in a local register.
+ 1. **Read phase**: Each processor can simultaneously read a single data item from a (distinct) shared memory cell and store it in a local register.
  2. **Compute phase**: Each processor can perform a fundamental operation on its local data and store the result in a register.
  3. **Write phase**: Each processor can simultaneously write a data item to a shared memory cell, whereby the exclusive write PRAM variant allows writing only distinct cells while the concurrent write PRAM variant also allows processors to write to the same location (possible race conditions).
 

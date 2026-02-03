@@ -12,7 +12,7 @@ It (almost) all general-purpose architectures the cache hierarchy is not explici
 Additionally, the **[[Cache Coherence Problem|cache coherence]] algorithm** keeps data coherent if there are multiple caches. There is 3 important questions that we need to answer.
 
 ### Which data should we load from main memory?
-Fisrs define what is a **Cache line**: several items of information (memory words) are stored as a single memory location to enforce **[[Cache Memory|spatial locality]]**. 
+First define what is a **Cache line**: several items of information (memory words) are stored as a single memory location to enforce **[[Cache Memory|spatial locality]]**. 
 
 Rather than requesting a single value, an entire cache line is loaded with values neighboring addresses. For **Example** with a cache line size of 64B, double precision values:
 ```c
@@ -30,17 +30,26 @@ for (i = 0; i<n; i++)
 ### Where should we store it in the cache?
 Cache organized into a number of **cache lines**. Cache mapping strategy decides in which locations in the cache a copy of a particular entry of main memory will be stored.
 - **Direct-Mapped Cache**: Each memory block is restricted to exactly one cache line (high miss rates, **trashing problem**, no temporal locality for cache line replacement algorithm)
-- **N-Way set associate Cache**: Each memory block can be placed in any of N lines within a set, balancing hardware complexity with reduced conflict misses.
-- **Fully associative Cache**: Any memory block can occupy any cache line, offering maximum flexibility but at the cost of higher complexity.
+	- 1 Cache line per memory words. 
+	- To decide in which cache line load words $line = i \mod L$ 
 
-![[Pasted image 20250523191712.png]]
+- **N-Way set associate Cache**: Each memory block can be placed in any of N lines within a set, balancing hardware complexity with reduced conflict misses.
+	- N lines per cache words
+	- Total lines $L = S \cdot N$ with S set and N lines. $set = i \mod S$ 
+
+- **Fully associative Cache**: Any memory block can occupy any cache line, offering maximum flexibility but at the cost of higher complexity.
+	- 1 cache words with N lines
+	- S=1 and N=L but to find a block we need to check with all lines
+
+![[Pasted image 20250523191712.png | 500]]
 
 ### If the cache is full, what data should we evict?
 **Cache replacement algorithms** are used efficiently manage the limited cache space. When the cache is full, the algorithm decides which cache line to evict to make room for the new cache line that contains the requested data (Algorithms are LRU, LFU, FIFO, Random, Pseudo-LRU)
 - **Least Recently Used (LRU)**: It is an eviction policy used to select one cache line to remove **according to the temporal localoty principle**. It evicts the least recently accessed cache line
 	- **Pros**: Optimize workloads with temporal localoty
 	- **Cons**: high overhead due to the access tracking
-- **Pseudo-LRU (PLRU)**: An approximation to the LRU algorithm that reduces hardware overhead and complexity. It uses a small set of bits to keep track of which ways within a set have been recently accessed,
+	
+- **Pseudo-LRU (PLRU)**: An approximation to the LRU algorithm that reduces hardware overhead and complexity. It uses a small set of bits to keep track of which ways within a set have been recently accessed.
 
 
 

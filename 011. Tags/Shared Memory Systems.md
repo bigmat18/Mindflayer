@@ -4,4 +4,3 @@
 - [[Von Neumann Bottleneck]]
 - [[Processor Technologies]]
 - [[Multicore Technologies]]
-- [[Multi-Threading Technologies]]

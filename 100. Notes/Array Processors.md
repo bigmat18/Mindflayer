@@ -69,7 +69,7 @@ Each EU can maintain seveal copies of the registers for **hardware multithreadin
 $$
 \forall i = 0, \dots, L - 1 \::\: C[i] = sqrt(A[i])
 $$
-![[Pasted image 20250522153801.png | 600]]
+![[Pasted image 20250522153801.png | 750]]
 
 Each instruction is executed by all Execution Units:
 1. Each $EU_h$ writes the integer constant \#h into its local register `Ri`

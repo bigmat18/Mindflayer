@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[Shared Memory Systems]]
+**Tags:** [[High Performance Computing]] [[Shared Memory Systems]] [[Parallel and distributed systems. Paradigms and models]]
 
 **Area**: [[Master's degree]]
 # Processor Technologies
@@ -16,6 +16,7 @@ The processor is responsible for interpreting assembler instructions (more preci
 #### [[Multi-Cycled Processors]]
 #### [[Pipeline Processors]]
 #### [[Super-Scalar Processors]]
+#### [[Hardware Multi-Threading]]
 
 #### Communication Units
 PEs usually have the possibility to generate short **firmware messages** to other processors (in the same CPU or in other CPUs) that are notified through the **interrupt mechanism**. We assume that each PE has a local I/O sub-system composed of at least one I/O unit called **UC (Communication Unit)**.

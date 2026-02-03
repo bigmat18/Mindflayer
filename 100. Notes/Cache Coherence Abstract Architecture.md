@@ -18,7 +18,7 @@ We devise an **Abstract Architecture for CC**, where a logical centralized entit
 
 In the **Abstract Architecture for CC**, we have the following entities that interact during the interpretation of LOAD and STORE instructions:
 - **Main memory** (conceptually one single entity, not true actually)
--  **Global Controller** (conceptually it is a single unit, not possible in a real-world implementation for scalability issues)
+- **Global Controller** (conceptually it is a single unit, not possible in a real-world implementation for scalability issues)
 - **Processing elements**, each having one cache (which acts as a **Local Controller**)
 - **[[Cache-to-Cache (C2C) Transfers|cache-to-cache interconnection network]]**
 

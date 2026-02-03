@@ -22,15 +22,32 @@ From a topological perspective, interconnection networks can be represented as g
 
 Switches implement firmware **[[Routing]] algorithms** depending on the kind of network. We will assume that the routing delay(i.e., service time and latency) paid by switches is of **one clock cycle** $\tau_{net}$. Each **link** has a fixed width (e.g., 32, 48 bits), it is unidirectional and can be occupied by one message at a time. Below a partial taxonomy of routing strategies:
 
-![[Pasted image 20250518030256.png | 500]]
+![[Pasted image 20250518030256.png | 700]]
 
 **Non-blocking networks:** in the presence of any set of currently established connections between pairs of source/destination peers, it is always possible to establish a new connection between any arbitrary unused pair of source/destination.
-### Parameters in a Network
 
+### Netowork Performance Metrics
+**[[Communication Latency|Latency]]**: : is the time from when a packet starts to be transmitted from the source node and when it is wholly received at the destination node. Expressed in time units: sec, ms, us, ns
+ - **No-load (or zero-load) latency**. The time measured in a network when there is no traffic (thus no congestion). It represents the baseline performance of the network
+ - **Under-load latency**. The time measured when the network is utilized, and the traffic is below the saturation point (i.e., the load is below the network capacity)
+	 - **Over-load latency**. Latency measured when the network is congested (above the saturation point)
+
+**(Offered) [[Processing Bandwidth & Throughput|Throughput]]**: the actual amount of data sent into the network per unit of time. Expressed in bits per second (bps) or multiples (Kb/s, Mb/s, Gb/s)
+- **Saturation Throughput**: the maximum amount of traffic sustained by the network. It is the point at which the network is fully utilized
+
+**[[Processing Bandwidth & Throughput|Bandwidth]]**: the theoretical maximum data transfer rate under ideal conditions across a given network path. It represents the max capacity of a communication channel. Expressed in Mb/s, Gb/s
+
+The latency depends on network contention and the distance between the source and the destination node. Therefore, high network  contention and/or longer distances will produce more latency.
+
+![[Pasted image 20260203214456.png | 300]]
+
+The figure above e sketches the general behavior of **latency vs. offered throughput** (i.e., injection rates). As the nodes keep injecting traffic into the network, it reaches a saturation point where the latency grows fast due to **contention**
+
+### Parameters in a Network
 Some parameters used to evaluate a networks:
 - **Path length:** number of units crossed by the considered path
 - **Distance**: length of the minimal path between U1 and U2 ($d^{U1\to U2}$)
-- **Average distance**: average length of all paths between two endpoints U1 and U2 (denoted by $d_{avg}^{U1\to U2}$)
+- **Average distance**: average length of all paths between two Ep  U1 and U2 (denoted by $d_{avg}^{U1\to U2}$)
 - **Network average distance:** average length of the minimal paths between all pairs of communicating endpoints in the network (denoted by $d_{avg}$)
 - **Network diameter:** longest minimal path over all (source, destination) pairs
 - **Network Degree**: The degree (deg) of a network is the maximum number of neighbors of any n

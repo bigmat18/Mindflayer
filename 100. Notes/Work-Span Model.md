@@ -26,8 +26,9 @@ Let's consider the **[[Speedup]]** to derive some interesting bounds:
 ![[Pasted image 20250526170211.png | 450]]
 
 ### Brent' Theorem 
-Assume a parallel computer whose processors can perform a task in unit time with greedy scheduling of
-tasks. Assume that the computer has enough processors to exploit the maximum concurrency in an algorithm containing $T_1$ tasks such that it completes in $T_{\infty}$ time steps:
+Assume a parallel computer whose processors can perform a task in unit time with greedy scheduling of tasks. 
+
+Assume that the computer has enough processors to exploit the maximum concurrency in an algorithm containing $T_1$ tasks such that it completes in $T_{\infty}$ time steps:
 - At each level $i$ of the DAG, there are $m_i$ tasks (ie, $\sum_{i=1}^n m_1 = T_1$)
 - We may use $m_i$ processors to compute all results at leve $i$ in O(i)
 
@@ -53,8 +54,7 @@ Considering the [[Speedup]], we have that $S(p) \leq \min\left( p, \frac{T_1}{T_
 $$
 T_p \approx \frac{T_1}{p} + T_{\infty} \:\:\:\: if \:\:T_{\infty} << T_1
 $$
-When designing a parallel algorithm, focus on reducing the **span**, because the span is the fundamental
-asymptotic limit on scalability. Increase the work only if it enables a drastic decrease in span. Overall, we have:
+When designing a parallel algorithm, focus on reducing the **span**, because the span is the fundamental asymptotic limit on scalability. Increase the work only if it enables a drastic decrease in span. Overall, we have:
 $$
 \frac{T_1}{p} \leq T_p \leq \frac{T_1}{p} + T_{\infty} \:\:\:\: S(p) \geq \frac{p}{1 + p \cdot \frac{T_{\infty}}{T_1}}
 $$

@@ -23,5 +23,5 @@ In principle, any data parallel program can be applied by a SIMD machine althoug
 - **Vectorization facilities of modern Processing Elements**: (i.e., CPU cores): vectorized EUs in [[Pipeline Processors]]/[[Super-Scalar Processors]] with ISA extensions like SSE (Intel), AVX (Intel), Neon (ARM), and others.
 - **[[Array Processors]]**: standalone implementation of the SIMD paradigm at the firmware level applied by specialized architectures with high parallelism.
 - **[[Graphical Processing Units (GPU)]]**: IMD is applied more broadly together with **MIMD + hardware multithreading**. This combination is often referred with the commercial name of Single Instruction Multiple Threads (SIMT)
-- **[[SIMT|Multiple Threads (SIMT)]]**
+- **[[SIMT and Synchronization|Multiple Threads (SIMT)]]**
 # References

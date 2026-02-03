@@ -11,12 +11,22 @@ The **[[Cache Coherence Abstract Architecture|GSK]]** is partitioned **by rows**
 
 Directories are distributed among the PEs, each one maintain the GSK entries for a subset of the cache lines.
 
-![[Pasted image 20250522012022.png | 400]]
+![[Pasted image 20250522012022.png | 500]]
 
 - Natural strategy for [[NUMA - Non Uniform Memory Access]] each PE controls a set of GSK entries of its **local  memory**
 - Applied to **[[SMP Symmetric Multi-Processor]]** as well -> **uniform partitioning** of GSK entries among PEs
 - **Directory entry** is a full GSK entry containing for all the PEs whether the cache line is present, and its state (eg modified, updated)
 - The PE owning the GSK entry for a line is called **Home Node**
+
+**Pros**
+- Better scalability 
+- No need broadcast
+- Useful for many core and NUMA
+
+**Cons**
+- More complex
+- Storage overhead
+- More latency
 
 ### LOAD Interpreter
 The interpreter of **LOADs** and **STOREs** is similar to the behavior see in [[Cache Coherence Abstract Architecture]], where each PE interacts with the **home node** of the referred cache line through point-to-point communications only. In case of a **LOAD b** it is useful to distinguish different actors
@@ -34,7 +44,7 @@ There are different meaningful combinations:
 ##### Case 1 -> requestor $\neq$ home $\neq$ owner
 So in this case we have three roles and three distinct PEs involved.
 
-![[Pasted image 20250522014305.png | 500]]
+![[Pasted image 20250522014305.png | 700]]
 - **Optimization**: (i.e., lower latency): if RE can determine one OW based on requests issued in the past, the read request is done directly to OW, and in parallel to HO (HO updates LSK\[b\]).
 - **Observation**: if the knowledge of the OW by RE is not updated, this is not a concern. OW replies that the request is wrong, so RE executes the normal protocol via HO.
 

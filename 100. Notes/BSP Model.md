@@ -38,15 +38,18 @@ $$
 where we have:
 - $w$ is the amount of work defined as the maximum number of operations performed in the superstep by any processor
 - Processors with less work than $w$ ops must wait
+- $l$ is the latency (cost of barrier)
 
 The cost of a **mixed superstep** is
 $$
 T_{comp}(w) = w + h \cdot g + l
 $$
 The same 𝑙 measure is used for all types of superstep,
+- $h$ is h-relation and represent the bottleneck in the network, is the maximum number of word that a single process can send or recv
+- $g$ is the gap, is the unitary cost of communication, time to transfer a single word
+- $l$ is the cost of latency
 ##### h-relations
-An **h-relation** is a communication superstep in which **every processor sends and receives at most h data**
-**words**. It is the **maximum** between the data words sent and received by a processor in a communication superstep,
+An **h-relation** is a communication superstep in which **every processor sends and receives at most h data** **words**. It is the **maximum** between the data words sent and received by a processor in a communication superstep,
 
 ![[Pasted image 20250526183226.png]]
 
@@ -58,7 +61,7 @@ where we have:
 - $g$ (gap) is the per-word communication cost and 𝑙 (latency) is the global synchronization time. Both are usually expressed in FLOPS (i.e., the time is multiplied by the processor’s FLOP rate
 - Note that $g$ and $l$ depend on the number of processors (p)
 - $l > 0$ includes the costs of the **global synchronization** plus all fixed costs for ensuring that all data have arrived at the destination, and the start-up of the communications
-- Approximate values for 𝑔 and l on a given parallel computer can be obtained by measuring execution times for a range of full h-relations, varying h and p. A  full h-relation is an h-relation where each processor sends and receives exactly h data words.
+- Approximate values for 𝑔 and l on a given parallel computer can be obtained by measuring execution times for a range of full h-relations, varying h and p. A full h-relation is an h-relation where each processor sends and receives exactly h data words.
 
 ### Const of BSP Model
 The cost of a BSP algorithm is expressed as an expression

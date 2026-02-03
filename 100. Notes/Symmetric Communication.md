@@ -56,8 +56,8 @@ if (myrank == 0) {
 	MPI_Send(buf, count, MPI_INT, 1, 200, MPI_COMM_WORLD);
 	MPI_Recv(buf, count, MPI_INT, 1, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 } else if (myrank == 1) {
-	MPI_Send(buf, count, MPI_INT, 0, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE );
-	MPI_Recv(buf, count, MPI_INT, 0, 200, MPI_COMM_WORLD, MPI_STATUS_IGNORE );
+	MPI_Send(buf, count, MPI_INT, 0, 100, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+	MPI_Recv(buf, count, MPI_INT, 0, 200, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 }
 ```
 The MPI_Send may block until the message is received by the destination process. If it blocks, then deadlock!

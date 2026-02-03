@@ -7,7 +7,7 @@
 **Area**: [[Master's degree]]
 # Sequential Consistency (SC)
 
-It is a theoretical model designed by **Leslie Lamport** in 1979. A multiprocessor is **sequential consistent**     (**SC**) if the result of any execution **is the same as if** the instructions of all the PEs were executed **in some sequential order**, and the instructions of each PE appear **in the order specified by its program**.
+It is a theoretical model designed by **Leslie Lamport** in 1979. A multiprocessor is **sequential consistent** (**SC**) if the result of any execution **is the same as if** the instructions of all the PEs were executed **in some sequential order**, and the instructions of each PE appear **in the order specified by its program**.
 
 So, the multiprocessor is implemented is such as way that:
 - Each instruction by any PE is started and completed in the program order
@@ -16,6 +16,12 @@ So, the multiprocessor is implemented is such as way that:
 ![[Pasted image 20250520141704.png]]
 
 Each PE issues (and completes) in memory instructions in the **program order**. Each memory instruction is executed atomically, and then the memory **randomly switches** to execute a memory instruction from any other PE ([[MP IO Non-Deterministic|non-deterministc]])
+
+**Switching metaphor**: all processors issue loads/stores in program order, the memory chooses a 
+processor at random, performs a memory operation to completion, then selects another processor
+
+![[Pasted image 20260202211440.png]]
+
 
 ###### Example 1
 P1, P2, P3 and P4 access an integer x. P1 and P2 change the value of **x** by writing **a** and **b** at different time instants. P3 and P4 read x at different time instants.

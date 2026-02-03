@@ -15,6 +15,17 @@ Which safety nets? It depends of the machine's instruction set and the memory mo
 - **Memory instructions** with **special annotations**
 - **Special instructions** (ie, **[[Barriers|memory barriers]]** also called **FENCE** instructions)
 
+Memory barrier instructions (also called fences) prevent reordering, but they are expensive:
+- All memory operations before the fence must complete before any memory operation after the fence can start
+- There are different flowers of fences: 
+	- **load fence (RMB)**: restricts reordering of loads 
+	- **store fence (WMB)**: restricts reordering of stores
+	- **memory fence (MB)**: restricts reordering of both loads and stores
+
+Other synchronization primitives enable ordering on a specific memory location:
+- E.g., test_and_set, compare-and-swap, and all Read-Modify-Write (RMW) operations
+
+Programmers or the compiler must properly insert synchronizations to ensure correct ordering. A memory fence can be performed implicitly by locks and other syncrhonizing instructions.
 ### Safety Nets: Notification
 To implement [[Event Notification|event notification]] in machines with [[Relaxed Memory Models]], we first have to guarantee STORE atomicity. Second, the LOADs accessing the data by the notified process cannot precede the LOAD for reading the event, and the conditional branch to test it.
 
@@ -26,5 +37,22 @@ We need to introduce a special STORE with ‘**synch**’ annotation, which has 
 
 ![[Pasted image 20250520183528.png | 550]]
 
-A **SFENCS** has to be added to the **unlock** procedure. No FENCE is required in the **lock** procedure. Indeed, **[[RMW Instructions]]** (like the TSL) implicitly introduce a [[Barriers|memroy barrier]].
+A **SFENCS** has to be added to the **unlock** procedure. No FENCE is required in the **lock** procedure. Indeed, **[[RMW Instructions]]** (like the TSL) implicitly introduce a [[Barriers|memory barrier]].
+
+### Data-Race-Free (DRF) guarantee
+**Data Race**: two or more threads concurrently access the same memory location, at least one executes a write, and there is no synchronization between accesses. 
+
+If a program is Data Race Free, then its behavior is sequentially consistent
+- All operations behave as if they occur in a **single global order** that respects each thread’s program order
+
+Instruction reordering does not break correctness, if the program is DRF
+- (Properly) Synchronized programs (i.e., through mutexes, barrier, atomics, etc.) are DRF 
+- Memory accesses are ordered by such synchronization primitives
+
+**The SC memory model alone does not automatically guarantee DRF**. Programmers must explicitly
+ensure data-race freedom through synchronization.
+
+The rationale behind the memory reordering is the principle “Optimize for the common case”. Since most 
+memory accesses do not conflict, architectures avoid incurring the overhead of strict ordering for every operation.
+
 # References

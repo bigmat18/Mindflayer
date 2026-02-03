@@ -7,7 +7,6 @@ Area: "[[Master's degree]]"
 # Table of Contents
 
 [[Introduction to parallel and distributed systems]]
-
 [[Performance Engineering of System Software]]
 
 ![[Classifying Parallel Architectures]]
@@ -47,8 +46,6 @@ Area: "[[Master's degree]]"
 ![[Lock-Free Programming in C++]]
 
 ![[Parallel Programming with OpenMP]]
-
-![[FastFlow on Shared Memory Systens]]
 
 ![[Message Passing Interface (MPI)]]
 

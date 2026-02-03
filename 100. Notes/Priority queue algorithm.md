@@ -13,7 +13,6 @@ SLURM uses a global queue, where jobs are ordered based on their priority (the h
 - **Size**: larger jobs may be prioritized
 - **QoS and partition configuration**
 
-
 ###### Queue Management
 Jobs are placed in a queue and sorted by priority. If enabled, lower jobs may be **preempted** to make room for higher-priority jobs.
 ###### Potential Issue

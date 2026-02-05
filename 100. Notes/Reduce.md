@@ -69,13 +69,25 @@ This computation is **stateless** and cannot be parallelized correctly with a **
 - R computes the global reduce results from the n local results received.
 - R return the gobal reduce and each work start to compute its partition of A with function F
 
-##### Second Implementation
+##### Second Implementation (Tree-Based Reduction)
 parallel computation of the global reduce result and parallel [[Multicast]]. The example in the figure is with 8 workers but the cost model can be generalized for any parallelism degree:
 
 ![[Pasted image 20250514232245.png | 650]]
 
 In this case we use classic reduce pattern to calculate s and after we propagate s back and in this process we compute F for each partition of A.
-##### Stencil+Reduce
+
+##### Third implementation (Ring-based)
+Its very similar with the second tree base implementation:
+- Round 0
+	- Worker $i$ sends its local value to Worker (i+1)%k
+	- Worker i receives from worker (i-1)%k
+- Other Rounds
+	- Worker i sends the receiver value to worker (i+1)%k
+- after k-1 round, all workers have the reduced values locally
+- suitable for high-latency network
+
+![[Pasted image 20260205024021.png]]
+##### [[Stencil]]+Reduce
 The reduce computation is often used also with **stencil-based programs**. For example, the **5-point stencil kernel** can be executed for several iterations that cannot be know beforehand. The iterations stops when a **global condition** over all the elements of the matrix is achieved.
 
 ![[Pasted image 20250514232440.png | 350]]

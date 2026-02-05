@@ -14,6 +14,9 @@ For example a symmetric channel CH with a sender P1 and receiver P2:
 ![[Pasted image 20250511220104.png]]
 
 Send implementation copies the message value from the **message variable** into the **target variable** in the addressing space of the receiver. This is called [[Zero-Copy Implementation]] where we direct copy from the message variable to the target variable without additional copies.
+### Communications Patters
+![[Pasted image 20250527183523.png | 500]]
+
 ### Synchronous vs. Asynchronous communications
 The **asynchrony degree** of a channel (or channel capacity) is the maximum number of messages($k \geq 0$) the sender can send before it has to block waiting for the receiver to start receiving data. It depends on the memory capacity of the channel and the size of the message being sent.
 

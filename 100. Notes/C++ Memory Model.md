@@ -210,9 +210,9 @@ Detailed steps leading to the **ABA problem**:
 Node* pop() {
  Node* current = head;
  while (current) {
- if (head == current && 
- CAS(&head, current, current->next)) break;
- current = head;
+	if (head == current && 
+		CAS(&head, current, current->next)) break;
+			 current = head;
  }
  return current;
 }
@@ -238,7 +238,7 @@ The common approach to avoid the ABA problem is to add an extra tag (version num
 It requires CAS2 (double-word CAS, not available on all architectures)
 - Additionally, the tag number may need to be very large
 
-Another option is to implement deferred reclamation
+Another option is to implement **deferred reclamation**
 - Prevent node reuse while pending requests exist
 - **Hazard pointers** are often used for safe reclamation of memory
 

@@ -10,7 +10,7 @@ Area: "[[Master's degree]]"
 ---
 # Atomic Operations in C++
 
-C++11 introduces **atomic data types** that can be safely manipulated in a concurrent context without  acquiring locks (i.e., `std::mutex`). Operations on atomic data types are executed entirely or not al all (i.e., **atomic operations are indivisible**). In many scenarios, atomic operations c**an be faster than using mutexes**, particularly under high concurrency
+C++11 introduces **atomic data types** that can be safely manipulated in a concurrent context without  acquiring locks (i.e., `std::mutex`). Operations on atomic data types are executed entirely or not al all (i.e., **atomic operations are indivisible**). In many scenarios, atomic operations **can be faster than using mutexes**, particularly under high concurrency
 
 C++ atomics enable lock-free (non-blocking) programming, which avoid:
 - Thread suspension/resume overhead
@@ -90,16 +90,16 @@ In this example, the use of atomics is approximately 6 times more efficient than
 
 ### `std:atomic<T>`
 
-`std::atomic` is neither copyable nor movable. T must be a trivially copiable type, Operations (i.e., the methods of the std::atomic class):
+`std::atomic` is neither copyable not movable. T must be a trivially copiable type, Operations (i.e., the methods of the std::atomic class):
 - **load/store**: to get and set the content of a std::atomic
 - **exchange**: atomically replace the value and return the old  value of the variable
 - **compare and exchange:** it does an atomic exchange only if the value is equal to the provided expected value
-- **fetch operation**s: perform a read-modify-write in one  atomic step
+- **fetch operations**: perform a read-modify-write in one  atomic step
 - **wait/notify** (from C++20) behavior similar to condition variables
 
 ![[Pasted image 20260202203519.png]]
 
-**Example:** we could have  implemented the dynamic scheduling policy using  an atomic variable instead of a mutex-protected  plain variable
+**Example:** we could have implemented the dynamic scheduling policy using  an atomic variable instead of a mutex-protected  plain variable
 
 C++11 provides built-in atomic support for 8, 16, 32, or 64 bits wide integers and pointers. However, we can wrap structs and objects of  different length with `std::atomic<T>`. The  compiler realizes their concurrent manipulation with locks
 - The code you write remains correct even if the underlying HW does not natively support the corresponding data type
@@ -110,6 +110,7 @@ C++11 provides built-in atomic support for 8, 16, 32, or 64 bits wide integers a
 ### Compare-And-Swap (CAS) 
 Every C++ atomic data type features a CAS (Compare-and-Swap) operation for implementing
 arbitrary atomic assignments. Two methods: `compare_exchange_strong` and `compare_exchange_weak`
+
 - `compare_exchange_weak` is more efficient but might suffer from spurious fails (it may return false even if the  comparison yields true)
 ![[Pasted image 20260202204511.png | 500]]
 

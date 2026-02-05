@@ -146,7 +146,8 @@ int main(int argc, char *argv[]) {
 ### [[Scatter]]
 ```c
 int MPI_Scatter(void* sndbuf, int sndcount, MPI_Datatype snddt,
-				void* rcvbuf, int rcvcount, MPI_Datatype rcvdt, int source , MPI_Comm comm)
+				void* rcvbuf, int rcvcount, MPI_Datatype rcvdt, 
+				int source , MPI_Comm comm)
 ```
 Sends p-1 data blocks from the **source** process to all other processes in the communicator (**one-to-all**)
 
@@ -278,7 +279,8 @@ Gaps are allowed between distinct partitions in the source data; partitions may 
 int MPI_Allgather(void* sndbuf, int sndcount, MPI_Datatype snddt,
 				  void* rcvbuf, int rcvcount, MPI_Datatype rcvdt, MPI_Comm comm)
 int MPI_Allgatherv(void* sndbuf, int sndcount, MPI_Datatype snddt,
-				void* rcvbuf, int rcvcount, int displs[], MPI_Datatype rcvdt, MPI_Comm comm)
+					void* rcvbuf, int rcvcount, int displs[], MPI_Datatype rcvdt, 
+					MPI_Comm comm)
 ```
 
 ![[Pasted image 20250605183125.png | 550]]

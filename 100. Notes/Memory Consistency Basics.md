@@ -45,8 +45,7 @@ We wonder if it is possible to have an execution outcome where **R2=1 and R3=0**
 - Defines how memory operations are ordered and observed across processors
 - Consistency is part of the specification of architectures (i.e., its model is visible to system software)
 
-[[Cache Coherence Problem]] is a different concept, it deals with the objective of ensuring that the memory
-system in a parallel computer behaves as if the caches (the memory hierarchy) were not present
+[[Cache Coherence Problem]] is a different concept, it deals with the objective of ensuring that the memory system in a parallel computer behaves as if the caches (the memory hierarchy) were not present
 - It ensures that all processors see the same value for a given memory location, keeping consistent the value across caches
 - Coherence is not visible at the software level. We may see it as a side effect, e.g., false sharing, superlinear speedup, etc.…
 

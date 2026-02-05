@@ -38,6 +38,7 @@ Area: "[[Master's degree]]"
 - [[Map Parallelization]]
 - [[Reduce]]
 - [[Stencil]]
+- [[Divide & Conquer]]
 
 ![[Concurrency in C++]]
 

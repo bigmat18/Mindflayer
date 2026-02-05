@@ -65,8 +65,7 @@ Simple to get started. Simple programs use only six library routines:
 - **`MPI_Send/MPI_Isend`**: sends a message (blocking/non-blocking send)
 - **`MPI_Recv/MPI_Irecv`**: receives a message (blocking/non-blocking receive)
 
-The same program is executed by all P processes (**SPMD model**). Each process chooses a different
-execution path depending on its ID (called **rank** in MPI). The ID is unique for each process in 0…P-1
+The same program is executed by all P processes (**SPMD model**). Each process chooses a different execution path depending on its ID (called **rank** in MPI). The ID is unique for each process in 0…P-1
 
 ```c
 …

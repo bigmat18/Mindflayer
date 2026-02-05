@@ -118,9 +118,9 @@ int MPI_Test(MPI_Request* req, int* flag, MPI_Status* status)
 
 ### Message exchange
 ```c
-int MPI_Sendrecv(void* sndbuf, int sndcount, MPI_Datatype snddt, int dest, int sndtag,
-				 void* rcvbuf, int rcvcount, MPI_Datatype rcvdt, int source, int rcvtag,
-				 MPI_Comm comm, MPI_Status* status)
+int MPI_Sendrecv(void* sndbuf, int sndcount, MPI_Datatype snddt, int dest, 
+				int sndtag, void* rcvbuf, int rcvcount, MPI_Datatype rcvdt, 
+				int source, int rcvtag, MPI_Comm comm, MPI_Status* status)
 ```
 - Exchanges messages in a single call (both send and receive
 - Why `Sendrecv`? **To avoid deadlock MPI handles deadlock issues**

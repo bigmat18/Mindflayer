@@ -11,8 +11,7 @@ Like in [[Communication Latency]]. A computing node is equipped with a [[Introdu
 
 The sender process may execute a **non-blocking send** to the destination process, the NIC executes the  data transfer and then notifies the sender process about the completion of the transmission. While the NIC executes the data transfer, the processor executes some other useful operations (e.g., it can execute, or partially execute, another task)
 
-There could be full or partial overlap between the computation of tasks and the communication with 
-other processes. **Such overlap is fundamental to mask (or partially mask) communication overhead**. 
+There could be full or partial overlap between the computation of tasks and the communication with other processes. **Such overlap is fundamental to mask (or partially mask) communication overhead**. 
 
 The computing module C receives in input a list of tasks (**data stream**). For each input, it takes $T_{calc}$ time for the computation and  $T_{common}$ time for sending the task computed to the next module.
 

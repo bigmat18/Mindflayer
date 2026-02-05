@@ -52,7 +52,6 @@ Instruction reordering does not break correctness, if the program is DRF
 **The SC memory model alone does not automatically guarantee DRF**. Programmers must explicitly
 ensure data-race freedom through synchronization.
 
-The rationale behind the memory reordering is the principle “Optimize for the common case”. Since most 
-memory accesses do not conflict, architectures avoid incurring the overhead of strict ordering for every operation.
+The rationale behind the memory reordering is the principle “Optimize for the common case”. Since most memory accesses do not conflict, architectures avoid incurring the overhead of strict ordering for every operation.
 
 # References

@@ -2,3 +2,5 @@
 - [[Indirect Networks]]
 - [[Direct Networks]]
 - [[Pipelined Communications]]
+- [[Basics of Message Passing]]
+- [[Forst's Parallel Algorithm Design Method (PCAM)]]

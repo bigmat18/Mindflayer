@@ -29,7 +29,7 @@ Every modern processor uses **Write Buffers** to improve performance:
 
 ![[Pasted image 20260202211714.png | 200]]
 
-A **Write Buffer** is a small queue or memory area in the CPU that holds data from recent write operations which have not yet been fully committed to main memory (or the next level in the  memory hierarchy). By storing these “pending” writes in a buffer, the processor can continue  executing subsequent instructions without having to wait for each store to complete. If the  CPU needs to read a location that’s in the write buffer, it can forward that data directly from  the buffer instead of waiting for it to reach cache or main memory.
+A **Write Buffer** is a small queue or memory area in the CPU that holds data from recent write operations which have **not yet been fully committed to main memory** (or the next level in the  memory hierarchy). By storing these “pending” writes in a buffer, the **processor can continue  executing subsequent instructions without having to wait for each store to complete**. If the  CPU needs to read a location that’s in the write buffer, it can **forward that data directly from the buffer** instead of waiting for it to reach cache or main memory.
 ### Relaxing Strategies
 ##### Relaxing $W\leftarrow R$
 Is one optimization proposed by [[Pipeline Processors|in-order pipelied processors]] to hide memory latencies. A later LOAD can bypass an earlier STORE.
@@ -61,18 +61,21 @@ All memory instructions are issued and completed in program order. All processor
 ![[Pasted image 20250520155232.png]]
 An earlier STORE can be reordered after a later LOAD. It allows the use of a **store buffer**. All processors see the same **global ordering** of STORES.
 
-**TSO**: All writes from each processor are seen in the same order by all processors. Loads in a processor may 
-bypass pending stores in a write buffer (load cannot bypass store to the same memory location!):
+**TSO**: All writes from each processor are seen in the same order by all processors. Loads in a processor may bypass pending stores in a write buffer (load cannot bypass store to the same memory location!):
 - All processors observe the same order for writes from any processor
 - A load may bypass an earlier store (to a different address), potentially causing a thread to read an older value
 - x86 uses the TSO memory consistency model. NOTE: TSO allows r1=0 and r2=0 in the previous example!
 
- **PC**: Writes to the same memory location are seen in the same order by all processors. However, writes to 
-different locations may be observed in different orders by different processors
+ **PC**: Writes to the same memory location are seen in the same order by all processors. However, writes to **different locations may be observed in different orders by different processors**
 - It allows the processor to reorder writes across different memory locations, potentially leading to higher performance
 - Requires explicit synchronization (e.g., memory fences) when coordinated updates across multiple locations are needed
 - No modern architecture strictly implement PC. Some systems further relax memory ordering.
 
+In general:
+- Store→Store: **non** riordinati (ordine degli store preservato)
+- Load→Load: **non** riordinati (in genere)
+- Load→Store: **non** riordinati
+- **Store→Load: può** essere riordinato (il classico caso “store buffering”
 ##### Partial STORE Ordering (PSO)
 
 ![[Pasted image 20250520155308.png]]
@@ -88,11 +91,15 @@ write might be a cache miss, while the other might be a cache hit whose manageme
 - Execute reads early and delay writes, further hiding memory latency
 - Out-of-order execution and speculative execution allow the CPU to keep its pipelines full
 
+in general:
+- **Store→Store: può** riordinare se le store sono a indirizzi diversi
+- Store→Load: può riordinare (come TSO)
+- Altri riordini dipendono dalla specifica, ma il punto distintivo è S→S rilassato
+
 ##### Weak Ordering or Relaxed Consistency (WO, RC)
 
 ![[Pasted image 20250520155358.png]]
-All possible reorderings might happen and are admitted. **No global ordering** of instructions. ARM and POWER micro architectures adopt a very relaxed memory model for better performance, at the cost of 
-increased programming complexity
+All possible reorderings might happen and are admitted. **No global ordering** of instructions. ARM and POWER micro architectures adopt a very relaxed memory model for better performance, at the cost of increased programming complexity
 
 ### Benchmarking: SC vs TSO
 Performance comparison between **Sequential Consistency (SC)** and **Total Store Ordering (TSO)** on three benchmarks.

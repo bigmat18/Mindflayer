@@ -23,6 +23,8 @@ We have a **stentil** because each VP needs to read four neighbor elements owned
 
 ![[Pasted image 20250514221354.png | 450]]
 
+**Main challenge**: how to partition data elements and map them to processors to reduce the cost of communications (data exchange) and  balance the computation workload
+- This mapping problem is NP-hard (we have already seen how to choose between row-based and tile-based mapping using the [[Forst's Parallel Algorithm Design Method (PCAM)]] approach and the **linear cost model**
 ### Row-wise Mapping
 We have to decide on a mapping strategy. The **actual stencil** pattern (between proccess) might change (or can be even nullified) compared with the one between VPs. A fist strategy is called **row-wise mapping**
 

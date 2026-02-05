@@ -7,8 +7,7 @@
 **Area**: [[Master's degree]]
 # Introduction to OpenMP
 
-**OpenMP** in an API for **platform-independent** shared-memory parallel programming in C, C++, and Fortran providing high-level parallel abstractions on top of low-level threading mechanisms. OpenMP extends C, C++ and Fortran programming languages with directives (i.e., `#pragma omp`  …),
-a few library routines (e.g., `omp_get_thread_num()`), and environmental variables (e.g.,
+**OpenMP** in an API for **platform-independent** shared-memory parallel programming in C, C++, and Fortran providing high-level parallel abstractions on top of low-level threading mechanisms. OpenMP extends C, C++ and Fortran programming languages with directives (i.e. `#pragma omp`  …), a few library routines (e.g., `omp_get_thread_num()`), and environmental variables (e.g.,
 `OMP_SCHEDULE, OMP_NUM_THREADS`).
 
 It is **natively supported** by almost all compilers (GCC, Intel, Clang,…). It is used to exploit shared-memory parallelism on CMPs (Chip Multi-Processors). The compiler automatically generates the necessary multithreaded code and all needed synchronizations based on the directives specified in the source code.
@@ -35,8 +34,7 @@ If the compiler is not instructed to process OpenMP directives (i.e., -fopenmp),
 execute sequentially. Runtime routines have default sequential implementations
 
 ### OpenMP Execution Model (Fork-Join)
-Higher-level than C++/POSIX threads. Implicit mapping and load balancing of tasks. The execution starts with a single thread called **Master thread**. The Master thread creates a **team** (or pool) of Worker
-threads to execute **parallel regions** where tasks are computed in parallel by Workers. 
+Higher-level than C++/POSIX threads. Implicit mapping and load balancing of tasks. The execution starts with a single thread called **Master thread**. The Master thread creates a **team** (or pool) of Worker threads to execute **parallel regions** where tasks are computed in parallel by Workers. 
 
 At the end of a parallel region there is an implicit barrier synchronization; after the barrier only the Master thread continues the execution. The **thread pool is reused** for next parallel regions.
 

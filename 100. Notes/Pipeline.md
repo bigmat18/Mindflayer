@@ -7,6 +7,10 @@
 **Area**: [[Master's degree]]
 # Pipeline
 
+Pipeline parallelism is a parallel design pattern that enhances computational efficiency by dividing 
+a computation into a sequence of stages, where each stage processes data and passes its output to the next stage. The stages operate concurrently, enabling overlapping computation and improved [[Processing Bandwidth & Throughput|troughput]]
+- **Objective**: **improving throughput** by overlapping the execution of distinct input tasks
+
 To introduce the pipeline steam parallelism we use a running example. Pipeline parallelism requires to existence of a **stream of inputs** to compute. The original sequential program computes each input by executing a **sequential of functions** (stateless for the moment).
 
 Functions are ordered by **read-after-write data dependencies**, that means the input of a function is the output computed by the previous one.
@@ -28,6 +32,11 @@ The number of stages is the **parallelism degree** of the pipeline. More inputs 
 1. Number of stages qual to the [[Optimal Parallelism Degree]]
 2. Stages are **balanced** (same cost).
 3. [[Communication Latency]] **overlapped** with the [[Inter Calculation Time|inter calculation]] in all stages
+
+And also, a $stage_i$ is a **bottleneck** if its service time is higher than the task's inter-arrival-time ($T_a$)
+$$
+T_S^{stage_i} (f_i) > T_a^{stage_i}
+$$
 ### Cost Model
 Generic cost model for a pipeline of $n>0$ sequential stages. The fist stage receives inputs with [[Inter Calculation Time|inter-arrival time]] $T_A$, main results of the cost model for the different **performance metrics**
 
@@ -59,8 +68,7 @@ Example of **load imbalance**:
 We have the [[Utilization Factor]] greatest than 1, for this we have a bottleneck, we weasted resources because the load is not balanced.
 
 ### Loop Unfolding
-Pipeline is a white-box approach, ie, the parallel program should know the exact semantics and structure
-of the sequential code to identify functions. Not always functions are so clear in the code, but they should be extracted using specific techniques. One of them is **loop unfolding** like in the example below:
+Pipeline is a white-box approach, ie, the parallel program should know the exact semantics and structure of the sequential code to identify functions. Not always functions are so clear in the code, but they should be extracted using specific techniques. One of them is **loop unfolding** like in the example below:
 
 ![[Pasted image 20250512132339.png]]
 
@@ -84,4 +92,23 @@ More complex scenarios is when the state is read by stage $i$ and updated by sta
 
 - The G computation plus the round-trip [[Communication Latency]] $S[0]$ <-> $S[1]$ are considered in the ideal service time of S[0] with probability p.
 - The pattern arises in several important use (ess **processor's micro-architecture**)
+
+### Finding the optimal number of stages
+Let $T_{\alpha}$ be the inter-arrival time of stream items to a stage computing the function F. We want to 
+increase the throughput of the stage by using a pipeline of $k$ stages each computing $f_i$ such that
+$$
+T_S^{seq}(F) = \sum_{i=1}^{k} T_s^{stage_i} (f_i)
+$$
+To avoid the pipeline being a bottleneck, in the ideal case of balanced stages, it must hold
+$$
+\frac{T_S^{seq}(F)}{k} \leq T_a
+$$
+and also we want minimize the task latency:
+$$
+L_pipe = \sum_{i=1}^k T_s^{stage_i} (f_i) + (k-1)\times T_{comm}
+$$
+The minimal k satisfying both equations is 
+$$
+k_{opt} = \bigg\lceil \frac{T_S^{seq}(F)}{T_a} \bigg\rceil
+$$
 # References

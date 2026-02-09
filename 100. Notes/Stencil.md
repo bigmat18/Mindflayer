@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[Data Parallelism]]
+**Tags:** [[High Performance Computing]] [[Data Parallelism]] [[Parallel and distributed systems. Paradigms and models]]
 
 **Area**: [[Master's degree]]
 # Stencil

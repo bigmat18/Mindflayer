@@ -1,0 +1,6 @@
+- [[Pipeline]]
+- [[Farm]]
+- [[Map Parallelization]]
+- [[Reduce]]
+- [[Stencil]]
+- [[Divide & Conquer]]

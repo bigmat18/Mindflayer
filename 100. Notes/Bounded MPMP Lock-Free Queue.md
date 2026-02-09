@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
-  - "[[Lock-Free Programming in C++]]"
+  - "[[Atomic Operations & Memory Consistency]]"
 Area: "[[Master's degree]]"
 ---
 # Bounded MPMP Lock-Free Queue

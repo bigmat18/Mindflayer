@@ -10,7 +10,7 @@ tags:
 
 | First Semester                                                             | CFU | Degree | Second Semester                                                 | CFU   | Degree |
 | -------------------------------------------------------------------------- | --- | ------ | --------------------------------------------------------------- | ----- | ------ |
-| [[High Performance Computing\|High Performance Computing]]                 | 9   | 30L    | [[Parallel and distributed systems. Paradigms and models]]      | 9     |        |
+| [[High Performance Computing\|High Performance Computing]]                 | 9   | 30L    | [[Parallel and distributed systems. Paradigms and models]]      | 9     | 30     |
 | [[3D Geometry Modelling & Processing\|3D Geometric Modeling & Processing]] | 6   | 30L    | [[3D Geometry Representation and Processing for Deep Learning]] | extra |        |
 |                                                                            |     |        | [[Scientific and Large Data Visualisation]]                     | 6     |        |
 

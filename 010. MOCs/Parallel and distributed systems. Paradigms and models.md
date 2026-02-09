@@ -32,19 +32,14 @@ Area: "[[Master's degree]]"
 - [[Scalability]]
 - [[Speedup]]
 - [[Roofline model]]
-###### Structured Parallel Programming
-- [[Pipeline]]
-- [[Farm]]
-- [[Map Parallelization]]
-- [[Reduce]]
-- [[Stencil]]
-- [[Divide & Conquer]]
+
+![[Structured Parallel Programming]]
 
 ![[Concurrency in C++]]
 
 ![[Workload Balancing in C++]]
 
-![[Lock-Free Programming in C++]]
+![[Atomic Operations & Memory Consistency]]
 
 ![[Parallel Programming with OpenMP]]
 

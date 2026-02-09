@@ -5,6 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
+  - "[[Structured Parallel Programming]]"
 Area: "[[Master's degree]]"
 ---
 # Divide & Conquer

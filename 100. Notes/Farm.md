@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[Stream Parallelism]]
+**Tags:** [[High Performance Computing]] [[Stream Parallelism]] [[Parallel and distributed systems. Paradigms and models]]
 
 **Area**: [[Master's degree]]
 # Farm

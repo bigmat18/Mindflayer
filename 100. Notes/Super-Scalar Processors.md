@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]]
+**Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]]
 
 **Area**: [[Master's degree]]
 # Super-Scalar Processors

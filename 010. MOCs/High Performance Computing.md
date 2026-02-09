@@ -20,7 +20,7 @@ Area: "[[Master's degree]]"
 
 ![[Synchronization Mechanisms]]
 
-![[Memory Consistency]]
+![[Atomic Operations & Memory Consistency]]
 
 ![[Cache Coherence]]
 

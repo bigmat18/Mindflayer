@@ -57,8 +57,10 @@ The temporal diagram of a pipeline with four stages is the follow:
 
 ![[Pasted image 20250512131842.png | 500]]
 
-The first block is the initial filling transient $(n-1)\cdot T_{D-\Sigma}$, and the second is the steady-state phase $m \cdot T_{D-\Sigma}$. The sum of this two parts is the completion time.
-
+The first block is the initial filling transient $(n-1)\cdot T_{D-\Sigma}$ ([[Inter Calculation Time|Departure Time]]), and the second is the steady-state phase $m \cdot T_{D-\Sigma}$. The sum of this two parts is the completion time. The final [[Completion Time]] is 
+$$
+T_C = (n-1+m) \cdot T_{D-\sum}
+$$
 ### Load Imbalance
 The [[Optimal Parallelism Degree]] $N_{opt}$ is the minimum parallelism to eliminate the bottleneck. To be exploited with a pipeline parallelization, we should be able to identify $N_{opt}$ different functions in the sequential code all having the same calculation time.
 

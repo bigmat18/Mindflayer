@@ -2,7 +2,7 @@
 
 **Status**: #note #youngling 
 
-**Tags:** [[High Performance Computing]] [[Memory Consistency]]
+**Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
 **Area**: [[Master's degree]]
 # Safety Nets (fences)

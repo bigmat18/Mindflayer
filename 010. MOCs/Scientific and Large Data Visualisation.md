@@ -13,6 +13,7 @@ Area: "[[Master's degree]]"
 - [[Mark and Channels]]
 - [[Charts]]
 - [[Multidimensional Data Visualization]]
+- [[Dimensionality Reduction]]
 - [[Graph and Network Visualization]]
 - [[Scientific Visualization]]
 

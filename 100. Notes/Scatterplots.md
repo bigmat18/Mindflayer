@@ -33,4 +33,7 @@ Alternative to scatter plots: parallel axes, each item is a line connecting two 
 
 ![[Pasted image 20251215194147.png | 500]]
 
+### Multidimensiona Scatter Plot
+Each possible pair of variables is represented in a standard 2D scatter plot.
+![[Pasted image 20260210181217.png]]
 # References

@@ -137,4 +137,29 @@ Cost: $O(n^2)$
 $$
 x_1 = A^{-1}_{11}y; \:\:\: x_2= A^{-1}_{22}(y_2 - A_{21}x_1), \dots
 $$
+### The Scalar Product (Inner Product)
+The (Euclidean) scalar product of $x \in \mathbb{R}^n$ and $z \in \mathbb{R}^n$ is defined as:
+$$\langle x , z \rangle = \sum_{i=1}^n x_i z_i = x_1z_1 + \dots + x_n z_n$$
+
+* **Geometric Interpretation:** $\langle x , z \rangle = \| x \| \cdot \| z \| \cdot \cos( \theta )$, where $\theta$ is the angle between the two vectors.
+	![[Pasted image 20260217205150.png | 200]]   ![[Pasted image 20260217205159.png | 200]]   ![[Pasted image 20260217205225.png | 200]]
+
+
+    * **Orthogonality:** $\langle x , z \rangle = 0 \iff x \perp z$ (the vectors are perpendicular).
+	![[Pasted image 20260217210120.png | 200]]
+
+	- **Directional Info:** * $\langle x , z \rangle > 0 \implies$ they point in a similar direction ($\theta < 90^\circ$).
+        * $\langle x , z \rangle < 0 \implies$ they point in opposite directions ($\theta > 90^\circ$).
+	![[Pasted image 20260217210229.png | 200]]
+	
+
+* **Cauchy-Schwarz Inequality:** $| \langle x , z \rangle | \le \| x \| \| z \|$. 
+    Equality holds only if $x$ and $z$ are linearly dependent (pointing in the exact same or opposite direction).
+
+The scalar product $\langle x, z \rangle$ is defined by four fundamental properties:
+1.  **Symmetry:** $\langle x, z \rangle = \langle z, x \rangle \quad \forall x, z \in \mathbb{R}^n$
+2.  **Positivity:** $\langle x, x \rangle \ge 0 \quad \forall x \in \mathbb{R}^n$, and $\langle x, x \rangle = 0 \iff x = 0$
+3.  **Homogeneity:** $\langle \alpha x, z \rangle = \alpha \langle x, z \rangle \quad \forall x, z \in \mathbb{R}^n, \alpha \in \mathbb{R}$
+4.  **Additivity:** $\langle x + w, z \rangle = \langle x, z \rangle + \langle w, z \rangle \quad \forall x, w, z \in \mathbb{R}^n$
+
 # References

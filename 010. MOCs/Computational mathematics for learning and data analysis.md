@@ -2,7 +2,7 @@
 Year: 2025/2026
 Period: 1° semester
 Exam done:
-Area: "[[Master's degree]]"
+Area:
 ---
 # Table of Contents
 
@@ -25,10 +25,7 @@ Area: "[[Master's degree]]"
 - [[Cholesky Factorization]]
 
 ### Optimization
-- [[Introduction to Optimization]]
-- [[Uni-variante Case]]
-- [[Multi-variante Case]]
-- [[Multi-variante Quadratic Case]]
+![[Introduction to Optimization]]
 
 - [[Uni-variante Optimization]]
 - [[Local Optimization]]
@@ -48,8 +45,5 @@ Area: "[[Master's degree]]"
 - [[Deflected Gradiant Methods]]
 - [[Nonlinear Conjugate Gradiant Methods]]
 - [[Heacy Ball gradiant methods]]
-
-
-# Tasks
 
 # Resources

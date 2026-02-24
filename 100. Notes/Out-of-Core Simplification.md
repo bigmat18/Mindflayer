@@ -9,7 +9,7 @@
 Mesh simplification is often applied on verty large sets that are complex to fit in main memory. Many out-of-core algorithms have benne proposed that allow an efficient decimantion of polygonal meshes.
 
 #### [Out-of-Core Simplification of Large Polygonal Models by Lindstrom](http://www-evasion.imag.fr/Membres/Franck.Hetroy/Teaching/Geo3D/Articles/lindstrom2000.pdf) 
-It is based on **[[Vertex Clustering]]** combined with **[[Quadratics Error]]**. This approch need only as single pass over the mesh data to build incrementally a in-core representation of the simplified mesh. 
+It is based on **[[Vertex Clustering]]** combined with **[[Surface Simplification using Quadratic Error Metric]]**. This approch need only as single pass over the mesh data to build incrementally a in-core representation of the simplified mesh. 
 	
 This approach use also a dynamic **hash table** for fast localization, and quadrics associations with a cluster. 
 
@@ -26,7 +26,7 @@ This paper improve the initial work of Lindstrom by removing the requirement for
 Introduced **mesh processing sequences** which represent a mesh as as fixed interleaved sequence of indexed vertices and triangles. Processing sequence can be used to improve [[Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt]] algorithm.
 
 #### [Multiresolution representation for massive meshes by Shaffer and Garlard](https://www.researchgate.net/publication/7985870_A_multiresolution_representation_for_massive_meshes) 
-A schema that combine out-of-core vertex clustering step with an in-core [[Quadratics Error|iterative decimation]] step. The idea is that the ordering of edge collapses is only relevant for very coarse approximations, thus, the decimation process can be simplified by combining many edge collapse operations into single [[Vertex Clustering]] operations to obtain an intermediate mesh.
+A schema that combine out-of-core vertex clustering step with an in-core [[Surface Simplification using Quadratic Error Metric|iterative decimation]] step. The idea is that the ordering of edge collapses is only relevant for very coarse approximations, thus, the decimation process can be simplified by combining many edge collapse operations into single [[Vertex Clustering]] operations to obtain an intermediate mesh.
 
 #### [Progressive Meshes Simplification](https://hhoppe.com/pm.pdf)
 Divides the mesh in blocks, simplifies each block by collapsing edges, and then traverses bottom-up the hierarchical structure by merging sibling cells and again simplifying. 

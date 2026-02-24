@@ -27,23 +27,4 @@ Area:
 ### Optimization
 ![[Introduction to Optimization]]
 
-- [[Uni-variante Optimization]]
-- [[Local Optimization]]
-- [[Fastest Local Optimization]]
-- [[A Fleeting Glimpse to Global Optimization]]
-
-- [[Unconstrained multi-variante Optimization]]
-- [[Gradiant, Divergence and Laplacian]]
-- [[Optimal Conditions]]
-- [[Convex Functions]]
-
-- [[Gradiant method for General Functions]]
-- [[Gradiant Method with Inexact Line Search]]
-- [[Gradiant method with fixed stepsize]]
-- [[Twisted Gradiant Methods]]
-- [[Newton-type methods]]
-- [[Deflected Gradiant Methods]]
-- [[Nonlinear Conjugate Gradiant Methods]]
-- [[Heacy Ball gradiant methods]]
-
 # Resources

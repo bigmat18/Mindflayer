@@ -10,7 +10,7 @@ Area: "[[Master's degree]]"
 ---
 # Eigenvalues and Eigenvectors
 
-Given a **square** matrix $A\in \mathbb{R}^{m\times m}$ if $Av = v\lambda$ for $\lambda \in \mathbb{R}$ and $v\in \mathbb{R}^m$ then we call $\lambda$ **eigenvalue** and $v$ **eigenvector** of A. Remember from linear algebra: almost all atrices $A$ can be written as:
+Given a **square** matrix $A\in \mathbb{R}^{m\times m}$ if $Av = v\lambda$ for $\lambda \in \mathbb{R}$ and $v\in \mathbb{R}^m$ then we call $\lambda$ **eigenvalue** and $v$ **eigenvector** of A. Remember from linear algebra: almost all matrices $A$ can be written as:
 
 ![[Screenshot 2025-11-20 at 12.45.30.png | 550]]
 Here $w_i^T$ = rows of $V^{-1}$.

@@ -1,6 +1,6 @@
 **Data time:** 16:45 - 17-08-2025
 
-**Status**: #note #youngling 
+**Status**: #note #youngling #paper 
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 

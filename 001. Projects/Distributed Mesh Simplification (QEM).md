@@ -1,13 +1,16 @@
 **Course**: [[Parallel and distributed systems. Paradigms and models]]
 
-**Repository**: https://github.com/bigmat18/distributed-mesh-simplification
+**Repository**: https://github.com/bigmat18/distributed-qem-simplification
 
 **Other link**:
 
 # Distributed Mesh Simplification (QEM)
 
+### [[Surface Simplification using Quadratic Error Metric]]
+This is a surface simplification algorithm which can rapidly produce high quality approximations of polygonal models. The algorithm uses iterative contractions of vertex pairs to simplify models and maintains surface error approximations using [[Quadratic function|quadric matrices]].
 ### [[External Memory Management and Simplification of Huge Meshes]]
 A paper that describe a data structure called [[Quad-Tree#Oct-tree (3D)|Octree]]-based External Memory Mesh (OEMM). It allow to load dynamically in main memory only the selectred sections and preserving data consistency. This is used to handle memory in a system with multi-thread [[Introduction to OpenMP|OpenMP]] because the data structure is easy to adapt, differently from the most of [[Out-of-Core Simplification]]
+
 # References
 - [Surface Simplification Using Quadric Error Metrics](https://www.cs.cmu.edu/~garland/Papers/quadrics.pdf)
 - [Scalable Algorithms for Distributed-Memory Adaptive Mesh Refinement](https://charm.cs.illinois.edu/newPapers/12-35/paper.pdf)

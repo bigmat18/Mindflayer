@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiFilePaperLine",
       "BoBxsPackage",
       "IbArchive",
       "LiArchive",
-      "IbDocumentText",
-      "SiExcalidraw"
+      "IbDocumentText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,6 @@
   "101. Utils/Images": "FarImages",
   "101. Utils/Excalidraw": "SiExcalidraw",
   "101. Utils/Templates": "LiBookTemplate",
-  "010. MOCs": "LiSearch"
+  "010. MOCs": "LiSearch",
+  "111. Papers": "RiFilePaperLine"
 }

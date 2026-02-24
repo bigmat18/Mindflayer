@@ -1,11 +1,11 @@
 **Data time:** 14:59 - 12-08-2025
 
-**Status**: #note #youngling 
+**Status**: #note #master #paper 
 
-**Tags:** [[3D Geometry Modelling & Processing]]
+**Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
 **Area**: [[Master's degree]]
-# Quadratics Error
+# Surface Simplification using Quadratic Error Metric
 In order to select a contraction we need some notation of the cost of contraction, to do that we define for each vertex $v = [v_x, v_y, v_z, 1]^T$ the quadratic form is:
 $$
 \Delta(v) = v^T Q v

@@ -2,7 +2,8 @@
 Data: 2025-12-23T13:15:00
 Tags:
   - note
-  - youngling
+  - "#paper"
+  - master
 Connection:
   - "[[Distributed Mesh Simplification (QEM)]]"
 Area: "[[Master's degree]]"

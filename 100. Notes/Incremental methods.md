@@ -79,7 +79,7 @@ This operation reduce the number of vertices by one but keeps the number of tria
 The simplest of these techniques is error accumulation. For example if an edge collapse modifies trianlges $t_i$ by shifting one of their corner vertices from p or q to r, the distance of r to $t_i$ is an upper bound for the approximation error introduces in this step.
 
 Error accumulation meas that we store an error value for each triangle and simply add the new error contribution for every decimation step.
-##### [[Quadratics Error]]
+##### [[Surface Simplification using Quadratic Error Metric]]
 ##### [[Hausdorff Distance]]
 
 ### Fairness Criteria
@@ -130,7 +130,7 @@ Evaluating the error introduced by a collapse efficiently is not trivial. Ideall
 ###### Median Vertex Position
 ![[Pasted image 20250407153131.png | 350]]
 
-###### [[Quadratics Error|Quadratic Edge Collapse]] Minimization
+###### [[Surface Simplification using Quadratic Error Metric|Quadratic Edge Collapse]] Minimization
 ![[Pasted image 20250407153203.png | 350]]
 
 ### Triangle quality

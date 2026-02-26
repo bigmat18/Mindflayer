@@ -19,7 +19,7 @@ The power law exponent n ranges from the sublinear 0.5 for brightness to the sup
 
 ![[Pasted image 20251215185727.png | 250]]
 
-Length (of a line segment on a 2D plane perpendicular to the observer) has an exponent equal to 1
+**Length** (of a line segment on a 2D plane perpendicular to the observer) has an exponent equal to 1
 - our perception of length is a very close match to the true value
 ![[Pasted image 20251215185833.png | 300]]
 

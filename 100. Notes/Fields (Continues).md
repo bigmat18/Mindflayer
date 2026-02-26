@@ -48,7 +48,7 @@ According to grid geometry and grid topology, we have different types of grids: 
 ![[Pasted image 20251215150455.png]]
 
 #### Unstructured grids
-Unstructured grids: complete flexibility, but need to store spatial positions and topological information about how the cells connect to each other
+Unstructured grids: complete flexibility, but need to **store spatial positions** and **topological information** about how the cells connect to each other
 - different combinations of cells permitted
 - popular choices: triangular and tetrahedral meshes
 
@@ -81,8 +81,8 @@ According to the values stored in cells, we can distinguish among scalar fields,
 ![[Pasted image 20251215152331.png | 500]]
 
 According to the values stored in cells, we can distinguish among scalar fields, vector fields, and tensor fields
-- The values can be static or time-dependent (this applies to the domain as well, which can deform over time)
-- The values can be deterministic or uncertain
+- The values can be **static** or **time-dependent** (this applies to the domain as well, which can deform over time)
+- The values can be **deterministic** or **uncertain**
 	- e.g., physical models often depend on parameters; one samples the parameter space and runs simulations for each sample
 	- this generates a family of scalar fields/vectors/tensors/... (ensamble observations: one for each combination of parameters)
 	- major challenge: visualization of uncertain data is a branch of research on its own

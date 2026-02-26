@@ -58,7 +58,7 @@ Contextual components are elements that make it easier to interpret a visualizat
 
 ![[Pasted image 20251215182825.png | 200]]
 ##### Visual decoding
-Visual decoding means deconstructing a visual representation it into its major units, and identifying:
+Visual decoding means **deconstructing a visual representation it into its major units**, and identifying:
 - the graphical elements
 - what are the visual marks? What are the visual channels?
 - the mapping rules (i.e., the information that the graphical elements represent)
@@ -79,6 +79,7 @@ In this example:
 
 ### Channel types
 Channel can be divided into two different categories, according to the two different sensor modalities oh the human perceptual system: **identity** and **magnitude** channels
+
 - **Identity**: Identity channels give information about what something is or where it is. e.g., shape, color
 - **Magnitude**: Magnitude channels tell us how much of something there is. e.g., length, area, volume, luminance and saturation, size, angle
 
@@ -91,15 +92,15 @@ The use of marks and channels in vis design should be guided by the principles o
 The visual encoding should express all of, and only, the information that is present in the dataset attributes. Do not represent information and relationships that are not in the data:
 
 - Do not use color (or position) when it does not encode any information
-![[Pasted image 20251215184058.png | 200]]
+![[Pasted image 20251215184058.png | 400]]
 
-- Ordered data should be shown so that our visual system perceives them as ordered, use magnitude channels
+- Ordered data should be shown so that our visual system perceives them as **ordered**, use **magnitude channels**
 ![[Pasted image 20251215184119.png | 250]]
 
 - Conversely, unordered data should not be shown in a way that perceptually implies an ordering that does not exist
 ![[Pasted image 20251215184148.png | 450]]
 ###### Effectiveness
-The importance of the attribute should match the salience of the channel, i.e., its noticeability:
+The importance of the attribute should match the **salience of the channel**, i.e., its **noticeability**:
 - relevant information should be prioritized then encoded with the most effective/accurate channels to be most noticeable
 - decreasingly important attributes can be matched with less effective channels
 
@@ -112,7 +113,7 @@ A general table:
 ![[Pasted image 20251215184615.png | 300]] ![[Pasted image 20251215184815.png | 350]]
 
 - Both lists have channels related to spatial position at the top
-- The spatial channels are the only ones appearing in both lists
+- The **spatial channels are the only ones appearing in both lists**
 - The choice of which attributes to encode with position is the most central choice in visual encoding, as they will dominate the user’s mental model (i.e., internal representation used for reasoning)
 - Depth/3D is low ranked
 - While one can use a magnitude channel for categorical data or an identity channel for ordered data, that would be a poor choice because it violates the expressiveness principle
@@ -129,10 +130,7 @@ A general table:
 Possible answers: accuracy, discriminability, separability, ability to provide visual popout, ability to provide perceptual groupings
 ### [[Accuracy]]
 ### [[Discriminability]]
-
 ### [[Separability]]
-
 ### [[Popout]]
-
 ### [[Relative vs Absolute Judgements]]
 # References

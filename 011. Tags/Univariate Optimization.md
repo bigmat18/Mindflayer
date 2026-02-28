@@ -1,0 +1,4 @@
+- [[Optimization Problems]]
+- [[Local Optimization]]
+- [[Fastest Local Optimization]]
+- [[A Fleeting Glimpse to Global Optimization]]

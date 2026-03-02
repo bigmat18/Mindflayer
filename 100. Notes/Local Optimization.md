@@ -16,6 +16,7 @@ For this reason, we resort to a weaker, much more practical condition: **Local O
 $X_*$ is a **local minimum** if:
 $$x_* = \text{argmin}\{f(x) : x \in X(x_*, \epsilon) = [x_* - \epsilon, x_* + \epsilon]\}$$
 for some $\epsilon > 0$.
+
 A stronger notion is the **strict local minimum**, where the point is strictly lower than all its neighbors: $f(x_*) < f(z) \forall z \in X(x_*, \epsilon) \setminus \{x_*\}$.
 
 Why is this useful? Because near $X_*$, the function $f$ typically has a predictable shape. If $f$ is unimodal on an interval $X = [x_{-}, x_{+}]$, it is strictly decreasing before the minimum and increasing after it.

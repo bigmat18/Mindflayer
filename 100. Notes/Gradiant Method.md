@@ -8,7 +8,7 @@ Connection:
   - "[[Introduction to Optimization]]"
 Area: "[[Master's degree]]"
 ---
-# Multivariate Quadratic Case: Gradient Method
+# Gradiant Method
 
 When dealing with the optimization of a  [[Homogeneous (general case)|quadratic function]] , if we are lucky, the problem is equivalent to solving the linear system $Q\bar{x} = -q$. Solving this system via direct methods (such as Gaussian elimination) has a computational cost of $O(n^3)$ in the worst case. 
 

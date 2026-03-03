@@ -28,4 +28,5 @@ Area:
 ![[Introduction to Optimization]]
 
 ![[Univariate Optimization]]
+
 # Resources

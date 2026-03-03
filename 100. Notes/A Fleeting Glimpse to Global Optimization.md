@@ -9,45 +9,61 @@ Connection:
 Area: "[[Master's degree]]"
 ---
 # A Fleeting Glimpse to Global Optimization
+Tutto quello che abbiamo visto finora riguarda la ricerca di minimi locali. Ma cosa ci dice tutto questo sull'ottimizzazione globale? Purtroppo, la risposta è: **quasi nulla, a meno che non vengano fatte assunzioni forti**.
 
-Tutto quello che abbiamo visto finora riguarda la ricerca di minimi locali. Ma cosa ci dice tutto questo sull'ottimizzazione globale?
-Purtroppo, la risposta è: **quasi nulla, a meno che non vengano fatte assunzioni forti**.
+![[Pasted image 20260303220055.png | 500]]
 
-Il problema fondamentale delle funzioni non convesse è che possono presentare molteplici minimi locali. Quando un algoritmo converge in una "buca", non ha modo di sapere se esiste una buca più profonda da qualche altra parte. Intuitivamente, vogliamo evitare la situazione in cui un punto stazionario sia solo un minimo locale e non globale. 
-La condizione sufficiente per far sì che ogni minimo locale sia anche globale è che $f'(x) \ge 0$ per tutto il dominio, ovvero che la funzione sia **convessa**.
+Il problema fondamentale delle funzioni non convesse è che possono presentare molteplici minimi locali. Quando un algoritmo converge in una "buca", non ha modo di sapere se esiste una buca più profonda da qualche altra parte. Intuitivamente, **vogliamo evitare la situazione in cui un punto stazionario sia solo un minimo locale e non globale.** 
+
+![[Pasted image 20260303220147.png | 500]]
+
+La condizione sufficiente per far sì che ogni minimo locale sia anche globale è che $f''(x) \ge 0$ per tutto il dominio, ovvero che la funzione sia **convessa**.
+
 
 ## A Very Quick Glimpse to Convexity
-
 L'idea alla base della convessità è che la funzione ha una forma a "ciotola" rivolta verso l'alto. 
 In termini matematici:
 - Convessità $\simeq f'$ è monotona non decrescente $\simeq f'' \ge 0$.
 
-Attenzione però: questa è un'intuizione legata alla derivabilità. In realtà, una funzione convessa non deve necessariamente appartenere a $C^1$ (e ancor meno a $C^2$); ad esempio, la funzione valore assoluto $f(x) = |x|$ è convessa ma presenta un punto non derivabile.
+Attenzione però: **questa è un'intuizione legata alla derivabilità**. In realtà, una funzione convessa non deve necessariamente appartenere a $C^1$ (e ancor meno a $C^2$); ad esempio, la funzione valore assoluto $f(x) = |x|$ è convessa ma presenta un punto non derivabile.
 
 Il mondo delle funzioni convesse è relativamente vasto e possiede ottime proprietà:
 - Alcune funzioni base sono intrinsecamente convesse e molte operazioni matematiche preservano questa convessità, permettendo di costruire insiemi e funzioni multivariate complesse.
 - Esiste un'enorme mole di teoria e software dedicato a risolverle.
-- Molti modelli di Machine Learning (come le Support Vector Machines, SVM) sono costruiti di proposito per essere convessi, in modo che trovare l'ottimo globale sia "facile" e garantito.
+- Molti modelli di Machine Learning (come le [[Support Vector Machiens (SVM)]]) sono costruiti di proposito per essere convessi, in modo che trovare l'ottimo globale sia "facile" e garantito.
 
 La regola d'oro nell'ottimizzazione è: **"Se hai la possibilità di scegliere, scegli un modello convesso"**.
 Ma cosa succede se il problema è intrinsecamente non convesso e hai assoluta necessità di trovare l'ottimo globale?
 
 ## The Spatial Branch-and-Bound Approach
+Se non possiamo usare la [[Gradiant Method]] o il [[Newton's Method]] per trovare il minimo globale, dobbiamo ispezionare l'intero dominio $X = [x_-, x_+]$, ma facendolo in modo intelligente (evitando la ricerca cieca).
 
-Se non possiamo usare la discesa del gradiente o il metodo di Newton per trovare il minimo globale, dobbiamo ispezionare l'intero dominio $X = [x_-, x_+]$, ma facendolo in modo intelligente (evitando la ricerca cieca).
+![[Pasted image 20260303221527.png | 400]]
 
 L'approccio prevede la costruzione di una **approssimazione convessa dal basso** (lower approximation) $\underline{f}$ della nostra funzione originaria non convessa $f$ sull'intervallo $X$.
 
+![[Pasted image 20260303221547.png | 400]]
+
 Poiché $\underline{f}$ è convessa per definizione, è "facile" calcolarne il minimo locale (che coinciderà con il suo minimo globale). Chiamiamo questo punto $\overline{x}$. 
+
+![[Pasted image 20260303221605.png | 400]]
+
 Questo ci fornisce un'informazione cruciale, ovvero un limite inferiore e uno superiore per il vero minimo globale $f_*$:
 $$\underline{f}(\overline{x}) \le f_* \le f(\overline{x})$$
+![[Pasted image 20260303221638.png | 400]]
 
-*L'algoritmo valuta la bontà di questa approssimazione misurando il "gap", ovvero la differenza tra il valore reale $f(\overline{x})$ e il valore approssimato $\underline{f}(\overline{x})$. Se questo gap è troppo grande (superiore a una tolleranza), l'algoritmo partiziona l'intervallo originario $X$ in sotto-intervalli più piccoli e reitera il processo su ciascuno di essi. Poiché l'approssimazione dal basso dipende dalla larghezza della partizione, intervalli più piccoli genereranno un'approssimazione più fedele e, di conseguenza, un gap minore. Il vero vantaggio si ha nel "pruning" (taglio): se durante la ricerca si scopre che il minimo limite inferiore $\underline{f}(\overline{x})$ di una certa partizione è maggiore o uguale al miglior valore reale di $f$ trovato finora, quella partizione viene scartata definitivamente ("killed for good"), garantendo che lì dentro non si nasconda alcun minimo globale.*
+- L'algoritmo valuta la bontà di questa approssimazione misurando il "**gap**", ovvero la differenza tra il valore reale $f(\overline{x})$ e il valore approssimato $\underline{f}(\overline{x})$. 
+- Se questo gap è troppo **grande** (superiore a una tolleranza), l'algoritmo **partiziona l'intervallo originario $X$ in sotto-intervalli** più piccoli e reitera il processo su ciascuno di essi. 
+![[Pasted image 20260303221802.png | 400]]
+
+- Poiché l'approssimazione dal basso dipende dalla larghezza della partizione, intervalli più piccoli genereranno un'approssimazione più fedele e, di conseguenza, un gap minore. 
+![[Pasted image 20260303221825.png | 400]]
+
+- Il vero vantaggio si ha nel **"pruning" (taglio)**: se durante la ricerca si scopre che il minimo limite inferiore $\underline{f}(\overline{x})$ di una certa partizione è maggiore o uguale al miglior valore reale di $f$ trovato finora, quella partizione viene scartata definitivamente ("killed for good"), garantendo che lì dentro non si nasconda alcun minimo globale.
+![[Pasted image 20260303221853.png | 400]]
 
 ## Is Something Like This Efficient?
-
-In una parola? **Sicuramente no** nel caso peggiore (worst-case scenario).
-Il rischio di dover continuare a tagliare e affettare $X$ finché i pezzi non diventano minuscoli porta inevitabilmente a un tempo di calcolo **esponenziale**.
+In una parola? **Sicuramente no** nel caso peggiore (worst-case scenario). Il rischio di dover continuare a tagliare e affettare $X$ finché i pezzi non diventano minuscoli porta inevitabilmente a un tempo di calcolo **esponenziale**.
 
 Tuttavia, nella pratica l'efficienza dipende fortemente da due fattori:
 1. Quanto è "fortemente non convessa" la funzione $f$ reale.

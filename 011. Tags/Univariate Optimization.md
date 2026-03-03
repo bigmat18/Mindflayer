@@ -1,5 +1,6 @@
 - [[Optimization Problems]]
 - [[Optimization Difficult]]
 - [[Local Optimization]]
-- [[Fastest Local Optimization]]
+- [[Dichotomic Search]]
+- [[Newton's Method]]
 - [[A Fleeting Glimpse to Global Optimization]]

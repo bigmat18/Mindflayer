@@ -29,4 +29,5 @@ Area:
 
 ![[Univariate Optimization]]
 
+![[Unconstrained Multivariate Optimality and Convexity]]
 # Resources

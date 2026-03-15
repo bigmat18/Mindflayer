@@ -8,7 +8,7 @@ Connection:
   - "[[Univariate Optimization]]"
 Area: "[[Master's degree]]"
 ---
-1# Newton's Method
+# Newton's Method
 
 A **better model** of $f \equiv f'$ leads to a better guess of $X_*$, which translates to a faster algorithm. Building a better model requires either using more points or using more (higher-order) derivatives.
 

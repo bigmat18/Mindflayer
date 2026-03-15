@@ -1,0 +1,4 @@
+- [[Unconstrained Multivariate Optimization]]
+- [[Gradiants, Jacobians and Hessians]]
+- [[Optimality Conditions]]
+- [[A Quick Look to Convex Functions]]

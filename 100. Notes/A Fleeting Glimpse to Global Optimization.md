@@ -36,7 +36,7 @@ La regola d'oro nell'ottimizzazione è: **"Se hai la possibilità di scegliere, 
 Ma cosa succede se il problema è intrinsecamente non convesso e hai assoluta necessità di trovare l'ottimo globale?
 
 ## The Spatial Branch-and-Bound Approach
-Se non possiamo usare la [[Gradiant Method]] o il [[Newton's Method]] per trovare il minimo globale, dobbiamo ispezionare l'intero dominio $X = [x_-, x_+]$, ma facendolo in modo intelligente (evitando la ricerca cieca).
+Se non possiamo usare la [[Gradient Method]] o il [[Newton's Method]] per trovare il minimo globale, dobbiamo ispezionare l'intero dominio $X = [x_-, x_+]$, ma facendolo in modo intelligente (evitando la ricerca cieca).
 
 ![[Pasted image 20260303221527.png | 400]]
 

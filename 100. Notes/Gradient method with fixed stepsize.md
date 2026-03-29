@@ -1,21 +1,20 @@
 ---
-Data: 
+Data: 2026-03-29T14:53:00
 Tags:
   - note
   - youngling
 Connection:
-Area:
+  - "[[Computational mathematics for learning and data analysis]]"
+  - "[[Smooth Unconstrained Multivariante Optimization]]"
+Area: "[[Master's degree]]"
 ---
 # Gradient Method with Fixed Stepsize
-
-When performing optimization, an alternative to spending computational resources dynamically finding the step size at each iteration (like in Exact or Inexact Line Search) is to use an "Extremely inexact Line Search": a **Fixed Stepsize** strategy.
+When performing optimization, an alternative to spending computational resources dynamically finding the step size at each iteration (like in [[Gradient Method|Exact]] or [[Gradiant method with inexact Line Search| Inexact Line Search]]) is to use an "Extremely inexact Line Search": a **Fixed Stepsize** strategy.
 
 By setting $\alpha^i = \overline{\alpha}$ for every iteration, the algorithm becomes very simple and inexpensive per step, but also very rigid. It's a "one size fits all" choice, so the value of $\overline{\alpha}$ must be chosen very carefully.
 
 ## The Problem with Normalized Directions
-
 For a sequence $\{x^i\}$ to converge to a finite point $x_*$, the distance between consecutive points must go to zero:
-
 $$\{||x^{i+1} - x^i|| = \alpha^i ||d^i||\} \to 0$$
 
 If we were to use a _normalized_ gradient as our descent direction, meaning $d^i = -\nabla f(x^i)/||\nabla f(x^i)||$, then the length of the direction vector would always be $||d^i|| [cite_start]= 1$. For the step distance to reach zero, the step size $\alpha^i$ itself would have to shrink to zero ($\alpha^i \to 0$), which is impossible if we are using a fixed stepsize $\overline{\alpha} > 0$.
@@ -27,13 +26,9 @@ $$\{||x^{i+1} - x^i||\} \to 0 \iff \{\nabla f(x^i)\} \to 0$$
 This is precisely what we want: the physical steps naturally become smaller and shrink to zero as we approach a stationary point (where the gradient vanishes).
 
 ## L-Smoothness and The Crucial Bound
-
 To guarantee that the fixed stepsize will actually decrease the function value at each iteration ($f(x^{i+1}) < f(x^i)$), we must bound how rapidly the gradient can change. This is where **L-smoothness** is critical.
 
-If the function $f$ is L-smooth, then our 1D line-search function $\varphi$ is $[L||d||^2]$-smooth. Knowing that $d = -\nabla f(x)$, we can evaluate the derivative of $\varphi$ at $\alpha = 0$:
-
-$$\varphi'(0) = -||\nabla f(x)||^2 = -||d||^2$$
-
+If the function $f$ is L-smooth, then our 1D line-search function $\varphi$ is $[L||d||^2]$-smooth. Knowing that $d = -\nabla f(x)$, we can evaluate the derivative of $\varphi$ at $\alpha = 0$: $$\varphi'(0) = -||\nabla f(x)||^2 = -||d||^2$$
 Because $\varphi'$ cannot change faster than $L||d||^2$, we can establish a strict upper bound on how the slope evolves as we take a step $\alpha$:
 
 $$\varphi'(\alpha) \le \varphi'(0) + L||d||^2 \alpha = ||\nabla f(x)||^2 (L\alpha - 1)$$
@@ -42,18 +37,49 @@ By observing the term $(L\alpha - 1)$, we can see that as long as $L\alpha - 1 <
 
 $$\varphi'(\alpha) \le 0 \quad \forall \alpha \in [0, \overline{\alpha} = 1/L)$$
 
-This suggests a safe, proposed fixed stepsize of $\overline{\alpha} = 1/L$.
+This suggests a safe, proposed fixed stepsize of $\overline{\alpha} = 1/L \Longrightarrow L\bar{\alpha}^2/2 - \bar{\alpha} = 1/2L$.
 
 Integrating this worst-case linear bound gives us the immediate, guaranteed estimate of the error decrease at each step:
 
 $$f(x^{i+1}) - f(x^i) \le -||\nabla f(x^i)||^2/2L$$
 
-**The Bad News for General L-Smooth Functions:** If we define the error as $a^i = f(x^i) - f_*$, we get $a^{i+1} \le a^i - \Delta^i$. Because we are subtracting a varying $\Delta^i$ rather than multiplying by a fraction $r < 1$, this results in **sublinear convergence**. It can be proven that the iterations scale as $O(LD^2/\epsilon)$, meaning reaching high precision is very slow. Algorithms can only go so far with "nasty" problems.
+**The Bad News for General L-Smooth Functions:** If we define the error as $a^i = f(x^i) - f_*$, we get $a^{i+1} \le a^i - \Delta^i$. Because we are subtracting a varying $\Delta^i$ rather than multiplying by a fraction $r < 1$, this results in **sublinear convergence**. It can be proven that the iterations scale as $O(LD^2/\epsilon)$, 
+$$
+a^i \leq 2L||x^1 - x_*||^2 / (i-1) \Longrightarrow i \geq O(LD^2/\epsilon)
+$$
+meaning reaching high precision is very slow. Algorithms can only go so far with "nasty" problems.
+- $O(1/\epsilon)$ **not tight**: $O(1/\sqrt{x})$ possibile for $f$ L-smooth (and large n)
+- But $O(1/\sqrt{\epsilon})$ **tight**: $\exists f$ L-smooth s.t. for all algorithm (and large n) $a^i \geq O(LD^2/i^2) \Longrightarrow i\in \Omega(1/\sqrt{\epsilon})$
+## Convergence Rate with Strong Convexity ($\tau$-convex)
+Things change drastically if we add the assumption of **Strong Convexity** ($\tau$-convexity). We want to prove that with a proper choice of $\alpha$, the geometric distance to the optimum $x_*$ decreases "fast".
 
----
+Let's define our next point $z = x - \alpha\nabla f(x)$. We want to measure its distance to the optimum $x_*$. Since the gradient at the optimum is zero ($\nabla f(x_*) = 0$), we can add it to our equation for free:
+$$z - x_* = x - \alpha\nabla f(x) - x_* + \alpha\nabla f(x_*) \:\:\:\:[\nabla f(x_*) = 0]$$
+Grouping the terms, we get:$$= (x - x_*) - \alpha(\nabla f(x) - \nabla f(x_*))$$
+By applying the **Mean Value Theorem** on the gradient $\nabla f$, we know there exists some intermediate point $w \in [x, x_*]$ such that the difference in gradients is exactly the Hessian evaluated at $w$ multiplied by the distance vector:
+
+$$\nabla f(x) - \nabla f(x_*) = \nabla^2 f(w)(x - x_*)$$
+
+Substituting this back into our equation, we factor out $(x - x_*)$:
+
+$$z - x_* = (x - x_*) - \alpha\nabla^2 f(w)(x - x_*) = (I - \alpha\nabla^2 f(w))(x - x_*)$$
+
+Now, applying the matrix norm inequality we learned earlier, we can bound the distance:
+
+$$||z - x_*|| \le ||I - \alpha\nabla^2 f(w)|| ||x - x_*||$$
+
+To make the distance shrink as fast as possible, our goal is to **minimize the matrix norm** $r = ||I - \alpha\nabla^2 f(w)||$.
+- with $\alpha = 2/(L+\tau) (1/L \leq \alpha < 2/L)$ **converges linearly**
+$$
+||x^{k+1} - x_*|| \leq r^k ||x^1 - x_*|| \text{ with } r=(L-\tau)/(L+\tau) < 1
+$$
+- $k=L/\tau \geq \lambda_1 / \lambda_n \geq 1$ worst-case **condition number of $\nabla^2 f$**
+$$
+r=(k-1)/(k+1)<1
+$$
+A “small” difference in f makes a big difference in convergence so properties of f more important than the algorithm. All this may be rather slow, we need something better.
 
 ## Mathematically Speaking: Eigenvalues & Matrix Norms
-
 To understand how to make this algorithm exponentially faster, we must look at the geometry of the space, governed by matrix norms and eigenvalues.
 
 When we multiply a vector $x$ by a matrix $Q$ (a linear mapping $y = Qx$), the matrix stretches and rotates the vector. The **Matrix norm induced by a vector norm** measures the _maximum_ possible stretching that $Q$ can apply to any vector:
@@ -79,38 +105,7 @@ $$||Q|| = \max\{|\lambda_1(Q)|, |\lambda_n(Q)|\}$$
 
 _(Note: $\lambda_1$ represents the largest algebraic eigenvalue, and $\lambda_n$ the smallest)._
 
----
-
-## Convergence Rate with Strong Convexity ($\tau$-convex)
-
-Things change drastically if we add the assumption of **Strong Convexity** ($\tau$-convexity). We want to prove that with a proper choice of $\alpha$, the geometric distance to the optimum $x_*$ decreases "fast".
-
-Let's define our next point $z = x - \alpha\nabla f(x)$. We want to measure its distance to the optimum $x_*$. Since the gradient at the optimum is zero ($\nabla f(x_*) = 0$), we can add it to our equation for free:
-
-$$z - x_* = x - \alpha\nabla f(x) - x_* + \alpha\nabla f(x_*)$$
-
-Grouping the terms, we get:
-
-$$= (x - x_*) - \alpha(\nabla f(x) - \nabla f(x_*))$$
-
-By applying the **Mean Value Theorem** on the gradient $\nabla f$, we know there exists some intermediate point $w \in [x, x_*]$ such that the difference in gradients is exactly the Hessian evaluated at $w$ multiplied by the distance vector:
-
-$$\nabla f(x) - \nabla f(x_*) = \nabla^2 f(w)(x - x_*)$$
-
-Substituting this back into our equation, we factor out $(x - x_*)$:
-
-$$z - x_* = (x - x_*) - \alpha\nabla^2 f(w)(x - x_*) = (I - \alpha\nabla^2 f(w))(x - x_*)$$
-
-Now, applying the matrix norm inequality we learned earlier, we can bound the distance:
-
-$$||z - x_*|| \le ||I - \alpha\nabla^2 f(w)|| ||x - x_*||$$
-
-To make the distance shrink as fast as possible, our goal is to **minimize the matrix norm** $r = ||I - \alpha\nabla^2 f(w)||$.
-
----
-
 ## Mathematically Speaking: The Choice of $\alpha$
-
 We need to minimize the norm $r$. Using the variational characterization rules from earlier, we know that the eigenvalues of $I - \alpha \nabla^2 f(w)$ are exactly $1 - \alpha \lambda_i$. Because the matrix is symmetric, its norm is the maximum absolute eigenvalue:
 
 $$r = ||I - \alpha\nabla^2 f(w)|| = \max\{|1 - \alpha\lambda_1(\nabla^2 f(w))|, |1 - \alpha\lambda_n(\nabla^2 f(w))|\} < 1$$
@@ -146,7 +141,4 @@ $$||x^{k+1} - x_*|| \le r^k ||x^1 - x_*||$$
 
 A small difference in the mathematical properties of $f$ (adding strong convexity) makes a massive difference in the convergence behavior—proving that the properties of the function are often more important than the algorithm itself!
 
----
-
-Would you like me to apply this same level of mathematical breakdown to the next section on "Twisted Gradient Methods" and "Newton's Method"?
 # References

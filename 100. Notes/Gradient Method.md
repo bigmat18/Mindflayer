@@ -6,6 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Introduction to Optimization]]"
+  - "[[Smooth Unconstrained Multivariante Optimization]]"
 Area: "[[Master's degree]]"
 ---
 # Gradiant Method
@@ -171,6 +172,7 @@ More bad news:
 What happens if $\lambda_n = 0$? (The matrix $Q$ is positive semidefinite; the function is convex but not strictly convex).
 
 It does not mean it doesn't converge, but we cannot prove the exponential convergence seen above.
+
 In this case, it is proven that:
 $$f(x_i) - f_* \le \frac{2\lambda_1 \|x_1 - x_*\|^2}{i - 1}$$
 The complexity becomes $k \ge \frac{2\lambda_1 d}{\epsilon}$.

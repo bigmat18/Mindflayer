@@ -16,7 +16,6 @@ $$d^i = H^i(-\nabla f(x^i))$$
 The fundamental problem with this approach is that multiplying a matrix by a vector requires at least **$O(n^2)$** operations per iteration (not even counting the cost of forming or updating the matrix $H^i$). Unless $H^i$ is "very special" (which requires rather dirty tricks), this cost is prohibitive for large-scale problems with millions of variables.
 
 ## The Cheaper Alternative: Deflecting
-
 To drastically reduce computational costs, we introduce a much cheaper alternative: _deflecting_. Instead of rotating the gradient vector by multiplying it by a matrix, we simply **add** another vector $v^i$ to it:
 
 $$d^i = -\nabla f(x^i) + v^i$$
@@ -24,7 +23,6 @@ $$d^i = -\nabla f(x^i) + v^i$$
 _Explanation:_ The addition of two vectors strictly requires **$O(n)$** operations. The computational savings are immense. The real problem, however, is: how do we choose this vector $v^i$ within the entire infinite space of $\mathbb{R}^n$ while keeping the computations cheap?
 
 ## The Core Idea: Reusing History
-
 The simplest and most brilliant idea is to define $v^i$ by simply scaling the direction used in the previous iteration by a scalar parameter $\beta^i$:
 
 $$v^i = \beta^i d^{i-1}$$

@@ -1,10 +1,12 @@
 ---
-Data: 
+Data: 2026-04-04T20:53:00
 Tags:
   - note
   - youngling
 Connection:
-Area:
+  - "[[Computational mathematics for learning and data analysis]]"
+  - "[[Smooth Unconstrained Multivariante Optimization]]"
+Area: "[[Master's degree]]"
 ---
 # Deflected Gradient Methods
 In the methods we have seen previously, to accelerate convergence we "twisted" the gradient direction by multiplying it by a matrix (e.g., the inverse of the Hessian in Newton's methods, or an approximation $H^i$ in Quasi-Newton methods).

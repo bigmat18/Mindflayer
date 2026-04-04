@@ -1,22 +1,21 @@
 ---
-Data: 
+Data: 2026-04-04T20:47:00
 Tags:
   - note
   - youngling
 Connection:
-Area:
+  - "[[Computational mathematics for learning and data analysis]]"
+  - "[[Smooth Unconstrained Multivariante Optimization]]"
+Area: "[[Master's degree]]"
 ---
-# Metodi del Gradiente Coniugato Non Lineare (Nonlinear Conjugate Gradient Methods)
+# Nonlinear Conjugate Gradient Methods (NCG)
 
-Come visto nella sezione precedente, l'idea del "deflecting" consiste nel calcolare la nuova direzione di discesa combinando il gradiente attuale con la direzione usata al passo precedente ($d^i = -\nabla f(x^i) + \beta^i d^{i-1}$).
+As seen in the previous section, the idea of "deflecting" consists of calculating the new descent direction by combining the current gradient with the direction used in the previous step ($d^i = -\nabla f(x^i) + \beta^i d^{i-1}$).
 
-I metodi del **Gradiente Coniugato Non Lineare (NCG)** rappresentano l'applicazione più sofisticata di questa idea: utilizzano formule matematiche specifiche per calcolare il parametro scalare $\beta^i$ in modo tale da simulare l'efficienza dei metodi di secondo ordine (come Newton) usando solo informazioni del primo ordine.
+Nonlinear Conjugate Gradient (NCG) methods represent the most sophisticated application of this idea: they use specific mathematical formulas to calculate the scalar parameter $\beta^i$ in such a way as to simulate the efficiency of second-order methods (like Newton) using only first-order information.
 
-## L'Algoritmo NCG
-
-La struttura generale dell'algoritmo NCG è molto simile a quella del normale metodo del gradiente, ma incorpora una "memoria" del passo precedente:
-
-Plaintext
+## The NCG Algorithm
+The general structure of the NCG algorithm is very similar to that of the standard gradient method, but it incorporates a "memory" of the previous step:
 
 ```
 procedure x = NCG(f, x, \epsilon)
@@ -30,81 +29,62 @@ procedure x = NCG(f, x, \epsilon)
         \nabla f^- <- \nabla f(x);
 ```
 
-_Spiegazione:_ * Al primo passo (o quando resettiamo l'algoritmo ponendo $\nabla f^- = 0$), partiamo semplicemente seguendo l'antigradiente puro: $d = -\nabla f(x)$.
+- At the first step (or when we reset the algorithm by setting $\nabla f^- = 0$), we start simply by following the pure steepest descent: $d = -\nabla f(x)$.
+- In subsequent steps, we calculate a value $\beta$ and use it to deflect the trajectory: $d \leftarrow -\nabla f(x) + \beta d^-$.
+- Once the direction is found, we use a Line Search (LS) to calculate the step size $\alpha$, update the position $x$, and save the current direction and gradient to use them in the next cycle.
 
-- Nei passi successivi, calcoliamo un valore $\beta$ e lo usiamo per deflettere la traiettoria: $d \leftarrow -\nabla f(x) + \beta d^-$.
-    
-- Trovata la direzione, usiamo una Line Search (LS) per calcolare il passo $\alpha$, aggiorniamo la posizione $x$ e salviamo la direzione e il gradiente attuali per usarli al ciclo successivo.
-    
+## Formulas for $\beta$
+There are multiple mathematical formulas for calculating the deflection parameter $\beta^i$. The four most famous and historically used are:
 
-## Le Formule per $\beta$
-
-Esistono molteplici formule matematiche per calcolare il parametro di deflessione $\beta^i$. Le quattro più celebri e utilizzate storicamente sono:
-
-1. **Fletcher-Reeves (FR):**
+- **Fletcher-Reeves (FR):**
+    $\beta_{FR}^i = ||\nabla f(x^i)||^2 / ||\nabla f(x^{i-1})||^2$
     
-    $$\beta_{FR}^i = ||\nabla f(x^i)||^2 / ||\nabla f(x^{i-1})||^2$$
+- **Polak-Ribière (PR):**
+    $\beta_{PR}^i = \langle\nabla f(x^i) - \nabla f(x^{i-1}), \nabla f(x^i)\rangle / ||\nabla f(x^{i-1})||^2$
     
-2. **Polak-Ribière (PR):**
+- **Hestenes-Stiefel (HS):**
+    $\beta_{HS}^i = \langle\nabla f(x^i) - \nabla f(x^{i-1}), \nabla f(x^i)\rangle / \langle\nabla f(x^i) - \nabla f(x^{i-1}), d^{i-1}\rangle$
     
-    $$\beta_{PR}^i = \langle\nabla f(x^i) - \nabla f(x^{i-1}), \nabla f(x^i)\rangle / ||\nabla f(x^{i-1})||^2$$
-    
-3. **Hestenes-Stiefel (HS):**
-    
-    $$\beta_{HS}^i = \langle\nabla f(x^i) - \nabla f(x^{i-1}), \nabla f(x^i)\rangle / \langle\nabla f(x^i) - \nabla f(x^{i-1}), d^{i-1}\rangle$$
-    
-4. **Dai-Yuan (DY):**
-    
-    $$\beta_{DY}^i = ||\nabla f(x^i)||^2 / \langle\nabla f(x^i) - \nabla f(x^{i-1}), d^{i-1}\rangle$$
+- **Dai-Yuan (DY):**
+    $\beta_{DY}^i = ||\nabla f(x^i)||^2 / \langle\nabla f(x^i) - \nabla f(x^{i-1}), d^{i-1}\rangle$
     
 
-_Spiegazione (Perché così tante formule?):_
+If we are minimizing a perfectly quadratic function ($f(x) = \frac{1}{2}x^T Q x + qx$) and use an exact Line Search, all these formulas are mathematically equivalent and produce exactly the same sequence of steps. In that ideal case, the Conjugate Gradient algorithm converges in exactly $n$ iterations (where $n$ is the dimension of the space, assuming exact arithmetic). It can take even fewer iterations if the eigenvalues of the Hessian are grouped in clusters (an effect achieved through "preconditioning").
 
-Se stiamo minimizzando una funzione _perfettamente quadratica_ ($f(x) = \frac{1}{2}x^T Q x + qx$) e utilizziamo una Line Search _esatta_, **tutte queste formule sono matematicamente equivalenti** e producono esattamente la stessa sequenza di passi. In quel caso ideale, l'algoritmo del Gradiente Coniugato converge in esattamente $n$ iterazioni (dove $n$ è la dimensione dello spazio, supponendo aritmetica esatta). Può metterci anche meno iterazioni se gli autovalori dell'Hessiana sono raggruppati in cluster (un effetto che si ottiene tramite il "precondizionamento").
+However, when we apply these methods to general nonlinear functions and use an inexact Line Search (such as Armijo-Wolfe, AWLS), the paths generated by these formulas diverge drastically. For example, the numerator of PR and HS uses the difference $\nabla f(x^i) - \nabla f(x^{i-1})$, a term that implicitly captures information about the curvature (Hessian) of the nonlinear function, making them often superior to FR in practice.
 
-Tuttavia, quando applichiamo questi metodi a **funzioni non lineari generiche**, e usiamo una Line Search inesatta (come la Armijo-Wolfe, AWLS), i percorsi generati da queste formule divergono drasticamente. Ad esempio, il numeratore di PR e HS usa la differenza $\nabla f(x^i) - \nabla f(x^{i-1})$, un termine che cattura implicitamente le informazioni sulla curvatura (Hessiana) della funzione non lineare, rendendole in pratica spesso superiori a FR.
+## Convergence and the "Restart" Trick
 
----
+Proving global convergence for NCG methods is notoriously complex and depends strictly on the chosen $\beta$ formula and the conditions imposed:
 
-## Convergenza e il Trucco del "Restart"
-
-Dimostrare la convergenza globale per i metodi NCG è notoriamente complesso e dipende strettamente dalla formula $\beta$ scelta e dalle condizioni imposte:
-
-- **Fletcher-Reeves (F-R):** Richiede una condizione di Wolfe molto forte sui parametri, ovvero $m_1 < m_2 < 1/2$, affinché l'intersezione $(A) \cap (W')$ funzioni a dovere.
+- **Fletcher-Reeves (F-R):** Requires a very strong Wolfe condition on the parameters, specifically $m_1 < m_2 < 1/2$, for the intersection $(A) \cap (W')$ to work properly.
     
-- **Polak-Ribière (P-R):** Si può dimostrare matematicamente che la versione standard di P-R non converge su alcune funzioni. Per garantirne la convergenza, è necessario forzare $(A) \cap (W')$ e limitare $\beta$ inferiormente a zero con la variante **PR+**:
+- **Polak-Ribière (P-R):** It can be mathematically proven that the standard version of P-R does not converge on some functions. To guarantee its convergence, it is necessary to force $(A) \cap (W')$ and limit $\beta$ from below to zero with the PR+ variant:
+	$$\beta_{PR+}^i = \max\{\beta_{PR}^i, 0\}$$
     
-    $$\beta_{PR+}^i = \max\{\beta_{PR}^i, 0\}$$
-    
-    Un approccio simile, $\beta_{HS+}^i = \max\{\beta_{HS}^i, 0\}$, è utile e raccomandato per Hestenes-Stiefel.
+    A similar approach, $\beta_{HS+}^i = \max\{\beta_{HS}^i, 0\}$, is useful and recommended for Hestenes-Stiefel.
     
 
-**L'Importanza dei Restart:**
+**The Importance of Restarts:**
+Enforcing that $\beta$ does not drop below zero (as in PR+) is effectively a restart of the algorithm: if the formula returns a negative value, we truncate it to 0, which means ignoring past memory and calculating a pure gradient step $d^i = -\nabla f(x^i)$.
 
-Imporre che $\beta$ non scenda sotto zero (come in PR+) è di fatto un **restart** (riavvio) dell'algoritmo: se la formula restituisce un valore negativo, lo tronchiamo a 0, il che significa ignorare la memoria passata e calcolare un puro passo di gradiente $d^i = -\nabla f(x^i)$.
-
-I restart regolari sono un'idea eccellente, specialmente per Fletcher-Reeves. Il motivo è geometrico:
+Regular restarts are an excellent idea, especially for Fletcher-Reeves. The reason is geometric:
 
 $$||\nabla f(x^i)|| \ll ||d^i|| \iff \cos(\theta^i) \approx 0 \equiv \nabla f(x^i) \approx \perp d^i$$
 
-_Spiegazione:_ Se il gradiente diventa quasi ortogonale (perpendicolare) alla direzione di discesa, il passo $\alpha$ risulterà microscopico ($x^{i+1} \approx x^i$), il che porterà a un altro angolo pessimo al passo successivo ($\cos(\theta^{i+1}) \approx 0$). In altre parole: **"un passo sbagliato porta a molti passi sbagliati" (one bad step leads to many bad steps)**.
+If the gradient becomes almost orthogonal (perpendicular) to the descent direction, the step size $\alpha$ will be microscopic ($x^{i+1} \approx x^i$), which will lead to another poor angle at the next step ($\cos(\theta^{i+1}) \approx 0$). In other words: "one bad step leads to many bad steps."
 
-Azzerare la memoria fa uscire l'algoritmo da questo vicolo cieco. In effetti, i restart aiutano enormemente nelle dimostrazioni teoriche di convergenza, perché garantiscono che asintoticamente la deflessione svanisca e il gradiente puro faccia il grosso del lavoro. Spesso si imposta un restart automatico ogni $n$ passi, anche se questo approccio non è molto elegante quando $n$ è molto grande o molto piccolo.
+Clearing the memory pulls the algorithm out of this deadlock. Indeed, restarts help enormously in theoretical convergence proofs because they guarantee that asymptotically the deflection vanishes and the pure gradient does the heavy lifting. Often, an automatic restart is set every $n$ steps, although this approach is not very elegant when $n$ is very large or very small.
 
----
-
-## Efficienza Pratica e Teorica
-
-L'efficienza dei metodi del gradiente coniugato non lineare può essere vista come una proprietà di "convergenza quadratica a $n$-passi":
-
+## Practical and Theoretical Efficiency
+The efficiency of nonlinear conjugate gradient methods can be seen as an "$n$-step quadratic convergence" property:
 $$||x^{i+n} - x_*|| \le r ||x^i - x_*||^2$$
 
-_Spiegazione:_ La formula ci dice che $n$ passi di un metodo CG equivalgono approssimativamente a **1 singolo passo di un metodo di Newton**. Questo ha senso geometricamente: quando siamo "vicini a $X_*$", la funzione è molto ben approssimata dalla sua espansione di Taylor di secondo ordine ($f(\cdot) \approx Q_{x_*}(\cdot)$). E, come abbiamo visto, "in $n$ passi il CG risolve esattamente una funzione quadratica".
+The formula tells us that $n$ steps of a CG method are approximately equivalent to 1 single step of a Newton method. This makes sense geometrically: when we are "near $x_*$," the function is very well approximated by its second-order Taylor expansion ($f(\cdot) \approx Q_{x_*}(\cdot)$). And, as we have seen, "in $n$ steps CG exactly solves a quadratic function."
 
-Sebbene l'idea di dover aspettare $n$ iterazioni non sia eccezionale quando lavoriamo con milioni di variabili, il NCG possiede interessanti relazioni con i metodi Quasi-Newton, sfociando in algoritmi ibridi potenti.
+While the idea of having to wait $n$ iterations is not ideal when working with millions of variables, NCG possesses interesting relationships with Quasi-Newton methods, leading to powerful hybrid algorithms.
 
-Nella pratica, le prestazioni dei vari $\beta$ variano sorprendentemente: Polak-Ribière o Dai-Yuan sono spesso le varianti migliori, ma i risultati possono variare enormemente a seconda del problema.
+In practice, the performance of the various $\beta$ formulas varies surprisingly: Polak-Ribière or Dai-Yuan are often the best variants, but results can vary enormously depending on the problem.
 
-**In conclusione:** L'approccio NCG è potente ed estremamente efficiente in termini di memoria ($O(n)$), ma le sue idiosincrasie matematiche e la dipendenza dalle tolleranze della Line Search lo rendono "non facile da gestire" (not easy to manage) rispetto a un solido L-BFGS.
-
+**In conclusion:** The NCG approach is powerful and extremely memory-efficient ($O(n)$), but its mathematical idiosyncrasies and dependence on Line Search tolerances make it "not easy to manage" compared to a solid L-BFGS.
 # References

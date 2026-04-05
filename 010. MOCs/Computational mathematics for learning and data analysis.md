@@ -20,6 +20,7 @@ Area:
 - [[Conditioning]]
 - [[Conditioning Least Squares]]
 - [[Stability]]
+- [[Arnoldi]]
 - [[GMRES]]
 - [[LU Factorization]]
 - [[Cholesky Factorization]]
@@ -32,4 +33,5 @@ Area:
 ![[Unconstrained Multivariate Optimality and Convexity]]
 
 ![[Smooth Unconstrained Multivariante Optimization]]
+
 # Resources

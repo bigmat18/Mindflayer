@@ -67,7 +67,7 @@ The classification may be viewed as the allocation of the input space in decisio
 
 **Geometrical 3D view: Classifier**
 ![[Pasted image 20251111131741.png | 500]]
-#### Regression
+#### [[Regression Models]]
 Process of estimating of a real-value function on the basis of finite set of noisy samples (supervised task) known pairs ($x$, $f(x) + \text{ random noise}$) the task is find $f$ for the data.
 
 ![[Pasted image 20251111131942.png | 600]]

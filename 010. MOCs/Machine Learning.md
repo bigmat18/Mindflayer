@@ -8,8 +8,10 @@ Area: "[[Master's degree]]"
 
 ![[Introduction to Machine Learning]]
 
-- [[Regression Models]]
-- [[Classification Models]]
+![[Linear Models]]
+
+
+
 - [[K-nn Algorithm]]
 - [[Neural Networks (NN)]]
 - [[Backpropagation]]

@@ -9,9 +9,7 @@ Area: "[[Master's degree]]"
 ---
 # Least Squares
 **The abstract goal is:** given vectors $a_{1},a_{2},...,a_{n}\in\mathbb{R}^{m}$ and a "target vector" $y\in\mathbb{R}^{m}$, we look for coefficients $x_{1},x_{2},...,x_{n}$ such that:
-
 $$a_{1}x_{1}+\dots+a_{n}x_{n}=y$$
-
 ###### Example
 A certain food is a mixture of ingredient A, which contains 10 grams of sugars, 20 of protein and 3 of fats, and ingredient B, which contains 5 grams of sugars, 1 of protein and 1 of fats. A lab analysis reveals that the mixture contains 40 grams of sugars, 30 grams of protein and 20 grams of fats. What is the amount of each ingredient?
 

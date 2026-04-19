@@ -10,10 +10,8 @@ Area: "[[Master's degree]]"
 
 ![[Linear Models]]
 
+![[Neural Networks (NN)]]
 
-
-- [[K-nn Algorithm]]
-- [[Neural Networks (NN)]]
 - [[Backpropagation]]
 - [[Validation]]
 - [[Support Vector Machiens (SVM)]]

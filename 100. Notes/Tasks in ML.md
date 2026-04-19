@@ -45,7 +45,8 @@ There is not teacher, and the TR (training set) is a set of unlabeled data `<x>`
 - Modeling the data density
 
 ![[Pasted image 20251111130659.png | 550]]
-#### Classification 
+
+### Classification 
 Classification (supervised): patterns (features vectors) are seen as members of a class and the goal is to assign the patterns observed classes (label)
 - Classification: $f(x)$ return the correct class for $x$
 - Number of classes:
@@ -67,7 +68,7 @@ The classification may be viewed as the allocation of the input space in decisio
 
 **Geometrical 3D view: Classifier**
 ![[Pasted image 20251111131741.png | 500]]
-#### [[Regression Models]]
+### [[Regression Models]]
 Process of estimating of a real-value function on the basis of finite set of noisy samples (supervised task) known pairs ($x$, $f(x) + \text{ random noise}$) the task is find $f$ for the data.
 
 ![[Pasted image 20251111131942.png | 600]]

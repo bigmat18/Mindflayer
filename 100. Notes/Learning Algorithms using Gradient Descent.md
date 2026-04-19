@@ -82,7 +82,7 @@ A learniong curve examples. These are **learning curves**: They show how the err
 
 Where $x_{p,j}$ is the component $j$ of the input pattern $p, y_p$ the output for $p, w$ free par, $l$ num of examples (The constant 2 can be omitted)
 
-This is an **error correction** rule (Widrow-Hoff or delta rule) that change each $w_j$ proportionally to the error (**target y - output**):
+This is an **error correction** rule (**Widrow-Hoff** or delta rule) that change each $w_j$ proportionally to the error (**target y - output**):
 - E.g. (target y-output) = $err=0$ -> no correction
 - ($input_j$>0) if err + (output is too low), positive delta → increase $w_j$ → increment the output → less err
 - ($input_j$>0) if err - (output is too high), negative delta → decrease $w_j$ → reduce output → less err

@@ -4,3 +4,4 @@
 - [[Learning Algorithms]]
 - [[Gradient Method]]
 - [[Linear basis expansion (LBE)]]
+- [[K-nn Algorithm]]

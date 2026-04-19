@@ -1,0 +1,3 @@
+- [[Introduction to Neural Networks]]
+- [[Perceptron]]
+- [[Sigmoidal Logistic function]]

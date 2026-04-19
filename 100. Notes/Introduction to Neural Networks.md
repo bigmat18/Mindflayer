@@ -44,12 +44,6 @@ It has become a default choice for Deep models, so it (and its variants) deserve
 
 ![[Pasted image 20260419010004.png | 500]]
 
-### Derivatives of Activation functions
-- The derivative of the identity function is 1.
-- The derivative of the **step** (threshold) **function** is not defined, which is exactly why it isn't used with LMS 
-- **Sigmoids**: for asymmetric and symmetric case we have (a=1):
-
-![[Pasted image 20260419011909.png]]
 
 
 # References

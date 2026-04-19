@@ -1,3 +1,5 @@
 - [[Introduction to Neural Networks]]
 - [[Perceptron]]
 - [[Sigmoidal Logistic function]]
+- [[Standard Feedforward NN]]
+- [[Backpropagation]]

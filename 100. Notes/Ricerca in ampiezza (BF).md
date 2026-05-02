@@ -50,4 +50,4 @@ Utilizza una coda di tipo **FIFO**. Definiamo:
 
 # References
 
-![[IIA.pdf#page=19]]
+![[IIA_notes.pdf#page=19]]

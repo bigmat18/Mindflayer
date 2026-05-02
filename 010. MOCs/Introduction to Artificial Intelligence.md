@@ -13,4 +13,4 @@ Area: "[[Bachelor's Degree]]"
 ![[Agenti che apprendono (ML)]]
 # Resources
 
-![[IIA.pdf]]
+![[IIA_notes.pdf]]

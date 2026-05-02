@@ -20,4 +20,4 @@ Area: "[[Bachelor's Degree]]"
 ![[Corpo Rigido]]
 
 # Resources
-![[Physics.pdf]]
+![[Physics_notes.pdf]]

@@ -19,4 +19,7 @@ where $W_k$ is the diagonal matrix with entries $(W_k)_{ii} = |(w_k)_i|^{-1/2}$.
 
 
 # References
-- [[Extreme learning machine and its applications.pdf]]
+- [[Extreme_learning_machine_and_its_applications.pdf]]
+- [Iteratively Reweighted Least Squares for Basis Pursuit with Global Linear Convergence Rate](https://arxiv.org/pdf/2012.12250)
+- [Iteratively Re-weighted Least Squares Minimization for Sparse Recovery, Ingrid Daubechies](https://sites.math.duke.edu/~ingrid/publications/DDFG.pdf)
+- [Standard Bundle Methods](https://arpi.unipi.it/retrieve/e0d6c92e-be34-fcf8-e053-d805fe0aa794/StandardBundle.pdf)

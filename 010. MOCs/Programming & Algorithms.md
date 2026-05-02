@@ -23,4 +23,4 @@ Area: "[[Bachelor's Degree]]"
 ![[Dynamic Programming]]
 
 # Resources
-![[Programmazione-Algoritmi.pdf]]
+![[Algorithms_notes.pdf]]

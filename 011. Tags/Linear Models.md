@@ -1,7 +1,6 @@
 - [[Introduction Linear Model]]
 - [[Regression Models]]
 - [[Classification Models]]
-- [[Learning Algorithms]]
-- [[Gradient Method]]
 - [[Linear basis expansion (LBE)]]
+- [[Regularisations]]
 - [[K-nn Algorithm]]

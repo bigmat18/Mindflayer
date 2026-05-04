@@ -8,6 +8,7 @@ Area: "[[Master's degree]]"
 
 ### Numeric Linear Algebra
 - [[Introduction to Linear Algebra]]
+- [[Vector Norms]]
 - [[Orthogonality]]
 - [[Eigenvalues and Eigenvectors]]
 - [[Least Squares]]
@@ -24,3 +25,4 @@ Area: "[[Master's degree]]"
 ![[Smooth Unconstrained Multivariante Optimization]]
 
 # Resources
+- [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)

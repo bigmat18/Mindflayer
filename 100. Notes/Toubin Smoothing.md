@@ -9,7 +9,7 @@
 
 This is the main approach to fix the problem of shrinking in [[Laplacian Smooth]]. With **toubin smoothing** we try to approach the problem like a signal-processing problem, and for each steps we don't move the vertex to the average but instead we do two steps:
 
-1. Compute the [[Gradiant, Divergence and Laplacian#Laplacian|laplacian]] displacement for each vertex and moves the vertices by $\lambda$ times this displacement.
+1. Compute the [[Divergence and Laplacian#Laplacian|laplacian]] displacement for each vertex and moves the vertices by $\lambda$ times this displacement.
 2. Then compute again the laplacian and moves back each vertex by $\mu$ times the displacement.
 
 where $\lambda > 0, \mu > 0$ are two constants. In other worlds we try to do two [[Laplacian Smooth|diffusion flow]], one to a direction for a certain frequency and the other in other direction for another frequency.

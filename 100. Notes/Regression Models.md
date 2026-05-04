@@ -21,8 +21,8 @@ Infinite **hp space** (continuous w values) but we have nice solution from class
 - Surprisingly we can “learn” by this basic tool
 - Although simple it includes many relevant concept of modern ML and it is a basis of evolved methods in the field
 
-### Learning via LMS
-- **Training**: find w such that minimize error/empirical loss (best data fitting on the training set with l examples): i.e. we are now focusing on the $R_{emp}$
+### Learning via [[Least Squares|LMS]]
+- **Training**: find $w$ such that minimize error/empirical loss (best data fitting on the training set with l examples): i.e. we are now focusing on the $R_{emp}$
 	- **Given**: a set $l$ training examples $(x_p, y_p), p=1\dots, l$
 	- **Find**: $h_w (x)$ in the form $w_1 x + w_0$ (hence the values of $w$) that minimizes the expected loss on the training data.
 
@@ -48,7 +48,7 @@ E(w) = \sum_{p=1}^l (y_p - h_w(x_p))^2
 $$
 $E(w)$ = green, $y$ = red, $h_w$ = blue
 
-The method of **least squares** is a standard approach to the approximate solution of over-determined systems, i.e., sets of equations in which there are more equations than unknowns.
+The method of **[[Least Squares]]** is a standard approach to the approximate solution of over-determined systems, i.e., sets of equations in which there are more equations than unknowns.
 
 ##### How to Solve?
 Remember: local minimum as stationary point: the gradient is zero.
@@ -66,5 +66,6 @@ Convex loss function -> we have the following solution (no local minima)
 
 ![[Pasted image 20260406112658.png]]
 
-
+### [[Learning Algorithms using Normal Equation]]
+### [[Learning Algorithms using Gradient Descent]]
 # References

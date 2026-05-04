@@ -27,7 +27,7 @@ We are going to introduce 2 Learning Algorithms for the [[Regression Models]] an
 
 We start **redefining the learning problem** and the loss for them (for l data and multidimensional inputs)
 
-### The learning problem: Classification Tasks
+### The learning problem: [[Classification Models|Classification Tasks]]
 - **Given** a set $l$ training examples $(x_p, y_p)$ and loss function (measure) L $y_p = \{0,1\}$ or $y_p = \{-1, +1\}$
 - **Find**: the weight vector $w$ that minimizes the expected loss on the traingin data.
 $$

@@ -103,7 +103,7 @@ After we evaluate the righe topology from lookup table we can do a refine step f
 
 ![[Pasted image 20250508143509.png | 400]]
 ### Extended marching cubes
-Marching cubes computes intersection points on the edge of a regular grid only, which causes **sharp edges** or **corners**. To resolve this problem there is **Extended marching cubes** algorithm that check the distance function's [[Gradiant, Divergence and Laplacian|gradiant]] $\nabla F$ to detect those cells that contain a sharp, and than it find an additional sample point by intersecting the estimated tangent planes at the edge intersection points of the voxel.
+Marching cubes computes intersection points on the edge of a regular grid only, which causes **sharp edges** or **corners**. To resolve this problem there is **Extended marching cubes** algorithm that check the distance function's [[Divergence and Laplacian|gradiant]] $\nabla F$ to detect those cells that contain a sharp, and than it find an additional sample point by intersecting the estimated tangent planes at the edge intersection points of the voxel.
 
 ![[Screenshot 2024-10-13 at 15.01.29.png | 350]]
 

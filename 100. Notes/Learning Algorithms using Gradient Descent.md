@@ -6,6 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Linear Models]]"
+  - "[[Machine Learning]]"
 Area: "[[Master's degree]]"
 ---
 # Learning Algorithms using Gradient Descent

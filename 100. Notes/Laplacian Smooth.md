@@ -21,7 +21,7 @@ Diffusion flow is modelled by the **diffusion equation**:
 $$
 \frac{\partial f(x,t)}{\partial t} = \lambda \Delta f(x,t)
 $$
-this equation is a second-order linear partial differential equation which statess that the function $f$ changes over time by a scalar diffusion coefficient $\lambda$ times its spatial [[Gradiant, Divergence and Laplacian#Laplacian|Laplacian]] 
+this equation is a second-order linear partial differential equation which statess that the function $f$ changes over time by a scalar diffusion coefficient $\lambda$ times its spatial [[Divergence and Laplacian#Laplacian|Laplacian]] 
 
 To use this equation to smooth a manifold surface S, simply by replacing the regular Laplacian operator with the [[Discrete Differential Operators#Uniform Laplacian|Laplace-Beltrami]]. We also replace $f$ with its sample values 
 $$

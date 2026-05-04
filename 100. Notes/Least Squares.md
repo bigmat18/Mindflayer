@@ -10,13 +10,11 @@ Area: "[[Master's degree]]"
 # Least Squares
 **The abstract goal is:** given vectors $a_{1},a_{2},...,a_{n}\in\mathbb{R}^{m}$ and a "target vector" $y\in\mathbb{R}^{m}$, we look for coefficients $x_{1},x_{2},...,x_{n}$ such that:
 $$a_{1}x_{1}+\dots+a_{n}x_{n}=y$$
-###### Example
+**Example**
 A certain food is a mixture of ingredient A, which contains 10 grams of sugars, 20 of protein and 3 of fats, and ingredient B, which contains 5 grams of sugars, 1 of protein and 1 of fats. A lab analysis reveals that the mixture contains 40 grams of sugars, 30 grams of protein and 20 grams of fats. What is the amount of each ingredient?
 
 $$\begin{bmatrix}10\\ 20\\ 3\end{bmatrix}x_{1}+\begin{bmatrix}5\\ 1\\ 1\end{bmatrix}x_{2}=\begin{bmatrix}40\\ 30\\ 20\end{bmatrix}$$
-
-### Solvability
-We can write the system as:
+In terms of how to **Solve it** we can write the system as:
 $$Ax=y \text{ where } A=[\begin{matrix}a_{1}&a_{2}&...&a_{n}\end{matrix}]$$
 The system is solvable for each $y$ when we have $n=m$ **linearly independent vectors** (invertibility, from linear algebra).
 
@@ -25,47 +23,21 @@ This is not always the case: sometimes the vectors are too few, or they are not 
 ###### Example of non-solvability
 The system $\begin{bmatrix}2\\ 1\\ 0\end{bmatrix}x_{1}+\begin{bmatrix}1\\ 3\\ 0\end{bmatrix}x_{2}=\begin{bmatrix}5\\ 5\\ 1\end{bmatrix}$ is not solvable. Geometric interpretation: the target vector lies outside the spanning plane. Not even if I add $\begin{bmatrix}4\\ 3\\ 0\end{bmatrix}$, $\begin{bmatrix}12\\ -8\\ 0\end{bmatrix}$ ...
 
-### Linear Least Squares Problems
+### Least Squares Problems
 When a system cannot be solved exactly, we ask: what is the closest I can get? Even if I cannot get $\begin{bmatrix}5\\ 5\\ 1\end{bmatrix}$ maybe I can get $\begin{bmatrix}5\\ 5\\ 0\end{bmatrix}$...
-$$\min_{x\in\mathbb{R}^{n}}||Ax-y||$$
+$$\min_{x\in\mathbb{R}^{n}}||Ax-y||_2^2$$
 
 Here, we use the Euclidean norm: $||v||_{2}=v_{1}^{2}+v_{2}^{2}+\dots+v_{n}^{2}$.
 
-**Geometric interpretation:** We seek the closest vector to $y$ inside the hyperplane $Im(A)$, which is obtained by **orthogonal** projection.
+**Note**: we can use two version of LMS:
+- $\min$: this means find the lowest value 
+- $\arg\min$: this means find the value of $x$ that produce the minimum values this is what we want use in many [[Regression Models]] in ML scope
+
+**Geometric interpretation:** We seek the closest vector to $y$ inside the hyperplane [[Introduction to Linear Algebra#Linear systems|Im(A)]], which is obtained by **orthogonal** projection.
 
 Obstructions are not always visible; for instance, all columns of $A$ may have a zero sum instead of a zero component.
 
-### Matlab Implementation
-Matlab provides two division operators to solve these problems:
-- **Forward slash (`/`):** `5/2` yields `2.5000e+00`.
-- **Backslash (`\`):** `5\2` yields `4.0000e-01`.
-    
-**Mnemonic**: One divides the number above the bar by the number below.
-
-##### Solving Systems and Least Squares
-`A \ y`: Finds the vector $x$ such that $Ax=y$.
-
-It is functionally equivalent to $A^{-1}y$, but implemented using faster and more stable methods than `inv(A)*y`.
-
-There is also `X/A`, which computes $XA^{-1}$, when the product makes sense, e.g., when $X=v^{\top}$ is a row vector.
-
-The same operators solve linear systems:
-```
->> [1 2; 3 4] \ [5; 6]
-ans =
-   -4.0000e+00
-    4.5000e+00
-```
-
-The backslash operator also solves least squares problems, such as:
-```
->> [2 1; 1 3; 0 0] \ [5; 5; 1]
-ans =
-    2.0000e+00
-    1.0000e+00
-```
-
-##### Applications
+#### Applications
 ###### 0. Linear Regression in machine learning
 Apart from notation change,
 $$\min_{x}||Ax-y||^{2}\iff \min_{w}||Xw-y||^{2}$$
@@ -142,7 +114,7 @@ p =
 >> plot(x, y, x, A*p)
 ```
 
-### The statistics behind it
+#### The statistics behind it
 Statistical problem: given observations $y_i$ , what are the values of $a, b, c, d$ that ‘most likely’ produced it?
 
 If noise = random Gaussian with same variance for each $i$, ‘most likely’ (maximum likelihood) means minimizing$$\sum_{i=1}^m (ax_i^3 + bx_i^2 + cx_i + d - y_i)^2$$i.e., the squared Euclidean norm. 
@@ -157,21 +129,17 @@ Remark This works because the variance of the added noise is the same on each en
 we should rescale rows to have more accuracy. (Ask a statistician for more detail.)
 
 
-### Solvability of least squares problems
-- **Linear systems:** $Ax=y$ with $A$ square: **unique solution if $A$ is nonsingular.** 
+#### Solvability of least squares problems
+- **Linear systems:** $Ax=y$ with $A$ square: **unique solution if $A$ is [[Introduction to Linear Algebra#Invertibility and Singularity|Non singuar]]** 
 - **Linear least squares problems:** $\min||Ax-y||$ with $A$ tall thin: unique solution if...?.
-###### Example:
+
+**Example**
 $$\min||Ax-y|| \text{, } A=\begin{bmatrix}1&-1&0\\ 2&1&3\\ 1&0&1\\ 0&0&0\end{bmatrix} \:\:\:\:\:\: y=\begin{bmatrix}0\\ 3\\ 1\\ 2\end{bmatrix}$$
 **Solution**: We can 'match' the first three entries (but not the 4th). $x=\begin{bmatrix}0\\ 0\\ 1\end{bmatrix}$ solves the problem. But also $x=\begin{bmatrix}1\\ 1\\ 0\end{bmatrix}$ or $x=\begin{bmatrix}\frac{1}{8}\\ \frac{1}{8}\\ \frac{1}{2}\end{bmatrix}...$.
 
-### Full column rank definition
-What is going on: there is a vector $z\ne0$ n $\ker A$: $A\begin{bmatrix}1\\ 1\\ -1\end{bmatrix}=0$. If $x$ is a solution, then so is $x+z, x+2z, x-37z...$.
 
-> **Definition** We say that $A\in\mathbb{R}^{m\times n}$ has **full column rank** if $\ker A=\{0\}$, or, equivalently: $\text{rank } A=n$ or, equivalently: there is no $z\in\mathbb{R}^{n}$, $z\ne0$ such that $Az=0$.
 
-We shall see, via several equivalent conditions, that the least squares problem $\min||Ax-y||$ has a unique solution if and only if $A$ has full column rank.
-
-### Criterion for full column rank
+#### Criterion for full column rank
 
 > **Theorem**
 > $A$ has full column rank if and only if $A^{T}A$ is positive definite.
@@ -191,8 +159,8 @@ ans =
 	1.5928e+01
 ```
 
-### Least squares problems - solution
-Suppose $A$ has full column rank. Then $\min||Ax-y||$ can also be written as:
+### Least Squares Solution
+Suppose $A$ has [[Introduction to Linear Algebra#Full column Rank|full column rank]]. Then $\min||Ax-y||$ can also be written as:
 
 $$\min_{x\in\mathbb{R}^{n}}\frac{1}{2}||Ax-y||^{2}=\min_{x\in\mathbb{R}^{n}}\frac{1}{2}(Ax-y)^{T}(Ax-y)$$
 $$=\min_{x\in\mathbb{R}^{n}}\frac{1}{2}(x^{T}A^{T}Ax-y^{T}Ay-x^{T}A^{T}y+y^{T}y)$$
@@ -200,7 +168,7 @@ $$=\min_{x\in\mathbb{R}^{n}}\frac{1}{2}x^{T}A^{T}Ax-y^{T}Ax+\frac{1}{2}y^{T}y$$
 
 We have transformed the problem into the one of finding the minimum of a quadratic function $f(x)$ - sounds familiar?
 
-### Some optimization
+#### Some optimization
 $$\min_{x\in\mathbb{R}^{n}}\frac{1}{2}x^{T}A^{T}Ax-y^{T}Ax+\frac{1}{2}y^{T}y$$
 - **Gradient:** $A^{T}Ax-A^{T}y$ 
 - **Hessian**: $A^{T}A>0 \rightarrow \text{strictly convex!}$
@@ -209,9 +177,9 @@ The minimum exists unique, and can be found with
 $$
 0 = \text{gradient} = A^{T}Ax - A^{T}y
 $$
-or:$$A^{T}Ax=A^{T}y$$$A^{T}A$ is **square** invertible (because it's positive definite), so this linear system has a unique solution. Can be solved with many methods: Gaussian elimination, LU factorization, QR (you'll see it soon),....
+or:$$A^{T}Ax=A^{T}y$$$A^{T}A$ is **square** [[Introduction to Linear Algebra#Square Linear systems|invertible]] (because it's positive definite), so this linear system has a unique solution. Can be solved with many methods: Gaussian elimination, LU factorization, QR (you'll see it soon),....
 
-### Computational cost
+#### Computational cost
 If done naively: (for $A\in\mathbb{R}^{m\times n}$, $m>n$, ignoring lower-order terms)
 
 1. Computing $A^{T}A$: $2mn^{2}$.
@@ -227,14 +195,14 @@ If done naively: (for $A\in\mathbb{R}^{m\times n}$, $m>n$, ignoring lower-order 
 	3. Solving $A^{T}Ax=A^{T}y$ with Cholesky: $\frac{1}{3}n^{3}$.
     
 
-### Geometric idea
+#### Geometric idea
 Can't solve $Ax=y$? Multiply both sides by $A^{T}$ and try again! 
 
 **Geometric idea:** The residual $Ax-y$ is orthogonal to any vector $Av \in \text{span } A$: $(Av)^{T}(Ax-y)=0$. 
 
 This method to solve LS problems is known as method of normal equations ('normal' is a fancy word for 'perpendicular/orthogonal').
 
-### Pseudoinverse
+#### Moore-Penrose Pseudoinverse
 We showed that the solution of $\min||Ax-y||$ is given by
 
 $$x_{*}=(A^{T}A)^{-1}A^{T}y$$

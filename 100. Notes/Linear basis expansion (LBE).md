@@ -45,6 +45,6 @@ Which $\phi$ we should choose? Toward the so called **dictionary** approaches.
 - **Pros**: Can model more complicated relationships (than linear) w.r.t. the inputs: it is more expressive.
 - **Cons**: With large basis of functions, we easily risk overfitting, hence we require methods for controlling the complexity (Whereas **complexity** is not for computational cost but a measure of the flexibility of the model to fit the data) of the model.
 
-### [[Tikhonov regularization]]
+### [[Tikhonov Regularization (Ridge Regression)]]
 
 # References

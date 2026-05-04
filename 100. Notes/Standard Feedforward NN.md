@@ -56,8 +56,8 @@ Instead in the **recurrent** neural networks: A different category of architectu
 - The presence of **self-loop** connections provides the network with dynamical properties, letting a memory of the past computations in the model.
 - This allows us to extend the representation capability of the model to the processing of sequences (and structured data).
 
-### [[Why NN is a flexible model?]]
-### [[Is the flexibility theoretically grounded?]]
-### [[How to learn the weights of a NN?]]
+### [[Why NN is a flexible model]]
+### [[Is the flexibility theoretically grounded]]
+### [[How to learn the weights of a NN]]
 
 # References

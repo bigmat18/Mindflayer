@@ -5,9 +5,17 @@ Tags:
   - youngling
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
+  - "[[3D Geometry Modelling & Processing]]"
 Area: "[[Master's degree]]"
 ---
 # Gradient
+Given a function $F: \mathbb{R}² \to \mathbb{R}$ (our surface) the **gradiant** of F is the vector field $\nabla F : \mathbb{R}² \to \mathbb{R}²$ defined by the partial derivatives:
+$$\nabla F(x,y) = \bigg (\frac{\partial F}{\partial x}, \frac{\partial F}{\partial y}\bigg)$$
+**Intuitively**: at the point $p_0$ the vector $\nabla F(p_0)$ points in the **direction of greatest change of F**.
+
+![[Pasted image 20250429152020.png | 600]]
+
+
 How does our function $f$ change if we move away from $x$ along a specific direction $d \in \mathbb{R}^n$? 
 - **Directional derivative:** Evaluated at $x \in \mathbb{R}^n$ along direction $d \in \mathbb{R}^n$:$$\frac{\partial f}{\partial d}(x) := \lim_{t\rightarrow0} \frac{f(x+td)-f(x)}{t} = \varphi_{x,d}^{\prime}(0)$$
   This scales linearly with the magnitude of $d$: $$\frac{\partial f}{\partial\beta d}(x) = \beta\frac{\partial f}{\partial d}(x)$$

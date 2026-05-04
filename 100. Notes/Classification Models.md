@@ -34,7 +34,7 @@ The classification may be viewed as the allocation of the input space in decisio
 
 ![[Pasted image 20260406120233.png]]
 
-Note that, given the bias $w_0$, in the LTU saying 
+Note that, given the bias $w_0$, in the **Linear threshold unit LTU** saying 
 $$
 h(x) = w^Tx + w_0 \geq 0
 $$
@@ -71,5 +71,6 @@ $$
 
 ![[Pasted image 20260406121710.png | 400]]
 
-
+### [[Learning Algorithms using Normal Equation]]
+### [[Learning Algorithms using Gradient Descent]]
 # References

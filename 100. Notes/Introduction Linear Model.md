@@ -63,7 +63,7 @@ We can represent conjunctions by the linear models, e.g.: **Conjuctions**
 
 ![[Pasted image 20260406230812.png]]
 
-##### Classification tasks
+##### Example: Classification tasks
 Given 3 points, can we always find a separation plane for every assignment of $f(x)$ ?
 - No, 3 aligned points with 0 in the middle and others 1; yes if they are not aligned (existence!).
 

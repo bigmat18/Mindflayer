@@ -116,7 +116,7 @@ $$X = S(g, v) = \{ x \in \mathbb{R} : g(x) \le v \}$$
 ![[Pasted image 20260217160221.png | 400]]
 ###### Conventions and Standardization
 *   **"v hidden in f":** By convention, constants are moved inside the function to always have comparisons with 0.
-    $$g(x) \le v \implies \tilde{g}(x) = g(x) - v \le 0$$
+$$g(x) \le v \implies \tilde{g}(x) = g(x) - v \le 0$$
 *   **Sign of the inequality:** If one has a constraint $g(x) \ge 0$, this is transformed into $-g(x) \le 0$ to maintain a standard form.
 
 ![[Pasted image 20260217160403.png | 400]]

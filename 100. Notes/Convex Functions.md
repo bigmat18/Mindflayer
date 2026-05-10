@@ -59,7 +59,6 @@ If $f \in C^2$, convexity is completely determined by the [[Hessians]] matrix:
 $$f \text{ convex} \equiv \nabla^2 f(x) \ge 0 \quad \forall x \in \mathbb{R}^n$$
 The absolute best case for optimization is when $f \in C^2$ with $\nabla^2 f \ge \tau I$ (where $\tau > 0$). This guarantees a minimum amount of strict curvature everywhere, making optimization algorithms exceptionally fast.
 
-
 ## Basic convex functions
 Sometimes taking the second derivative to prove $\nabla^2 f(x) \ge 0$ is too hard. Instead, we can prove a function is convex by showing it belongs to a list of known foundational convex functions:
 

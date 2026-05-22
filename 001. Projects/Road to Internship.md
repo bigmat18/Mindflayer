@@ -1,9 +1,4 @@
----
-tags:
-  - "#area"
----
-# Road to Internship
-## List of Company
+# List of Company
 - Total Company: 36
 - Open Company: 31
 
@@ -49,7 +44,7 @@ tags:
 - [X] [Larian Studio]() ​🔴​
 - [X] [Autodesk](https://autodesk.wd1.myworkdayjobs.com/en-US/uni/details/Intern--Software-Engineer_25WD91327-1?q=itern) ​🔴​
 
-## Technical Interview
+# Technical Interview
 
 ### Algorithms
 - [Neetcode Roadmap](https://neetcode.io/roadmap)
@@ -62,7 +57,7 @@ tags:
 - [Common Computer Graphics Questions](https://erkaman.github.io/posts/junior_graphics_programmer_interview.html)
 - [Reddit Questions](https://www.reddit.com/r/GraphicsProgramming/comments/194ewll/graphics_programming_interview_prep/)
 
-## Behavioral Interview
+# Behavioral Interview
 - [STAR-L SuperHero Valley](https://wiki-superherovalley-fun.translate.goog/preparation/behavioral/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en)
 ### General Questions
 ##### So, tell me a bit about yourself

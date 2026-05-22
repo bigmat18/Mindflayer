@@ -18,12 +18,11 @@ where $W_k$ is the diagonal matrix with entries $(W_k)_{ii} = |(w_k)_i|^{-1/2}$.
 **(A2)** an algorithm of the class of [level bundle methods](https://pages.di.unipi.it/frangio/abstracts.html#NDOB18)
 
 ### (M) [[Extreme Learning Machine]]
-### (A1) [[Iteratively Reweighed Least Square]]
-
-### (A2) [[Level Bundle Methods]]
+### (A1) [[Iteratively Reweighted Least Square]]
+### (A2) [[Bundle Methods]]
 # References
 - [[Iterative_Reweighted_Least_Squares.pdf]]
 - [Robust Regularized Extreme Learning Machine for Regression Using Iteratively Reweighted Least Squares](https://www.researchgate.net/publication/311625178_Robust_Regularized_Extreme_Learning_Machine_for_Regression_Using_Iteratively_Reweighted_Least_Squares)
 
-- [[Extreme_learning_machine_and_its_applications.pdf]]
+- [[Extreme_Learning_Machine_Theory_Applications.pdf]]
 - [[Standard_Bundle_Methods.pdf]]

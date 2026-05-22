@@ -8,7 +8,7 @@ Connection:
   - "[[Computational mathematics for learning and data analysis]]"
 Area: "[[Master's degree]]"
 ---
-# Iteratively Reweighed Least Square
+# Iteratively Reweighted Least Square
 
 The idea for these method is an alternative solution to resolve the [[Least Squares]] problem with an iteratively approach with any [[Vector Norms]].
 

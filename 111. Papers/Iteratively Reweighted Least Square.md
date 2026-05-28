@@ -60,7 +60,6 @@ $$x = A^T[AA^T]^{-1}y$$
 When $A$ is singular, the matrices $[A^TA]$ or $[AA^T]$ have a [[Introduction to Linear Algebra#The Determinant|determinant]] of zero and cannot be inverted. The analytical formulas above lose their mathematical meaning and will fail (division by zero).
 - **The Approach:** We abandon the standard analytical formulas and use a generalized solution.
 - **[[Least Squares#Moore-Penrose Pseudoinverse|Moore-Penrose Pseudoinverse]]:** We use the pseudoinverse of $A$ (often denoted as $A^+$ or calculated via `pinv(A)` in software). This robustly finds the best $L_2$ approximation without requiring the matrix to be full rank.$$x = A^+y$$
-
 This form is correct but we assume to use $L_2$ norm this because:
 - In some cases that can be done by analytic formules
 - $L_2$ norm has a energy interpretation

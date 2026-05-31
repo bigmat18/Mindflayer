@@ -177,3 +177,4 @@ end
     In Matlab, this is efficiently computed as `W*AW'*((AW*AW')\y)`. This new $x$ becomes the input for the next iteration.
 # References
 - [[Iterative_Reweighted_Least_Squares.pdf]]
+- [[Converge_IRLS.pdf]]

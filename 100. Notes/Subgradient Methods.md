@@ -55,6 +55,7 @@ $$f_{best}^i = \min_{j=0 \dots i} f(x^j)$$
 
 ### Stepsize Strategy 3: [[Target Level Stepsize]]
 
+
 ### Deflected Subgradient Methods
 "Want a better direction? Use a better model!" Since moving strictly along the negative subgradient causes erratic zig-zagging, we can "deflect" the direction using momentum from previous steps (similar to conjugate gradient methods for smooth functions).
 

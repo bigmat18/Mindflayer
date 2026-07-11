@@ -46,11 +46,14 @@ Even though $f_{\mathcal{B}} \notin C^1$ (it has kinks), finding its minimum is 
 ![[Pasted image 20260510184302.png | 300]]
 
 1. **Solve the Master Problem:** Find the point $x^*$ that minimizes the approximated model and calculate its value $v^*$:    
-$$v^* = \min \{ f_{\mathcal{B}}(x) \}$$$$x^* \in \text{argmin} \{ f_{\mathcal{B}}(x) \} \quad \text{with} \quad v^* = f_{\mathcal{B}}(x^*)$$
+$$v^* = \min \{ f_{\mathcal{B}}(x) \}$$
+this means: which is the lower point in the $f_{\mathcal{B}}$
+$$x^* \in \text{argmin} \{ f_{\mathcal{B}}(x) \} \quad \text{with} \quad v^* = f_{\mathcal{B}}(x^*)$$
+this instead means, at which coordinates there is this minimun value (we use $\in$ because could be many values with $x^*$ value)
 
 ![[Pasted image 20260510184433.png | 300]]
 
-So we have thic cup built with all the maximum values in the hyperplanes, and we take the minium part of it, that is own minimum.
+So we have a kinks cup built with all the maximum values in the hyperplanes, and we take the minium part of it, that is own minimum. To do this we need to resolve a Linear Problem.
 
 2. **Oracle Query:** Evaluate the real function at the new candidate point to get a new set of data: $(x^*, f(x^*), g^* \in \partial f(x^*))$.
 

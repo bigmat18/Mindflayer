@@ -20,6 +20,6 @@ Regularisation is used in several contexts:
 - In a optimal design setting, the extra term adds the cost of using large value of the design variables to the cost of missing the target specifications
 ### [[Tikhonov Regularization (Ridge Regression)]]
 ### [[Smoothing Regularization]]
-### [[L1-norm Regularization]] 
+### [[L1-norm Regularization (Lasso)]] 
 # References
 - [Convex Optimization: Regularizations](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=320)

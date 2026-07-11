@@ -19,7 +19,7 @@ $$f(z) \ge f(x) + \langle s, z-x \rangle$$
 
 - **Explanation of the formula:** The right-hand term, $f(x) + \langle s, z-x \rangle$, is the equation of a hyperplane passing through $(x, f(x))$ with "slope" $s$. The inequality tells us that the function $f(z)$will never drop below this hyperplane at any point $z$ in space.
     
-- **Too much information:** As the text points out, at nondifferentiable points, there is no "lack" of first-order information, but rather _too much of it_. For the same point $x$, there are infinitely many valid vectors $s$.
+- **Too much information:** At nondifferentiable points, there is no "lack" of first-order information, but rather _too much of it_. For the same point $x$, there are infinitely many valid vectors $s$.
     
 - **Boundary behavior:** If the point $x$ is "on the border" of the function's domain ($dom(f)$), the norm of the subgradient tends to infinity ($||s||\rightarrow\infty$). This means the supporting hyperplane becomes practically vertical.
 

@@ -35,7 +35,7 @@ Dynamically and intelligently managing the center $\overline{x}$ and the paramet
 ### The (Proxiaml) Bundle Method
 ![[Pasted image 20260510185632.png|500]]
 
-As shown in the pseudocode, the PBM manages progress through a two-case logic based on how accurately the model predicts the actual function value (an Armijo-type rule).
+As shown in the pseudocode, the PBM manages progress through a two-case logic based on how accurately the model predicts the actual function value (an [[Gradiant method with inexact Line Search#The Armijo Condition|Armijo]]-type rule).
 
 1. **Serious Step (SS)**: If the improvement is significant and satisfies the condition $f(x+d^*) - f(x) \le m_1 [f_{\mathcal{B}}(x+d^*) - f(x)]$:
     - The model is considered "good".

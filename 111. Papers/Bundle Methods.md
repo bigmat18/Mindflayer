@@ -75,8 +75,11 @@ $$\min \{ v : v \ge f^h + \langle g^h, x-x^h \rangle, \quad (x^h, f^h, g^h) \in 
 ![[Pasted image 20260510184918.png|300]]
 
 A major theoretical advantage of this algorithm is that it provides a **practical and highly reliable stopping criterion**. At each iteration $i$, we can calculate:
-- **Lower Bound (Model Value):** $\underline{f}^i = v^{*,i} = f_{\mathcal{B}}^i(x^{*,i}) \le f_*$
-- **Upper Bound (Record Value):** $\overline{f}^i = \min \{ f^h : h \le i \} \ge f_*$
+
+- **Lower Bound (Model Value):** $\underline{f}^i = v^{*,i} = f_{\mathcal{B}}^i(x^{*,i}) \le f_*$: This is the absolute minimum of our constructed piecewise-linear model. Because our model is built using subgradients to always lie _strictly below_ the true convex objective function, the real minimum $f_*$ can never drop below this value. It provides a guaranteed mathematical "floor" for our optimization.
+    
+- **Upper Bound (Record Value):** $\overline{f}^i = \min \{ f^h : h \le i \} \ge f_*$: This is simply the best (lowest) actual function value we have physically evaluated up to this point. Since we have already achieved this score in reality, we know for certain that the true global minimum $f_*$ must be at least this good, if not lower. It acts as our current "ceiling" trapping the true minimum.
+    
 
 The algorithm stops when the difference between the current record and the lower bound is sufficiently small: $\overline{f}^i - \underline{f}^i \le \epsilon$. Under appropriate assumptions, both sequences converge to the true minimum: $\{\overline{f}^i\} \rightarrow f_* \leftarrow \{\underline{f}^i\}$.
 

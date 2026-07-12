@@ -5,24 +5,24 @@ tags:
 # Bachelor's Degree
 ### Year 1 (Total: 54 CFU)
 
-| First Semester               | CFU | Degree | Second Semester              | CFU | Degree |
-| ---------------------------- | --- | ------ | ---------------------------- | --- | ------ |
-| [[Foundations of Computing]] | 9   | 28     | [[Calculus 2]]               | 3   | 25     |
-| [[Calculus 1]]               | 9   | 25     | [[Linear Algebra]]           | 6   | 28     |
-|                              |     |        | Laboratory I                 | 12  | 30L    |
-|                              |     |        | [[Programming & Algorithms]] | 15  | 30     |
+| First Semester           | CFU | Degree | Second Semester              | CFU | Degree |
+| ------------------------ | --- | ------ | ---------------------------- | --- | ------ |
+| Foundations of Computing | 9   | 28     | Calculus 2                   | 3   | 25     |
+| [[Calculus 1]]           | 9   | 25     | [[Linear Algebra]]           | 6   | 28     |
+|                          |     |        | Laboratory I                 | 12  | 30L    |
+|                          |     |        | [[Programming & Algorithms]] | 15  | 30     |
 
 ---
 
 ### Year 2 (Total: 54 CFU, 60 CFU con opzionale)
 
-| First Semester        | CFU | Degree | Second Semester           | CFU | Note | Degree |
-| --------------------- | --- | ------ | ------------------------- | --- | ---- | ------ |
-| Programming Paradigms | 9   | 29     | [[Statistics]]            | 6   |      | 27     |
-| Operational Research  | 6   | 25     | [[Numerical Calculation]] | 6   |      | 24     |
-| Computer Architecture | 6   | 21     | Laboratory II             | 12  |      | 30L    |
-|                       |     |        | [[Operating Systems]]     | 9   |      | 21     |
-|                       |     |        | Computer Graphics         | 6   | (FC) | 30L    |
+| First Semester        | CFU | Degree | Second Semester       | CFU | Note | Degree |
+| --------------------- | --- | ------ | --------------------- | --- | ---- | ------ |
+| Programming Paradigms | 9   | 29     | [[Statistics]]        | 6   |      | 27     |
+| Operational Research  | 6   | 25     | Numerical Calculation | 6   |      | 24     |
+| Computer Architecture | 6   | 21     | Laboratory II         | 12  |      | 30L    |
+|                       |     |        | Operating Systems     | 9   |      | 21     |
+|                       |     |        | Computer Graphics     | 6   | (FC) | 30L    |
 
 ---
 

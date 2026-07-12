@@ -76,24 +76,21 @@ where $W$ is a diagonal matrix with weights $w_i$ along its diagonal.
 ### Case 1: Overdetermined System ($M > N$)
 In this scenario, there are more equations than unknowns, so no exact solution exists ($e \neq 0$). We must find the vector $x$ that minimizes the weighted squared error.
 
-**Objective Function:**
-Since the error is defined as $e = Ax - y$, we substitute this into our objective:
+**Objective Function:** Since the error is defined as $e = Ax - y$, we substitute this into our objective:
 $$f(x) = (Ax - y)^T W^T W (Ax - y)$$
-**Step 1: Algebraic Expansion**
+###### Step 1: Algebraic Expansion
 Applying the transpose property $(Ax - y)^T = x^T A^T - y^T$ and expanding the terms:
 $$f(x) = (x^T A^T - y^T) W^T W (Ax - y)$$
 $$f(x) = x^T A^T W^T W A x - x^T A^T W^T W y - y^T W^T W A x + y^T W^T W y$$
 Since $x^T A^T W^T W y$ is a scalar (a single number), it is equal to its transpose $y^T W^T W A x$. We can combine the middle terms:
 $$f(x) = x^T A^T W^T W A x - 2x^T A^T W^T W y + y^T W^T W y$$
-
-**Step 2: Derivative and Optimization**
+###### Step 2: Derivative and Optimization
 To find the global minimum, we compute the gradient of $f(x)$ with respect to $x$ and set it to zero:
 - The derivative of the quadratic form $x^T (A^T W^T W A) x$ is $2 A^T W^T W A x$.
 - The derivative of the linear term $- 2x^T A^T W^T W y$ is $- 2 A^T W^T W y$.
 - The term $y^T W^T W y$ is a constant with respect to $x$, so its derivative is $0$.
 $$\nabla_x f(x) = 2 A^T W^T W A x - 2 A^T W^T W y = 0$$
-
-**Step 3: Solving the Linear System**
+###### Step 3: Solving the Linear System
 Divide by 2 and isolate $x$:
 $$A^T W^T W A x = A^T W^T W y$$
 Multiplying both sides by the inverse of the matrix term attached to $x$ yields the final formula:
@@ -102,24 +99,22 @@ $$x = [A^T W^T W A]^{-1} A^T W^T W y$$
 ### Case 2: Underdetermined System ($M < N$)
 In this scenario, there are fewer equations than unknowns, meaning there are infinite exact solutions where the error is exactly zero ($Ax - y = 0$). Minimizing the error no longer makes sense. Instead, we want to find the specific exact solution $x$ that has the smallest possible weighted norm (size).
 
-**Step 1: Method of Lagrange Multipliers**
+###### Step 1: Method of Lagrange Multipliers
 We construct the Lagrangian function $\mathcal{L}$ to incorporate the exact constraint into the objective function. We introduce the vector of multipliers $\lambda$ (adding a factor of $2$ purely for algebraic convenience during the derivation):
 $$\mathcal{L}(x, \lambda) = x^T W^T W x + 2\lambda^T (y - Ax)$$
-
-**Step 2: Derivative with respect to $x$**
+###### Step 2: Derivative with respect to $x$
 Compute the gradient of the Lagrangian with respect to $x$ and set it to zero to find the minimum:
 $$\nabla_x \mathcal{L} = 2 W^T W x - 2 A^T \lambda = 0$$
 Divide by 2 and isolate $x$:
 $$W^T W x = A^T \lambda$$
 $$x = [W^T W]^{-1} A^T \lambda$$
-**Step 3: Solving for the multipliers $\lambda$**
+###### Step 3: Solving for the multipliers $\lambda$
 We now have an expression for $x$, but we need to find the value of $\lambda$. Substitute the expression for $x$ back into our original constraint $Ax = y$:
 $$A \left( [W^T W]^{-1} A^T \lambda \right) = y$$
 $$\left( A [W^T W]^{-1} A^T \right) \lambda = y$$
 Since the bracketed term is an invertible $M \times M$ square matrix, we can isolate $\lambda$:
 $$\lambda = \left[ A [W^T W]^{-1} A^T \right]^{-1} y$$
-
-**Step 4: Final Substitution**
+###### Step 4: Final Substitution
 Finally, insert the value of $\lambda$ back into the formula for $x$ from Step 2:
 $$x = [W^T W]^{-1} A^T \big[A [W^T W]^{-1} A^T \big]^{-1} y$$
 
@@ -213,8 +208,7 @@ end
 4. **Application:** The matrix $A$ is multiplied by the weight matrix $W$.
     
 5. **Weighted Solve:** It computes the new solution using the weighted formula for underdetermined systems:
-    
-    $$x = [W^TW]^{-1} A^T \big[A [W^TW]^{-1} A^T \big]^{-1}y$$
+$$x = [W^TW]^{-1} A^T \big[A [W^TW]^{-1} A^T \big]^{-1}y$$
     
     In Matlab, this is efficiently computed as `W*AW'*((AW*AW')\y)`. This new $x$ becomes the input for the next iteration.
 
@@ -237,24 +231,21 @@ To circumvent this issue and shift the calculation into the smaller $M \times M$
 $$(X^T X + \lambda D)^{-1} X^T \equiv D^{-1} X^T (X D^{-1} X^T + \lambda I)^{-1}$$
 
 By mapping our primal ELM system to the Push-Through Identity, we can substitute $D = 2W_k^2$ and match the regularization terms:
-
-**Step 1: Apply the identity to the primal inverse block**
+###### Step 1: Apply the identity to the primal inverse block
 We rewrite the entire inverse and projection sequence $(X^T X + 2\lambda W_k^2)^{-1} X^T$ by pushing the matrix $X^T$ through:
 $$w_{k+1} = \underbrace{(2W_k^2)^{-1} X^T \big[X (2W_k^2)^{-1} X^T + \lambda I\big]^{-1}}_{\text{Pushed-Through Identity Equivalent}} y$$
-
-**Step 2: Factor out the scalar constants**
+###### Step 2: Factor out the scalar constants
 We can factor out the constant $2$ from the matrix inverses to align with our stabilization framework:
 $$w_{k+1} = \frac{1}{2} W_k^{-2} X^T \big[\frac{1}{2} X W_k^{-2} X^T + \lambda I\big]^{-1} y$$
 Multiplying the inside of the inverted bracket by $2$ and balancing it outside the bracket allows us to eliminate the fractions:
 $$w_{k+1} = W_k^{-2} X^T \big[X W_k^{-2} X^T + 2\lambda I\big]^{-1} y$$
-
-**Step 3: Define the Matrix Substitution $P_k$**
+###### Step 3: Define the Matrix Substitution $P_k$
 The expression still contains the awkward term $W_k^{-2}$, which represents the mathematical inverse of our squared penalty weights. To clean up the notation and optimize computational performance, we introduce a new diagonal matrix $P_k$ defined as:
 $$P_k = W_k^{-2}$$
 Since our original weight definition was $(W_k)_{ii} = \frac{1}{\sqrt{\vert{}(w_k)_i\vert{}}}$, squaring it yields $(W_k^2)_{ii} = \frac{1}{\vert{}(w_k)_i\vert{}}$. Taking the inverse to find $P_k$ simply flips the fraction, meaning the elements of $P_k$ track the direct magnitudes of the weights:
 $$(P_k)_{ii} = \vert{}(w_k)_i\vert{}$$
 
-**Step 4: Final Dual Formulation**
+###### Step 4: Final Dual Formulation
 Substituting $P_k$ back into our derived equation yields the final optimized system:
 $$w_{k+1} = P_k X^T (X P_k X^T + 2\lambda I)^{-1} y$$
 This final expression is mathematically identical to the primal setup but only requires the inversion of an $M \times M$ matrix. By avoiding the $N \times N$ inversion completely, the per-iteration complexity collapses from $\mathcal{O}(N^3)$ to $\mathcal{O}(M^3)$, allowing wide network architectures to be trained efficiently.
@@ -274,11 +265,7 @@ $$w_i(x) = \frac{h'(f_i(x))}{2f_i(x)}$$
 However, simply choosing these weights **does not intrinsically ensure that the iterations converge**It is necessary to mathematically demonstrate that each iteration of the IRLS actually reduces the overall cost $C_h(x)$.
 #### Lemma 2.1
 
-> **Lemma 2.1:** Let $g(x)$ be a concave function defined on a subset $D$ of real numbers, and let $g^s(c_i)$ be a supergradient evaluated at $c_i$. Let $c_i$ and $d_i$ in $D$ satisfy the inequality:
-> $$\sum_{i=1}^k d_i g^s(c_i) \le \sum_{i=1}^k c_i g^s(c_i)$$
-> Then it follows that:
-> $$\sum_{i=1}^k g(d_i) \le \sum_{i=1}^k g(c_i)$$
-> If the first inequality is strict, so is the second.
+> **Lemma 2.1:** Let $g(x)$ be a concave function defined on a subset $D$ of real numbers, and let $g^s(c_i)$ be a supergradient evaluated at $c_i$. Let $c_i$ and $d_i$ in $D$ satisfy the inequality: $$\sum_{i=1}^k d_i g^s(c_i) \le \sum_{i=1}^k c_i g^s(c_i)$$Then it follows that: $$\sum_{i=1}^k g(d_i) \le \sum_{i=1}^k g(c_i)$$If the first inequality is strict, so is the second.
 
 This lemma proves that the minimization of a weighted linear approximation guarantees the decrease of the original concave function $g(x)$.
 
@@ -291,16 +278,12 @@ To apply Lemma 2.1 to the IRLS context, it is necessary **to map the variables o
 By applying the substitution $g(x) = h(\sqrt{x})$ to Lemma 2.1, the exact condition for the validity of the IRLS algorithm is obtained.
 
 #### Lemma 2.2
-> **Lemma 2.2:** Let $h(\sqrt{x})$ be a concave function for $x \ge 0$, and let $x^t$ and $x^{t+1}$ be two values such that:
-> $$\sum_{i=1}^k w_i^t f_i(x^{t+1})^2 \le \sum_{i=1}^k w_i^t f_i(x^t)^2$$
-> where the weights $w_i^t$ are defined as in the weight equation. Then:
-> $$\sum_{i=1}^k h(f_i(x^{t+1})) \le \sum_{i=1}^k h(f_i(x^t))$$
-> If the first inequality is strict, so is the second.
+> **Lemma 2.2:** Let $h(\sqrt{x})$ be a concave function for $x \ge 0$, and let $x^t$ and $x^{t+1}$ be two values s.t.:$$\sum_{i=1}^k w_i^t f_i(x^{t+1})^2 \le \sum_{i=1}^k w_i^t f_i(x^t)^2$$where the weights $w_i^t$ are defined as in the weight equation. Then: $$\sum_{i=1}^k h(f_i(x^{t+1})) \le \sum_{i=1}^k h(f_i(x^t))$$ If the first inequality is strict, so is the second.
 
 In summary, for the iterative minimization of squares to imply the minimization of the robust cost, the composition $h(\sqrt{x})$ must be concave. To guarantee the convergence of the sequence to the critical points, $h(\sqrt{x})$ must also be differentiable for $x \ge 0$.
 
 #### The Problem with the $\ell_1$ Norm (Lasso)
-Applying the IRLS framework to induce sparsity ($\ell_1$ regularization), **the desired robust cost function is** $h(x) = x$. The variable of the problem is the network parameter $w_i$, and the function $f_i$ corresponds to the identity: $f_i(w) = \vert{}w_i\vert{}$.
+Applying the IRLS framework to induce sparsity ([[L1-norm Regularization (Lasso)|L1 regularization]]), **the desired robust cost function is** $h(x) = x$. The variable of the problem is the network parameter $w_i$, and the function $f_i$ corresponds to the identity: $f_i(w) = \vert{}w_i\vert{}$.
 
 Subjecting this formulation to the requirements of Lemma 2.2:
 1. The function to be analyzed becomes $h(\sqrt{x}) = \sqrt{x}$.

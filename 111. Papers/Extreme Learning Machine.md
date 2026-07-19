@@ -5,7 +5,7 @@ Tags:
   - youngling
   - paper
 Connection:
-  - "[[Efficient Training of ELM - IRLS vs Level Bundle Methods]]"
+  - "[[Training of ELM - IRLS vs Level Bundle Methods]]"
 Area: "[[Computational mathematics for learning and data analysis]]"
 ---
 # Extreme Learning Machine

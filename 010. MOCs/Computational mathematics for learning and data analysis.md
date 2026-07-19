@@ -14,6 +14,15 @@ Area: "[[Master's degree]]"
 - [[Least Squares]]
 - [[Conjugate Gradiant]]
 - [[Singular Value Decomposition (SVD)]]
+- [[Matrix Norm]]
+- [[Principal Component Analysis (PCA)]]
+- [[QR Factorization]]
+- [[Conditioning of LS]]
+- [[Stability]]
+- [[Arnoldi]]
+- [[GMRES]]
+- [[LU factorization]]
+- [[Cholesky factorization]]
 
 ### Optimization
 ![[Introduction to Optimization]]

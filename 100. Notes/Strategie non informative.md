@@ -17,11 +17,11 @@ Tempo richiesto per trovare la soluzione
 #### Complessità in spazio 
 Spazio richiesto durante la ricerca
 
-## [[Ricerca in ampiezza (BF)]]
+## [[Ricerca in ampiezza (BFS)]]
 
-## [[Ricerca in profondità (DF)]]
+## [[Ricerca in profondità (DFS)]]
 
-## [[Ricerca in profondità (DF)|Ricerca in profondità limitata (DL)]]
+## [[Ricerca in profondità (DFS)|Ricerca in profondità limitata (DL)]]
 
 ## [[Ricerca con approfondimento iterativo (ID)]]
 

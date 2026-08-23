@@ -1,3 +1,4 @@
+- [[Dynamic Programming Pattern]]
 - [[Fibonacci Sequence]]
 - [[Longest Common Subsequence (LCS)]]
 - [[Conf & Perm with Backtracking]]

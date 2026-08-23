@@ -2,7 +2,7 @@
 Data: 2025-09-23T18:15:00
 Tags:
   - note
-  - youngling
+  - master
 Connection:
   - "[[Competitive Programming and Contests]]"
 Area: "[[Master's degree]]"
@@ -219,5 +219,7 @@ vector<int> maxOfSubarrays(vector<int>& arr, int k) {
 First we have a loop with $n$ iterations, the cost of each iteration is based on the cost of pop operations. However, in a iteration we should extract every elements in the deque. There is until $n$ elements in the deque then an iteration can be $O(n)$. With this analysis the algorithm has a time complexity in bad case $O(n²)$.
 
 But with empiric analysis the time become linear because the heavy iterations are rare, and they are depreciated by small iterations (very often).
+
 # References
-- [Notes](https://pages.di.unipi.it/rossano/blog/2023/swm/)
+- https://pages.di.unipi.it/rossano/blog/2023/swm/
+- https://leetcode.com/problems/sliding-window-maximum/description/

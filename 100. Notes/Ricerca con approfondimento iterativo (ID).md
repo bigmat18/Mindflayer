@@ -5,7 +5,7 @@
 **Area**: [[Bachelor's Degree]]
 # Ricerca con approfondimento iterativo (ID)
 
-Si utilizza la [[Ricerca in profondità (DF)|DF]] con limite di profondità 0, poi 1, poi 2 ecc. fino a trovare la soluzione.
+Si utilizza la [[Ricerca in profondità (DFS)|DF]] con limite di profondità 0, poi 1, poi 2 ecc. fino a trovare la soluzione.
 
 ![[Screenshot 2024-05-17 at 18.03.57.png]]
 

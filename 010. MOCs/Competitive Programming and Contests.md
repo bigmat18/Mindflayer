@@ -6,17 +6,21 @@ Area: "[[Master's degree]]"
 ---
 # Table of Contents
 
+##### Course Content
 - [[Kadane's Algorithm]]
 - [[Trapping Rain Water]]
+- [[Binary Search]]
 - [[Sliding Window Maximum]]
-- [[Floyd's Algorithm]]
+- [[Sweep Line Algorithm]]
+- [[Dynamic Prefix Sums with Fenwick Tree]]
+
 
 ![[Algorithms Patterns]]
 
 # References
 - [Competitive Programming Course Page](https://pages.di.unipi.it/rossano/competitive/)
 - [Amazing Patterns Video](https://www.youtube.com/watch?v=DjYZk8nrXVY&t=88s)
-###### Algorithms
+###### Generics Algorithms
 - [Neetcode](https://neetcode.io/roadmap)
 - [Leetcode](https://leetcode.com/explore/learn)
 ###### Languages

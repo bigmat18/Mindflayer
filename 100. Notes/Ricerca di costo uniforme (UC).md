@@ -5,7 +5,7 @@
 **Area**: [[Bachelor's Degree]]
 # Ricerca di costo uniforme (UC)
 
-Generalizzazione della ricerca in ampiezza ([[Ricerca in ampiezza (BF)|BF]]). Si sceglie il nodo di costo minore sulla frontiera (si intende il costo $g(n)$ de cammino), si espande sui contorni di uguale (o meglio uniforme) costo invece che sui contorni di uguale profondità.
+Generalizzazione della ricerca in ampiezza ([[Ricerca in ampiezza (BFS)|BF]]). Si sceglie il nodo di costo minore sulla frontiera (si intende il costo $g(n)$ de cammino), si espande sui contorni di uguale (o meglio uniforme) costo invece che sui contorni di uguale profondità.
 
 ```python
 def unform_cost_search(problem):

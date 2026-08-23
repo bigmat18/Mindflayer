@@ -1,5 +1,5 @@
 ---
-Data: 2025-11-30T18:34:00
+Data: 2026-08-23T19:38:00
 Tags:
   - note
   - youngling
@@ -7,7 +7,8 @@ Connection:
   - "[[Competitive Programming and Contests]]"
 Area: "[[Master's degree]]"
 ---
-# Floyd's Algorithm
+# Dynamic Prefix Sums with Fenwick Tree
+
 
 # References
-- [Wikipedia Page](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
+- https://pages.di.unipi.it/rossano/blog/2023/fenwick/

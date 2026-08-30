@@ -173,12 +173,22 @@ pub fn mos(a: &[usize], queries: &[(usize, usize)]) -> Vec<usize> {
     let mut sorted_queries: Vec<_> = queries.iter().cloned().collect();
     let mut permutation: Vec<usize> = (0..queries.len()).collect();
 
+	// Calculate the size of each bucket
     let sqrt_n = (a.len() as f64) as usize + 1;
+    
+    // Sort the queries using the followin criteri
+    //   1. left / sqrt_size: idx of the bloc
+    //   2. the right value
     sorted_queries.sort_by_key(|&(l, r)| (l / sqrt_n, r));
+    
+    // Sort also permutation to keep the original index for the query
+    // in position k in sorted query
     permutation.sort_by_key(|&i| (queries[i].0 / sqrt_n, queries[i].1));
 
+	// applay the same function above but with ordered queries
     let answers = three_or_more(a, &sorted_queries);
 
+	// reorder in the right order the answer
     let mut permuted_answers = vec![0; answers.len()];
     for (i, answer) in permutation.into_iter().zip(answers) {
         permuted_answers[i] = answer;

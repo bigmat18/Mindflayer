@@ -15,7 +15,7 @@ Area: "[[Master's degree]]"
 - [[Dynamic Prefix Sums with Fenwick Tree]]
 - [[Segment Tree]]
 - [[Mo's Algorithm]]
-- [[Static RMQ with sparse table]]
+- [[Static Range Minimum Query (RMQ)]]
 
 
 ![[Algorithms Patterns]]

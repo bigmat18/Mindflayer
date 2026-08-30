@@ -9,7 +9,7 @@ Connection:
   - "[[Algorithms Patterns]]"
 Area: "[[Master's degree]]"
 ---
-# Prefix Sum
+ # Prefix Sum
 
 This pattern is often used to solve problems that ask the **sum of elements between two indices** in an array operations on subarrays. Using the prefix sum technique
 - After a one-time pre-processing in $O(n)$ time, each range sum query can be answered in $O(1)$ time
@@ -36,13 +36,31 @@ def create_prefix_sum(arr)
 	return arr
 ```
 
+### Prefix Sum in Rust
+In Rust, the combinator [`scan`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.scan) can produce the prefix sums (and much more) from an iterator. `scan` is an iterator adapter that bears similarity to [fold](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.fold). Similar to `fold`, `scan` maintains an **internal state**, initially set to a seed value, which is modified by a closure taking both the current internal state and the current element from the iterator into account.
+
+The distinction between `scan` and `fold` is that the **former produces a new iterator** with all the states taken by its internal state, whereas the latter only **returns the value of the final internal state**.
+
+```rust
+let a = vec![2, 4, 1, 7, 3, 0, 4, 2];
+
+let psums = a
+    .iter()
+    .scan(0, |sum, e| {
+        *sum += e;
+        Some(*sum)
+    })
+    .collect::<Vec<_>>();
+
+assert!(psums.eq(&vec![2, 6, 7, 14, 17, 17, 21, 23]));
+```
+
 ### [[Subarray Sum Equals to K]]
 ### [[Ilya and Queries]]
 ### [[Little Girl and Maximum]]
 ### [[Number of Ways]]
-
 ### [[Dynamic Prefix Sums with Fenwick Tree]]
-
+### [[Prefix Sum with Segment Tree]]
 
 # References
 - https://www.geeksforgeeks.org/dsa/understanding-prefix-sums/

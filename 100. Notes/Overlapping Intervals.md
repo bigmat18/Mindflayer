@@ -18,7 +18,7 @@ This pattern describes an efficient technique to deal with overlapping intervals
 
 ### [[Merge Overlapping Intervals]]
 ### [[Sweep Line Algorithm]]
-
+### [[Segment Tree]]
 
 # References
 - https://www.geeksforgeeks.org/dsa/merging-intervals/

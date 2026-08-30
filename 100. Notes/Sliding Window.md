@@ -29,7 +29,6 @@ There are basically two types of sliding window that could be possibily be ident
 	- **Increase left:** if the condition does not match, we shrink the size of our window by increasing left pointer and restore the property
 
 ### [[Max Sum of Subarray with K elements]]
-
 ### [[Sliding Window Maximum]]
 
 

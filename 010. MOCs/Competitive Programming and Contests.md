@@ -13,6 +13,9 @@ Area: "[[Master's degree]]"
 - [[Sliding Window Maximum]]
 - [[Sweep Line Algorithm]]
 - [[Dynamic Prefix Sums with Fenwick Tree]]
+- [[Segment Tree]]
+- [[Mo's Algorithm]]
+- [[Static RMQ with sparse table]]
 
 
 ![[Algorithms Patterns]]

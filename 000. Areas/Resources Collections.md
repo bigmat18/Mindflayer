@@ -9,6 +9,10 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 - **Patters**: for all generica approach or pattern to quality code
 - **Interesting Features**: just c++ feature (usually not common) that might be interesting to study in deep in feature
 - **Performance**: Collections of resource for **Low-Latency** or **[[High Performance Computing]]** 
+
+- https://www.sandordargo.com/
+- https://brevzin.github.io/
+- https://share.gemini.google/ejeiFt1K5uhC
 ### Patterns
 - [Resource Acquisition Is Initialisation (RAII)](https://en.cppreference.com/cpp/language/raii)
 - [The rule of three/five/zero](https://en.cppreference.com/cpp/language/rule_of_three)
@@ -16,7 +20,6 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 - **Curiously Recurring Template Pattern (CRTP)**
 	- [CppReference](https://en.cppreference.com/cpp/language/crtp)
 	- [CRTP with Concepts](https://www.sandordargo.com/blog/2024/12/04/crtp-vs-concepts)
-
 ### Performance
 - [Cache Warming Tecnique](https://towardsdev.com/cache-warming-prefetching-cpp-performance-guide-68b2f693af56)
 - [Short-Circuiting in C++ and Linux](https://www.geeksforgeeks.org/linux-unix/short-circuiting-in-c-and-linux/)
@@ -29,7 +32,6 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 	- [Memory Alignment](https://stackoverflow.com/questions/381244/purpose-of-memory-alignment/381368#381368)
 	- [Lock-Free Allocator Paper](https://cse.hkust.edu.hk/~charlesz/comp610/paper/pldi-2004.pdf)
 - [Big Paper about Low-Latency](https://arxiv.org/abs/2309.04259?utm_source=pocket_shared)
-
 
 ## Books
 ### High Performance Computing

@@ -36,7 +36,7 @@ Given a set $I$ of intervals, a segment tree $T$ for $I$ is structured as follow
 - **Internal nodes**: the interval $Int(n)$ corresponding to node $N$ is the union of the intervals corresponding to the leaves of the tree rooted at $N$. That implies that $Int(N)$ is the union of the intervals of two children.
 - Each node or leaf $v$ in $T$ stores the interval $Int(v)$ and a set of intervals, in some data structure. This canonical subset of node $v$ contains the intervals $[x, x']$ from $I$ such that $[x, x']$ contains $Int(v)$ and does not contain $Int(parent(v))$. That is, each node in $T$ stores the segments that span through its interval, but do not span through the interval of its parent
 
-![[Pasted image 20260830130955.png|317]]
+![[Pasted image 20260830130955.png|317]] 
 
 ### Construction
 A segment tree from a set of segments $I$ can be built as follows:

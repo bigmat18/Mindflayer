@@ -15,7 +15,7 @@ This section explores **Bundle Methods**, sophisticated algorithms designed to o
 ### The Basic Idea: Building a Better Model
 The fundamental idea of the **Cutting Plane** method answers a simple question: _"Want a better direction? Use a better model!"_.
 
-In non-differentiable problems, we do not have second-order information (the [[Hessians]] matrix). The first-order information (the [[(Convex) Non Differentiable Functions#The Concept of a Subgradient|subgradient]]) might seem "crap," but for **[[(Convex) Non Differentiable Functions|convex functions]]**, it has a very powerful property: it is **globally valid**.
+In non-differentiable problems, we do not have second-order information (the [[Hessians]] matrix). The first-order information (the [[Non Differentiable Functions (Convex)#The Concept of a Subgradient|subgradient]]) might seem "crap," but for **[[Non Differentiable Functions (Convex)|convex functions]]**, it has a very powerful property: it is **globally valid**.
 
 If we query an "oracle" at a point $x$, we get the function value $f(x)$ and a subgradient $g \in \partial f(x)$. With this data, we can build a **first-order model** at $x$:
 

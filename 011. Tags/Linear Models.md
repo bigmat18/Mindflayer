@@ -1,0 +1,6 @@
+- [[Introduction Linear Model]]
+- [[Regression Models]]
+- [[Classification Models]]
+- [[Linear basis expansion (LBE)]]
+- [[Regularisations]]
+- [[K-nn Algorithm]]

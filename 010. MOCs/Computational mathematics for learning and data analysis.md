@@ -2,27 +2,27 @@
 Year: 2025/2026
 Period: 1° semester
 Exam done:
-Area:
+Area: "[[Master's degree]]"
 ---
 # Table of Contents
 
 ### Numeric Linear Algebra
 - [[Introduction to Linear Algebra]]
+- [[Vector Norms]]
 - [[Orthogonality]]
 - [[Eigenvalues and Eigenvectors]]
 - [[Least Squares]]
 - [[Conjugate Gradiant]]
 - [[Singular Value Decomposition (SVD)]]
-- [[Matrix Norms]]
+- [[Matrix Norm]]
+- [[Principal Component Analysis (PCA)]]
 - [[QR Factorization]]
-- [[Least Squares with QR]]
-- [[Least Squares with SVD]]
-- [[Conditioning]]
-- [[Conditioning Least Squares]]
+- [[Conditioning of LS]]
 - [[Stability]]
+- [[Arnoldi]]
 - [[GMRES]]
-- [[LU Factorization]]
-- [[Cholesky Factorization]]
+- [[LU factorization]]
+- [[Cholesky factorization]]
 
 ### Optimization
 ![[Introduction to Optimization]]
@@ -30,4 +30,10 @@ Area:
 ![[Univariate Optimization]]
 
 ![[Unconstrained Multivariate Optimality and Convexity]]
+
+![[Smooth Unconstrained Multivariante Optimization]]
+
+![[Nonsmooth Convex Unconstrained Multivariante Optimization]]  
+
 # Resources
+- [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)

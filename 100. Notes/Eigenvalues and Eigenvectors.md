@@ -4,7 +4,6 @@ Tags:
   - note
   - youngling
 Connection:
-  - "[[Linear Algebra]]"
   - "[[Computational mathematics for learning and data analysis]]"
 Area: "[[Master's degree]]"
 ---

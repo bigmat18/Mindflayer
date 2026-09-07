@@ -20,7 +20,7 @@ Putting all together:
 
 From all this things we can define the **Statistical Learning Theory (SLT)** that is a general theory relating such tops. Some formal settings:
 - Approximation unknown $f(x)$ and $d$ is the target ($d=true f+noise$)
-- Minimize risk function (the true error over all the data domain)
+- Minimize [[Loss in ML|risk function]] (the true error over all the data domain)
 $$
 R = \int L(d, h(x))dP(x, d)
 $$

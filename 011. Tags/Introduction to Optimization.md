@@ -2,4 +2,4 @@
 - [[Optimization Difficult]]
 - [[Simple Functions, Univariate Case]]
 - [[Simple Functions, Multivariate case]]
-- [[Gradiant Method]]
+- [[Gradient Method]]

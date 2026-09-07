@@ -8,10 +8,10 @@ Area: "[[Master's degree]]"
 
 ![[Introduction to Machine Learning]]
 
-- [[Regression Models]]
-- [[Classification Models]]
-- [[K-nn Algorithm]]
-- [[Neural Networks (NN)]]
+![[Linear Models]]
+
+![[Neural Networks (NN)]]
+
 - [[Backpropagation]]
 - [[Validation]]
 - [[Support Vector Machiens (SVM)]]

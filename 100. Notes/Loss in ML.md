@@ -13,7 +13,7 @@ We speak about a "good" approximation to a function $f$ from examples. But how w
 - Recall that we produce the "distance" between $h(x)$ and $d$
 - We want to measure the "distance" between $h(x)$ and $d$ (objective function for minimisation of errors)
 
-We use a ("inner") loss function/measure: $L(h_w(x), d)$ (for a pattern $x$). 
+We use a ("inner") **loss function/measure**: $L(h_w(x), d)$ (for a pattern $x$). 
 E.g. hight value $\to$ poor approximation
 
 The error (or Risk of Loss) is an expected value of this $L$, for example a "sum" or mean of the inner loss L over the set of samples

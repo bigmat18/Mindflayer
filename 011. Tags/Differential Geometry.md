@@ -3,6 +3,7 @@
 - [[Surfaces Curvatures]]
 - [[Gaussian Curvature]]
 - [[Mean Curvature]]
-- [[Gradiant, Divergence and Laplacian]]
+- [[Gradient]]
+- [[Divergence and Laplacian]]
 - [[Discrete Differential Operators]]
 - [[Curvature via Surface Fitting]]

@@ -1,5 +1,5 @@
 ---
-Data: 2026-03-04T15:29:00
+Data: 2026-03-21T12:53:00
 Tags:
   - note
   - youngling
@@ -9,32 +9,41 @@ Connection:
 Area: "[[Master's degree]]"
 ---
 # Unconstrained Multivariate Optimization
+When moving from one-dimensional to multivariate optimization, the objective function is defined as $f: \mathbb{R}^n \to \mathbb{R}$, which can be written as $f(x_1, x_2, \dots, x_n) = f(x)$. While the goal remains finding the minimum value, the "geometry" of $\mathbb{R}^n$ introduces significant theoretical and computational hurdles.
 
-## The Global Optimization Problem
-In multivariate optimization, we extend our objective function to operate on an $n$-dimensional space. Mathematically, this is defined as:
-$$f:\mathbb{R}^{n}\rightarrow\mathbb{R}$$
-This means the function evaluates a vector of variables $f(x_{1},x_{2},...,x_{n}) = f(x)$ to produce a single scalar value. To establish any rigorous mathematical guarantees for finding an optimum, we require the function $f$ to be [[Optimization Difficult#Lipschitz Continuity|Lipschitz Continuity]], often denoted simply as $f$ being $L$-c.
+## Unconstrained Global Optimization
+Finding the global minimum—the absolute lowest point—in multiple dimensions is an incredibly daunting task. To ensure progress, it is necessary for $f$ to be $L$-continuous ([[Optimization Difficult#Lipschitz Continuity|Lipschitz continuous]]).
 
-The core issue with unconstrained global optimization is the **curse of dimensionality**. There is very bad news on the theoretical front: no algorithm can find a global minimum in fewer than $\Omega((LD/\epsilon)^{n})$ operations. Because the dimension $n$ acts as an exponent, the computational effort explodes, making the problem not really doable unless $n=3/5/10$ tops. 
+#### The Problem: The Curse of Dimensionality
+There is a fundamental theoretical limit to how fast an algorithm can find a global optimum:
+- **Lower Bound Complexity**: No algorithm can work in less than $\Omega((LD/\epsilon)^n)$.
+- **Exponential Growth**: The computational effort required grows exponentially with the number of variables $n$.
+- **Curse of Dimensionality**: Global optimization is generally not doable unless $n$ is very small, typically $n = 3, 5,$ or $10$ at most.
 
-While exact global optimization is generally intractable in high dimensions, several practical approaches exist depending on the nature of the function:
-- **Grid Search:** We can approach the problem in $O((LD/\epsilon)^{n})$ using a multidimensional grid with a small enough step. This is the standard approach to hyperparameter optimization, though the exact diameter $D$ and Lipschitz constant $L$ are usually unknown.
-- **Analytic Functions:** If $f$ is analytic, clever spatial Branch & Bound (B&B) techniques can systematically explore the space to yield the provable global optimum.
-- **Black-Box Functions:** When no derivatives are available (typically the case for complex systems), many effective heuristics can provide good, albeit not provably optimal, solutions.
+#### Global Search Strategies
+Despite these difficulties, several practical approaches exist to hunt for the global minimum:
+- **Multidimensional Grid Search**: It is possible to achieve the optimum in $O((LD/\epsilon)^n)$ using a grid with a small enough step size. This is the standard approach for hyperparameter optimization, though the constants $D$ (diameter) and $L$ (Lipschitz constant) are often unknown.
+- **Analytic Functions**: If the analytical form of $f$ is known, clever spatial Branch & Bound (B&B) methods can find the global optimum.
+- **Black-box Heuristics**: When $f$ is a "black box" and derivatives are unavailable, many effective heuristics can provide good solutions, though they are not provably optimal.
 
-In all these practical scenarios, the computational complexity grows "fast" as $n$ grows. Finding good global solutions is hard in practice, and proving their optimality is even worse. 
+In summary: **Finding good global solutions is hard in practice, and proving optimality is even worse unless the function $f$ is convex**. If the function is **convex**, then every local minimum is also a global minimum.
 
-The only major exception is **if $f$ is convex**; in that specific case, the math simplifies beautifully because every local minimum is also a global minimum (global = local).
+## Unconstrained Local Optimization
+Since finding a global minimum is often intractable, we usually settle for local optimization. In this context, the computational outlook is much better.
 
-## The Shift to Local Optimization
-Given the exponential difficulty of global searches, **local optimization is much better** and computationally tractable. 
+### Dimension Independence
+Unlike the global case, local optimization is significantly more efficient and scales better:
+- **Analogous to Quadratic Case**: Results are generally surprisingly similar to the multivariate quadratic case.
+- **Dimension-Independent Complexity**: Most convergence results do not explicitly depend on $n$. If there is a dependency, it is typically not exponential.
+- **Model-Based**: This efficiency stems from the fact that linear and quadratic models are staples of local optimization.
 
-The mathematical results for local optimization are generally, and surprisingly, analogous to the multivariate quadratic case. Most convergence results are **dimension-independent**. This means the number of iterations required to find a minimum does not explicitly depend on $n$, or at least not exponentially. This efficiency is not completely surprising, as building linear and quadratic models of the function is a staple of these algorithms.
+### Computational Reality and Limits
+A "dimension-independent" theory does not necessarily mean the algorithm is instantaneous in practice:
+- **Convergence Speed**: The speed may still be low, sometimes characterized as "badly linear" or worse.
+- **Iteration Cost**: The cost of computing $f$ and its derivatives necessarily increases as $n$ grows.
+- **Large-Scale Challenges**: For extremely large problems ($n \approx 10^9$), even an $O(n^2)$ complexity is too high for practical computation.
+- **Hidden Constants**: Some dependency on the dimension $n$ might be hidden within the $O(\cdot)$ constants of the algorithm.
 
-However, escaping the curse of dimensionality does not mean all local algorithms are fast. There are several caveats to consider:
-- **Convergence Speed:** The actual speed of convergence may be rather low, sometimes characterized as "badly linear" or worse.
-- **Computational Cost:** The cost of computing $f$ and its derivatives necessarily increases with $n$. For modern large-scale problems where $n \approx 10^{9}$, even an algorithm with a polynomial complexity like $O(n^{2})$ requires too much memory and time.
-- **Hidden Constants:** Some dependency on the dimension $n$ may be hidden mathematically within the constants of the $O(\cdot)$ notation.
+Despite these hurdles, **large-scale local optimization is doable if derivatives are available**. However, derivatives in $\mathbb{R}^n$ (Gradients, Jacobians, and Hessians) are significantly more complex than those in $\mathbb{R}$.
 
-Ultimately, large-scale local optimization is highly doable if you have access to the function's derivatives. The next mathematical hurdle is that defining and computing derivatives in $\mathbb{R}^{n}$ is significantly more complex than in standard univariate calculus.
 # References

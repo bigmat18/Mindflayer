@@ -5,7 +5,6 @@ Tags:
   - youngling
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-  - "[[Linear Algebra]]"
 Area: "[[Master's degree]]"
 ---
 # Introduction to Linear Algebra
@@ -70,10 +69,11 @@ v_3 \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:
 $$
 The entries of $x$ are coordinates used to write $y$ as a **linear combination** of $v_1, v_2, v_3$
 
-### Bases
+### Bases and Linear Indipendency
 A **bases** is a tuple of vectors $v_1, v_2, \dots, v_n$ such that we can write each vector $y$ of a certain space, **uniquely**, as a linear combination of them.
-- **Uniquely**: coordinates for each vector are unique/well defined
-- **Canonical basis**: vectors with only one 1, for example n=4
+- **Uniquely**: coordinates for each vector are unique/well defined. We can also say that the vector in the base are **Linear Indipendency**
+- It generate all space space (the **span** of the bases)
+
 ###### Example
 $$
 e_1 = \begin{bmatrix}1\\0\\0\\0\end{bmatrix}, \:\:\:
@@ -85,6 +85,7 @@ Coordinates (w.r.t.) with reference to this basis $\Leftrightarrow$  vector entr
 $$
 y = e_1y_1 + e_2y_2 + e_3y_3 + e_4y_4
 $$
+**Canonical basis**: vectors with only one 1, for example n=4
 ### Linear systems
 **Problem**: find **coordinates** $x_1, \dots, x_n$ needed to write $y$ as linear combinations of the columns of $A \in \mathbb{R}^{m\times n}$ or
 $$
@@ -101,7 +102,7 @@ $Ker(A)$: **Kernel** of $A$: possible choices of $x$ that produce $Ax=0$
 
 **Main problem** (initially): find $x$ that reaches a given $y$ exactly, or gets as close as possible.
 
-### Square Linear systems
+##### Square Linear systems
 $A$ is called **Invertible** if $Ax = y$ has a unique solution, i.e., its columns are a basis or $\mathbb{R}^n$. (it must be a **square** for this hold)
 
 In this case, the solution is given by another matrix: $x = A^{-1} y$
@@ -125,6 +126,13 @@ $$
 har rank $r=1$: all columns are multiples of $v$
 
 **Theorem**: column rank = row rank: if you replace "columns" with "row" in the definition, you get the same value $r$, For instance, in the example above, all rows are multiples of $w^T$.
+
+### Full column Rank
+**What is going on:** To understand why we need full column rank, look at what happens when a matrix _lacks_ it. If there is a non-zero vector $z \in \ker A$ (for example, $A\begin{bmatrix}1\\ 1\\ -1\end{bmatrix}=0$), we lose uniqueness. If $x$ is a solution to a system, then so is $x+z, x+2z, x-37z...$ because $A(x+z) = Ax + Az = Ax + 0$.
+
+> **Definition** We say that $A\in\mathbb{R}^{m\times n}$ has **full column rank** if $\ker A=\{0\}$, or, equivalently: $\text{rank } A=n$ or, equivalently: there is no $z\in\mathbb{R}^{n}$, $z\ne0$ such that $Az=0$.
+
+**Why it matters:** We shall see, via several equivalent conditions, that the least squares problem $\min||Ax-y||$ has a unique solution if and only if $A$ has full column rank. Without this property, the problem would result in infinitely many equally optimal solutions.
 
 ### Triangular Linear Systems and substitution
 **Idea** if $A$ is **lower triangular** (ie, square with all zeros above the main diagona), then we can solve $Ax=y$ one entry at a time by **forward-substituition**
@@ -161,5 +169,41 @@ The scalar product $\langle x, z \rangle$ is defined by four fundamental propert
 2.  **Positivity:** $\langle x, x \rangle \ge 0 \quad \forall x \in \mathbb{R}^n$, and $\langle x, x \rangle = 0 \iff x = 0$
 3.  **Homogeneity:** $\langle \alpha x, z \rangle = \alpha \langle x, z \rangle \quad \forall x, z \in \mathbb{R}^n, \alpha \in \mathbb{R}$
 4.  **Additivity:** $\langle x + w, z \rangle = \langle x, z \rangle + \langle w, z \rangle \quad \forall x, w, z \in \mathbb{R}^n$
+
+### The Determinant
+**Definition:** Let $A$ be an $n \times n$ square matrix with entries $a_{ij}$. The determinant, denoted as $\det(A)$ or $|A|$, is a scalar value uniquely defined by the Leibniz formula:
+$$ \det(A) = \sum_{\sigma \in S_n} \text{sgn}(\sigma) \prod_{i=1}^n a_{i,\sigma(i)} $$
+Where:
+- $S_n$ is the set of all permutations $\sigma$ of the set $\{1, 2, \dots, n\}$.
+- $\text{sgn}(\sigma)$ is the signature of the permutation ($+1$ for even permutations, $-1$ for odd).
+    
+
+**Geometric Interpretation:**
+$\det(A)$ represents the signed $n$-dimensional volume of the parallelepiped spanned by the column (or row) vectors of the matrix $A$.
+
+### Invertibility and Singularity
+**Definition (Invertibility):** An $n \times n$ matrix $A$ is **invertible** (or **non-singular**) if there exists an $n \times n$ matrix $B$ such that:
+$$ AB = BA = I_n $$
+where $I_n$ is the $n \times n$ identity matrix. The matrix $B$ is denoted as $A^{-1}$.
+
+**Definition (Singularity):** An $n \times n$ matrix $A$ is **singular** if it is not invertible (i.e., no such matrix $A^{-1}$ exists).
+
+###### The Fundamental Theorem of Invertibility
+The relationship between the determinant and the invertibility of a matrix is strictly governed by the following theorem:
+
+**Theorem:** Let $A$ be an $n \times n$ square matrix over a field.
+- $A$ is **invertible (non-singular)** $\iff \det(A) \neq 0$.
+- $A$ is **singular** $\iff \det(A) = 0$.
+
+**Formal Explanation:**
+From the property of determinants, we know that for any two $n \times n$ matrices $A$ and $B$:
+$$ \det(AB) = \det(A)\det(B) $$
+If $A$ is invertible, then $A A^{-1} = I_n$. Taking the determinant of both sides yields:
+$$ \det(A A^{-1}) = \det(I_n) \implies \det(A)\det(A^{-1}) = 1 $$
+For the product $\det(A)\det(A^{-1})$ to equal $1$, it is strictly mathematically required that $\det(A) \neq 0$. Furthermore, this proves that $\det(A^{-1}) = \frac{1}{\det(A)}$.
+
+**Algebraic and Geometric Consequence:**
+- **If $\det(A) = 0$:** The column vectors of $A$ are linearly dependent. The matrix maps the $n$-dimensional space $\mathbb{R}^n$ onto a subspace of strictly lower dimension (the volume collapses to zero). Because multiple input vectors map to the same output vector, the mapping is not injective (one-to-one), and therefore an inverse function cannot exist.    
+- **If $\det(A) \neq 0$:** The column vectors form a basis for $\mathbb{R}^n$ (they are linearly independent). The matrix represents a bijective (one-to-one and onto) linear transformation, meaning every point in the target space has exactly one corresponding point in the domain, allowing the transformation to be perfectly reversed by $A^{-1}$.
 
 # References

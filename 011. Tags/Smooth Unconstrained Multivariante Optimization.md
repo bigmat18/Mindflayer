@@ -1,0 +1,8 @@
+- [[Gradient Method]]
+- [[Gradiant method with inexact Line Search]]
+- [[Gradient method with fixed stepsize]]
+- [[Twisted gradient methods]]
+- [[Newton-type methods]]
+- [[Deflected gradient methods]]
+- [[Nonlinear Conjugate gradient methods]]
+- [[Heavy Ball gradient methods]]

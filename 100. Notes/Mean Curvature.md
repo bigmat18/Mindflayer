@@ -30,7 +30,7 @@ Another important thing is all surfaces of minimal Area (subject to boundary con
 
 
 ### Mean curvature on triangle mesh
-We use the following formula based on [[Gradiant, Divergence and Laplacian|Cotangent formula]]:
+We use the following formula based on [[Divergence and Laplacian|Cotangent formula]]:
 $$H(p) := \frac{1}{2A(v)} \sum (\cot \alpha_i + \cot \beta_i)||p_ - p_i||$$
 Where $\alpha_i$ and $\beta_i$ are the two angles opposite to the edge in the two triangles having the edge $e_{ij}$ in common, A is the sum of the areas of the triangles.
 

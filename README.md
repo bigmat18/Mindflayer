@@ -4,7 +4,7 @@
 
 <h1 align="center">Mindflayer 🧠</h1>
 <p align="center">
-  <b>Your second brain, powered by <a href="https://obsidian.md/">Obsidian</a></b><br/>
+  <b>My second brain, powered by <a href="https://obsidian.md/">Obsidian</a></b><br/>
   <i>Personal knowledge base for Computer Science, 3D Graphics, and much more</i>
 </p>
 
@@ -37,27 +37,3 @@ The vault is organized to facilitate knowledge discovery and management, with a 
 
 > **Note:**
 > The vault is a living document; this structure may evolve. Notes are often linked across different top-level folders to reflect their interconnectedness, rather than being strictly siloed.
-
-
----
-## 📋 Task Dashboard
-
-### Not completed
-```tasks
-not done 
-no due date 
-sort by due
-```
-### Tomorrow
-```tasks 
-not done 
-due on tomorrow 
-sort by due 
-```
-### This Week
-```tasks 
-not done 
-due after today 
-due before in 7 days 
-sort by due 
-```

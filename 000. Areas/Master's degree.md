@@ -19,18 +19,18 @@ tags:
 
 | First Semester                                               | CFU | Degree | Second Semester                                        | CFU | Degree |
 | ------------------------------------------------------------ | --- | ------ | ------------------------------------------------------ | --- | ------ |
-| [[Machine Learning]]                                         | 9   |        | Generative and Deep Learning                           | 9   |        |
-| [[Algorithm Engineering]]                                    | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
+| [[Machine Learning]]                                         | 9   |        | Programming tools for parallel and distributed systems | 6   |        |
+| [[Algorithm Engineering]]                                    | 9   |        |                                                        |     |        |
 | [[Computational mathematics for learning and data analysis]] | 9   |        |                                                        |     |        |
 
 ---
 ### Year 3 (Total 24 CFU)
 
-| First Semester                           | CFU | Degree | Second Semester        | CFU | Degree |
-| ---------------------------------------- | --- | ------ | ---------------------- | --- | ------ |
-| Scable Distributed Computing             | 6   |        | Computer Vision        | 9   |        |
-| Distributed Algorithms <br>              | 6   |        | Compilation Techniques | 9   |        |
-| [[Competitive programming and contests]] | 6   |        |                        |     |        |
+| First Semester                           | CFU | Degree | Second Semester              | CFU | Degree |
+| ---------------------------------------- | --- | ------ | ---------------------------- | --- | ------ |
+| Scable Distributed Computing             | 6   |        | Computer Vision              | 9   |        |
+| Distributed Algorithms <br>              | 6   |        | Generative and Deep Learning | 9   |        |
+| [[Competitive programming and contests]] | 6   |        |                              |     |        |
 
 ---
 ## Study Plan

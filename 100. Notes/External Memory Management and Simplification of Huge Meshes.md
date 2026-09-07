@@ -30,4 +30,4 @@ We partition the space ion eight sub-region and they are numbered according to t
 ### [[Working with the OEMM]]
 # References
 - [External Memory Management and Simplification of Huge Meshes](https://vcgdata.isti.cnr.it/Publications/2003/CRMS03/oemm_tvcg.pdf)
-- [[oemm_tvcg.pdf|Paper PDF with notes]]
+- [[External_Memory_Management_and_Simplification_Huge_Meshes.pdf|Paper PDF with notes]]

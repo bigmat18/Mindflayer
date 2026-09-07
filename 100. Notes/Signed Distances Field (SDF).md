@@ -2,7 +2,7 @@
 
 **Status**: #padawan #note 
 
-**Tags:** [[3D Geometry Modelling & Processing]] [[Linear Algebra]]
+**Tags:** [[3D Geometry Modelling & Processing]] 
 
 **Area**: [[Master's degree]]
 

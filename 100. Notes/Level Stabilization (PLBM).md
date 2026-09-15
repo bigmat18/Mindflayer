@@ -18,8 +18,13 @@ We need to change the Mater Problem to select the right point:
 $$
 x^* = \arg\min \{ ||x-x^*_i|| : f_i(x) \leq l_i \}
 $$
+this means:
+- $\arg\min \{ ||x-x^*_i||\}$ minimize the distance between the new candidate and the ower current point
+- $f_i(x) \leq l_i$ this is the contraint that said that, this new vale $x$ must be less or equal to $l_i$
 
 The **advantage** of PLBM approach in that the stabilization parameter $l$ has the scale of function valurs, which may make it easier to choose.
+
+![[Pasted image 20260914235847.png|663]]
 
 ### Choose the $l_i$ value
 ##### $f_*$ is know
@@ -65,7 +70,7 @@ $$\lim_{\Vert{}w\Vert{} \to \infty} f(w) = +\infty$$
 The theoretical upper bound for the number of iterations required to guarantee an $\epsilon$-suboptimal solution is described by the formula: $$\mathcal{O}\left(\frac{L^2 D^2}{\epsilon^2}\right)$$
 The two geometric parameters:
 - **$D$ (Diameter):** The maximum physical size of the search enclosure (the sublevel set). It indicates the maximum horizontal distance the algorithm will have to travel in the worst-case scenario.
-- **$L$ (**[[Optimization Difficult#Lipschitz Continuity|Lipschitz]] Constant):** The absolute speed limit for the slope. Mathematically, a function is Lipschitz continuous if it never exceeds a certain vertical change for any given horizontal step: $\vert{}f(x) - f(z)\vert{} \le L\vert{}x - z\vert{}$. This guarantees that the subgradients are bounded ($\Vert{}g\Vert{}_2 \le L$) and forbids the presence of "vertical walls" (infinite slope)    
+- **$L$ (**[[Optimization Difficult#Lipschitz Continuity|Lipschitz]] Constant): The absolute speed limit for the slope. Mathematically, a function is Lipschitz continuous if it never exceeds a certain vertical change for any given horizontal step: $\vert{}f(x) - f(z)\vert{} \le L\vert{}x - z\vert{}$. This guarantees that the subgradients are bounded ($\Vert{}g\Vert{}_2 \le L$) and forbids the presence of "vertical walls" (infinite slope)    
 
 **Resolving the paradox (From Global to Local):**
 The Squared Error contains a parabola. At infinity, the slope of a parabola becomes infinite. Therefore, the ELM objective function is _not_ globally Lipschitz.

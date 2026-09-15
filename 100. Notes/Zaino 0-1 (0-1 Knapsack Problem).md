@@ -37,8 +37,8 @@ Definiamo `B(k, w)` come il valore massimo ottenibile utilizzando un sottoinsiem
 
 Quando consideriamo il `k`-esimo oggetto (con valore `v_k` e peso `w_k`), abbiamo due possibilità:
 
-1.  **Non prendere l'oggetto `k`**: Questa scelta è sempre possibile. Il valore massimo sarà lo stesso che si poteva ottenere con `k-1` oggetti e la stessa capacità `w`. Cioè, `B(k-1, w)`.
-2.  **Prendere l'oggetto `k`**: Questa scelta è possibile solo se il suo peso `w_k` non supera la capacità residua `w` (`w_k <= w`). In questo caso, il valore ottenuto sarà `v_k` più il valore massimo che si poteva ottenere con i restanti `k-1` oggetti e una capacità ridotta di `w_k`. Cioè, `v_k + B(k-1, w - w_k)`.
+1. **Non prendere l'oggetto `k`**: Questa scelta è sempre possibile. Il valore massimo sarà lo stesso che si poteva ottenere con `k-1` oggetti e la stessa capacità `w`. Cioè, `B(k-1, w)`.
+2. **Prendere l'oggetto `k`**: Questa scelta è possibile solo se il suo peso `w_k` non supera la capacità residua `w` (`w_k <= w`). In questo caso, il valore ottenuto sarà `v_k` più il valore massimo che si poteva ottenere con i restanti `k-1` oggetti e una capacità ridotta di `w_k`. Cioè, `v_k + B(k-1, w - w_k)`.
 
 La soluzione ottima `B(k, w)` sarà quindi il massimo tra queste due opzioni. Questo ci porta alla seguente formula:
 
@@ -106,8 +106,8 @@ int zaino_01(const int value[], const int weight[], int maxW, int n)
 ```
 
 ### Analisi della Complessità: Algoritmo Pseudo-Polinomiale
-*   **Complessità Temporale e Spaziale: $O(n \cdot W)$**.
-    L'algoritmo riempie una matrice `n x W`, eseguendo un'operazione a tempo costante per ogni cella.
+- **Complessità Temporale: $O(n \cdot W)$**.
+- **Complessita Spaziale:** L'algoritmo riempie una matrice `n x W`, eseguendo un'operazione a tempo costante per ogni cella.
 
 A prima vista, $O(nW)$ sembra polinomiale. Tuttavia, è classificato come **pseudo-polinomiale**. Perché? Un algoritmo è veramente polinomiale se la sua complessità è un polinomio nella *dimensione dell'input in bit*. La dimensione del numero `W` non è `W`, ma il numero di bit necessari per rappresentarlo, cioè circa $log_2 W$. Poiché la complessità dipende dal *valore numerico* di `W` e non dalla sua dimensione in bit, la complessità effettiva in termini di dimensione dell'input è $O(n \cdot 2^{\log W})$, che è esponenziale rispetto alla lunghezza di `W`.
 

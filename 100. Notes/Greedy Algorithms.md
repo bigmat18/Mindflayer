@@ -4,8 +4,8 @@ Tags:
   - note
   - youngling
 Connection:
-  - "[[Computational mathematics for learning and data analysis]]"
   - "[[Algorithms Patterns]]"
+  - "[[Competitive Programming and Contests]]"
 Area: "[[Master's degree]]"
 ---
 # Greedy Algorithms

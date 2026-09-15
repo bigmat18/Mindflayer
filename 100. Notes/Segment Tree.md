@@ -59,7 +59,7 @@ Given a node (subtree) $v$ and a query point $q_x$, the query can be done using 
 
 In a segment tree that contains $n$ intervals, those containing a given query point can be reported in $O(\log n+k)$ **time complexity** where $k$ is the number of reported intervals.
 
-![[Pasted image 20260830145137.png|409]]
+![[Pasted image 20260830145137.png|568]]
 
 ### Rust Implementation
 Now I report a Rust implementation of a Segment Tree. This version is slight different compared with the formal definition above, this because:

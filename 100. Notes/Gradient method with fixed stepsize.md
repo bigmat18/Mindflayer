@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Smooth Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Gradient Method with Fixed Stepsize
 When performing optimization, an alternative to spending computational resources dynamically finding the step size at each iteration (like in [[Gradient Method|Exact]] or [[Gradiant method with inexact Line Search| Inexact Line Search]]) is to use an "Extremely inexact Line Search": a **Fixed Stepsize** strategy.

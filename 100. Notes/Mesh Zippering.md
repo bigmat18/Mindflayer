@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Mesh Zippering
 
 The **input** is a triangulated [[Range Maps |ranges maps]] (not just point clouds). Work is pairs:

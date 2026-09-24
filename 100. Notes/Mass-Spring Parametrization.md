@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]] [[Parametrization Techniques]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Mass-Spring Parametrization
 
 We can image the problem like a Mass and Spring problem. These types of problem we try to model dynamic structures like graph with a mass on nodes and springs on edges. With this model we have

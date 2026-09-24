@@ -1,7 +1,7 @@
 ---
 Year: 2024/2025
 Period: 1° semester
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 tags:
   - done
 Degree: 32

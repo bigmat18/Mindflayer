@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallelization methodology and metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Roofline model
 
 [[Relative Efficiency]] tells us if our parallelization scales as expected. But are good is utilizing the given machine. The **Roofline model** is used to bound:

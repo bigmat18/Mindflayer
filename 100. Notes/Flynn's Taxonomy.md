@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[High Performance Computing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Flynn's Taxonomy
 
 In 1966 Michael J. Flynn classified four different families of architectures based on the number of instruction streams and data streams. This is a classification based on the number of **instructions and data streams**.

@@ -4,7 +4,7 @@
 
 **Tags:** [[CSG on Mesh using Voxelization and SDF]] [[Parallel Surface and Solid Voxelization on GPUs]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Solid Voxelization
 
 With a solid voxelization we want describe a volume where each voxel that have the center inside the object will be marked with 1, 0 otherwise. We assume to have a closed and watertight object. Recall that solid voxelization essentially boils down to rasterizing the object into a multi-sliced frame buffer, where a fragment effects flipping the inside/outside state of all voxels below. 

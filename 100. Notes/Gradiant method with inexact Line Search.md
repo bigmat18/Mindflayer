@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Smooth Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Gradient Method with Inexact Line Search
 When tackling the optimization of general functions, finding the **exact optimal step size along a descent direction** (Exact Line Search) is, in most cases, impossible or computationally too **expensive**. 

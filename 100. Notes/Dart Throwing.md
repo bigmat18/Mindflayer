@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Dart Throwing
 
 ```c

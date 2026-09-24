@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Store-and-Forward Technique
 
 Each packet must be **completely received** by an intermediate node (switch) before forwarding the packet in output. The **transmission of a packet is not pipelined**. It requires **buffering capabilities** is each switch to hold an entire packet.

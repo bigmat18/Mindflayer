@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to Data Parallelism
 
 **Data parallelism** is a very general parallelization paradigm. It can be applied both on [[Stream Parallelism|stream]] and a sigle inputs scenarios. It can improve both the [[Ideal Service Time]] and [[Communication Latency]] of the sequential program.

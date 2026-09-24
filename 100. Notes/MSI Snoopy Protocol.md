@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # MSI Snoopy Protocol
 
 It would be useful that the same cache line can be cached by PEs, which use (read-only) their copies in parallel. So we have now three states for a given line $b$ and $PE_i$

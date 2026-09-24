@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Multi-Cycled Processors
 
 In the [[Single-Cycled Processors]] approach, the length of the clock cycle can be quite large since all the different phases need to stabilize before **rising edge** of the clock. The length is given by a **critical path** of the most expensive instruction (that is the LOAD).

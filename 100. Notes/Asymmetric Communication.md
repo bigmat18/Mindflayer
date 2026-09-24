@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Message Passing Interface (MPI)]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Asymmetric Communication
 
 Asymmetric communication is also called **collective communication**. Some examples are: one-to-many or one-to-all, many-to-one or all-to-one, all-to-all.

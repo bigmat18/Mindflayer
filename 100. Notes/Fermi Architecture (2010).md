@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Fermi Architecture
 
 Figure below of the **F110** having 32 cores per SM and 16 SMs (total 512 cores). GDDR5 Memory Controller is our MINF, PCIe Host Inteface our I/O INF unit. **Giga Thread Scheduler (GTS)**: it assign blocks to the SMs in a round-robin fashion setting `gridDim`, `blockDIm`, `blockIdx`

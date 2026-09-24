@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Virtual processors approach
 
 This is a formal approach which, starting from the sequential, computation, is able to derive the basic characteristics of one or more equivalent data parallel computations. We use a methodology based on two **conceptual steps**:

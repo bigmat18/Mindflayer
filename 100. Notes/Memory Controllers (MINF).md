@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Memory Controllers (MINF)
 
 MINFs in the CPU convert the physical address of the cache line into a **bank identifier**, **row identifier**, **column identifier**. They are on-chip units in the CMPs doing **scheduling** of memory requests from the LLC cache(s).

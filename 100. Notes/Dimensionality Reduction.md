@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Dimensionality Reduction
 **Rationale:** N-dimensional data are mapped to 2 or 3 dimensions for better visualization/understanding. Widely used strategy. In general, it is a mapping not a geometric transformation. Different mappings have different properties.

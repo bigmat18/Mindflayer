@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "010. MOCs"
+        - Area == link("Bachelor's Degree.base")
+    groupBy:
+      property: Year
+      direction: ASC
+    order:
+      - file.name
+      - Period
+      - Degree
+      - CFU
+    sort:
+      - property: Period
+        direction: ASC
+    columnSize:
+      note.Period: 158

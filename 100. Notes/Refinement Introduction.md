@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Remeshing Introduction
 
 Any discretization is an approximation of an ideal shape. For the same abstract shape we can have many different discretizations. No absolute ideal discretization exist. **Remeshing** is concerned with obtaining many different discretization with different property. For example:

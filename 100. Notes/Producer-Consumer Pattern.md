@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Concurrency in C++]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Producer-Consumer Pattern
 
 Classical concurrency pattern involving two types of threads: **producers**, and **consumers**:

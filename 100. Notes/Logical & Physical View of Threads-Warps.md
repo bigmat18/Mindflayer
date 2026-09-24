@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Logical & Physical View of Threads-Warps
 
 - **Logical perspective of a kerne**l: a grid can be 1D, 2D or 3D of blocks, each block can be 1D, 2D or 3D of threads

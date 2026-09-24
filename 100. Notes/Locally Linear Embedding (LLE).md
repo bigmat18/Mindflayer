@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Locally Linear Embedding (LLE)
 

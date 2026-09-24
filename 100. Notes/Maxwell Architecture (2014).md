@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Maxwell Architecture (2014)
 
 Composed of six **GPU Processing Clusters (GPC)**, each composed of **4 SMMs** (the equivalent of SMX in Kepler). Each SMM includes **128** CUDA cores. More resources in each SMM. No substantial increase in number of cores.

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Concurrency and Streams]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Overlapping Pattern on CUDA Streams
 
 Overlapping data transfers with kernel execution is often pivotal in CUDA programs. Some constraints are required to enable such an optimization:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Metaballs
 
 It's a technique that allow to go from a point cloud to surface rapresentation. We assume that the point in input not only are surface point but also the inside of object. The core idea is each point generate a ball and for each point we have a $f$ that is the sum of function that have maximum in the points and decay with distance.

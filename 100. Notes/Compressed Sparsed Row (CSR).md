@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Compressed Sparsed Row (CSR)
 
 Grouping non-zeros elements in the same row can be done with an alternative data format for the sparse matrix called **Compressed Sparsed Row (CSR)**.

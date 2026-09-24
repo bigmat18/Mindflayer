@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Parallel Programming with OpenMP]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # OpenMP primitives and enviroment variables
 
 C and C++ compilers use **`#pragma omp`**  prefix:

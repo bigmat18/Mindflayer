@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Neural Networks (NN)]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Perceptron
 This concept was studied by Frank Rosenblatt (1957-1958,1960, …)

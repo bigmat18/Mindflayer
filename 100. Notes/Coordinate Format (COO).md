@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Coordinate Format (COO)
 
 We start with a data format called **Coordinate Format (COO)**. Non-zero elements are stored in one-dimensional arrays with their **column** and **row** indexes (**structure of arrays**).

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]] [[Parametrization Techniques]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # How do Parametrization
 
 We have the following elements:

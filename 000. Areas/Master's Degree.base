@@ -8,7 +8,7 @@ views:
     filters:
       and:
         - file.folder == "010. MOCs"
-        - Area == link("Master's degree")
+        - Area == link("Master's Degree.base")
     groupBy:
       property: tags
       direction: ASC

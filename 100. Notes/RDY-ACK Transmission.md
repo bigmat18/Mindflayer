@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # RDY-ACK Transmission
 
 This is a **transmission mechanism** where each link is associated with **two control units** (RDY, ACK) from sender to receiver and back.

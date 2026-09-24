@@ -2,7 +2,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Utilization Factor
 
 The utilization factor of a process Q is defined as $\rho_{Q} = T_{id-Q}/T_{A-Q}$. That is the [[Ideal Service Time]] and the [[Inter Calculation Time|inter-arrival time]]. Two cases:

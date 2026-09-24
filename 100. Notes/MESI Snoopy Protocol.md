@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # MESI Snoopy Protocol
 
 Under the write invalidate MOESI protocol, when a processor writes to a cache line, any copies of the data in other caches are invalidated. The simplest implementation uses a **snooping bus protocol**

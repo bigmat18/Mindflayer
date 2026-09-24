@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Introduction to Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Simple Functions, Univariate Case
 This section examines the simplest possible univariate functions that can be optimized analytically, focusing on linear and quadratic forms. These serve as building blocks for understanding more complex cases and provide closed-form solutions that are rarely available in general optimization.

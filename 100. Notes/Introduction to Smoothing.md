@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Smoothing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to Smoothing
 
 The smoothing is used to filtering out the noise form a mesh, we know after [[Range Maps|acquisition]] many noise could be created. Also we want filter out high frequency components for noise removal.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallelization methodology and metrics]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cache Write Policies
 
 When a CPU writes data to the cache, the value in the cache may be **inconsistent (the data is no coherent)** with the value in main memory.

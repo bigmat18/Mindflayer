@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Concurrency in C++]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # C++ Threads
 
 The master thread can spawn threads, and each thread can spawn threads as well. The number of spawned threads should be roughly the amount of cores (i.e., pay attention to **oversubscription**). Threads share process resources (each thread has a separate stack).  A  thread can be **joined** or **detached** once:

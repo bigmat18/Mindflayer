@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Multi-GPU Systems
 
 Multi-GPU systems comprise several GPUs connected with a multi-CMP host machine. GPUs communicate with each other in addition with the host. **Example**: NUMA of SMPs (two CPUs) connected with up to eight H100 GPUs (i.e., a very **large scale-up server**)

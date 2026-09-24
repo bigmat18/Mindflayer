@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cache Coherence Mechanism
 
 ### [[Update-based Mechanism]]

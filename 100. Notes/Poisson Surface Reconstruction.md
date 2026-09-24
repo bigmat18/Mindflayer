@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Poisson Surface Reconstruction
 
 We reconstruct the surface of the model by solving for the **indicator function** of the shape. The indicator function is 1 inside an object and 0 outside:

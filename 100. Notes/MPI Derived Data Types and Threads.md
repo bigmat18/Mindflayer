@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Message Passing Interface (MPI)]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # MPI derivated data types and threads
 

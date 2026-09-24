@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Fully Connected
 
 

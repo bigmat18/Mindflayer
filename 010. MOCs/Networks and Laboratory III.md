@@ -1,8 +1,11 @@
 ---
 Year: 2023/2024
 Period: 1° semester
-Exam done: true
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
+tags:
+  - done
+Degree: 30
+CFU: 9
 ---
 # Table of Contents
 

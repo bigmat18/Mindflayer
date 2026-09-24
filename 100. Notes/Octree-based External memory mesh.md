@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Distributed Mesh Simplification (QEM)]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # [[Quad-Tree#Oct-tree (3D)|Octree]]-based External memory mesh
 

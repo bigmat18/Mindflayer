@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Principal Component Analysis (PCA)
 

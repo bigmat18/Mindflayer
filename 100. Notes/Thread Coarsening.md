@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Thread Coarsening
 
 It is a technique that we have used in previous parts of the course (e.g., for the **[[Reduction in CUDA|reduce]]** implementation in CUDA). Let’s study it more in detail. So far, most of our kernels were configured at the **finest granularity,** i.e., **each CUDA thread mimics a VP doing the smallest work unit as possible**

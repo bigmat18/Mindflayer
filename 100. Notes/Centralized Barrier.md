@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Centralized Barrier
 
 The **idea** is the following: we can use a single **shared counter** increased **atomically** when a new entity arrives at the barrier. When the counter is equal to the number of entities, we know that all of them have reached the barrier and can go on.

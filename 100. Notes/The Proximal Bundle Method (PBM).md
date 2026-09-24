@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Nonsmooth Convex Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # The Proximal Bundle Method (PBM)
 

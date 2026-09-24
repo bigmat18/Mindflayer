@@ -6,7 +6,7 @@ Tags:
   - article
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Binary Tree Traversal
 

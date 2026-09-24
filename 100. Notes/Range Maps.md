@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Range Maps
 
 Not only point cloud: the **Range Maps** or structured point cloud. [[Introduction to Surface Reconstruction|3D scanners]] produce a number of dense structured height fields, that is, a regular $(X,Y)$ grid of points with a distance Z value. There are called **range maps**. They are trivial to triangulate use the regularity of sampling.

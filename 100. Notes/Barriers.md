@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Barriers
 
 The main **goal** is the following: a barrier is a synchronization primitive for a group of $N>1$ processes/threads (called **entities** from now on). Any entity reaching the barrier must wait until all entities have reached the same barrier. Then all entities in the group can go on.

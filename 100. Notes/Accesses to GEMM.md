@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Accesses to GEMM
 
 Some GPU kernels are limited in performance by the **GMEM bandwidth**. Therefore, optimizing the exploitation of the GMEM bandwidth (i.e., several hundreds of GiB/s in modern devices) is pivotal.

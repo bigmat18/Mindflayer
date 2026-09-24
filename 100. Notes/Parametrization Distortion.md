@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Parametrization Distortion
 
 The concepts of distortions is essential to determinate the quality of a parametrization.

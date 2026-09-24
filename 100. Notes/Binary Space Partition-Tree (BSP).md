@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Binary Space Partition-Tree (BSP) 
 
 This is a [[Hierarchical Indexing Structures]], and in this structure the binary tree is obtained by recursively partitioning the space in two by a hyperplane. Therefore a node always corresponds to a **convex region**. 

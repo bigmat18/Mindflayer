@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Communication Latency
 
 The message-passing paradigm is based of independent entities (processes) having private resources only and communicating using **channels**. **Inter-process communication mechanism** (send and receive) is the effect is that the message value is copied in the target variable.

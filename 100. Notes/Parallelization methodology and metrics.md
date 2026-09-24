@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Parallelization methodology and metrics
 
 There are a large set of definitions and terminology very useful in high performance computing and parallel systems topics. Let us consider an example of parallel computation developed using **message-passing model**

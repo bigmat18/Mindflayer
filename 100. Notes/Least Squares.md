@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Least Squares
 **The abstract goal is:** given vectors $a_{1},a_{2},...,a_{n}\in\mathbb{R}^{m}$ and a "target vector" $y\in\mathbb{R}^{m}$, we look for coefficients $x_{1},x_{2},...,x_{n}$ such that:

@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[SIMD on CPU]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Programming with AVX2
 
 Special compiler-supported functions that enable direct use of CPU-specific instructions (e.g., SIMD operations) in C/C++ code **instead of writing raw assembly**. They enable access to low-level HW instructions while maintaining portability and ease of use compared to pure assembly. Not all intrinsic functions map one-to-one to a single assembly instruction—some may be implemented using multiple instructions.

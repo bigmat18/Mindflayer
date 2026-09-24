@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Concurrency and Streams]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # CUDA Events
 
 An event is a special marker (a sort of **punctuation**) inserted in a [[CUDA Streams|stream]]. It can be used to check if the execution of tasks in a stream has reached that specific marker.

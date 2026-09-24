@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Basic Spin-Lock
 
 We introduce below a simple assembler **D-RISC** implementation of a spin-lock semaphore. For this we provide a **C-like pseuso-code** and **D-RISC compiled version**

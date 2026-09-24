@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Omega Networks
 
 **Omega Networks** connect N nodes in the **left set** with N nodes in the **right set**. The number of stages is $\log_2 N$. At each stage, i-th input is connected to the j-the output such that

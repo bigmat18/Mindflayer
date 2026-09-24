@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Quadratics Error
 In order to select a contraction we need some notation of the cost of contraction, to do that we define for each vertex $v = [v_x, v_y, v_z, 1]^T$ the quadratic form is:
 $$

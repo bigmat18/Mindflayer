@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # NUMA - Non Uniform Memory Access
 
 Multi-socket server architectures and also single-socket (also called **chiplets**):

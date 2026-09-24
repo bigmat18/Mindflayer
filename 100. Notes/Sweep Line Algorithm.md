@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Sweep Line Algorithm
 This is a type of algorithm to solve problems of [[Overlapping Intervals]] pattern.

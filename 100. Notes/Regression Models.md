@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Linear Models]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Regression Models
 

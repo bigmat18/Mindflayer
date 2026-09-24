@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Nonsmooth Convex Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # (Convex) Non Differentiable Functions
 When working with nondifferentiable functions, we lose the concept of a "gradient" (the unique derivative) at kinky points. For [[Convex Functions]], mathematics solves this problem by generalizing the concept of a tangent through subgradients.

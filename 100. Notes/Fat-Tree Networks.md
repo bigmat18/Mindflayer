@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Fat-Tree Networks
 
 A tree structure can be used to implement an **[[Indirect Networks]]** where endpoints are the leaves while switch units are the intermediate nodes. For example a **binary trees** reduce the switch degree at the expense of latency compared with **non-binary trees**

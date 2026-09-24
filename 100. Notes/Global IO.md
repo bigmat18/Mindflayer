@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Global IO
 
 Even **uni-processors** can be view as a [[NUMA - Non Uniform Memory Access]] because

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Introduction to Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Simple Functions, Multivariate case
 Moving from a single variable ($x \in \mathbb{R}$) to multiple variables ($x \in \mathbb{R}^n$) is the most significant leap in optimization theory. It transforms a simple "line search" into a search within a potentially infinite-dimensional landscape.

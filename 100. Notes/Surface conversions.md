@@ -4,7 +4,7 @@
 
 **Tags:** [[Surface Representations]] [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Surface Conversions
 
 Each representations are usually finite samplings, for example triangle mesh for parametric surface or uniform/adaptive grind in implicit case. These conversions corresponds to a re-sampling step.

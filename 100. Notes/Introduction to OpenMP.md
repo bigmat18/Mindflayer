@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Parallel Programming with OpenMP]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to OpenMP
 
 **OpenMP** in an API for **platform-independent** shared-memory parallel programming in C, C++, and Fortran providing high-level parallel abstractions on top of low-level threading mechanisms. OpenMP extends C, C++ and Fortran programming languages with directives (i.e. `#pragma omp`  …), a few library routines (e.g., `omp_get_thread_num()`), and environmental variables (e.g.,

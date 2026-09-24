@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Volta Architecture (2017)
 
 Major redesign of NVIDIA GPUs. Introduction of a new ISA. Twice the schedulers of previous models. More powerful SIMT model (Independent Thread Scheduling). New support for AI (**tensor accelerators**). Below a V100 GPU.

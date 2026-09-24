@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # SISD (Single Instruction, Single Data)
 
 - This is a non parallel computer. 

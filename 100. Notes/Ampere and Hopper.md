@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Ampere and Hopper
 
 More recent GPUs like Ampere and Hopper enhance several features introduced with Volta GPUs. For example we have:

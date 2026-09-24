@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Bottleneck Parallelization
 
 For first we have identified the **bottleneck condition** ($\rho > 1$) and next design a proper parallelization. The **goal** in a **stream-based scenarios** the parallelization goal is to reduce the ideal-service time of the parallelized module s.t. it matches the inter-arrival time, i.e.

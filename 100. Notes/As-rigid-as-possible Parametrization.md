@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]] [[Parametrization Techniques]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # As-rigid-as-possible Parametrization
 
 This technique work with a **local-global approach**, it do steps of optimization in a local context and steps of optimization in a global context. 

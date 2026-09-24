@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Smooth Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 ## Newton-Type Methods
 If we want to find a better descent direction that leads to faster convergence, we must use a better model of the function. So far, we have relied on a linear model (the gradient). The logical next step is to move to a quadratic model.

@@ -7,7 +7,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Nonsmooth Convex Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Bundle Methods
 This section explores **Bundle Methods**, sophisticated algorithms designed to overcome the limitations of simple [[Subgradient Methods]] by utilizing a more comprehensive and accurate model of the objective function.

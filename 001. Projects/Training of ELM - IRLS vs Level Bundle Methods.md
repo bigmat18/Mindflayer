@@ -1,5 +1,5 @@
 ---
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 Github:
 Other Link: "[[Computational mathematics for learning and data analysis]]"
 ---

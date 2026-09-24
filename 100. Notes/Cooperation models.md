@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cooperation models
 
 Overview of the two general models to express cooperation among parallel entities.

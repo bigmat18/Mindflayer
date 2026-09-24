@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # CUDA and GPU hardware
 
 A GPU consists of multiple **Streaming Multiprocessor (SMs)**, each consisting of multiple **cores** with shared **control** and **memory**

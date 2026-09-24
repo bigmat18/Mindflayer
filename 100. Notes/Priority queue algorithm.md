@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[SLURM Polices Algorithms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Priority queue algorithm
 
 SLURM uses a global queue, where jobs are ordered based on their priority (the highest-priority job gets executed first). Each job is assigned a priority value absed on factors such as:

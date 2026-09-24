@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Subarray Sum Equals to K
 

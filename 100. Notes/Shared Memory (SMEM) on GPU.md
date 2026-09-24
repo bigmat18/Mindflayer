@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Shared Memory (SMEM) on GPU
 
 It is essentially a **scratch-pad memory** directly managed by the programmer (unlike caches) and allocated within a SM. Once a buffer is allocated in SMEM, it is accessed by all threads in the same block. It composed of **4-bytes words (32 bits)**. If a thread reads a byte, the whole word is read from SMEM. SMEM consists of **32 banks**, each one able to provide a word in 2 clock cycles (one for the request, one for getting the word).

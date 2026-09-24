@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Divergence and Laplacian
 
 Here are your notes, revised for better English grammar and flow, while keeping your exact formulas intact. I have expanded on your intuitive explanations to make the concepts easier to visualize and understand.

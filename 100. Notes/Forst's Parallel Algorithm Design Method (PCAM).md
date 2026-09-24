@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Interconnecton Networks]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Foster’s Parallel Algorithm Design Method (PCAM)
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to Surface Reconstruction
 
 Surface reconstruction is operations to transform from point clouds to tessellated surfaces explicit methods. The **Problem statements** is the following:

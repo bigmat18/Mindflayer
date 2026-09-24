@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Atomic Operations & Memory Consistency]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Bounded MPMP Lock-Free Queue
 

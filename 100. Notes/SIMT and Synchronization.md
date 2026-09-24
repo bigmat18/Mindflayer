@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # SIMT and Synchronization
 
 With the **[[Control Divergence on NVIDIA|legacy thread scheduling (i.e., pre-Volta)]]**, threads on divergent branches cannot execute synchronization primitives. What would happen if threads in the same warp synchronize with each other?

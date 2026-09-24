@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Hierarchical Dart Throwing (HDT)
 
 We have a regular grid each cell is the root of a [[Quad-Tree]]. Size of each cell so that it is completely covered by a disk which center is inside the cell.

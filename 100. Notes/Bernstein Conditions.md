@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Bernstein Conditions
 
 He **domain** of a task is the set of variables that the task reads during its execution; the **codomain** in the set of variables potentially modified by the task execution.

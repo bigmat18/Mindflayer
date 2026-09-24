@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # ImageBLUR
 
 

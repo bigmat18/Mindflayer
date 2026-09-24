@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # List-based Spin-Lock
 
 We can design a list-based version of the spin-lock which is **fair** and adopts **[[RMW Instructions]]**. Every process/thread using the lock allocates a new node structure (node) having two fields:

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Unpack-Compute-Pack Pattern
 
 This is a Pattern to applay stream parallelism in non-stream use cases. [[Pipeline]] and [[Farm]] can be applied only if a large sequence of inputs (data stream) is present. Sometimes a computation working on a **single** (large) input can be re-factored in order to have a stram-base version

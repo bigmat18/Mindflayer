@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Notification with Shared Flags
 
 The notification mechanism can be implemented:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Bounded RBD
 
 Evolution of [[Radial Basis Functions (RBF)]] where we use **bounded** radial basis functions. A radial basis function is a function that aproximate a surface and it was built with a sum of basis where the domain is all the set of points. A **bounded RBF** is the same of normal radial basis function but the functions have a limited domain.

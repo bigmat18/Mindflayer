@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Multidimensional icons
 Spence and Parr (1991) proposed to encode properties of an object in a simple iconic representation. They applied this approach to check dwell offers

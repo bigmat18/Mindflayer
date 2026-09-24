@@ -7,7 +7,7 @@ Connection:
   - "[[Programming & Algorithms]]"
   - "[[Dynamic Programming]]"
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Longest Palindromic Substring
 Given a string **s**, find the longest substring which is a palindrome. If there are multiple answers, then find the first appearing substring.

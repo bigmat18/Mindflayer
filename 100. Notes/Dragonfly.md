@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Dragonfly
 
 This is a **Multi-Level network**. Three levels: Router, Group and System. Each router has connections to $p$ endpoints, $a-1$ local channels (to other routers in the same group) and $h$ global channels (to routers in other group)

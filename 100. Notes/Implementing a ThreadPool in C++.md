@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Workload Balancing in C++]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Implementing a ThreadPool in C++
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Message Passing Interface (MPI)]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to MPI
 
 $p$ processes, each with its private address space. All data must be explicitly **partitioned** and **distributed**. All interactions among processes are two-sided:

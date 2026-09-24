@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cooperative Groups
 
 We have studied that a kernel is a grid of threads, combined into blocks. Grids and blocks can be 1D, 2D or 3D. Operation: **SIMT** (clever mixing between [[SIMD (Single Instruction, Multiple Data)]] and [[MIMD (Multiple Instruction, Multiple Data)]] at the architectural level).

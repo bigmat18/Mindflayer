@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnection devices]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Direct Networks
 
 ### [[K-ary N-mesh Networks (Meshes)]]

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Samples generation
 
 Another approach very easy to implement ii based to change the order of things to do. In the surface that we want sampling first we insert n points random (n >> m where m is the actual number of points that we want), and then we start to remove a point, for each point that we have remove we also delete the points too close to it (with the distance < r). This can be efficiently with a [[Uniform Grid]]

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Control Divergence on NVIDIA
 
 **Example 1**: Threads take different branches of a conditional

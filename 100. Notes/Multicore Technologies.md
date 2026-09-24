@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Shared Memory Systems]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Multicore Technologies
 
 [[Super-Scalar Processors]] have a **limited [[Scalability]]** since the logic to support multiple hardware threads is expensive in terms of chip occupation. Designers are obliged to increase the **CPU frequency**. However, power requirements have a grown dramatically as **chip density** and **clock frequncy** have risen.

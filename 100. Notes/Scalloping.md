@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Scalloping
 
 This is a variance of [[Dart Throwing]] that allow to have a convergence in $O(n\log{n})$. The core idea is: if a sampling is not maximal, there must be an available location in the neighborhood of the unavailable region.

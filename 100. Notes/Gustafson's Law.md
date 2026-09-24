@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Computer Science Metrics]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Gustafson's Law
 

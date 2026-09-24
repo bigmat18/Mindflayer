@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Reduction in CUDA
 
 [[Reduce]] is a computation applied over an array A of elements $t$. The results is a single element $r$ of type $t$ such that:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Voronoi Decoposition
 
 **Voronoi** is a recurring pattern in Nature structures. The main idea of this decoposition is a discrete set of entities competing for resources.

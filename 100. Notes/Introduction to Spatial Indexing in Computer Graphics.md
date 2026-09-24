@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to Spatial Indexing in Computer Graphics
 
 Let m be a mesh, we can do 3 important questions about this mesh:

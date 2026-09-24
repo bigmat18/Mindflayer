@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[SIMD on CPU]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Vectorization Instructions
 
 The basics idea is to provide a new set of machines instructions working on **arrays** instead of **scalar registers**. An example below:

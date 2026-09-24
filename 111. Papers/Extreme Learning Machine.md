@@ -6,7 +6,7 @@ Tags:
   - paper
 Connection:
   - "[[Training of ELM - IRLS vs Level Bundle Methods]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Extreme Learning Machine
 

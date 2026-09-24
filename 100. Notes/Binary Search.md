@@ -7,7 +7,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Binary Search
 

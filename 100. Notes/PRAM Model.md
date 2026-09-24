@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Models of Computation]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # PRAM Model
 
 **PRAM** is the acronym for **Parallel Random Access Machine**. **Idealized Shared-Memory platform**:

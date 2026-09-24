@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Introduction to Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Optimization Difficult
 Before diving into solving optimization problems, it is crucial to understand why they can be inherently difficult, even in the simplest univariate case.

@@ -4,7 +4,7 @@
 
 **Tags:** [[CSG on Mesh using Voxelization and SDF]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Parallel Surface Voxelization
 This paper presents data-parallel algorithms for surface and solid voxelization on graphics hardware. First, a novel conservative surface voxelization technique, setting all voxels overlapped by a mesh’s triangles, is introduced, which is up to one order of magnitude faster than previous solutions leveraging the standard rasterization pipeline. 
 

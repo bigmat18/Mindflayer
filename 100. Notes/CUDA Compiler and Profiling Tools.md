@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # CUDA Compiler and Profiling Tools
 
 Source files include both **host** and **device code**. Good practice is to keep them in separated files (e.g., to reduce the compilation time). Code might contain **kernels, device functions, host functions, host+device functions**. The `nvcc` **frontend** separates host and device codes that are compiled separately. Device code is compiled first in a **PTX assembly**, tied to a specific **virtual architecture**, and then translated into a **cubin binary code**, tied to a target **real architecture**. Finally, the whole runnable program is generated in a **single executable**.

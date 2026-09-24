@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cache Algorithms
 
 It (almost) all general-purpose architectures the cache hierarchy is not explicitly managed by the user. It is managed by a set of caching policies (**cache algorithms**) that determinate which data is cached during program execution, where the data is stored, and what cache line should be evicted if the cache is full. 

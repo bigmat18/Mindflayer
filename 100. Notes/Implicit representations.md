@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Representations]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Implicit representations
 
 A surface represented with implicit representation (or volumetric) A surface defined where the points of the 3D space satisfy a certain property (usually given function = 0)

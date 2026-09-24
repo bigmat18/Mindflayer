@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Basics of Message Passing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # MP IO Non-Deterministic
 
 Very often message-passing programs have non-deterministic behaviors.

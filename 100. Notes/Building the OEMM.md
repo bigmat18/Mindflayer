@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Distributed Mesh Simplification (QEM)]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Building the OEMM
 We assume that the input mesh comes as a larger set of raw, not indexed triangles, stored therefore with just 3D coordinates. We consider OEMM construction in the worst-case input.

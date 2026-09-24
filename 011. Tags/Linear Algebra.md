@@ -1,3 +1,0 @@
-- [[Signed Distances Field (SDF)]]
-- [[Surfaces Normals]]
-- [[Surfaces Curvatures]]

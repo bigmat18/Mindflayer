@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Data Structures]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 
 # Face-based data structures
 ### Face set (STL)

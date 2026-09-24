@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # MOESI Snoopy Protocol
 
 In the [[MESI Snoopy Protocol]], the transition from **Modified** to **Shared** must update the copy of the line in memory. To avoid this, we can introduce a new state:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Hausdorff Distance
 Quantifies the notion of "similarity" is not a easy task. We can have two kinds of similarity:
 - Geometric similarity (surface deviation).

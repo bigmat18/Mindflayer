@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Credit-based Mechanism
 
 An alternative mechanism to [[RDY-ACK Transmission]] and [[Stop-Go Transmission]] is **Credit-based Mechanism**. The receiver advertises an initial number of flits (**credits**) that can be safely buffered. Every time the sender sends one flit, it decreases the credit counter. If it becomes zero, it stops transmitting. The receiver periodically sends credits back to the sender.

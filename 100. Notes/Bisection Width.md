@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Bisection Width
 
 A **cut** is a set of links that partition the network nodes into two disjoint sets. **Bisection** is a cut that divides the set of nodes into half or nearly half. 

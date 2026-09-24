@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Inspecting the GPU Properties
 
 Sometimes, we need to query the device properties using the **CUDA API** and/or through some **command-line utilities**. Queries: how many devices; how many SM; how many resident threads per SM; how much memory; etc...

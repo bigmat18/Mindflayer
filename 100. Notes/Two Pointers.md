@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Two Pointers
 The Two-Pointers Technique is a simple yet powerful strategy where you use two indices (pointers) that traverse a data structure. Two pointers is really an easy and effective technique that is typically used for: **Two Sum in Sorted Arrays**, **[[Trapping Rain Water]]** or **Three/Four Sum**. This approach has pointers starting at opposite ends of the data structure and moving inward toward each other:

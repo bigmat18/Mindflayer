@@ -1,8 +1,11 @@
 ---
 Year: 2021/2022
-Period: 2° semester
-Exam done: true
-Area: "[[Bachelor's Degree]]"
+Period: 1° semester
+Area: "[[Bachelor's Degree.base]]"
+tags:
+  - done
+Degree: 30
+CFU: 15
 ---
 # Table of Contents
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Memory Consistency Basics
 
 There is two kinds of information:

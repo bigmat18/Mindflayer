@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Inter-Processor Interrupts
 
 Inter-processor interrupts are often asynchronous events used in several scenarios.

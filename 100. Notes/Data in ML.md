@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Introduction to Machine Learning]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Data in ML
 

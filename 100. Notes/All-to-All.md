@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Collective communications]] [[Data Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # All-to-All
 
 Another interesting and quite complex collective is the **all-to-all collective (A2A)**, which implements a very general communication patter. It can be used to emulate different collectives (ess **[[Scatter]]** with one source only, **[[Gather]]** with one destination only)

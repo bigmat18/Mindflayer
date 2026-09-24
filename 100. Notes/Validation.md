@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti che apprendono (ML)]] [[Introduction to Machine Learning]] [[Machine Learning]]
 
-**Area**: [[Bachelor's Degree]] [[Master's Degree]]
+**Area**: [[Bachelor's Degree]] [[Master's Degree.base]]
 # Validation
 
 Evaluation of performances for ML system is equal to generalization/predictive accuracy evaluation

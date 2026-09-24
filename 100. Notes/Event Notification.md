@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Event Notification
 
 We need specific primitives for asymmetric synchronization between processors. Two primitives: **wait** (for an event) and **notify** (of an event).

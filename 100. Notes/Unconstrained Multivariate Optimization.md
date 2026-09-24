@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Unconstrained Multivariate Optimality and Convexity]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Unconstrained Multivariate Optimization
 When moving from one-dimensional to multivariate optimization, the objective function is defined as $f: \mathbb{R}^n \to \mathbb{R}$, which can be written as $f(x_1, x_2, \dots, x_n) = f(x)$. While the goal remains finding the minimum value, the "geometry" of $\mathbb{R}^n$ introduces significant theoretical and computational hurdles.

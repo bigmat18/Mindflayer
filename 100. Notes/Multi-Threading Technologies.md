@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Shared Memory Systems]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Multi-Threading Technologies
 
 [[Pipeline Processors]] and [[Super-Scalar Processors]] were not enough. Both techniques improve performance. Pipelining overlaps the execution of different stages, allowing a new instruction to start at every cycle. Superscalar execution allows multiple instructions to be issued and executed in parallel at each cycle. But they can still have **Sequential Bottleneck**. 

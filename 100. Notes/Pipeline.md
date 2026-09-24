@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Pipeline
 
 Pipeline parallelism is a parallel design pattern that enhances computational efficiency by dividing 

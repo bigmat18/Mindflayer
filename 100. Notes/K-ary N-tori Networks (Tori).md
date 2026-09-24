@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # K-ary N-tori Networks (Tori)
 
 This type of network is a **Direct Network** also called **Tori**. Like [[K-ary N-mesh Networks (Meshes)]] but with **wrap-around links** between edge nodes (not good for a planar surface such as on-chip networks). They are **edge symmetric** (better for load balancing because on meshes traffic concentrates in the center of the network). Better to be used in 3D spaces (supercomputers). They are still **blocking networks**

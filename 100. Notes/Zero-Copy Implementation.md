@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Zero-Copy Implementation
 
 Inter-process communication consists of two important phases:

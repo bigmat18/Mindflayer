@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Concurrency in C++]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Mutexes and Condition Variables
 
 ### Mutex Variables

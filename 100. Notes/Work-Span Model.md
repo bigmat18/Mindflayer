@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Models of Computation]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Work-Span Model
 
 The he Work-Span model (also called **Work-Depth**) model provides more strict bounds than those offered by the [[Amdahl's Law]] and [[Scalability|Gustafson’s law]]. The program’s tasks form a DAG ([[Acyclic Computation Graphs|Directed Acyclic Graph]]). A task is a unit of work, i.e., **arbitrary sequential code**, that can be executed in parallel (using threads or processes) with other program’s tasks.

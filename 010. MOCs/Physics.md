@@ -1,8 +1,11 @@
 ---
 Year: 2023/2024
 Period: 2° semester
-Exam done: true
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
+tags:
+  - done
+Degree: 24
+CFU: 6
 ---
 # Table of Contents
 

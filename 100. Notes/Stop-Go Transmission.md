@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Stop-Go Transmission
 
 We assumed a simple **[[RDY-ACK Transmission]]** mechanism for sending and receiving flit in [[Wormhole Technique]], bus we can have other mechanism like **Stop/Go transmission mechanism**. 

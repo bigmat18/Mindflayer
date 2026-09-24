@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Snoopy-based CC
 
 In snoopy-based solutions, the [[Cache Coherence Abstract Architecture|GSK]] is coceptually **partitioned by columns**. Each **cache unit** (assuming only one cache per PE) acts as a **Local Controller (LC)**, containing the state of all the cache lines for what regards that PE/cache only (called **Local State Knowledge (LSK)**)

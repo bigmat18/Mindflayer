@@ -1,7 +1,7 @@
 ---
 Year: 2025/2026
 Period: 1° semester
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 tags:
   - todo
 Degree: None

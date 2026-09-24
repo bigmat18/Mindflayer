@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Parallel Programming with OpenMP]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # OpenMP loop-parallelism
 
 When a thread reaches a **parallel** directive, it creates a team of threads and becomes the Master of the team (the master has ID 0). Each thread of the pool computes the code of the parallel region (i.e., the structured block following). At the end of the parallel region there is an implicit [[Barriers]] (Additional [[Synchronization Basics|synchronization constructs]] exist and can override or refine the implicit barrier)

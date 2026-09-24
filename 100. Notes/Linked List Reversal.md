@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Linked List Reversal
 

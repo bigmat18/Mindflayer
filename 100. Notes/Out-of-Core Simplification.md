@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Out-of-Core Simplification
 Mesh simplification is often applied on verty large sets that are complex to fit in main memory. Many out-of-core algorithms have benne proposed that allow an efficient decimantion of polygonal meshes.
 

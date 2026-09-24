@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Data Layout in GEMM
 
 In addition to coalescing the accesses to GMEM, it is often important to organize our data in a proper manner. Distinction between two layouts:

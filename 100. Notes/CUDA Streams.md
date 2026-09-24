@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Concurrency and Streams]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # CUDA Streams
 
 A **CUDA stream** is a sequence of possibly aynchronous CUDA calls (hereinafter called **tasks**) that are executed by the device in the ordering dictacted by the host program. A stream encapsulates information about such tasks, it preserves their **FIFO** ordering, and can inspect their **status**.

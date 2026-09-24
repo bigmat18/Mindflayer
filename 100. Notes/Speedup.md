@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]] [[Computer Science Metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Speedup
 
 **Speedup** of a parallel program using $p$ processors ($S(p)$) is defined as the ratio of the [[Completion Time]] of the sequential time program $T_{c-seq}$ to the completion time obtained running with $p$ processors $T_c(p)$

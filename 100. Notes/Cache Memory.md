@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cache Memory
 
 In Modern CPUs typically contain a hierarchy of two or three levels of cache (L1, L2, L3). Caches have higher bandwidth and lower latency compared to main memory but much smaller capacity.

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Mean Curvature
 
 Is a concept related to [[Gaussian Curvature]], but it's more simple. It's defined by the mean of two curvatures, like this:

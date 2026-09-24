@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Array-based Spin-Lock
 
 The main question that this implementation wont resolve is why not giving to each processor a **private variable** to implement busy waiting, because in that case traffic in the network becomes **O(1)**.

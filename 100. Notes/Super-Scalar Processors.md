@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Super-Scalar Processors
 
 Modern CPUs are highly parallel (and quite complex), mixing **pipelining** and **superscalar** technologies. superscalar CPUs were designed to **execute multiple instructions from a single process/thread simultaneously** to improve performance and CPU utilization. The processor **fetches multiple instructions concurrently in a single clock cycle**. 

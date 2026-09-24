@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Shared Memory Systems]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Von Neumann Bottleneck
 
 The basic structure of the classical **Von Neumann Architectyre** is a [[Shared Memory Architectures]]. In Early computer systems timings for accessing main memory and for computations were reasonably well balanced.

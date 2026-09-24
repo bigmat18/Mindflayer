@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Working with sparse data
 
 In a sparse matrix, the majority of elements are **zeros**. Storing and computing them is a waste of **memory occupation**, **bandwidth**, and **computation time**. 

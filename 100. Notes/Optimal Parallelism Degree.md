@@ -2,7 +2,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Optimal Parallelism Degree
 
 it is a very meaningful and general concept. For stream-based computations, it expresses the **minimum parallelism degree** that a module shall use to achieve the **highest performance** (remove the bottleneck). In other words, the goal is to match the arrival speed using fewer resources as possible. It can be also defined with the following formula:

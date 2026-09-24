@@ -2,7 +2,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Inter Calculation Time
 
 #### Inter-Arrival Time

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Collective communications]] [[Data Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Multicast
 
 The **problem** is if a module sends the **same** message to a specified set of destinations modules (or even all). For example a process S trasmits a message of size L to a set of $n > 0$ destination processes $D_0, \dots, D_{n-1}$

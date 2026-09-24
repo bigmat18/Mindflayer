@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Introduction to Machine Learning]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Loss in ML
 We speak about a "good" approximation to a function $f$ from examples. But how we can measure the quality of the approximation?

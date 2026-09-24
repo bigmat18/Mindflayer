@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]] [[High Performance Computing]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Distributed Memory Architectures
 **Processing nodes** are **complete computers** (possibly multi-processors based on multi-core CPUs potentially equipped with hardware accelerators). Each node has its own memory space non-accessible by the other nodes. Cooperation between nodes is possible only via I/O.
 

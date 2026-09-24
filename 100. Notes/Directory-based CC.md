@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Directory-based CC
 
 The **[[Cache Coherence Abstract Architecture|GSK]]** is partitioned **by rows** and each partition (**Local State Knowledge** of **LSK**) is implemented in hardware by a component called **Directory**.

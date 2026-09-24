@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Introduction to Sampling
 
 In general this is the process to sample a domain, these techniques are used for example, point based rendering, photo-realistic rendering, Gaussian splatting.

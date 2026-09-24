@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Shared Memory Systems]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Processor Technologies
 
 A **processing elements** (PE or core) consists of the processor unit(s), MMU(s) a local IO subsystem, wrapped units, private caches (L1i+d and L2). Following an **Abstract structure** of PE:

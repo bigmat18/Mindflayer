@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Surfaces Normals
 
 ### Normal

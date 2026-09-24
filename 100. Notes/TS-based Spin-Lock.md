@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # TS-based Spin-Lock
 
 Instead of LOAD/STORE with annotations, we can develop a spin-lock using the **[[RMW Instructions|Test&Set]]** atomic instruction. We can assume the presence of the instruction: 

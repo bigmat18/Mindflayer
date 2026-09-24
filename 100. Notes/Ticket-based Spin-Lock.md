@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Ticket-based Spin-Lock
 
 This type of spin-lock there is because [[TS-based Spin-Lock|TTS]] has two major flaws:

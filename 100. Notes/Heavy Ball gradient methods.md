@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Smooth Unconstrained Multivariante Optimization]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # “Poorman’s conjugate gradient”: Heavy Ball Gradient
 Conjugate gradient and Quasi-Newton methods can be complex and expensive. There is a simpler alternative, known as the **Heavy Ball Gradient** (often simply called "Momentum" in Machine Learning).

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cache Coherence Abstract Architecture
 
 CC synchronization implies a **centralization point**. In particular, a **Global State Knowlage** (GSK) about **shared cache lines** is conceptually needed.

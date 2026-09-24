@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # GPU Registers
 
 Each Stream Multi-Processor has several thousands of **32-bit registers** that are partitioned among **resident warps**. Used for automatic scalar variables and thread coordinates. Data in the registers are **private** of the thread (scope).

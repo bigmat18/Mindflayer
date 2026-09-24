@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # NVIDIA Architectures Overview
 
 NVIDIA GPUs are available in two main series of products. Consumer models are oriented towards gaming. Datacenter models instead are optimized for HPC workloads.

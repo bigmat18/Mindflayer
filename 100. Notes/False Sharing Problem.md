@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]] [[Cache Coherence]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # False Sharing Problem
 
 This problem arises in cases two PEs share a common cache line in their private caches. However, the two PEs modify **different words** of that line only. No sharing exists, however the cache line is the granularity of coherency action by the CC mechanism.

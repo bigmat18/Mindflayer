@@ -7,7 +7,7 @@ Connection:
   - "[[Introduction to Machine Learning]]"
   - "[[Machine Learning]]"
   - "[[Introduction to Artificial Intelligence]]"
-Area: "[[Master's Degree]]"
+Area: "[[Master's Degree.base]]"
 ---
 # Statistical Learning Theory (SLT)
 

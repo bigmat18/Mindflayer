@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Cuts technique in Parametrization
 
 Clearly needed for closed surfaces. For simple case, like a sphere, it's enough do a cuts long a meridian through which the sphere becomes a disk. Obviously the cuts can be more complex, usually more cute bring to less distortion.

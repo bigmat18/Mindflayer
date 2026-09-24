@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Orthoprojection Cuts
 
 This approach does cuts in the following way:

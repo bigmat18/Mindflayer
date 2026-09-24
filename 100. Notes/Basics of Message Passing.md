@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Basics of Message Passing
 
 Message-passing languages or libraries provide a set of **communication primitives** to allow processes to cooperate. Different implementations of the primitives for [[Shared Memory Architectures|shared-memory]] and [[Distributed Memory Architectures|distributed-memory]]. We suppose to use typed channels. 

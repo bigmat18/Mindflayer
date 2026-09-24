@@ -4,7 +4,7 @@
 
 **Tags:** [[CSG on Mesh using Voxelization and SDF]] [[Parallel Surface and Solid Voxelization on GPUs]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Surface Voxelization
 
 In this section we describe how to check if a voxel is part of triangle, in other world which voxel are intersected by a face. We use a **conservative approach** where a voxel will be actives if a triangle touch it (merely touched by a triangle).

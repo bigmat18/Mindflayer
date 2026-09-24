@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's Degree]]
+**Area**: [[Master's Degree.base]]
 # Matrix Transponse in CUDA
 
 **Problem**: given a matrix $A \in \mathbb{R}^{N\times M}$ we want to compute its transpose $A^T \in \mathbb{R}^{M\times N}$. Suppose below N=3 and M=4.

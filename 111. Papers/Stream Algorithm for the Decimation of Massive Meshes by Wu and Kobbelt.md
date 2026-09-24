@@ -23,7 +23,6 @@ These operations must be applied in arbitrary order:
 - Weak restriction are 
 	- the filling leve should be kept as high as possibile 
 	- the number of DECIMATION and WRITE should be balance to achieve the target resolution
-### Real Stream Algorithm for Decimation
 
 # References
 - [A Stream Algorithm for the Decimation of Massive Meshes by Wu and Kobbelt](https://www.graphics.rwth-aachen.de/media/papers/streamdeci1.pdf)

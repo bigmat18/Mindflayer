@@ -33,6 +33,8 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 	- [Lock-Free Allocator Paper](https://cse.hkust.edu.hk/~charlesz/comp610/paper/pldi-2004.pdf)
 - [Big Paper about Low-Latency](https://arxiv.org/abs/2309.04259?utm_source=pocket_shared)
 
+- [[Coroutines (C++20)]]
+- [[Reflection (C++26)]]
 ## Books
 ### High Performance Computing
 - [Computer Architecture a Quantitative Approach](https://acs.pub.ro/~cpop/SMPA/Computer%20Architecture%20A%20Quantitative%20Approach%20(5th%20edition).pdf)

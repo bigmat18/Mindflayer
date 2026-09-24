@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Poisson Disk Sampling (PDS)
 
 Poisson Disk Samplig are a class of sampling technique. A Poisson Disk Sampling is a sampling $X = \{(x_i, r_i) : i = 1, \dots, n\}$ such that:

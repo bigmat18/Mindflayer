@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Linear Models]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Learning Algorithms using Normal Equation
 

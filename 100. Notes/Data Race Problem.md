@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Shared Memory Systems]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Data Race Problem
 
 The **Data race (DR)** problem occurs when two (or more) threads access a shared variable simultaneously and at lest one access in a write operation, the accesses to the shared variable are not separated by synchronzation operation.

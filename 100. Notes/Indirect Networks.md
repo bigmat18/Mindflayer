@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Indirect Networks
 
 Indirect networks provide multiple **stages** to reach all destinations from a given source endpoints. Each stage is composed of a set of [[Interconnection devices|switches]]. Therefore, some switches are directly connected to endpoints (i.e., the ones in the **first** and the **last** stage), while others are connected to other switches only (i.e., all the **intermediate stages**). Therefore, multi-staged networks are **indirect** by definition.

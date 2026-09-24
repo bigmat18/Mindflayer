@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Local IO
 
 A **local I/O sub-system** is often present within a CMP. It consists of on-chip local I/O units one per PE, which are used for generating/receiving **[[Inter-Processor Interrupts]] (IPI)**. A local I/O per PE (we call it **communication unit - UC**). IPI might convey one or a few data words as a payload.

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Introduction to Interconnection Networks
 
 Interconnection networks are an essential component of parallel computing architectures. Different kinds of networks exist with specific properties and roles. In general, **bus-based interconnects** are not suitable for highly parallel machine.

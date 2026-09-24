@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Scientific Visualization
 Discipline studying computing techniques for the generation of interactive visual representations of acquired or simulated spatio-temporal data (natural link with 3D world).

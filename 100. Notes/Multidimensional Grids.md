@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Multidimensional Grids
 
 The dimensionality of the grid and the blocks usually depends on the problem data characteristics. So, the reason for choosing 1D, 2D, and 3D grids and blocks is **convenience** mostly. Suppose to work with a matrix (so a 2D data structure). The matrix is always flattened in memory. For each element, we can identify:

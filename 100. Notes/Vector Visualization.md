@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Vector Visualization
 Attributes are represented by vectors:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Bijectivity in Parametrization
 
 Parametrization map must be **bijective** and this happens if and only if triangles in parametric domain do not overlap (no triangles flips). 

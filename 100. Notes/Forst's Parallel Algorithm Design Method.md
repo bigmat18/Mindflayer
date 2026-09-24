@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Interconnecton Networks]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Foster’s Parallel Algorithm Design Method
 

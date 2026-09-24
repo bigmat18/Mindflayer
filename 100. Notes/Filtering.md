@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Filtering
 Typical node filtering/sampling is based on:

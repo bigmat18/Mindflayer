@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Stream Algorithm for the Decimation of Massive Meshes
 
 ### Ideal Stream Algorithm for Decimation

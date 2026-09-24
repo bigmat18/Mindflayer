@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Static Range Minimum Query (RMQ)
 

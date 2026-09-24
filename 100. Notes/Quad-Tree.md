@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Quad-Tree
 
 The plane is recursively subdivided in 4 sub-regions (equal to each other) by couple of orthogonal planes. We can't memorize anything to describe cells, we need only the content of cells

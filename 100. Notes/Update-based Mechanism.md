@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Update-based Mechanism
 
 If we watch the example in [[Cache Coherence Problem]] we see that $C_Q$ is not correctly updated. PE_Q must be prevented from using the S cache line in $C_Q$ until the system renders $C_Q$ consistent.

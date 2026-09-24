@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # JDS Format
 
 **Jagged Diagonal Storage (JDS)** is a format that can reduce **control divergence** without introducing any **padding bytes**. Rows of the matrix are sorted from the longest to the shortest.

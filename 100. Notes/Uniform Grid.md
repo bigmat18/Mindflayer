@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Uniform Grid
 
 This is a **non-hierarchical** indexing structures where the space including the object in partitioned in **cubic cells**; each cell contains references to "primitives" (ess. triagles).

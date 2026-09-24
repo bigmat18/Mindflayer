@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]] [[Parametrization Techniques]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Harmonic Parametrization
 
 With this parametrization we have a Linear System. A sparse Matrix (2n x 2n) where n is number of vertices of the mesh. Express each point as weighted sum of its neighbors. Find x such that $Ax = 0$. At the end $x$ are the final UV coordinates.

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Introduction to Parametrization
 
 ##### Texture mapping

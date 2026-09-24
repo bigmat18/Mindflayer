@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Wormhole Technique
 
 Based on the **header**, the switch decides the output link, ess **OUT1**. The header contains the number of flits of the payload (**LEN**). So, it remembers that all payload flits from **IN1** must be routed to **OUT1**. Until the transmission is not complete, **OUT1** cannot be used by other packet transmissions. If two worms of flits should use the same output interface in a switch, we have a **network conflict**.

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Relative Efficiency
 
 The **Efficiency** of a parallel program parallelized using p processors $E(p)$ is defined as the ratio between the speedup $S(p)$ and the number of processors used $p$

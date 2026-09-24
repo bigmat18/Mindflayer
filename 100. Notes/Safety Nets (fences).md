@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Safety Nets (fences)
 
 Intel machines adopt a model quite similar to [[Relaxed Memory Models|TSO]]. ARM and Power (IBM) machines adopt relaxed memory models. The **general idea** is: most of the memory accesses, since they likely happen for **private data**, can be safely reordered by the machine to hide latencies. When specific ordering ordering requirements are needed, some **safety nets** should be used. 

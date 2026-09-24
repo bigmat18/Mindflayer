@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Nonsmooth Convex Unconstrained Multivariante Optimization]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Smoothed Gradient Methods
 This section introduces a paradigm shift in nonsmooth optimization: rather than using a slow algorithm on a difficult function, we **change the function slightly to make it smooth**, allowing us to apply faster algorithms.

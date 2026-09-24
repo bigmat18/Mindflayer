@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Incremental methods
 
 Incremental algorithm remove one mesh vertex at a time. The candidate is determined based on user-specified criteria. The criteria can be **binary** or **continuous**.

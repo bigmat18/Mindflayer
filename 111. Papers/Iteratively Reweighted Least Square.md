@@ -6,7 +6,7 @@ Tags:
   - paper
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Iteratively Reweighted Least Square
 
@@ -314,4 +314,4 @@ $$h_{eff}(w_i) = \begin{cases} \frac{w_i^2}{2\epsilon} & \text{for } \vert{}w_i\
 
 # References
 - [[Iterative_Reweighted_Least_Squares.pdf]]
-- [[Converge_IRLS.pdf]]
+- [[Convergence_of_Iteratively_Re-weighted_Least_Squares.pdf]]

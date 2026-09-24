@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Unconstrained Multivariate Optimality and Convexity]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # A Quick Look to Convex Functions
 As we've seen, finding a global minimum in multiple dimensions is extremely difficult unless the function has a specific, highly desirable property: **convexity**. Convex functions are the ideal class for optimization because they eliminate the distinction between local and global minima.

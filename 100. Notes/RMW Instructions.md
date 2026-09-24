@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # RMW Instructions
 
 They are special instructions incorporated in most of the instruction sets. They perform two memory accesses on the same location. Such accesses are made **atomic** by the [[Level-based view for parallel computing|firmware level]]. 

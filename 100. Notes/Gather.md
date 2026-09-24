@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Collective communications]] [[Data Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Gather
 
 The **problem** is given a set of data structures $A_0, A_1, \dots, A_{n-1}$ local to a set of source modules $S_0, S_1, \dots, S_{n-1}$, a module G builds a unique data structure A merging the partitions $A_0, A_1, \dots, A_{n-1}$.

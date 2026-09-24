@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Models of Computation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # BSP Model
 
 The **Bulk-Synchronous Parallel (BSP)** model of computation was proposed by Leslie G. Valiant as a

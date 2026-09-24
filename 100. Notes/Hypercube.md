@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Hypercube
 
 The **Hypercube**, detonated by $Q_d (d \geq 1)$, is the graph that has vertices representing the $2^d$ bit strings if length $d$. Two vertices are adjacent if and only if the bit strings that they represent differ in **exactly** a bit position

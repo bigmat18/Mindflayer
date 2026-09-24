@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Dynamic RAM (DRAM)
 
 - Made with cells that store data as a charge on **capacitors**

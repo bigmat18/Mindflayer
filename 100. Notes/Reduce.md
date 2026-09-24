@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Reduce
 
 Reduction is a very important parallel operator. It is a **second-order function** applied over the elements of a vector with an associative binary operator.

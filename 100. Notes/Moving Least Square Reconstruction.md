@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Moving Least Square Reconstruction
 
 In this approach we use moving Least Square (like [[Least Squares Conformal maps]]). In moving LS we try to rebuild a fitting in a limit domain weighted on a set of samples, this allow to do a sets of fitting with a weight that is a [[Variabili Aleatorie Notevoli|Gaussian]] on my domain.

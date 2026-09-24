@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's degree]] 
+**Area**: [[Master's Degree]] 
 # Pipeline Processors
 
 Pipelined processor executes in parallel more instructions. Each stage works on a different instruction of the program (use a [[Pipeline]] pattern).

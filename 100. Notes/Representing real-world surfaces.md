@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Representations]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Representing real-world surfaces
 
 The real-world surfaces are to much to represent with basic implicit or parametric representation, to avoid this problem surfaces can be represented by **cell complexes**.

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Radial Basis Functions (RBF)
 
 This method was a solutions for the [[Metaballs]] method, that follow the general schema:

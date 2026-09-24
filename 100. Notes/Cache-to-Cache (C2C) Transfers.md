@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Cache-to-Cache (C2C) Transfers
 
 In **cc-[[SMP Symmetric Multi-Processor]]** or **cc-[[NUMA - Non Uniform Memory Access]]** architectures, cache-to-cache data transfers (**C2C**) are very common. The interpretation of LOADs and STOREs might cause the transmission of specific firmware messages among caches.

@@ -1,7 +1,7 @@
 ---
-Area: "[[Computational mathematics for learning and data analysis]]"
+Area: "[[Master's Degree]]"
 Github:
-Other Link:
+Other Link: "[[Computational mathematics for learning and data analysis]]"
 ---
 # Efficient Training of ETM - IRLS vs Level Bundle Methods
 

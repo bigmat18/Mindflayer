@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Invalidation-based Mechanism
 
 In example provided in [[Cache Coherence Problem]]  $C_Q$ is no updated. PE_Q must be prevented from using the S cache line $C_Q$ until the system renders $C_Q$ constant.

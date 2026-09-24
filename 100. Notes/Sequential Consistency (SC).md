@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Sequential Consistency (SC)
 
 It is a theoretical model designed by **Leslie Lamport** in 1979. A multiprocessor is **sequential consistent** (**SC**) if the result of any execution **is the same as if** the instructions of all the PEs were executed **in some sequential order**, and the instructions of each PE appear **in the order specified by its program**.

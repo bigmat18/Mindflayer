@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # VectorSUM
 
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]] [[Parametrization Techniques]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Least Squares Conformal maps
 
 This approach is used to do parametrization using least squares. In this case **does't need the entire boundary to be fixed**. It maintain angle between triangles. Imposing that two vectors on UV maps to 2 orthogonal, same length vectors in 3D.

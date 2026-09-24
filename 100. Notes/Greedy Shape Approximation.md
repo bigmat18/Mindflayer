@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Greedy Shape Approximation
 
 A greedy algorithm to compute an [[Variational Shape Approximation|approximate minimum equation]] is proposed. Its main advantages are:

@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # SIMD (Single Instruction, Multiple Data)
 
 SIMD is a computing paradigm related to [[Introduction to Data Parallelism|Data parallelism]]. In SIMD machines the target is:

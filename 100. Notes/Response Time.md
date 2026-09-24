@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Computer Science Metrics]] [[Stream Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Response Time
 
 Consider a configuration where we have a sets of **clients** $C_1, \dots, C_N$ and a **server** S (no specific semantics of client and server).

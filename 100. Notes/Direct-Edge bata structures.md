@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Mesh Data Structures]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 
 # Direct-Edge bata structures
 

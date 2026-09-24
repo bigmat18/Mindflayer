@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Kepler Architecture
 
 **L2** is double the size of the L2 in [[Fermi Architecture (2010)|Fermi GPUs]]. The I/O-INF supports PCIe 3.0. GTS now called **Giga Thread Engine (GTE)**. SM called SMX (up to 16 instances), each having **192 cores** (3072 cores)

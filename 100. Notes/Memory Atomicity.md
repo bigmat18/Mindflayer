@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Memory Atomicity
 
 An additional feature be provided for the memory in multi-processors is a **individual sequence of memory accesses**. A first solution (assuming no caches) is an additional bit (**indivisibility bit**, shortly called INDIV) is associated with each request. If it is **1**, once the request is accepted by the memory, the other requests coming from other PEs are left pending until **INDIV** is reset to **0** by the same PE.

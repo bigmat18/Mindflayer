@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # MISD (Multiple Instruction, Single Data)
 
 This is the strangest type of architecture. In this type all PEs/CPUs execute a **different instruction sequence** on a single data stream.

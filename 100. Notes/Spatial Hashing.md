@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Spatial Hashing
 
 This is the first solution for the main problems of [[Uniform Grid]] system. It's very similar to a uniform grid, except that only non empty cells are allocated.

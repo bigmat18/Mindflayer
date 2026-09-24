@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] 
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 
 # Signed distances field
 

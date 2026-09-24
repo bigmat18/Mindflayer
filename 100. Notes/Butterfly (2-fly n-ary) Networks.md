@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Butterfly (2-fly n-ary) Networks
 
 Butterfly networks are a popular example of a **limited-degree indirect network** used in parallel architectures. They are built through the **modular interconnection** of a **small switched**, as exemplified in the following figure.

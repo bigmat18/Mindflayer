@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Map Parallelization
 
 A **map** is a computing pattern in which a single function F can be applied independently to each 

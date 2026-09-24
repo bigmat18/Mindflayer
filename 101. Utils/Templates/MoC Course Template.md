@@ -1,11 +1,11 @@
 ---
-Year: 
-Period: 
-Exam done: 
+Year:
+Period:
 Area:
+tags:
+Degree:
+CFU:
 ---
 # Table of Contents
-
-# Tasks
 
 # Resources

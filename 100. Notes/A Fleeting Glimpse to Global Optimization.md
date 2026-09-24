@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Univariate Optimization]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # A Fleeting Glimpse to Global Optimization
 Tutto quello che abbiamo visto finora riguarda la ricerca di minimi locali. Ma cosa ci dice tutto questo sull'ottimizzazione globale? Purtroppo, la risposta è: **quasi nulla, a meno che non vengano fatte assunzioni forti**.

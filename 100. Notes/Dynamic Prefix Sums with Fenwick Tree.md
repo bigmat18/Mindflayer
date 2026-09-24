@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Dynamic Prefix Sums with Fenwick Tree
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Dataflow
 
 Dataflow is a low-level parallelism exploitation paradigm. **Dataflow analysis** is a procedure where different tasks is a sequential program are analyzed to discover whether they can be run in parallel or not. It is used by **[[Level-based view for parallel computing|compilers]]** to apply different kinds of optimizations.

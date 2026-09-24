@@ -7,7 +7,7 @@ Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Introduction to Optimization]]"
   - "[[Smooth Unconstrained Multivariante Optimization]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Gradiant Method
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Memory Models & Synchronization
 
 ### Issues with [[Event Notification]]

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Algorithms Patterns]]"
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Greedy Algorithms
 

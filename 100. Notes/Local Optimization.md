@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Univariate Optimization]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Local Optimization
 

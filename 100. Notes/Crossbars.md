@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Crossbars
 
 Is a fully interconnected structure with $N²$ dedicated links. So **maximum bandwidth** and **minimum latency** suitable for limited parallelism only (ess. N=8) because of **link cost** and **pin-count** reasons.

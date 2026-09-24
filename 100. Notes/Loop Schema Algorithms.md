@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Loop Schema Algorithms
 
 This algorithms is based on **triangular meshes**, and it is **primal** and **approximating**. Edges are spitted and new vertices are reconnected to create new triangles.

@@ -7,7 +7,7 @@ Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Linear Models]]"
   - "[[Machine Learning]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Learning Algorithms using Gradient Descent
 

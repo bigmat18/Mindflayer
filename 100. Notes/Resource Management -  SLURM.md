@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] 
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Resource Management -  SLURM
 
 Resource Management Systems (**RMSs**) are software systems that:

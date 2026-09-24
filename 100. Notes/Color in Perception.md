@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Scientific and Large Data Visualisation]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Color in Perception
 Colour vision can be considered as largely superfluous in modern life yet color is extremely useful in data visualization:

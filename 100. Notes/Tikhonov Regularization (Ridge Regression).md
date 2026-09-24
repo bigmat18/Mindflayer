@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Machine Learning]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Tikhonov Regularization (Ridge Regression)
 

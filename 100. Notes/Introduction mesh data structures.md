@@ -4,7 +4,7 @@
 
 **Tags:** [[Mesh Data Structures]] [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Introduction mesh data structures
 
 The performance, efficiency and memory usage of algorithms on a mesh depends on the mesh data structure that we decide to use. The aspect we need to take into consideration are:

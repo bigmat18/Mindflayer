@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Ideal Service Time
 
 We define the **ideal service time** of process Q, denoted by $T_{id-Q}$, as the average time interval between the beginning of the processing of two consecutive stream items. It is composed of two components:

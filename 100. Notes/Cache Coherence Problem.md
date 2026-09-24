@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Cache Coherence Problem
 
 Assume that $PE_i$ and $PE_j$ transfer the same cache line S, ie, a **shared line**, from the main memory M into their respective caches $C_i$ and $C_j$ (suppose one cache per PE)

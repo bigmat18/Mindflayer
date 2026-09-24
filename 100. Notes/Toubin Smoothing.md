@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Smoothing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Toubin Smoothing
 
 This is the main approach to fix the problem of shrinking in [[Laplacian Smooth]]. With **toubin smoothing** we try to approach the problem like a signal-processing problem, and for each steps we don't move the vertex to the average but instead we do two steps:

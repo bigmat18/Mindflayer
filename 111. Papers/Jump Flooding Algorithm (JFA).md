@@ -4,7 +4,7 @@
 
 **Tags:** [[CSG on Mesh using Voxelization and SDF]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Jump Flooding Algorithm (JFA)
 
 This algorithm born to compute [[Voronoi Decoposition|Voronoi Diagram]] for a 2D grid of size $n \times n$. The idea is: starting from a set of seeds at some grid point and propagate content to each grid point, to achive this we flood the content in creasing distance from s outward. A grid point $(x, y)$ propagates its information (e.g., closest seed ID and its position) to its immediate neighbors $(x+i, y+j)$ where $i, j \in \{-1, 0, 1\}$. Propagating this across an $n \times n$ grid typically requires $O(n)$ rounds, which is inefficient for large grids.

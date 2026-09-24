@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Vertex Clustering
 
 Usually very efficient and robust. Computation typically linear in the **number of vertices**. However the quality of resulting meshes is not always satisfactory.

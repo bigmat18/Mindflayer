@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Linear Models]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # L1-norm Regularization
 

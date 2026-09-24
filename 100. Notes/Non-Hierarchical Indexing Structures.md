@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Non-Hierarchical Indexing Structures
 
 ## [[Uniform Grid]]

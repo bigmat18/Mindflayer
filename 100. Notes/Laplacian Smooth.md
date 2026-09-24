@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Smoothing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Laplacian Smooth
 
 With this approach we use the **diffusion flow**, it is widely used to blur images and smooth terrain surfaces. it diffuse a signal over a domain, build a scale space describing the evolution of data through time under the blurring/smoothing process.

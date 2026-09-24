@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Globally Smoothness
 
 Other important things in parametrization is the globally smoothness, that is another conseguence of [[Cuts technique in Parametrization|cuts]]. The tangent directions varyes smoothly across seams. 

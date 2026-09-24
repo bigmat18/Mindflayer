@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Architectures and Compiler]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Dynamic Parallelism in CUDA
 
 Standard CUDA programs are **flat**: i.e., they perform kernel launches and, for best performance, each kernel had to expose enough parallelism to efficiently use the GPU. **For-loop programs** benefit from this approach, while **irregular computations** and **nested parallelism** suffer a lot.

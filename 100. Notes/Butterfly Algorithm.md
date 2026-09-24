@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Butterfly Algorithm
 
 This is an algorithms that use **triangular meshes**, it is also **primal** and **interpolating** (we mantein the original position of original vertex). 

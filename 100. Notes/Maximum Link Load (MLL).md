@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Maximum Link Load (MLL)
 
 **MLL** is used to estimate the maximum bandwidth the network can support, i.e., the maximum transmission bandwidth that can be injected by every node before the network saturates.

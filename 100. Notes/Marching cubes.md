@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Representations]] [[Surface Recostruction]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 
 # Marching cubes
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[Scientific and Large Data Visualisation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Mark and Channels
 
 Visual encoding means going from data to visual representations

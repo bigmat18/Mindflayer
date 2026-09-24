@@ -7,7 +7,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Monotonic Stack
 

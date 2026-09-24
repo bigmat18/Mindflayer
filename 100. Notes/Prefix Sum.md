@@ -7,7 +7,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
  # Prefix Sum
 
@@ -61,6 +61,7 @@ assert!(psums.eq(&vec![2, 6, 7, 14, 17, 17, 21, 23]));
 ### [[Number of Ways]]
 ### [[Dynamic Prefix Sums with Fenwick Tree]]
 ### [[Prefix Sum with Segment Tree]]
+
 
 # References
 - https://www.geeksforgeeks.org/dsa/understanding-prefix-sums/

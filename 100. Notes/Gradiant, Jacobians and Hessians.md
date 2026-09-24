@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Unconstrained Multivariate Optimality and Convexity]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Gradients, Jacobians, and Hessians
 

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Surfaces Curvatures
 
 We can define **[[Curves#Curvature|curvature]]** for a 2D domain by second derivatives. Define a tangent vector on a parametric surface using and angular form: 

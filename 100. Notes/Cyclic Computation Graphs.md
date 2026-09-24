@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Cyclic Computation Graphs
 Analysis of cyclic computation graphs modeling «client-server» computations.
 ### [[Response Time]]

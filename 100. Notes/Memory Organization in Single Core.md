@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Memory Organization in Single Core
 
 From a logical perspective, the memory of a [[Shared Memory Architectures|shared-memory]] system is like a **centralized** entity that

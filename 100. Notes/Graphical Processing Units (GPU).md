@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Graphical Processing Units (GPU)
 
 CPUs and GPUs follow a completely different design:

@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Classifying Parallel Architectures]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Core count & Processing model
 
 Another type of classification is based on cores count. Considering the number of cores (thus FLOPS) in general-purpose MIMD machines.

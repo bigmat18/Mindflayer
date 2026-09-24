@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Level-based view for parallel computing
 
 ## Vertical structuring

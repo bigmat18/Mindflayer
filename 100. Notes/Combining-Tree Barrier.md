@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Combining-Tree Barrier
 
 The problem with [[Centralized Barrier]] is that due to all the entities repeatedly accessing the global variable for pass/stop, the communication traffic is rather high.

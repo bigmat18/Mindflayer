@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Gaussian Curvature
 
 Defined as $K = k_1 \cdot k_2$

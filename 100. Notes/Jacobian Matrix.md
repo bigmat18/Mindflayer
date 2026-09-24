@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[3D Geometry Modelling & Processing]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Jacobian Matrix
 

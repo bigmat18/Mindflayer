@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Concurrency and Streams]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # HYPER-Q
 
 On old **[[Fermi Architecture (2010)|FERMI]]** GPUs (2010), up to **16 kernels** can be run concurrently on the same device. Multiple host threads can issue GPU tasks on different CUDA streams. However, such activities are enqueued in a **single hardware queue** on the device.

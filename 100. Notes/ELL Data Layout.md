@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # ELL Data Layout
 
 New data format called **ELL** (**Elias-Lemke-Lewis**, from the ELLPACK library where it was introduced)

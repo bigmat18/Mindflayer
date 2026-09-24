@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # KD-Tree
 
 This is a specialization of [[Binary Space Partition-Tree (BSP)]]. In Kd-tree we have a k dimensions tree. It's a special kind of BSP tree with **axies-aligned bisector planes**. It depends on:

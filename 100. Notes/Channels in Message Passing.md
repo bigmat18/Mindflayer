@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Basics of Message Passing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Channels in Message Passing
 ###### Asynchronous Degree
 The Asynchronous degree of a channels is a integer $K\geq 0$ stating the maximum amount of messages that can be transmitted by the sender before the receiver is willing to receive the first message.

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Matrix Multiplication in CUDA
 
 Basic component of linear algebra libraries with many real-world applications (e.g., deep learning with CNN). Let $A$ be a matrix of size $N\times M$ and $B$ a matrix of size $M\times R$, the result of the matrix multiplication is a matrix $C$ of size $N\times   R$. The generic element of $C$ is equal to:

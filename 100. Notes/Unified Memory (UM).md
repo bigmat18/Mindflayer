@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Unified Memory (UM)
 
 [[Pageable and Pinned host memory|UVA]] allows a single virtual addressing space. The same pointer is always meaningful and the pointed data can be physically in the host memory or in the GPU memory.

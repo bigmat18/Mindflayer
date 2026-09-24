@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Neural Networks (NN)]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Why NN is a flexible model?
 

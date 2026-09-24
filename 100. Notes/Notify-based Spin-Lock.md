@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Notify-based Spin-Lock
 
 This implementation is fair (**FIFO**) and has a moderate contention overhead because busy waiting is implemented without involving the shared memory (or caches)

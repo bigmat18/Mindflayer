@@ -6,7 +6,7 @@ Tags:
   - master
 Connection:
   - "[[Distributed Mesh Simplification (QEM)]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # External Memory Management and Simplification of Huge Meshes
 

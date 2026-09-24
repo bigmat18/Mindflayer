@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Differential Geometry]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Curvature via Surface Fitting
 
 A lot of time the curvature with [[Gaussian Curvature]] has problems based on triangulations. Many time in real situations to calculate curvature we do fitting. We take a raidius r of the neighborhood of each point p is used as a scale parameter:

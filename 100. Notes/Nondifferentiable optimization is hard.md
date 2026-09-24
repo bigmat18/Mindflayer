@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Nondifferentiable Optimization is Hard
 

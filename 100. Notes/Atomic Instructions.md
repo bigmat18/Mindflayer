@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Execution Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Atomic Instructions
 
 NVIDIA GPU ISA provides a set of **atomic RMW instructions**, like CPU ISAs. They can be used to provide synchronization during accesses to shared data in memory by threads of the same kernel.

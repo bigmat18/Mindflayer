@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[3D Geometry Modelling & Processing]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Gradient
 Given a function $F: \mathbb{R}² \to \mathbb{R}$ (our surface) the **gradiant** of F is the vector field $\nabla F : \mathbb{R}² \to \mathbb{R}²$ defined by the partial derivatives:

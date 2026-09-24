@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Circuit Switching
 
 It is the strategy with coarsest granularity. The network pre-allocates resources across multiple hopes between the source and the destination. **Probe messages** are sent to reserve resources. Once probed the path, no per-hop routing decision must be made.

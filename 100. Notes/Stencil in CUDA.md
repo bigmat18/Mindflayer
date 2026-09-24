@@ -3,7 +3,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Stencil in CUDA
 
 Stencil-based computations often derive from numerical methods to solve partial differential equations. In computers, functions are represented with their discrete representation (e.g., a 1D function is stored in an array). Partial differential equations express the relationships between functions, variables, and their derivatives.

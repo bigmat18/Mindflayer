@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Performance Engineering of System Software
 
 This part is take form: https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/mit6_172f18_lec1/

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # CUDA Kernels
 
 A CUDA kernel is a program describing the activity performed by a potentially huge set of threads. Threads are organized in a two-level hierarchy:

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[3D Geometry Modelling & Processing]]"
   - "[[Smoothing]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Manifold Harmonics
 

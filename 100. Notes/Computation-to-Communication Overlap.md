@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Basics of Message Passing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Computation-to-Communication Overlap
 
 Like in [[Communication Latency]]. A computing node is equipped with a [[Introduction to link layer|NIC (Network Interface Card)]] that sends data to and receives data from the network on behalf of the processor. The NIC can be a **specialized processor** (so-called **SmartNIC**) with multiple capabilities other than simple DMA (also processing, e.g., compression) 

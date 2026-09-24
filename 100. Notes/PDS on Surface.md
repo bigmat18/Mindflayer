@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Sampling]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # PDS on Surface
 
 When we work on a surface there is the metrics of distance between two point on a surface.

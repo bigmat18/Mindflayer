@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Catmull-Clark Algorithms
 
 This is an algorithm, **polygonal**, **primal** (Every faces will be divided into 4 faces) and **approximating** (the original vertices will be moved). New vertices obtained from existing ones again using appropriate masks. The idea is to subdivide a face to 1 to n surfaces (the number depends to type of mesh).

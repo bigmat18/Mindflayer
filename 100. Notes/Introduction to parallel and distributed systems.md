@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Introduction to parallel and distributed systems
 
 

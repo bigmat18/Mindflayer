@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Completion Time
 
 We are often interested in the total execution time to process the whole stream i.e. the **completion time $T_{C-\Sigma}$**. The temporal diagram below shows what happens with a system $\Sigma$ having four replicas of Q.

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Delaunay Triangulation
 
 In **computational geometry**, a **Delaunay Triangulation** of a set of points is the plane subdivided their **[[Alpha Shapes|convex hull]]** into triangles whose circumcircles do not contain any of point.

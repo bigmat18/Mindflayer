@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Notification with IPI
 
 An alternative implementation to [[Notification with Shared Flags]] of event notification is based on **I/O messages** through **[[Local IO]]** of the PE (it requires **a fixed pinning of processes/threads onto PEs**)

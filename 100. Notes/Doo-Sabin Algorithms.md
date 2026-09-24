@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Refinement & Subdivision.]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Doo-Sabin Algorithms
 
 This is an algorithms **Dual** and **Approximating**. For each vertex add a face and also for each edge, and it maintain a face for each existing face. The entery process is the following:

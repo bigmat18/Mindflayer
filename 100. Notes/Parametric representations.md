@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Representations]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Parametric representations
 
 A parametric surface are defined by a vector-valued parameterisation function $f: \Omega \to S$ with $\Omega \subset \mathbb{R}^2$ and $S \subset \mathbb{R}^3$ . For example the **torus** function

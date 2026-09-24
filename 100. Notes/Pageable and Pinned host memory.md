@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Pageable and Pinned host memory
 
 The execution of `cudaMemcpy` is by default synchronous, i.e., the host waits for the completion of the memory operation. Over the years, several enhancements and alternative options have been provided to CUDA developers: 

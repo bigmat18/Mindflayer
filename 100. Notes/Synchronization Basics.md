@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Synchronization Basics
 
 ### Problems

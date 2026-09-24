@@ -7,7 +7,7 @@ Tags:
 Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Binary Search
 
@@ -127,6 +127,9 @@ fn sqrt(v: u64) -> u64 {
     binary_search_range(0, v + 1, |x| x * x <= v).unwrap()
 }
 ```
+
+### Social Distance Problem
+
 
 
 # References

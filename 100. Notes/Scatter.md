@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Collective communications]] [[Data Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Scatter
 The **problem** si the follow: given a data structure $A_i$ a module S sends distinct partitions of A to a specified set of destination modules $D_0, \dots, D_{n-1}$
 

@@ -1,8 +1,11 @@
 ---
 Year: 2024/2025
 Period: 2° semester
-Exam done: true
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
+tags:
+  - done
+Degree: 30
+CFU: 9
 ---
 # Table of Contents
 

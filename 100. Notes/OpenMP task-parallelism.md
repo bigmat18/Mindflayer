@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Parallel Programming with OpenMP]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # OpenMP task-parallelism
 
 Even if loops are the main sources of parallelism, not all programs have easily parallelizable loops:

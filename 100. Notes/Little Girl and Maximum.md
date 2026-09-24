@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Little Girl and Maximum
 

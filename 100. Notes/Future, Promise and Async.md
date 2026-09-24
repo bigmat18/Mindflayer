@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Concurrency in C++]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Future, Promise and Async
 
 C++ provides a mechanism for return-value-passing specifically designed to fit the characteristics of **asynchronous execution**. The so-called **promises** that are **fulfilled in the future**.

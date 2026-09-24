@@ -53,6 +53,8 @@
     "Github": "multitext",
     "test": "multitext",
     "Status": "multitext",
-    "Connection": "multitext"
+    "Connection": "multitext",
+    "CFU": "text",
+    "Degree": "text"
   }
 }

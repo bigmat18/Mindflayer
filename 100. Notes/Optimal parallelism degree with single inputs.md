@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Data Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Optimal parallelism degree with single inputs
 
 [[Introduction to Data Parallelism|Data parallelism]] can be applied both on **streams** and on a **single inputs**, but **how is the [[Optimal Parallelism Degree]] determined in these two cases?**

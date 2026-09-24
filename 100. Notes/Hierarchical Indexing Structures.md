@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Spatial indexing]] 
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Hierarchical Indexing Structures
 
 This types of Inexing Strucures have the goals to resolve all major issues of [[Non-Hierarchical Indexing Structures]]. They use a divide et impera strategies. The space is partitioned in sub-regions recursively/

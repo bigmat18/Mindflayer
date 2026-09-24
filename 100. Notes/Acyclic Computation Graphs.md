@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Acyclic Computation Graphs
 
 We start form a **[[Dataflow|computational graph]]** G = (V,E) where each vertex $v \in V$ is labeled with its **[[Ideal Service Time]]** $T_{id - v'}$ each edge $(a,b) \in E$ by a **probability value** (ie probability that a new input produced by vertex a is delivered to b)

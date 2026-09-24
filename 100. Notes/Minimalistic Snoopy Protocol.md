@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Cache Coherence]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Minimalistic Snoopy Protocol
 
 Assume **write-back caches** and consider below a minimalistic version of snoopy-based protocol. We have only two states of a given cache line $b$ and $PE_i$:

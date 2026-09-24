@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]] [[Parallelization methodology and metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Amdahl's Law
 
 **Amdahl's law** describes the theoretical limit on the achievable scalability (and [[Speedup]]) when using multiple processors for a fixed problem size. The Amdahl's law is one of the reason why scalability might not be ideal. T is the execution time, 1-P is the serial fraction.

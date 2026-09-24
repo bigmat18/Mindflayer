@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
   - "[[Univariate Optimization]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Dichotomic Search
 For linear or simple quadratic functions, setting $f'(x) = 0$ yields a closed formula ($x = -b/2a$). But for most transcendental or mixed functions, we need an algorithm to solve the nonlinear equation.

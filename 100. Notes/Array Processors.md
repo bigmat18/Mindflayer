@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[SIMD on CPU]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Array Processors
 
 Each instruction is fetched from the memory and scheduled to all the **Execution Units (EUs)** by the same **Control Unit (CU)**. Each EU accesses data using the **Data Memory** through an [[Introduction to Interconnection Networks|Interconnection Network]] (EUs might also have **local caches**). Arrays processors are not versatile and they have been superseded by [[Graphical Processing Units (GPU)]].

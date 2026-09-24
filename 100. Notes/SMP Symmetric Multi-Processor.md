@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]] [[Shared Memory Systems]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # SMP Symmetric Multi-Processor
 
 The base memory [[Communication Latency]] is independent of the specific PE and memory macro-module. Also called **UMA (Uniform Memory Access**) Macro-modules are mutually interleaved (i.e., logically they act as a unique memory) It does not matter where you put data.

@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Concurrency and Streams]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Concurrency in CUDA
 
 It is important to distinguish different **concurrency degrees** when we deal with complex programs for **heterogeneous computing** platforms including **multi-core CPUs** and **NVIDIA GPUs**.

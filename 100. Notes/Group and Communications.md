@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Parallel and distributed systems. Paradigms and models]]"
   - "[[Message Passing Interface (MPI)]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Group and Communications
 

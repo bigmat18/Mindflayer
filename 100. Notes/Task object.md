@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Concurrency in C++]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Task object
 
 

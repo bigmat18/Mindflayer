@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Processing Bandwidth & Throughput
 
 #### Processing Bandwidth

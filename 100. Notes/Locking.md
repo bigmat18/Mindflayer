@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Synchronization Mechanisms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Locking
 
 A shared data structure (L), called **lock semaphore** is associated with a **shared object** (S). **Spin-lock** is a kind of lock where waiting phases are implemented through **busy-waiting**.

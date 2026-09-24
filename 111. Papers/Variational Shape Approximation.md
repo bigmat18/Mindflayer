@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Remeshing. Mesh Simplification and Approximation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Variational Shape Approximation
 In Variational Shape Approximation (VSA) the input shape is approximated bya a set of proxies, the approximation error is iteratively decreased by clustering faces into best fitting regions.
 

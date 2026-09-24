@@ -1,0 +1,32 @@
+summaries:
+  Sum: values.sum()
+formulas:
+  Points: if(tags.contains("done") && Degree, CFU * Degree, null)
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "010. MOCs"
+        - Area == link("Master's degree")
+    groupBy:
+      property: tags
+      direction: ASC
+    order:
+      - file.name
+      - Period
+      - Year
+      - CFU
+      - Degree
+      - formula.Points
+    sort:
+      - property: Degree
+        direction: ASC
+      - property: Year
+        direction: ASC
+    summaries:
+      CFU: Sum
+      formula.Points: Sum
+    columnSize:
+      file.name: 498
+      note.CFU: 170

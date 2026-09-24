@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[3D Geometry Modelling & Processing]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Convex Hull
 

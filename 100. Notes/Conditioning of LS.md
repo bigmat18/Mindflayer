@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Computational mathematics for learning and data analysis]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Conditioning and Sensitivity
 When solving least squares problems, different algorithms have varying computational costs depending on the dimensions of the matrix ($m$ rows, $n$ columns):

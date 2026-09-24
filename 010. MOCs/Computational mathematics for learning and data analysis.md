@@ -1,8 +1,11 @@
 ---
 Year: 2025/2026
 Period: 1° semester
-Exam done:
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
+tags:
+  - extra
+Degree: extra
+CFU: "9"
 ---
 # Table of Contents
 

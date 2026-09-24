@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Distributed Mesh Simplification (QEM)]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Working with the OEMM
 

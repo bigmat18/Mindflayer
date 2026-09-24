@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Alpha Shapes
 
 An alpha shapes is a generalization of concept of **[[Convex Hull]]**. 

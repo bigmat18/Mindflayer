@@ -8,7 +8,7 @@ Connection:
   - "[[Competitive Programming and Contests]]"
   - "[[Algorithms Patterns]]"
   - "[[Dynamic Programming]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Dynamic Programming Pattern
 

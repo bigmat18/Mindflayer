@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Stream Parallelism]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Farm
 **Farm** is a stram-parallel paradigm based on the replication of a **purely functional computation** sometime it is called also **master-worker** (computation without state, **stateless**).
 - **Objective**: **improving the [[Processing Bandwidth & Throughput|thoughput]]** of a single stage

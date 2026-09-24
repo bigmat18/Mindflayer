@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to CUDA]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # CUDA Basics
 
 It enables **GP-GPU computing** on NVIDIA GPUs. Provides an **API** for GPU memory management, and for writing computational **kernels** and their companion functions to run on GPUs. API fully compliant with recent **C/C++** standards (ie **C++17**). GPU is viewed as a **compute device** acting as a co-processor for the host CPUs.

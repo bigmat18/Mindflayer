@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Recostruction]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Ball Pivoting
 
 This is a derivative of [[Alpha Shapes]]. The core idea is approximate the alpha shapes just "rolling" a ball of radius $\alpha$ on the sampling S. It has the same sampling conditions ad $\alpha$-shapes holds.

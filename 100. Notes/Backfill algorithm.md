@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[SLURM Polices Algorithms]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Backfill algorithm
 
 This is the default algorithm attempts to schedule low-priority jobs if they do not prevent higher-priority jobs from starting at the scheduled time. The **goal** of this algorithm is fill in gaps the schedule without delay reserved resources for higher-priority jobs.

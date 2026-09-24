@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Parallel and distributed systems. Paradigms and models]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Single-Cycled Processors
 
 The processor is responsible for interpreting assembler instructions (more precisely machine code instructions). **Single-Cycled processor** executes each instruction sequentially in one clock cycle (except in the presence of L1 cache miss)

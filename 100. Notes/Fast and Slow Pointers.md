@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[Competitive Programming and Contests]]"
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
 ---
 # Fast and Slow Pointers
 

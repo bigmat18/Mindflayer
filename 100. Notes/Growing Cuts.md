@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]] [[Surface Parametrization]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Growing Cuts
 
 An other approch to do a good sets of cuts is:

@@ -4,7 +4,7 @@
 
 **Tags:** [[3D Geometry Modelling & Processing]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # RANSAC Random Sample Consensus
 
 This is a statistc instrument used in many topic of Computer Science and it is a statistical method that is used to **estimate parameters** of a mathematical model from a set of observed data that contains outliers. It is an **iterative method** (can be interpreted as ma outlier detection method).

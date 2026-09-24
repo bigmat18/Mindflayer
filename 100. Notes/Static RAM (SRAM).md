@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Memory and Local IO]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Static RAM (SRAM)
 
 - Use the same logic elements used in the processor micro-architecture (i.e., transistors)

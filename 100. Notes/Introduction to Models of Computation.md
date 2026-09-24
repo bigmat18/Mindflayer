@@ -4,7 +4,7 @@
 
 **Tags:** [[Parallel and distributed systems. Paradigms and models]] [[Models of Computation]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Introduction to Models of Computation
 
 Sometimes, instead of implementing a complex algorithm directly on a specific parallel system, it is better to explore its possible limitations independently of a specific architecture  and programming language. Theoretical parallel models of computation may be helpful for such exploration.

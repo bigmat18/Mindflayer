@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Introduction to HPC]] [[Computer Science Metrics]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Scalability
 ### Strong Scalability
 Scalability can also call **strong scalability**. It is a metric representing how much the parallel version is faster than sequential one. It is computed in terms of **speedup** in the following way:

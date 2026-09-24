@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[CUDA Memory Model]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # GPU Memory Hierarchy
 
 The GPU memory hirarchy consists of **programmable memories** (i.e., users can decide which data should be allocated/deallocated explicitly), or **non-programmable memories** like L2/L1 caches. Memory physical supports:

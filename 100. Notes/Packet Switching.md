@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Interconnecton Networks]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Packet Switching
 
 Each packet is the **unit of routing**, i.e., packets of the same message can follow different paths from the source to the destination. Therefore, each packet shall incorporate **header** information to determine the routing decision at each hop. **Network conflicts** might happen, and they might require buffering capabilities in the intermediate hops of the network.

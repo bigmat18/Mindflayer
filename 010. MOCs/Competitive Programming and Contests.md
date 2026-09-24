@@ -1,14 +1,20 @@
 ---
 Year: 2025/2026
 Period: 1° semester
-Exam done:
-Area: "[[Master's degree]]"
+Area: "[[Master's Degree]]"
+tags:
+  - todo
+Degree: None
+CFU: "6"
 ---
 # Table of Contents
 
 ##### Course Content
 - [[Kadane's Algorithm]]
 - [[Trapping Rain Water]]
+- [[100 Prisoner Problem]]
+- [[Find the duplicate number]]
+- [[Boyer Moore Algorithm]]
 - [[Binary Search]]
 - [[Sliding Window Maximum]]
 - [[Sweep Line Algorithm]]
@@ -16,7 +22,6 @@ Area: "[[Master's degree]]"
 - [[Segment Tree]]
 - [[Mo's Algorithm]]
 - [[Static Range Minimum Query (RMQ)]]
-
 
 ![[Algorithms Patterns]]
 

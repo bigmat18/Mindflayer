@@ -4,7 +4,7 @@
 
 **Tags:** [[High Performance Computing]] [[Atomic Operations & Memory Consistency]]
 
-**Area**: [[Master's degree]]
+**Area**: [[Master's Degree]]
 # Relaxed Memory Models
 
 **Relaxed memory consistency models** permit certain orderings to be violated. Why? To gain performance by hiding memory latency.

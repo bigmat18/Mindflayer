@@ -4,7 +4,7 @@
 
 **Tags:** [[Probabilità e (In)dipendenza]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Indipendenza
 
 L'indipendenza fra due eventi è la proprietà per cui la probabilità che avvenga uno dei due non influenza l'altro eventi. In altre parole

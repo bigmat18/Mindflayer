@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Modello Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Vincoli di Integrità
 
 Esistono istanze di basi di dati che, pur sintatticamente corrette, non rappresentano informazioni possibili per l’applicazione di interesse e che quindi generano informazioni senza significato.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Gestione Memoria DB
 
 ### Gerarchia delle memorie

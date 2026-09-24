@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Operatori Insiemistici]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Giunzione
 
 Combinando selezione e proiezione, possiamo estrarre informazioni da una relazione, ma non possiamo però correlare informazioni presenti in relazioni diverse.

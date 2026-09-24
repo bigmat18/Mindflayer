@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti che apprendono (ML)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Modelli Lineari
 
 ## Least Mean Square (LMS)

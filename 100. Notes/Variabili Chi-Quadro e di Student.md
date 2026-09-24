@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatorie Multivalore]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Variabili Chi-Quadro e di Student
 
 ### Densità di Gamma

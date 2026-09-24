@@ -4,7 +4,7 @@
 
 **Tags:** [[Test statistici]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Test su varianza Gaussiana
 
 

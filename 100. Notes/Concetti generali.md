@@ -4,7 +4,7 @@
 
 **Tags:** [[Test statistici]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Concetti generali
 
 Eseguire un test statistico vuol dire come prima cosa **formulare un ipotesi** sui parametri incogniti e quindi **pianificare un esperimento** per decidere se è ragionevole accettare o respingere l'ipotesi in base ai dati disponibili.

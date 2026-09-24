@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Modello Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Vincoli Referenziali
 
 Nel [[Introduzione Modello Relazionale|modello relazionale]] le informazioni in relazioni diverse sono correlate attraverso valori comuni, in particolare, vengono spesso presi in considerazione i valori delle [[Chiavi nel Modello Relazionale|chiavi]] (primarie). Le correlazioni debbono essere "coerenti".

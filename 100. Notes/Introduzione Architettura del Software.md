@@ -4,7 +4,7 @@
 
 **Tags:** [[Architettura del software]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Architettura del Software
 
 Progettazione: architetture del software

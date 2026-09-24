@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti che apprendono (ML)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # K-nn
 
 Si basa sul salvare $<x_p, y_p> \:\: p = 1, \dots, l$ successivamente dato un $x$ trovare $i$ che minimizzi la distanza

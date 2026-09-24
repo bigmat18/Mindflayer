@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Algebra Relazionale
 
 **Operazioni sullo schema**: DDL (Data definition language). Operazioni di creazione, cancellazione e modifica di schemi di tabelle, creazione di viste, creazione indici...

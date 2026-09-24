@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Relazione Unica in Modello Relazionale
 
 Se $A_0$ è la classe genitore di $A_1$ ed $A_2$, le classi $A_1$ e $A_2$ vengono eliminate ed accorpate ad $A_0$. Ad $A_0$ viene aggiunto un **attributo (Discriminatore)** che indica da quale delle classi figlie deriva una certa istanza, e gli attributi di $A_1$ ed $A_2$ vengono assorbiti dalla classe genitore, e assumono valore nullo sulle istanze provenienti dall’altra classe. 

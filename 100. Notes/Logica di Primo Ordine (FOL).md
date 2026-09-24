@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti basati su conoscenza (Prop. Logic)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Logica di Primo Ordine (FOL)
 
  La logica di primo ordine è composta da:

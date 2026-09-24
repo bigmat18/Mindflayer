@@ -2,7 +2,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti Risolutori di problemi (Finging Algorithm)]] [[Graph Algorithms]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ricerca in ampiezza (BFS)
 
 This is another technique used with graph, similar to [[Ricerca in profondità (DFS)]]. This is a traversal technique that explore nodes level by level, is the same approach also used in [[Binary Tree Traversal#Level-Order BT Traversal|Binary tree Level order traversal]].

@@ -5,7 +5,7 @@ Tags:
   - master
 Connection:
   - "[[Programming & Algorithms]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Longest Common Subsequence (LCS)
 

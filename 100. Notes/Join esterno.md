@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Operatori Insiemistici]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Join esterno
 
 Il join estende, con valori nulli, le ennuple che vorrebero tagliate fupri da un join (interno). Esiste in tre versioni: sinistro, destro esterno.

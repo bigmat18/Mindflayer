@@ -4,7 +4,7 @@
 
 **Tags:** [[Networks and Laboratory III]] [[Networks and Laboratory III]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Commutation
 
 Abbiamo un **Problema** quando ci troviamo in una rete. Vogliamo stabilire una comunicazione tra sue host, va quindi capito come:

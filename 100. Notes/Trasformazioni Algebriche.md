@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Trasformazioni Algebriche
 
 Basate su regole di equivalenza fra espressioni algebriche. Consentono di scegliere diversi origini di [[Giunzione|join]] e di anticipare [[Proiezione]] e [[Restrizione]]. Alcuni esempi con relazioni R(A, B, C, D):

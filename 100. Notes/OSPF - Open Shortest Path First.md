@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # OSPF - Open Shortest Path First
 
 - INTRA-AS

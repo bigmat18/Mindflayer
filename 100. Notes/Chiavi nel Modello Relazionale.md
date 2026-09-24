@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Modello Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Chiavi nel Modello Relazionale
 
 Informalmente una chiave è un insieme di attributi che identificano le ennuple di una relazione. Mentre formalmente:

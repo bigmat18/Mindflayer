@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Partizione dei dati in ingresso in classi di equivalenza
 
 Questo è un metodo in cui il dominio dei dati di ingresso è ripartito in **classi di equivalenza**. Due valori d'ingresso appartengono alla stessa classe di equivalenza se, in base ai requisiti, dovrebbero produrre lo stesso comportamento del programma (non necessariamente stesso output).

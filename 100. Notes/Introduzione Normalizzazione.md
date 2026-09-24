@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Normalizzazione]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Normalizzazione
 
 Ci sono due metodi per produrre uno schema relazione:

@@ -4,7 +4,7 @@
 
 **Tags:** [[Intervalli di Fiducia]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Intervalli di fiducia media campione di taglia grande
 
 Lo stesso concetto utilizzato per gli intervalli di fiducia con [[Intervalli di fiducia media campione Bernoulli|campioni di bernoulli]] si può applicare esattamente nello stesso modo a campioni di variabili aleatorie di taglia grande 

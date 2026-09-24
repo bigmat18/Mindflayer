@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Business model
 
 Un business model descrive la logica alla base di come un organizzazione **crea**, **fornisce** e **acquisisce** valore.

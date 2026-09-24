@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ordinamento di Archivi
 
 È importante andare ad effettuare un ordinamento di archivi perché:

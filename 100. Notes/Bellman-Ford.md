@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Dynamic Programming]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Bellman-Ford per i Cammini Minimi
 

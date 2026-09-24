@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Diagramma Sequenziale
 
 Diagramma di sequenza

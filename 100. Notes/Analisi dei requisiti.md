@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Analisi dei requisiti
 
 ### Documentazione descrittiva

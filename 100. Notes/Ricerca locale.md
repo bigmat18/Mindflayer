@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti Risolutori di problemi (Finging Algorithm)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ricerca locale
 
 Sono tipi di algoritmi che si applicano quando:

@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Metodo random
 
 Generare in modo automatico un insieme grande a piacere di valori:

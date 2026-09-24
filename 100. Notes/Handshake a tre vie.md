@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Transport layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Handshake a tre vie
 
 1. Client invia richiesta di connessione a un server TCP con

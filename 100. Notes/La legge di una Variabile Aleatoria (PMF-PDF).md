@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatore]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # La legge di una Variabile Aleatoria (PMF-PDF)
 
 Una variabile aleatoria è una funzione $X: \Omega \to \mathbb{R}$ che associa ad ogni valore dello spazio campionario un numero reale. questo permette di rappresentare numericamente il risultato di un fenomeno aleatorio.

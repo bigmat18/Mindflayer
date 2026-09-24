@@ -4,7 +4,7 @@
 
 **Tags:** [[Variabili Aleatore]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Valore Atteso Varianza e Momenti
 
 ### Valore attesa o Momento primo

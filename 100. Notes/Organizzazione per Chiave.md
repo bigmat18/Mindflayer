@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Organizzazione per Chiave
 
 **Obiettivo**: noto il valore di una chiave, trovare il record di una tabella con qualche accesso al disco (ideale: 1 accesso).

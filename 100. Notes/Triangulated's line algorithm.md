@@ -4,7 +4,7 @@
 
 **Tags:** [[Rendering Lines]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Triangulated's line algorithm
 
 

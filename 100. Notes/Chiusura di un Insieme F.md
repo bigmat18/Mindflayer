@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Normalizzazione]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Chiusura di un Insieme F
 
 *Definizione* (**chiusura di F**): dato un insieme D di DF, la chiusura di F, denotata con $F^+$. è:

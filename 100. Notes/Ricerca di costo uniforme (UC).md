@@ -2,7 +2,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti Risolutori di problemi (Finging Algorithm)]] [[Graph Algorithms]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ricerca di costo uniforme (UC)
 
 Generalizzazione della ricerca in ampiezza ([[Ricerca in ampiezza (BFS)|BF]]). Si sceglie il nodo di costo minore sulla frontiera (si intende il costo $g(n)$ de cammino), si espande sui contorni di uguale (o meglio uniforme) costo invece che sui contorni di uguale profondità.

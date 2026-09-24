@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Organizzazione Seriale e Sequenziale
 
 Organizzazione **seriale** (**heap** file) è un tipo nel quale i dati sono memorizzati in modo disordinato uno dopo l'altro: 

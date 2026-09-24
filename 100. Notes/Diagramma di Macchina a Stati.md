@@ -4,7 +4,7 @@
 
 **Tags:** [[Diagrammi UML]] [[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Diagramma di Macchina a Stati
 
 Una macchina a stati è un grafo stati transizioni che descrive il comportamento delle istanze di una classe, in generale di un classificatore. 

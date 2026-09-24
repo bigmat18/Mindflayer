@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti che apprendono (ML)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # K-means
 
 Algoritmo di apprendimento **Non supervisionato**. Si basa su fare clustering dei dati, ciò raggruppare i dati in K cluster cercando un centro.

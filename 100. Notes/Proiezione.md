@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Operatori Insiemistici]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Proiezione
 
 Operatore monadico, produce un risultato che, ha parte degli attributi dell'operando, contiene ennuple cui contribuiscono tutte le ennuple dell'operando ristrette agli attributi nella lista.

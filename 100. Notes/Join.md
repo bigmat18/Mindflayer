@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Operatori Insiemistici]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Join
 
 

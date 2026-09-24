@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Cloud Edge Continuum
 
 ###### IoT + Edge

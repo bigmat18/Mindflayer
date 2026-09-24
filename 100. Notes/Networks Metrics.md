@@ -4,7 +4,7 @@
 
 **Tags:** [[Networks and Laboratory III]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Metrics
 
 ## Velocità di trasmissione o bit rate

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Programming & Algorithms]]"
   - "[[Graph Algorithms]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Dijkstra
 

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Machine Learning]]"
   - "[[Linear Models]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Classification Models
 

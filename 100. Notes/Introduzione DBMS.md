@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione DBMS
 
 Un DBMS è un sistema software che **gestisce grandi quantità** di dati persistenti e condivisi. La gestione di grandi quantità di dati richiede particolare attenzione ai problemi di efficienza (ottimizzazione delle richieste, ma non solo!).

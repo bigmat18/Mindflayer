@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Application layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # DNS
 
 È un protocollo che ha l'obbiettivo di **individuare il processo omologo** con il quale si vuole comunicare, il processo omologo risiede su una particolare macchina remota, anche essa da individuare.

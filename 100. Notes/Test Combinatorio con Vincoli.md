@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Test Combinatorio con Vincoli
 
 Immaginiamo 5 parametri di input <x1, x2, x3, x4, x5>

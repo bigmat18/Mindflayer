@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ethernet
 
 ## Caratteristiche 

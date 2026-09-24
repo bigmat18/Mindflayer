@@ -2,7 +2,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti Risolutori di problemi (Finging Algorithm)]] [[Graph Algorithms]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ricerca in profondità (DFS)
 
 This is useful to explore all path or branch in a graphs or trees to solve problems like:

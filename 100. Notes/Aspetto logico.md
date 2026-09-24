@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Aspetto logico
 
 *Definizione*: Un **modello dei dati** è un insieme di meccanismi di astrazione per descrivere la struttura delle conoscenza concreta.

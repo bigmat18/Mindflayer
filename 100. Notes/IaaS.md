@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # IaaS
 
 **Hypervios**: crea un layer virtulizzato che consente ai server di runnare più macchine virtuali ospiti. Esistono **due** tipi:

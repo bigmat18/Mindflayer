@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Normalizzazione]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Decomposizione di schemi
 
 In generale, per eliminare anomalie da uno schema occorre decomporlo in schemi più piccoli "equivalenti"

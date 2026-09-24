@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]] [[Networks and Laboratory III]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Interconnection devices
 
 ## Repeater

@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # RIP - Routing Information Protocol
 
 - INTRA-AS

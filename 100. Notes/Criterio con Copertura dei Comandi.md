@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Criterio con Copertura dei Comandi
 
 Si cercano valori per x e y che esercitino tutti i comandi

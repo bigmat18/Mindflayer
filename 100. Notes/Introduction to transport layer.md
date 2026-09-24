@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Transport layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduction to transport layer
 
 - Realizzare una **comunicazione logica** fra processi residenti in host diversi, si dice logica perché i processi si comportano come se fossero direttamente collegati

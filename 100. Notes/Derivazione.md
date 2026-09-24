@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Normalizzazione]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Derivazione
 
 *Definizione*: Sia F un insieme di DF, diremo che X → Y sia derivabile da F (F |– X → Y), se X → Y può essere inferito da F usando gli assiomi di Armstrong.

@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Programming & Algorithms]]"
   - "[[Tree Algorithms]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Cancellazione di un Nodo in un Albero Binario di Ricerca (BST)
 

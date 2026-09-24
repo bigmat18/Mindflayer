@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Forwarding
 
 Ogni datagramma IP è soggetto a forwarding da parte dell'host di origine e del router che sta attraversando.

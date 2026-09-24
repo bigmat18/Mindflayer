@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Associazioni N-N
 
 Un’associazione molti a molti tra due classi si rappresenta aggiungendo allo schema una nuova relazione che contiene due chiavi esterne che riferiscono le due relazioni coinvolte; la chiave primaria di questa relazione è costituita dall’insieme di tutti i suoi attributi.

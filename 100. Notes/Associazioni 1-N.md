@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Associazioni 1-N
 
 Le associazioni uno a molti si rappresentano aggiungendo agli attributi della relazione rispetto a cui l’associazione è univoca una chiave esterna che riferisce l’altra relazione.![[Screenshot 2023-11-22 at 20.15.23.png]]

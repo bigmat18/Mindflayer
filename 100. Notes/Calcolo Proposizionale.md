@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti basati su conoscenza (Prop. Logic)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Calcolo Proposizionale
 
 **Conseguenza logica**: Data una KB ed un fatto $\alpha$ diciamo che

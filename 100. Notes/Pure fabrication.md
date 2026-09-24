@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Pure fabrication
 
 I **Pure fabrication** servono per risolvere il seguente problema: Non violare l'Alta Coesione e il Basso Accoppiamento.

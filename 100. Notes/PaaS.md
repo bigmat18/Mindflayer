@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # PaaS
 
 Un provider di terze parti si occupa dell'hardware e del software per il development dell'applicazione. L'utente si occupa solo dell'applicazione e dei dati.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti che apprendono (ML)]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Concept Learning
 
 Ricerca in spazi di ipotesi. Possiamo definirli come una funzione che ritorna un valore bool

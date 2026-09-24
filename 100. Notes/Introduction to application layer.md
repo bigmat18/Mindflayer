@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Application layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduction to application layer
 I due lati della comunicazione di questo livello agiscono come se esistesse un collegamento diretto.
 

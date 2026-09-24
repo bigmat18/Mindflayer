@@ -4,7 +4,7 @@
 
 **Tags:** [[Test statistici]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Z-Test unilaterale
 
 Occupiamoci in questo caso di uno [[Z-Test]] per la media campionaria [[Variabili Aleatorie Notevoli|Gaussiana]] con ipotesi alternative.

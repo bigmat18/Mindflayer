@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Normalizzazione]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Copertura Canonica
 
 *Definizione*: Due insiemi di DF, F e G sullo schema R sono **equivalenti**.

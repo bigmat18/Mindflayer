@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Partizione Orizzontale in Modello Relazionale
 
 La classe genitore $A_0$ viene eliminata, e le classi figlie $A_1$ ed $A_2$ ereditano le proprietà (attributi, identificatore e relazioni) dell’classe genitore.

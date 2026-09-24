@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Design Patterns
 
 Esistono una serie di regole pratiche che il progettista può seguire per costruire qualcosa. Queste regole pratiche sono i design patters, e sono definiti grazie a anni di esperienza da parte di terze persone. Si applicano in fase di design.

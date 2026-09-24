@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]] [[Software Engineering]]
 
-**Area**:[[Bachelor's Degree]]
+**Area**:[[Bachelor's Degree.base]]
 # Decorator
 
 **Esempio**.

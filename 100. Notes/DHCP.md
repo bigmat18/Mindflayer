@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # DHCP
 
 Gli indirizzi IP sono gestiti da ICAN e assegnati agli ISP in blocchi, che a loro volta assegnano ai clienti sottoblocchi di indirizzi.

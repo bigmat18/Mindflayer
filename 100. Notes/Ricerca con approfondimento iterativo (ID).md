@@ -2,7 +2,7 @@
 
 **Tags:** [[Introduction to Artificial Intelligence]] [[Agenti Risolutori di problemi (Finging Algorithm)]] [[Graph Algorithms]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Ricerca con approfondimento iterativo (ID)
 
 Si utilizza la [[Ricerca in profondità (DFS)|DF]] con limite di profondità 0, poi 1, poi 2 ecc. fino a trovare la soluzione.

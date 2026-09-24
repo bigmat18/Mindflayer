@@ -4,7 +4,7 @@
 
 **Tags:** [[Intervalli di Fiducia]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Intervalli di fiducia varianza campione Gaussiano
 
 Nel caso invece si voglia trovare un intervallo di fiducia per la varianza non nota non c'è sostanzialmente differenza tra i casi in cui m è nota oppure no, consideriamo direttamente il secondo caso e ci concentriamo sul caso unilaterali che è più semplice da analizzare

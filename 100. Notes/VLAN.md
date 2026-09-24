@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Link layer]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # VLAN
 
 - È un sotto gruppo locale all'interno di una LAN creato dal software anziché da dispositivi fisici.

@@ -4,7 +4,7 @@ tags:
   - "#note"
   - master
 Links: "[[ISO-OSI Link layer]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # ARP - Address Resolution Protocol
 

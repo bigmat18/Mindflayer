@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Test Combinatorio con Pairwise Testing
 
 Viene anche chiamato combinazione di test basato su coppie.

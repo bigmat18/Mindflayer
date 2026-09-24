@@ -6,7 +6,7 @@ Tags:
 Connection:
   - "[[Programming & Algorithms]]"
   - "[[Tree Algorithms]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Ricerca del Successore e Predecessore in un BST
 

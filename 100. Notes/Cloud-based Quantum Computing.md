@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Cloud-based Quantum Computing
 
 L'investimo in quantum computing è una strategia mossa verso una prospettiva a lungo termine. I quantum computer hanno il potenziale di rivoluzionale varie industrie per risolvere problemi complesi essendo esponenzialmente più veloci dei computer classici.

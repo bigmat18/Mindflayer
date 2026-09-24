@@ -4,7 +4,7 @@
 
 **Tags:** [[Probabilità e (In)dipendenza]] [[Statistics]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Probabilità sulla retta reale
 
 ### Probabilità discreta

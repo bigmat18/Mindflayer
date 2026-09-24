@@ -4,7 +4,7 @@ tags:
   - "#note"
   - master
 Links: "[[ISO-OSI Network layer]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # BGP - Border Gateway Protocol
 

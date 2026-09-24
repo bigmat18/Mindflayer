@@ -4,7 +4,7 @@
 
 **Tags:** [[ISO-OSI Network layer]] - [[Graph Algorithms]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Link-state algorithm (LSP)
 
 - **Globale**: la topologia della rete e i costi dei collegamenti sono noti a tutti

@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Abstract factory
 
 Lo scopo è quello di fornire un'interfaccia per la creazione di famiglie di prodotti correlati o oggetti dipendenti senza specificarne la concreta classe.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Criteri White-Box
 
 Sono criteri per l'individuazione dei casi di input che si basano sulla struttura del codice. Sinonimi: criteri strutturali, criteri a scatola aperta.

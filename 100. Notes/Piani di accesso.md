@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[DBMS]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Piani di accesso
 
 ![[Screenshot 2023-12-08 at 23.48.10.png | 600]]

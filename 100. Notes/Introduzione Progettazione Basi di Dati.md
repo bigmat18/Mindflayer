@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Progettazione Basi di Dati
 
 Progettare una basi di dati vuole dire progettare la struttura dei dati e le applicazioni. La progettazione dei dati è l’attività più importante , per progettare i dati al meglio è necessario che i dati siano un modello fedele del dominio del discorso, per questo studiamo ora la MODELLAZIONE.

@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Operatori Insiemistici]] [[Algebra Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Selezione
 
 Operatore monadico che produce un risultato che ha lo stesso schema dell'operando e contiene un sottoinsieme delle ennuple dell'operando. 

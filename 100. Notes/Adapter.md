@@ -4,7 +4,7 @@
 
 **Tags:** [[Design Patterns]][[Software Engineering]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Adapter
 
 ![[Screenshot 2023-11-28 at 14.26.59.png]]

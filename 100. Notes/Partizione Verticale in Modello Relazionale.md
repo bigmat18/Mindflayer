@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Progettazione Basi di Dati]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Partizione Verticale in Modello Relazionale
 
 La gerarchia si trasforma in due associazioni uno a uno che legano rispettivamente la classe genitore con le classi figlie. In questo caso non c’è un trasferimento di attributi o di associazioni e le classi figlie $A_1$ ed $A_2$ sono identificate esternamente dalla classe genitore $A_0$. 

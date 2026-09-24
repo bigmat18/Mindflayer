@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Kubernetes
 
 I contenitori forniscono un meccanismo leggero per isolare un file l'ambiente di un applicazione. Le immagini dei contenitori possono essere eseguite in modo affidabile su qualsiasi macchina, fornendoci portabilità dallo sviluppo alla distribuzione.

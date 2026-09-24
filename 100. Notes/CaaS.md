@@ -4,7 +4,7 @@
 
 **Tags:** [[Cloud Computing]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # CaaS
 
 Un container sfrutta il sistema operativo e la capacità del kernel di consentire più istanze isolate dello spazio utente.

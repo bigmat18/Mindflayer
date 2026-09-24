@@ -4,7 +4,7 @@
 
 **Tags:** [[Basi di Dati]] [[Modello Relazionale]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Introduzione Modello Relazionale
 
 Proposto da E. F. Codd nel 1970 per favorire l’indipendenza dei dati. Disponibile in DBMS reali nel 1981 (non è facile implementare l’indipendenza con efficienza e affidabilità!), si basa sul concetto matematico di relazione (con una variante), le relazioni hanno naturale rappresentazione per mezzo di tabelle.

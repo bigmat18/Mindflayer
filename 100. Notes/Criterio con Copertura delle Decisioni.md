@@ -4,7 +4,7 @@
 
 **Tags:** [[Software Engineering]] [[Verifica e Validazione Software]]
 
-**Area**: [[Bachelor's Degree]]
+**Area**: [[Bachelor's Degree.base]]
 # Criterio con Copertura delle Decisioni
 
 Con (x=2,y=-1) si esercitano tutti i comandi ma… bisogna avere casi di test che esercitino entrambi i rami di ogni condizione. Per avere una copertura delle decisioni occorre avere almeno due casi di test: uno y<0 e uno y>=0. (Per coprire tutte le frecce).

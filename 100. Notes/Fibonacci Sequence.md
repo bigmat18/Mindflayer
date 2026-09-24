@@ -5,7 +5,7 @@ Tags:
   - youngling
 Connection:
   - "[[Programming & Algorithms]]"
-Area: "[[Bachelor's Degree]]"
+Area: "[[Bachelor's Degree.base]]"
 ---
 # Fibonacci Sequence 
 

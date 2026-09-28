@@ -18,3 +18,4 @@ views:
         direction: ASC
     columnSize:
       note.Period: 158
+      note.Degree: 135

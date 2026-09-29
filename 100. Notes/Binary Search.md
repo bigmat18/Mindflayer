@@ -129,8 +129,54 @@ fn sqrt(v: u64) -> u64 {
 ```
 
 ### Social Distance Problem
+Let's consider the following problem:
 
+> We have  a sequence of $n$ mutually-disjoint intervals. The extremes of each interval are non-negative integers. We aim to find $c$ integer points, within the intervals such that the smallest distance $d$ between consecutive selected points is **maximized**.
 
+A solution to this problem can be using **binary search**. The target will be the distance $d$. This is possible because, if a certain distance is feasible (i.e., there exists a selection of points at that distance), then any smaller distance is also feasible. Thus, the **feasibility is a monotone boolean predicate**, so we can use the binary search based on that.
+
+As the candidate answers range from 1 to $l$ where $l$ is the overall length of the intervals, the solution takes $\Theta(\log{l})$ evaluations of the predicate.
+
+The cost of evaluating the predicate will be calculate following what we are going to do:
+1. First sort the intervals
+2. Evaluate any candidate distance $d'$ by scanning the sorted intervals from left to right
+3. Select the left extreme of the first interval as the first point
+4. Then, we move over the intervals, and we choose greedly the first point, which is at a distance at least $d'$ from the previous one. Thus, an evaluation of the predicate takes $O(n)$ time.
+
+The overall running time is $\Theta(n \log {l})$
+
+A rust implementation of this strategy is the following:
+```rust
+fn select_intervals(intervals: &mut Vec<(usize, usize)>, c: usize) -> Option<usize> {
+
+    let l = intervals
+        .iter()
+        .fold(0, |acc, interval| acc + interval.1 - interval.0 + 1); // overall length
+
+    if l < c {
+        // there is no solution
+        return None;
+    }
+
+    intervals.sort_unstable();
+
+    // A closure implements our predicate
+    let pred = |d: usize| -> bool {
+        let mut last_selected = intervals[0].0;
+        let mut cnt = 1;
+        for &interval in intervals.iter() {
+            while interval.0.max(last_selected + d) <= interval.1 {
+                last_selected = interval.0.max(last_selected + d);
+                cnt += 1;
+            }
+        }
+
+        cnt >= c
+    };
+
+    binary_search_range(1, l + 1, pred)
+}
+```
 
 # References
 - https://www.geeksforgeeks.org/dsa/binary-search/

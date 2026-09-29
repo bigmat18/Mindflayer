@@ -22,6 +22,18 @@ CFU: "6"
 - [[Segment Tree]]
 - [[Mo's Algorithm]]
 - [[Static Range Minimum Query (RMQ)]]
+- [[Greedy Algorithms]]
+
+###### Dynamic Programming
+ - [[Fibonacci Sequence]]
+ - [[Rod Cutting Problem]]
+ - [[Zaino 0-1 (0-1 Knapsack Problem)]]
+ - [[Subset Sum]]
+ - [[Coin Change]]
+ - [[Longest Bitonic Subsequence]]
+ - [[Longest Increasing Subsequnce]]
+ - [[Largest Independent Set on Trees]]
+ - [[Minimum Cost Path]]
 
 ![[Algorithms Patterns]]
 

@@ -25,5 +25,7 @@ Greedy doesn't have a universal template but it's more like a philosophy. Some c
 
 ### [[Kadane's Algorithm]]
 
+### [[Boxes and Hero]]
+
 # References
 - https://medium.com/@hanxuyang0826/mastering-the-greedy-algorithm-from-leetcode-puzzles-to-infrastructure-50c586a6518f

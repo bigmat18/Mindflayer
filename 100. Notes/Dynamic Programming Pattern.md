@@ -28,6 +28,10 @@ This is a very powerful technique used to solving optimisation problem by breaki
 ### [[Edit Distance (Distanza di Levenshtein)]]
 ### [[Zaino 0-1 (0-1 Knapsack Problem)]]
 ### [[Longest Palindromic Substring]]
+### [[Subset Sum]]
+### [[Coin Change]]
+### [[Longest Increasing Subsequnce]]
+### [[Largest Independent Set on Trees]]
 
 
 # References

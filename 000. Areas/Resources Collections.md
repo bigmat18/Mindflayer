@@ -38,6 +38,7 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 ## Books
 ### High Performance Computing
 - [Computer Architecture a Quantitative Approach](https://acs.pub.ro/~cpop/SMPA/Computer%20Architecture%20A%20Quantitative%20Approach%20(5th%20edition).pdf)
+- [Computer Architecture Tenhinques for Power-Efficiency](https://www.engineering.upenn.edu/~leebcc/teachdir/ece590_fall14/kaxiras.pdf)
 - [Low-Latency Patterns](https://arxiv.org/pdf/2309.04259)
 - [Operating Systems: Principles and Practice – Anderson & Dahlin](https://www.kea.nu/files/textbooks/ospp/osppv1.pdf)
 ### Rendering & Graphics

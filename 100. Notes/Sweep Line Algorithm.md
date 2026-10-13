@@ -77,81 +77,73 @@ A better approach use the **sweep line paradigm**. Now below the steps:
 ###### Initialisation
 - We start by sorting the array of points in increasing order of their **$x$-coordinates**. If two points share the same $x$-coordinate, they are sorted by their $y$-coordinate.
 - We maintain the shortest distance found so far, denoted as $\delta$. Initially, $\delta$ is set to $\infty$ (or the distance between the first two points).
-- We initialize an active set (a `std::set` in C++ or a `BTreeSet` in Rust) to store the candidate points currently inside the bounding strip. **Crucial detail:** the set stores and orders the points primarily by their **$y$-coordinates** to allow efficient vertical range queries.
+- We initialize an active set ( a `set` in C++ or a `BTreeSet` in Rust) to store the candidate points currently inside the bounding strip. **Crucial detail:** the set stores and orders the points primarily by their **$y$-coordinates** to allow efficient vertical range queries.
 ###### Iterations
 We iterate over the points $P[i] = (x_i, y_i)$ from left to right, ordered by $x$:
-1. We remove from the active set all points that respect these two condition:
-	- outside the horizontal range $[x_i - \delta, x_i]$ 
-	- outside the vertical range $[y-\delta, y+\delta]$
+1. Remove from the active set all points $q$ that are outside the horizontal strip, i.e., those with $x_q < x_i - \delta$.
 
-2. Using the active set, we perform a range query to inspect only the points $q = (x_q, y_q)$ whose $y$-coordinates fall within the vertical window:
+2. In the active set (which is ordered by $y$), perform a range query to inspect only the points $q = (x_q, y_q)$ whose $y$-coordinates fall within the vertical window:
 $$[y_i - \delta, \; y_i + \delta]$$
-4. For each candidate point $q$ found in the vertical range:
+3. For each candidate point $q$ found in the vertical range:
     - Compute the Euclidean distance $d(P[i], q)$.        
     - If $d(P[i], q) < \delta$, update the shortest distance $\delta \leftarrow d(P[i], q)$ and record $(P[i], q)$ as the closest pair.
-5. Insert $P[i]$ into the active set, then proceed to the next point $P[i+1]$.
+4. Insert $P[i]$ into the active set, then proceed to the next point $P[i+1]$.
 
 To understand why, consider the squares in the figure above. Each of these squares, including its perimeter, **can contain at most one point**.  Assume, for the sake of contradiction, that a square contains two points, denoted as $q$ and $q'$. The distance between $q$ and $q'$ is smaller than $\delta$. If point exists, **it would have already been processed by the sweep line because it has an x-coordinate smaller than that of $p$.** However, this is not possible, because otherwise the value of would be smaller than its current value.
 
 The following is a Rust implementation of this algorithm.
 
 ```rust
+use std::collections::BTreeSet;
+
 pub fn distance_squared(p: (i64, i64), q: (i64, i64)) -> i64 {
     (p.0 - q.0).pow(2) + (p.1 - q.1).pow(2)
 }
 
-use std::collections::BTreeSet;
-use std::ops::Bound::Included;
-
-// Returns the (squared) Euclidean distance between the closest pair of 
-// points in `points`
 pub fn closest_pair(points: &mut [(i64, i64)]) -> Option<i64> {
     if points.len() < 2 {
         return None;
     }
 
-    points.sort_unstable_by_key(|p| (p.1, p.0)); // sort by y
-
-    let min_y = points[0].1;
-    let max_y = points.last()?.1;
+    // 1. Ordina lungo l'asse X
+    points.sort_unstable_by_key(|p| (p.0, p.1));
 
     let mut delta = distance_squared(points[0], points[1]);
+    
+    // Set attivo contenente elementi ordinati per (y, x)
+    let mut active_set: BTreeSet<(i64, i64)> = BTreeSet::new();
+    let mut left = 0;
 
-    let mut set: BTreeSet<(i64, i64)> = BTreeSet::new();
     for &point in points.iter() {
-        // Search by x and select the points with too small y-coordinate that we remove
-        // to not touch them again in the future
-        let to_delete: Vec<_> = set
-            .range((
-                Included(&(point.0 - delta, min_y)),
-                Included(&(point.0 + delta, max_y)),
-            ))
-            .filter(|p| p.1 < point.1 - delta)
-            .cloned()
-            .collect();
+        // d è la distanza lineare arrotondata per eccesso
+        let d = (delta as f64).sqrt().ceil() as i64;
 
-        // Remove those points
-        for p in to_delete {
-            set.remove(&p);
+        // 2. Rimuovi i punti la cui distanza orizzontale supera d
+        while left < points.len() && (point.0 - points[left].0) > d {
+            active_set.remove(&(points[left].1, points[left].0));
+            left += 1;
         }
 
-        // Search again and compute the distances with survived points.
-        // Update delta if needed.
-        delta = set
-            .range((
-                Included(&(point.0 - delta, min_y)),
-                Included(&(point.0 + delta, max_y)),
-            ))
-            .fold(delta, |acc, &p| acc.min(distance_squared(point, p)));
+        // 3. Range query su Y: cerca nell'intervallo [point.y - d, point.y + d]
+        let lower = (point.1 - d, i64::MIN);
+        let upper = (point.1 + d, i64::MAX);
 
-        set.insert(point);
+        for &(cand_y, cand_x) in active_set.range(lower..=upper) {
+            let dist_sq = distance_squared(point, (cand_x, cand_y));
+            if dist_sq < delta {
+                delta = dist_sq;
+            }
+        }
+
+        // 4. Inserisci il punto corrente nel set attivo come (y, x)
+        active_set.insert((point.1, point.0));
     }
 
     Some(delta)
 }
 ```
 
-There are two differences from the above description. First, we compute the squared Euclidean distance. This way, we avoid the computation of the square root, which is slow and results in a floating-point value The second difference is that **we swap the roles of x and y**. Therefore, we process the points by ascending y-coordinate and use a horizontal sweep line.
+There is one differences from the above description. First, we compute the squared Euclidean distance. This way, we avoid the computation of the square root, which is slow and results in a floating-point value.
 
 With this implementation we achieve a **time complexity** of $O(n\log{n})$.
 # References

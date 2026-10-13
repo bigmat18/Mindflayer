@@ -11,7 +11,7 @@ Area: "[[Master's Degree.base]]"
 
 The **Mo's Algorithm** is a powerful and efficient technique for solving a wide variety of [[Overlapping Intervals|range query problems]].  It becomes particularly useful for kind of queries where the use of a [[Segment Tree]] or similar data structures is not feasible. This typically occurs when the query **is non-associative**, meaning that the **result of a query on a range cannot be derived by combining the answers of the subranges that cover the original range**.
 
-Mo's Algorithm typically achieves a **Time Complexity** of $O((n+1)\sqrt{n}$, where $n$ represents the size of the dataset, and $q$ is the number of queries.
+Mo's Algorithm typically achieves a **Time Complexity** of $O((n+1)\sqrt{n})$, where $n$ represents the size of the dataset, and $q$ is the number of queries.
 
 To explain this algorithm let's consider the following problem: 
 - We are given an array $A[1,n]$ of integers and our goal is to solve $q$ queries `power`.
@@ -30,8 +30,8 @@ The **Mo's Algorithm** is one of these strategies: if the batch consist of $q=\O
 
 Consider now the following problem.
 - We are given an array $A \left[0 , n - 1\right]$ consisting of colors, with each color represented by an integer within $\left[0 , n - 1\right]$. 
-- Additionally, we are given a set of $q$ range queries called `three_or_more`. T
-- he query `three_or_more(l, r)` aims to count the colors that occur at least three times within the subarray $A \left[l , r\right]$.
+- Additionally, we are given a set of $q$ range queries called `three_or_more`.
+- The query `three_or_more(l, r)` aims to count the colors that occur at least three times within the subarray $A \left[l , r\right]$.
 
 Let’s begin by examining a straightforward algorithm that addresses a query `three_or_more(l, r)` by scanning the subarray $A \left[l , r\right]$. The algorithm maintains an array of `counters` to track the number of occurrences of each color within the query range. Whenever a color reaches three occurrences, the `answer` is incremented by one.
 
@@ -135,7 +135,7 @@ The **time complexity** of this algorithm remains $\Theta \left(q n\right)$. How
 
 This effect is perfectelly explained by the input of the previosu figure. This is input becomes a best-case for the new implementation as it takes $\Theta \left(n\right)$ time. Indeed, after spending linear time on the first query, any subsequent query is answered in constant time.
 
-This implementation is highly sensitive to the ordering of the queries. It is enough to modify the ordering of the above queries, as shown in the figure below, to revert to quadratic time. In the example below, we rearrange the queries to alternate between a long and a short query. With this ordering, the new implementation takes $\Theta \left(n^{2}\right)$ time.
+This implementation is highly sensitive to the **ordering of the queries**. It is enough to modify the ordering of the above queries, as shown in the figure below, to revert to quadratic time. In the example below, we rearrange the queries to alternate between a long and a short query. With this ordering, the new implementation takes $\Theta \left(n^{2}\right)$ time.
 
 ![427](https://pages.di.unipi.it/rossano/assets/img/mos/Mos_2.svg)
 
@@ -155,8 +155,8 @@ The figure shows this bucketing approach and the queries of one bucket sorted by
 Now, let’s analyze the time complexity of the algorithm with this query reordering. It’s sufficient to count the number of times we move the indexes `cur_l` and `cur_r`. This is because both `add` and `remove` take constant time, and, thus, the **time complexity is proportional to the overall number of moves of these two indexes.**
 
 Let’s concentrate on a specific bucket:
-- As we process the queries in ascending order of their right endpoints, the index `cur_r` moves a total of at most $n$ times. 
-- On the other hand, the index `cur_l` can both increase and decrease but, it is constrained within the bucket, and, thus, it cannot move more than $\sqrt{n}$ times per query. 
+- As we process the queries in ascending order of their right endpoints, the index `cur_r` moves a total of **at most $n$ times**. 
+- On the other hand, the index `cur_l` can both **increase and decrease** but, it i**s constrained within the bucket**, and, thus, it **cannot move more than $\sqrt{n}$ times per query.** 
 
 Thus, for a bucket with $b$ queries, the overall time to process its queries is $\Theta \left(b \sqrt{n} + n\right)$.
 
@@ -174,7 +174,7 @@ pub fn mos(a: &[usize], queries: &[(usize, usize)]) -> Vec<usize> {
     let mut permutation: Vec<usize> = (0..queries.len()).collect();
 
 	// Calculate the size of each bucket
-    let sqrt_n = (a.len() as f64) as usize + 1;
+    let sqrt_n = (a.len() as f64).sqrt() as usize + 1;
     
     // Sort the queries using the followin criteri
     //   1. left / sqrt_size: idx of the bloc

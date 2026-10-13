@@ -18,87 +18,63 @@ To solve this problem we can use a combination between [[Sweep Line Algorithm]] 
 2. We build the **Fenwick tree** by adding all right values adding 1 in each position that correspond to right endpoint of a segment
 3. Then we let a **Sweep Line process** the segments in **increasing order** to their left endpoints. To do this we need first to order the array of segment by left value.
 4. When we process the segment $[l_i, r_i]$ we compute `sum(r_i - 1)` as the result for the current segment
-5. Before to moving to the next segments -1 at position $r$ to remove the contribution of the right endpoint of the current segment
+5. Before to moving to the next segments -1 at position $r$ to remove the contribution of the right endpoint of the current segment. **Cosa è rimasto dentro il Fenwick Tree in questo preciso istante?**
+	- I segmenti già esaminati in precedenza sono già stati tolti.
+	- Il segmento corrente $i$ è appena stato tolto.
+	- **Dentro l'albero ci sono SOLTANTO i segmenti futuri!**
 
 The claim is that `sum(r_i - 1)` **is the number of segments contained in $[l_i, r_i]$** because all the segments that start before $l_i$ have already been processed, and their right endpoints have been removed from the Fenwick Tree. Therefore `sum(r_i - 1)` is the number of segments that start after $l_i$ and end before $r_i$
 
 Below the final implementation using the Fenwick tree implemented in [[Dynamic Prefix Sums with Fenwick Tree]]
 ```rust
-use std::io::{self, Read};
-
-#[derive(Clone, Copy, Debug)]
-struct Segment {
-	// this is used to map segments in the ordered list per left with the original one
-    original_id: usize, 
-    l: i64,
-    r: i64,
-    r_rank: usize, // This is used to map r to sorted array per fenwick tree
+// assumendo che i valori r, l sono al massimo n (lunghezza segments vector)
+#[derive(Debug, Clone, Copy)]
+pub struct Segment {
+    pub l: i32,
+    pub r: i32,
+    pub idx: usize,
 }
 
-fn main() {
-    let mut in_buffer = String::new();
-    io::stdin().read_to_string(&mut in_buffer).unwrap();
-
-    let mut values = in_buffer.split_whitespace();
-    let n: usize = match values.next() {
-        Some(val) => val.parse().unwrap(),
-        None => return,
-    };
-
-	// Read value from inputs
-    let mut segments: Vec<Segment> = Vec::with_capacity(n);
-    for original_id in 0..n {
-        let l: i64 = values.next().unwrap().parse().unwrap();
-        let r: i64 = values.next().unwrap().parse().unwrap();
-        segments.push(Segment {
-            original_id,
-            l,
-            r,
-            r_rank: 0,
-        });
+pub fn count_contained_segments(segments: &[Segment]) -> Vec<usize> {
+    let n = segments.len();
+    if n == 0 {
+        return vec![];
     }
 
-    // Now we map each r value for each segment with 
-    // the position in an ordered array
-    let mut mapping: Vec<usize> = (0..n).collect();
-    mapping.sort_unstable_by_key(|&idx| segments[idx].r);
+    // 1. Troviamo il massimo valore di r per dimensionare l'albero 0-based
+    let max_r = segments.iter().map(|s| s.r).max().unwrap().max(0) as usize;
+    let mut ft = FenwickTree::with_len(max_r + 1);
 
-    let mut acc = 0;
-    for (i, &idx) in mapping.iter().enumerate() {
-	    // this is used to handle segments with same r value, 
-	    // we will asign both same acc
-        if i > 0 && segments[idx].r != segments[mapping[i - 1]].r {
-            acc += 1; 
-        }
-        segments[idx].r_rank = acc;
+    // 2. Popoliamo l'albero inserendo tutti gli estremi destri (r)
+    for seg in segments {
+        ft.add(seg.r as usize, 1);
     }
 
-    // Ordering the segments for l value
-    segments.sort_unstable_by_key(|seg| seg.l);
+    // 3. Creiamo una copia da ordinare per la sweep-line (l crescente)
+    let mut sorted_segs = segments.to_vec();
+    sorted_segs.sort_unstable_by_key(|s| s.l);
 
-    // Init fenwick tree
-    let max_rank = if n > 0 { acc + 1 } else { 0 };
-    let mut ft = FenwickTree::with_len(max_rank);
+    let mut result = vec![0; n];
 
-    for seg in &segments {
-        ft.add(seg.r_rank, 1);
-    }
+    // 4. Sweep-line: elaboriamo i segmenti in ordine di l crescente
+    for seg in sorted_segs {
+        let r_idx = seg.r as usize;
 
-    // Application of sweep algorithm from left to right with the tree
-    let mut results = vec![0; n];
-    for seg in &segments {
-        let r = seg.r_rank;
-        if r > 0 {
-            results[seg.original_id] = ft.sum(r - 1);
+        // Rimuoviamo il contributo del segmento corrente
+        ft.add(r_idx, -1);
+
+        // Contiamo i segmenti con estremo destro <= r - 1
+        let count = if seg.r > 0 {
+            ft.sum(r_idx - 1) as usize
         } else {
-            results[seg.original_id] = 0;
-        }
-        ft.add(r, -1);
+            0
+        };
+
+        // Salviamo il conteggio nella posizione originale indicata da idx
+        result[seg.idx] = count;
     }
 
-    for res in results {
-        println!("{}", res);
-    }
+    result
 }
 ```
 

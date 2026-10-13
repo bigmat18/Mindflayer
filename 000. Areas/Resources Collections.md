@@ -35,6 +35,7 @@ Ok here we have the collections for the GOAT language, c++. In this list I keep:
 
 - [[Coroutines (C++20)]]
 - [[Reflection (C++26)]]
+- [[C++ declval vs decltype]]
 ## Books
 ### High Performance Computing
 - [Computer Architecture a Quantitative Approach](https://acs.pub.ro/~cpop/SMPA/Computer%20Architecture%20A%20Quantitative%20Approach%20(5th%20edition).pdf)

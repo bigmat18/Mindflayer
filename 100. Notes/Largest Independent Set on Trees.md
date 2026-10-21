@@ -37,52 +37,36 @@ The problem is, thus, solved with a [[Binary Tree Traversal#Post-Order BT Traver
 
 Below an example of implementation in C++:
 ```c++
-// A naive recursive implementation of
-// Largest Independent Set problem 
-#include <bits/stdc++.h>
-using namespace std; 
+struct Node {
+    int data;
+    Node *left, *right;
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
+};
 
-// A utility function to find 
-// max of two integers 
-int max(int x, int y) 
-{ 
-    return (x > y) ? x : y; 
-} 
+// first = incluso, second = escluso
+std::pair<int, int> LISS_Helper(Node* root) {
+    if (root == nullptr) {
+        return {0, 0};
+    }
 
-/* A binary tree node has data, 
-pointer to left child and a 
-pointer to right child */
-class node 
-{ 
-    public:
-    int data; 
-    node *left, *right; 
-}; 
+    // Visita post-order: prima i sottoalberi sinistro e destro
+    auto left_res = LISS_Helper(root->left);
+    auto right_res = LISS_Helper(root->right);
 
-// The function returns size of the 
-// largest independent set in a given 
-// binary tree 
-int LISS(node *root) 
-{ 
-    if (root == NULL) 
-    return 0; 
+    // Se includiamo root: sommiamo 1 + i valori ESCLUSI dei figli
+    int incl = 1 + left_res.second + right_res.second;
 
-    // Calculate size excluding the current node 
-    int size_excl = LISS(root->left) + 
-                    LISS(root->right); 
+    // Se escludiamo root: per ogni figlio prendiamo il max tra incluso ed escluso
+    int excl = std::max(left_res.first, left_res.second) + 
+               std::max(right_res.first, right_res.second);
 
-    // Calculate size including the current node 
-    int size_incl = 1; 
-    if (root->left) 
-        size_incl += LISS(root->left->left) +
-                     LISS(root->left->right); 
-    if (root->right) 
-        size_incl += LISS(root->right->left) + 
-                     LISS(root->right->right); 
+    return {incl, excl};
+}
 
-    // Return the maximum of two sizes 
-    return max(size_incl, size_excl); 
-} 
+int LISS(Node* root) {
+    auto res = LISS_Helper(root);
+    return std::max(res.first, res.second);
+}
 ```
 # References
 - https://www.geeksforgeeks.org/dsa/largest-independent-set-problem-using-dynamic-programming/

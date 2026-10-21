@@ -7,7 +7,7 @@ Connection:
   - "[[Competitive Programming and Contests]]"
 Area: "[[Master's Degree.base]]"
 ---
-# Boyer Moore Algorithm
+ # Boyer Moore Algorithm
 
 This is an efficient **string-searching algorithm** that is the standard benchmark for practical string-search literature. The algorithm pre-process the **string** being searched for (the pattern), but not the string being searched in (the text).
 

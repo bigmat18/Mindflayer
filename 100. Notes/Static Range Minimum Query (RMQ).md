@@ -31,13 +31,13 @@ Let' stat with a simple solution, so we create a 2D array `lookup[][]` where an 
 
 This approach support queries in $O(1)$ but preprocessing takes $O(n^2)$ **time complexity**. Also this approach needs $O(n^2)$ extra space which may become huge for large input arrays.
 
-### Square Root Decomposition
+### Square Root Decomposition ([[Mo's Algorithm]])
 We can use **Spare Root Decomposition** to reduce space required in the above method.
 ###### Preprocessing
 1. Divide the range `[0, n-1]` into different blocks of $\sqrt{n}$ each.
 2. Compute the minimum of every block of size $\sqrt{n}$ and store the results.
 
-![[Pasted image 20260830232452.png|272]]
+![[Pasted image 20260830232452.png|349]]
 
 Preprocessing takes $O(\sqrt{n} \cdot \sqrt{n}) = O(\sqrt{n})$ **time complexity** and $O(\sqrt{n})$ **space complexity**
 ###### Query
@@ -63,23 +63,25 @@ for (;;) {
     int l, r;
   // read input data for the next query
     int sum = 0;
-    for (int i=l; i<=r; )
-        if (i % len == 0 && i + len - 1 <= r) {
-            // if the whole block starting at i belongs to [l, r]
-            sum += b[i / len];
-            i += len;
+    for (int i=l; i<=r; ) {
+        for (int i = l; i <= r; ) {
+            // Se l'indice 'i' si trova all'inizio di un blocco e il blocco intero è dentro [l, r]
+            if (i % len == 0 && i + len - 1 <= r) {
+                mn = min(mn, b[i / len]);
+                i += len; // Salta l'intero blocco
+            } else {
+                mn = min(mn, a[i]);
+                ++i;
+            }
         }
-        else {
-            sum += a[i];
-            ++i;
-       }
+    }
 }
 ```
 
 ### Sparse Table
-The above solution requires only $O(\sqrt{n})$ space but takes $O(\sqrt{n})$ time to query. The sparse table method supports query time $O(1)$ with extra space $O(n\sqrt{n})$
+The above solution requires only $O(\sqrt{n})$ space but takes $O(\sqrt{n})$ time to query. The sparse table method supports query time $O(1)$ with extra space $O(n\log{n})$
 
-The core idea is to pre-compute a minimum of all subarrays of size $2^j$ where $j$ varies from $0$ to $\log{n}$. Like the first version with lookup table, we make a **lookup table**. Here `lookup[i][j]` contains a minimum of range starting from $i$ and size $2^j$. 
+The core idea is to pre-compute a minimum of all subarrays of size $2^j$ where $j$ varies from $0$ to $\log{n}$. Like the first version with lookup table, we make a **lookup table**. Here `lookup[i][j]` contains a minimum of range starting from $i$ and size $2^j$. The size is $i$ (row) to N, $j$ (column) to $\lfloor \log{N} \rfloor$.
 
 **Example**: Let's look as an example `lookup[0][3]` contains a minimum of range `[0, 7]` (starting with 0 and of size $2^3$)
 ###### Pre-Processing
@@ -100,8 +102,56 @@ else
    lookup[i][j] = lookup[i+2j-1][j-1]
 ```
 
-![[Pasted image 20260830235159.png|236]]
+![[Pasted image 20260830235159.png|310]]
 
+La lookup si ferma sulle colonne di un (1 << j) - 1 perché quelle sarebbero query invalide, Infatti sarebbero query del tipo: `[i, i + 2^j - 1]` (essendo che ce scritto anche sopra che ogni elemento dell'array rappresenta questi range). E capisci che se provi a mettere i=9 con j=1 si andrebbe in `[9,10]`
+
+```c++
+// lookup[i][j] is going to 
+// store index of minimum value in
+// arr[i..j]. Ideally lookup 
+// table size should not be fixed
+// and should be determined using 
+// n Log n. It is kept
+// constant to keep code simple.
+int lookup[MAX][MAX];
+
+// Structure to represent a query range
+struct Query {
+    int L, R;
+};
+
+// Fills lookup array 
+// lookup[][] in bottom up manner.
+void preprocess(int arr[], int n)
+{
+    // Initialize M for the 
+    // intervals with length 1
+    for (int i = 0; i < n; i++)
+        lookup[i][0] = i;
+
+    // Compute values from smaller 
+    // to bigger intervals
+    for (int j = 1; (1 << j) <= n; j++) 
+    {
+        // Compute minimum value for 
+        // all intervals with size
+        // 2^j
+        for (int i = 0; (i + (1 << j) - 1) < n; i++) 
+        {
+            // For arr[2][10], we 
+            // compare arr[lookup[0][3]]
+            // and arr[lookup[3][3]]
+            if (arr[lookup[i][j - 1]]
+                < arr[lookup[i + (1 << (j - 1))][j - 1]])
+                lookup[i][j] = lookup[i][j - 1];
+            else
+                lookup[i][j]
+                    = lookup[i + (1 << (j - 1))][j - 1];
+        }
+    }
+}
+```
 ###### Query
 For any arbitrary range `[L, R]` we need to use ranges that are in powers of 2. The idea is to use the closest power of 2. We always need to do at most one comparison (compare a minimum of two ranges which are powers of 2).
 - One range start with `L` and end with `L + closest-power-of-2`
@@ -126,6 +176,24 @@ else
 ```
 
 Since we do only one comparison, the time complexity of the query is O(1).
+
+```c++
+// Returns minimum of arr[L..R]
+int query(int arr[], int L, int R)
+{
+    // For [2,10], j = 3
+    int j = (int)log2(R - L + 1);
+
+    // For [2,10], we compare arr[lookup[0][3]] and
+    // arr[lookup[3][3]],
+    if (arr[lookup[L][j]]
+        <= arr[lookup[R - (1 << j) + 1][j]])
+        return arr[lookup[L][j]];
+
+    else
+        return arr[lookup[R - (1 << j) + 1][j]];
+}
+```
 # References
 - https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/
 - https://cp-algorithms.com/sequences/rmq.html

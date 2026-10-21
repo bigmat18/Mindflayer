@@ -12,12 +12,13 @@ CFU: "6"
 ##### Course Content
 - [[Kadane's Algorithm]]
 - [[Trapping Rain Water]]
+- [[Sliding Window Maximum]]
 - [[100 Prisoner Problem]]
 - [[Find the duplicate number]]
 - [[Boyer Moore Algorithm]]
 - [[Binary Search]]
-- [[Sliding Window Maximum]]
 - [[Sweep Line Algorithm]]
+- [[Prefix Sum]]
 - [[Dynamic Prefix Sums with Fenwick Tree]]
 - [[Segment Tree]]
 - [[Mo's Algorithm]]
@@ -30,8 +31,8 @@ CFU: "6"
  - [[Zaino 0-1 (0-1 Knapsack Problem)]]
  - [[Subset Sum]]
  - [[Coin Change]]
- - [[Longest Bitonic Subsequence]]
  - [[Longest Increasing Subsequnce]]
+ - [[Longest Bitonic Subsequence]]
  - [[Largest Independent Set on Trees]]
  - [[Minimum Cost Path]]
 
@@ -40,6 +41,7 @@ CFU: "6"
 # References
 - [Competitive Programming Course Page](https://pages.di.unipi.it/rossano/competitive/)
 - [Amazing Patterns Video](https://www.youtube.com/watch?v=DjYZk8nrXVY&t=88s)
+- [[DynamicProgramming.pdf]]
 ###### Generics Algorithms
 - [Neetcode](https://neetcode.io/roadmap)
 - [Leetcode](https://leetcode.com/explore/learn)

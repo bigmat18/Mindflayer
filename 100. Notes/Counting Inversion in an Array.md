@@ -32,6 +32,7 @@ pub fn counting_inversions(a: &[u64]) -> usize {
 
     let mut count: usize = 0;
     for &e in a {
+	    // Ritorna somma di valori fra i, j (e+1 e max)
         count += ft.range_sum((e + 1) as usize, max) as usize;
         ft.add(e as usize, 1);
     }

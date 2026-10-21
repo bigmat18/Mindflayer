@@ -82,7 +82,7 @@ int maxWater(vector<int>& arr) {
     // calculate the accumulated water element by element
     for (int i = 1; i < n - 1; i++) {
         int minOf2 = min(left[i], right[i]);
-            res += minOf2 - arr[i];
+        res += minOf2 - arr[i];
     }
 
     return res;

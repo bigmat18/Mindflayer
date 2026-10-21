@@ -79,7 +79,6 @@ impl RangeUpdate {
 
     pub fn range_update(&mut self, l: usize, r: usize, v: i64) {
         self.ft1.add(l, v);
-
         self.ft2.add(l, -v * (l as i64 - 1));
 
         if r + 1 < self.len() {

@@ -216,7 +216,7 @@ vector<int> maxOfSubarrays(vector<int>& arr, int k) {
 ```
 
 #### Time Complexity
-First we have a loop with $n$ iterations, the cost of each iteration is based on the cost of pop operations. However, in a iteration we should extract every elements in the deque. There is until $n$ elements in the deque then an iteration can be $O(n)$. With this analysis the algorithm has a time complexity in bad case $O(n²)$.
+First we have a loop with $n$ iterations, **the cost of each iteration is based on the cost of pop operations**. However, in a iteration we should **extract every elements in the deque**. There is until $n$ elements in the deque then an iteration can be $O(n)$. With this analysis the algorithm has a time complexity in bad case $O(n²)$.
 
 But with empiric analysis the time become linear because the heavy iterations are rare, and they are depreciated by small iterations (very often).
 

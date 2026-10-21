@@ -4,7 +4,7 @@
 
 **Other link**:
 
-# Distributed Mesh Simplification (QEM)
+# Distributed QEM Mesh Simplification
 
 ### [[Surface Simplification using Quadratic Error Metric]]
 This is a surface simplification algorithm which can rapidly produce high quality approximations of polygonal models. The algorithm uses iterative contractions of vertex pairs to simplify models and maintains surface error approximations using [[Quadratic function|quadric matrices]].

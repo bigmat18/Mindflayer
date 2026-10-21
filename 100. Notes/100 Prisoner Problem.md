@@ -73,8 +73,11 @@ Now let's analyse the classic problem under the point of view of **probability**
 4. The remaining numbers can be arranged in $(100-l)!$ ways
 5. Therefore, the number of permutations of the numbers 1 to 100 with a cycle of length $l>50$ is equal to
 $$
-\binom{100}{l} \cdot (l-1)! \cdot (100-l)! = \frac{100!}{l}
+Permutation(l) = \binom{100}{l} \cdot (l-1)! \cdot (100-l)!
 $$
+$$\text{Permutation}(l) = \frac{100!}{l! \, (100-l)!} \cdot (l-1)! \cdot (100-l)! = \frac{100!}{l!} \cdot (l-1)!$$
+Remeber that $l! = l \cdot (l-1)!$:
+$$= \frac{100!}{l \cdot (l-1)!} \cdot (l-1)! = \frac{100!}{l}$$
 The probability, that a ([uniformly distributed](https://en.wikipedia.org/wiki/Uniform_distribution_\(discrete\) "Uniform distribution (discrete)")) random permutation contains no cycle of length greater than 50 is calculated with the formula for [single events](https://en.wikipedia.org/wiki/Event_\(probability_theory\) "Event (probability theory)") and the formula for [complementary events](https://en.wikipedia.org/wiki/Complementary_event "Complementary event") thus given by
 
 $$
@@ -87,7 +90,16 @@ where $H_n$ is the $n$-th harmonic number. Therefore, using the cycle-following 
 > In **mathematics** the n-th **harmonic number** is the sum of the reciprocals of the first $n$ natural numbers:
 > $$H_n = 1 + \frac{1}{2} + \frac{1}{3} + \dots + \frac{1}{n} = \sum^{n}_{k=1} \frac{1}{k}$$
 
-The $\bigg( \frac{100!}{51} + \dots + \frac{100!}{100} \bigg)$ part is obtained dividendo $\frac{100!}{l} / 100!$, that is the probability to obtain a cycle of length $l$
+The $\bigg( \frac{100!}{51} + \dots + \frac{100!}{100} \bigg)$ part is obtained dividendo $\frac{100!}{l} / 100!$, that is the probability to obtain a cycle of length $l$.
+
+1. **Probabilità di avere un ciclo di lunghezza $l$ (con $l > 50$):**
+$$P(\text{ciclo di lunghezza } l) = \frac{\frac{100!}{l}}{100!} = \frac{1}{l}$$
+2. **Probabilità che esista un ciclo di lunghezza $> 50$:** Dato che questi eventi sono a due a due disgiunti (Punto 1), la probabilità dell'unione è la somma delle singole probabilità:
+$$P(\text{almeno un ciclo } > 50) = \sum_{l=51}^{100} \frac{1}{l} = \frac{1}{51} + \frac{1}{52} + \dots + \frac{1}{100}$$
+3. **Probabilità di successo (evento complementare):** I prigionieri vincono se **non** c'è alcun ciclo lungo $> 50$:
+$$P(\text{Successo}) = 1 - \sum_{l=51}^{100} \frac{1}{l}$$
+Questa somma si esprime tramite i **numeri armonici** $H_n = \sum_{k=1}^n \frac{1}{k}$:
+$$\sum_{l=51}^{100} \frac{1}{l} = H_{100} - H_{50}$$
 
 # **References**
 - https://en.wikipedia.org/wiki/100_prisoners_problem

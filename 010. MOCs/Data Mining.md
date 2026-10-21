@@ -3,7 +3,7 @@ Year: 2026/2027
 Period: 1° semester
 Area: "[[Master's Degree.base]]"
 tags:
-  - todo
+  - extra
 Degree: None
 CFU: "9"
 ---

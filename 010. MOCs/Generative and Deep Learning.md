@@ -4,8 +4,9 @@ Period: 2° semester
 Area: "[[Master's Degree.base]]"
 tags:
   - todo
-Degree: None
-CFU: "9"
+Degree:
+CFU: 9
+category: ML
 ---
 # Table of Contents
 

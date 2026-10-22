@@ -4,6 +4,7 @@ Period: 1° semester
 Area: "[[Master's Degree.base]]"
 tags:
   - done
+category: HPC
 Degree: 32
 CFU: 9
 ---

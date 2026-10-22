@@ -4,8 +4,9 @@ Period: 1° semester
 Area: "[[Master's Degree.base]]"
 Tags:
   - todo
-Degree: None
-CFU: "9"
+Degree:
+CFU: 9
+category: ALGO
 ---
 # Table of Contents
 

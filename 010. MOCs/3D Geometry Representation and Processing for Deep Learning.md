@@ -4,8 +4,9 @@ Period: 2° semester
 Area: "[[Master's Degree.base]]"
 tags:
   - extra
-Degree: extra
-CFU: extra
+Degree:
+CFU:
+category: CG
 ---
 # Table of Contents
 

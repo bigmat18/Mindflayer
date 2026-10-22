@@ -4,8 +4,9 @@ Period: 1° semester
 Area: "[[Master's Degree.base]]"
 tags:
   - todo
-Degree: None
-CFU: "6"
+Degree:
+CFU: 6
+category: HPC
 ---
 # Table of Contents
 

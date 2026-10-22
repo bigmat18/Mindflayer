@@ -4,8 +4,9 @@ Period: 2° semester
 Area: "[[Master's Degree.base]]"
 tags:
   - extra
-Degree: extra
-CFU: "6"
+Degree:
+CFU: 6
+category: HPC
 ---
 # Table of Contents
 

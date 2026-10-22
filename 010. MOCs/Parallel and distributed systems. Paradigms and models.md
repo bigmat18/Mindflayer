@@ -6,6 +6,7 @@ tags:
   - done
 Degree: 30
 CFU: 9
+category: HPC
 ---
 # Table of Contents
 

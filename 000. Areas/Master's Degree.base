@@ -10,7 +10,7 @@ views:
         - file.folder == "010. MOCs"
         - Area == link("Master's Degree.base")
     groupBy:
-      property: category
+      property: tags
       direction: ASC
     order:
       - file.name

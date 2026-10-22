@@ -3,10 +3,11 @@ Year: 2025/2026
 Period: 1° semester
 Area: "[[Master's Degree.base]]"
 tags:
-  - todo
-Degree:
+  - done
+Degree: 28
 CFU: 6
 category: ALGO
+
 ---
 # Table of Contents
 

@@ -55,6 +55,7 @@
     "Status": "multitext",
     "Connection": "multitext",
     "CFU": "number",
-    "Degree": "number"
+    "Degree": "number",
+    "Area": "multitext"
   }
 }

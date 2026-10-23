@@ -1,12 +1,15 @@
 ---
 Year: 2024/2025
 Period: 1° semester
-Area: "[[Master's Degree.base]]"
+Area:
+  - "[[Master's Degree.base]]"
+  - "[[Books.base]]"
 tags:
   - done
 Degree: 32
 CFU: 6
 category: CG
+Cover: https://m.media-amazon.com/images/I/61fliBtBsOL._AC_UF1000,1000_QL80_.jpg
 ---
 # Table of Contents
 

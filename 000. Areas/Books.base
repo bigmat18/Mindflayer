@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - Area.contains(link("Books.base"))
+    groupBy:
+      property: tags
+      direction: ASC
+    image: note.Cover
+    imageAspectRatio: 1
+    imageFit: contain

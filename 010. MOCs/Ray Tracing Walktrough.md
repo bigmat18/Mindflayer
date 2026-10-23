@@ -1,3 +1,10 @@
+---
+Area:
+  - "[[Books.base]]"
+Cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIvNl2_jLJo6QBhqjOCgv8fcDqgOqTP1qn_5nmqiphuvbsiYolRjlhM0y&s=10
+tags:
+  - todo
+---
 # Table of Contents
 
 - [[Introduction of Ray Tracing]]

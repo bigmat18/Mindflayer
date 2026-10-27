@@ -90,8 +90,36 @@ For example, sphere normals can be made unit length simply by dividing by the sp
 
 ![[Pasted image 20261020200644.png|425]]
 
+
+> [!NOTE] Ray-Sphere Semplification
+> Note that we can simply the way to calculate the intersection above in the following way:
+> - First, recall that a vector dotted with itself is equal to the squared length of that vector.
+> - Second, notice how the equation for $b$ has a factor of negative two in it. Consider what happens to the quadratic equation if $b=−2h$: $$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$= \frac{-(-2h) \pm \sqrt{(-2h)^2 - 4ac}}{2a}$$
+$$= \frac{2h \pm 2\sqrt{h^2 - ac}}{2a}$$
+$$= \frac{h \pm \sqrt{h^2 - ac}}{a}$$
+This simplifies nicely, so we'll use it. So solving for $h$:
+$$b = -2\mathbf{d} \cdot (\mathbf{C} - \mathbf{Q})$$
+$$b = -2h$$
+$$h = \frac{b}{-2} = \mathbf{d} \cdot (\mathbf{C} - \mathbf{Q})$$
+
 ### Front Faces vs Back Faces
+Another important design decision for **normal** is whether they should always point out. At present, the normal found will always be in the direction of the center to the intersection point **(the normal points out)**
+- If the ray intersects the sphere from the outside, the normal points against the ray
+- If the ray intersects the sphere from the inside, the normal (which always points out) points with the ray.
 
+![[Pasted image 20261023192850.png|344]]
 
+Alternatively, we can have the **normal always point against the ray**. If the ray is outside the sphere, the normal will point outward, but if the ray is inside the sphere, the normal will point inward.
+
+his is important for objects that are rendered differently on each side:
+- like the text on a two-sided sheet of paper
+- or for objects that have an inside and an outside, like glass balls.
+
+If we decide to have the normals always point out, then we will need to determine which side the ray is on when we color it. We can figure this out by comparing the ray with the normal:
+- If the ray and the normal face in the **same direction**, the ray is inside the object
+- if the ray and the normal face in the **opposite direction**, then the ray is outside the object. 
+
+This can be determined by **taking the dot product of the two vectors**, where if their dot is positive, the ray is inside the sphere.
 # References
 - [[Ray Tracing in One Weekend.pdf]]

@@ -7,11 +7,17 @@ tags:
 ---
 # Table of Contents
 
+##### Ray Tracing in One Weekend
 - [[Introduction of Ray Tracing]]
 - [[Antialiasing in Ray Tracing]]
-- [[Materials in Ray Tracing]]
+- [[Diffuse Materials]]
+- [[Metal Material]]
 - [[Dielectries Materials]]
+- [[Defocus Blur]]
 
+##### Ray Tracing The Next Week
+
+##### Ray Tracing the Rest of Your Life
 # Resources
 - [[Ray Tracing in One Weekend.pdf]]
 - [[Ray Tracing The Next Week.pdf]]

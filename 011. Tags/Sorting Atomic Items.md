@@ -4,4 +4,6 @@
 - [[Sorting with Multi-Disks]]
 - [[Lower Bound for Sorting]]
 - [[Quick-Sort]]
+- [[Bounded QS]]
+- [[Pivoting Selection in QS]]
 - [[Multi-Way Quick-Sort]]

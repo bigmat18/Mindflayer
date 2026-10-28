@@ -18,7 +18,8 @@ Cover: https://pages.di.unipi.it/ferragina/Cover_libro_AlgoEng.png
 
 ![[Sorting Atomic Items]]
 
-- [[Random Sapling]]
+![[Random Sapling]]
+
 - [[Skip-Lists]]
 - [[TREAPs]]
 - [[Set Intersection]]

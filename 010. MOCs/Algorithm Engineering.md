@@ -22,12 +22,14 @@ Cover: https://pages.di.unipi.it/ferragina/Cover_libro_AlgoEng.png
 
 - [[Skip-Lists]]
 - [[TREAPs]]
-- [[Set Intersection]]
+
+![[Set Intersection]]
 
 ![[String Sorting]]
 
 ![[Searching String by Prefix]]
 
 # Resources
-- [Github Algorithm Engineering (a.a. 2025‐26)](https://github.com/ferragina/AlgorithmEngineering/wiki/Algorithm-Engineering-(a.a.-2025%E2%80%9026))
+- [Github Algorithm Engineering (a.a. 2026‐27)](https://github.com/ferragina/AlgorithmEngineering/wiki/Algorithm-Engineering-(a.a.-2026%E2%80%9027))
 - [[Pearls_of_Algorithm_Engineering_Ferragina_2023.pdf]]
+- [[04__EricksonNotes-Treap-SL.pdf]]

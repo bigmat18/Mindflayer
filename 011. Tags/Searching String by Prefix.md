@@ -1,3 +1,4 @@
-- [[Iterpolation Search]]
+- [[Prefix Search Problem]]
+- [[Interpolation Search]]
 - [[Compacted Trie]]
 - [[Prefix Search Problem]]
